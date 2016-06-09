@@ -1,5 +1,7 @@
 # magento2-Ho_nl_NL
-Dutch translations for Magento 2
+Goed voor de naamsbekendheid!
 
-Examples
-https://packagist.org/packages/imaginaerum/magento2-language-fr-fr
+Ondersteuning voor Enterprise zou mooi zijn.
+
+NL: https://github.com/Adwise/magento2-nl_NL-language
+FR: https://packagist.org/packages/imaginaerum/magento2-language-fr-fr
