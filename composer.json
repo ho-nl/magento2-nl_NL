@@ -1,0 +1,22 @@
+{
+  "name": "ho-nl/magento2-ho_nl",
+  "description": "H&O Magento 2 Dutch Translations / Nederlands Vertalingen",
+  "homepage": "https://github.com/ho-nl/magento2-Ho_nl_NL",
+  "authors": [
+    {
+      "name": "Paul Hachmang - H&O",
+      "email": "paul@h-o.nl"
+    }
+  ],
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+  },
+  "type": "magento2-language",
+  "version": "0.1.0",
+  "license": "BSD-2-Clause",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}

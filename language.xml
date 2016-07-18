@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2016 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
+  ~ See LICENSE.txt for license details.
+  -->
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../magento/framework/App/Language/package.xsd">
+    <code>nl_NL</code>
+    <vendor>Ho</vendor>
+    <package>nl_NL</package>
+    <use vendor="magento" package="nl_nl"/>
+</language>
