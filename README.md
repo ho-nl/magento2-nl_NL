@@ -10,4 +10,7 @@ Collect only the frontend phrases:
 https://gist.github.com/kandrejevs/72dcc1cfd9841e3a646ffe1c23c73801
 
 
-composer require ho-nl/magento2-templatehints "dev-master"
+```
+composer config repositories.Ho_nl_NL vcs git@github.com:ho-nl/magento2-Ho_nl_NL.git
+composer require ho-nl/magento2-ho_nl "dev-master"
+```
