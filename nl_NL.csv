@@ -847,7 +847,7 @@ Banners,Banners,module,Magento_Banner
 Content,inhoud,module,Magento_Banner
 "Default Content","standaard inhoud",module,Magento_Banner
 "No Default Content","geen standaard inhoud",module,Magento_Banner
-"Banner Default Content for All Store Views","standaard banner voor alle winkelmogelijkheden",module,Magento_Banner
+"Banner Default Content for All Store Views","Standaard Banner Inhoud voor alle Winkelaanzichten",module,Magento_Banner
 "Store View Specific Content","Winkelaanzicht Specifieke Content",module,Magento_Banner
 "Use Default","Gebruik standaard",module,Magento_Banner
 "Related Promotions","gerelateerde promoties",module,Magento_Banner
@@ -910,7 +910,7 @@ Country,Land,module,Magento_Braintree
 "Allowed Credit Card Types","Toegestane credit card typen",module,Magento_Braintree
 "Add Rule","Regel toevoegen",module,Magento_Braintree
 "Braintree Settlement Report","Braintree Settlement Report",module,Magento_Braintree
-"Sorry, but something went wrong","Excuus, er ging iets verkeerd",module,Magento_Braintree
+"Sorry, but something went wrong","Er ging iets verkeerd",module,Magento_Braintree
 "We can't initialize checkout.","Wij kunnen de checkout niet initialiseren.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","Geen autorisatietransactie om inningsverzoek verzoek te plaatsen.",module,Magento_Braintree
 "Braintree error response.","Braintree foutreactie.",module,Magento_Braintree
@@ -937,29 +937,29 @@ Settling,Afwikkeling,module,Magento_Braintree
 "Submitted for settlement","Ingediend voor afwikkeling",module,Magento_Braintree
 Voided,"Nietig verklaard",module,Magento_Braintree
 Unrecognized,"Niet herkend",module,Magento_Braintree
-"Settlement declined","Settlement declined",module,Magento_Braintree
-"Settlement pending","Settlement pending",module,Magento_Braintree
-"Settlement confirmed","Settlement confirmed",module,Magento_Braintree
+"Settlement declined","Afwikkeling afgewezen",module,Magento_Braintree
+"Settlement pending","Afwikkeling in afwachting",module,Magento_Braintree
+"Settlement confirmed","Afwikkeling bevestigd",module,Magento_Braintree
 Sale,Verkoop,module,Magento_Braintree
-Credit,Credit,module,Magento_Braintree
+Credit,Krediet,module,Magento_Braintree
 "Credit Card Type",Creditcard-maatschappij,module,Magento_Braintree
 "Credit Card Number",Creditcard-nummer,module,Magento_Braintree
-"Please, enter valid Credit Card Number","Please, enter valid Credit Card Number",module,Magento_Braintree
+"Please, enter valid Credit Card Number","Vul een geldig creditcard-nummer in",module,Magento_Braintree
 "Expiration Date",Vervaldatum,module,Magento_Braintree
-"Please, enter valid Expiration Date","Please, enter valid Expiration Date",module,Magento_Braintree
+"Please, enter valid Expiration Date","Vul een geldige vervaldatum in",module,Magento_Braintree
 "Card Verification Number",Verificatienummer,module,Magento_Braintree
-"Please, enter valid Card Verification Number","Please, enter valid Card Verification Number",module,Magento_Braintree
-ending,ending,module,Magento_Braintree
-expires,expires,module,Magento_Braintree
+"Please, enter valid Card Verification Number","Vul een geldige Creditcard Verificatie Nummer in",module,Magento_Braintree
+ending,einde,module,Magento_Braintree
+expires,verloopt,module,Magento_Braintree
 "Credit Card Information",Creditcard-informatie,module,Magento_Braintree
 "What is this?","Wat is dit?",module,Magento_Braintree
 "Save for later use.","Opslaan voor later gebruik.",module,Magento_Braintree
 "Place Order","Plaats bestelling",module,Magento_Braintree
-"This payment is not available","This payment is not available",module,Magento_Braintree
+"This payment is not available","Deze betaling is niet beschikbaar",module,Magento_Braintree
 MM,MM,module,Magento_Braintree
-YY,YY,module,Magento_Braintree
+YY,JJ,module,Magento_Braintree
 "Please try again with another form of payment.","Probeer het opnieuw met een andere vorm van betaling.",module,Magento_Braintree
-"Sorry, but something went wrong.","Sorry, but something went wrong.",module,Magento_Braintree
+"Sorry, but something went wrong.","Er ging iets verkeerd.",module,Magento_Braintree
 Braintree,Braintree,module,Magento_Braintree
 &nbsp;,&nbsp;,module,Magento_Braintree
 "Enable this Solution","Inschakelen van deze oplossing",module,Magento_Braintree
@@ -996,15 +996,15 @@ Debug,"Fouten opsporen in programma",module,Magento_Braintree
 "Verify for Applicable Countries","Verify for Applicable Countries",module,Magento_Braintree
 "Verify for Specific Countries","Verify for Specific Countries",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.",module,Magento_Braintree
-Select...,Select...,module,Magento_Braintree
+Select...,Selecteer...,module,Magento_Braintree
 Status,Status,module,Magento_Braintree
-"Transaction Type","Transaction Type",module,Magento_Braintree
+"Transaction Type",Transactietype,module,Magento_Braintree
 "PayPal Payment ID","PayPal Payment ID",module,Magento_Braintree
 "Transaction ID","Transaction ID",module,Magento_Braintree
-"Order ID","Order ID",module,Magento_Braintree
-"Payment Type","Payment Type",module,Magento_Braintree
+"Order ID","Bestelling ID",module,Magento_Braintree
+"Payment Type",Betalingstype,module,Magento_Braintree
 Type,Type,module,Magento_Braintree
-"Created At","Created At",module,Magento_Braintree
+"Created At","Aangemaakt op",module,Magento_Braintree
 Amount,Amount,module,Magento_Braintree
 "Settlement Code","Settlement Code",module,Magento_Braintree
 "Settlement Response Text","Settlement Response Text",module,Magento_Braintree
@@ -1107,7 +1107,7 @@ Status,Status,module,Magento_BraintreeTwo
 "Order ID",Bestelling-ID,module,Magento_BraintreeTwo
 "Payment Type",Betalingstype,module,Magento_BraintreeTwo
 Type,Type,module,Magento_BraintreeTwo
-"Created At","Gemaakt op",module,Magento_BraintreeTwo
+"Created At","Aangemaakt Op",module,Magento_BraintreeTwo
 Amount,Hoeveelheid,module,Magento_BraintreeTwo
 "Settlement Code",Regelingscode,module,Magento_BraintreeTwo
 "Settlement Response Text",Regelingsreactietekst,module,Magento_BraintreeTwo
@@ -3010,13 +3010,13 @@ Summary,Samenvatting,module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Kies getroffen Attributenset",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Configureerbare attributen toevoegen aan de huidige Attributenset",module,Magento_ConfigurableProduct
 Confirm,Bevestigen,module,Magento_ConfigurableProduct
-"New Attribute Set Name","New Attribute Set Name",module,Magento_ConfigurableProduct
+"New Attribute Set Name","Naam nieuwe attributenset",module,Magento_ConfigurableProduct
 "Select Associated Product","Selecteer bijbehorende product",module,Magento_ConfigurableProduct
 Done,Klaar,module,Magento_ConfigurableProduct
-"Choose a new product to delete and replace the current product configuration.","Choose a new product to delete and replace the current product configuration.",module,Magento_ConfigurableProduct
+"Choose a new product to delete and replace the current product configuration.","Kies een nieuw product om te verwijderen en vervang de huidige productconfiguratie.",module,Magento_ConfigurableProduct
 "For better results, add attributes and attribute values to your products.","Voor betere resultaten, voeg attributen en attribuut waarden to aan uw producten.",module,Magento_ConfigurableProduct
-"Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).",module,Magento_ConfigurableProduct
-"Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.","Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.",module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","Configureerbare producten geeft klanten de mogelijkheid om opties selecteren (Bv. T-shirt kleur). Je moet een simpel-product aanmaken voor elke configuratie (Bv. een product voor elke kleur).",module,Magento_ConfigurableProduct
+"Configurations cannot be created for a standard product with downloadable files. To create configurations, first remove all downloadable files.","Configuraties kunnen niet worden gemaakt voor een standaardproduct met downloadbare bestanden. Om configuraties te maken moet u eerst alle downloadbare bestanden verwijderen.",module,Magento_ConfigurableProduct
 "Add Products Manually","Handmatig toevoegen van producten",module,Magento_ConfigurableProduct
 "Create Configurations","Maken van configuraties",module,Magento_ConfigurableProduct
 "Current Variations","Huidige Variaties",module,Magento_ConfigurableProduct
@@ -3027,9 +3027,9 @@ Price,prijs,module,Magento_ConfigurableProduct
 Quantity,Hoeveelheid,module,Magento_ConfigurableProduct
 Weight,Gewicht,module,Magento_ConfigurableProduct
 Status,Status,module,Magento_ConfigurableProduct
-Attributes,Attributes,module,Magento_ConfigurableProduct
+Attributes,Attributen,module,Magento_ConfigurableProduct
 Actions,acties,module,Magento_ConfigurableProduct
-"Custom options with price type ""percent"" is not available for configurable product.","Custom options with price type ""percent"" is not available for configurable product.",module,Magento_ConfigurableProduct
+"Custom options with price type ""percent"" is not available for configurable product.","Custom opties met prijs-soort ""percentage"" is niet beschikbaar voor configureerbare producten.",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Deze groep bevat attributen die gebruikt worden in configureerbare producten. Verplaats deze attributen naar een andere groep en probeer opnieuw.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","Dit attribuut wordt gebruikt in configureerbare producten. U kunt het niet van de attributenset verwijderen.",module,Magento_ConfigurableProduct
 "Associated Products","Gerelateerde producten",module,Magento_ConfigurableProduct
@@ -3044,7 +3044,7 @@ Options,Opties,module,Magento_ConfigurableProduct
 "Remove Option","Optie Verwijderen",module,Magento_ConfigurableProduct
 "Create New Value","Maak een nieuwe waarde",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price and Quantity","Stap 3: Bulk afbeeldingen, prijs en hoeveelheid",module,Magento_ConfigurableProduct
-"Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.","Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.",module,Magento_ConfigurableProduct
+"Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.","Op basis van uw selectie worden %1 nieuwe product aangemaakt. Gebruikt deze stap om afbeeldingen en prijzen voor de nieuwe producten in te stellen.",module,Magento_ConfigurableProduct
 Images,Afbeeldingen,module,Magento_ConfigurableProduct
 "Apply single set of images to all SKUs","Pas één set van afbeeldingen toe op alle art.nrs.",module,Magento_ConfigurableProduct
 "Apply unique images by attribute to each SKU","Pas unieke afbeeldingen toe door attributen op elk art.nr.",module,Magento_ConfigurableProduct
@@ -3055,9 +3055,9 @@ Images,Afbeeldingen,module,Magento_ConfigurableProduct
 Hidden,Verborgen,module,Magento_ConfigurableProduct
 "Alt Text",Alt-tekst,module,Magento_ConfigurableProduct
 Role,Rol,module,Magento_ConfigurableProduct
-"Image Size","Image Size",module,Magento_ConfigurableProduct
+"Image Size",Afbeeldingsgrootte,module,Magento_ConfigurableProduct
 {size},{size},module,Magento_ConfigurableProduct
-"Image Resolution","Image Resolution",module,Magento_ConfigurableProduct
+"Image Resolution",Afbeeldingresolutie,module,Magento_ConfigurableProduct
 "{width}^{height} px","{width}^{height} px",module,Magento_ConfigurableProduct
 "Hide from Product Page","Verbergen van product pagina",module,Magento_ConfigurableProduct
 "Select attribute","Selecteer attribuut",module,Magento_ConfigurableProduct
@@ -3083,7 +3083,7 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 "Create Product Configurations","Productconfiguraties maken",module,Magento_ConfigurableProduct
 Cancel,Annuleer,module,Magento_ConfigurableProduct
 "New Product Review","Nieuwe productbeoordeling",module,Magento_ConfigurableProduct
-"Here are the products you're about to create.","Here are the products you're about to create.",module,Magento_ConfigurableProduct
+"Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken.",module,Magento_ConfigurableProduct
 "You created these products for this configuration.","Deze producten zijn aangemaakt voor deze configuratie.",module,Magento_ConfigurableProduct
 "Disassociated Products","Niet-gekoppelde producten",module,Magento_ConfigurableProduct
 "These products are not associated.","Deze producten zijn niet gekoppeld.",module,Magento_ConfigurableProduct
@@ -3101,7 +3101,7 @@ Cancel,Annuleer,module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","We herkennen of ondersteunen dit bestandsformaat type niet.",module,Magento_ConfigurableProduct
 "Please select attribute(s).","Selecteer attribute(n).",module,Magento_ConfigurableProduct
 "Generate Products","Genereer Producten",module,Magento_ConfigurableProduct
-"Something went wrong.","Something went wrong.",module,Magento_ConfigurableProduct
+"Something went wrong.","Er ging iets mis.",module,Magento_ConfigurableProduct
 "Configurable Product Image","Afbeelding configureerbaar product",module,Magento_ConfigurableProduct
 Select...,Selecteer...,module,Magento_ConfigurableProduct
 ID,ID,module,Magento_ConfigurableProduct
@@ -5281,7 +5281,7 @@ New,Nieuw,module,Magento_GiftRegistry
 "some name","een naam",module,Magento_GiftRegistry
 Type,Type,module,Magento_GiftRegistry
 Owner,Eigenaar,module,Magento_GiftRegistry
-"Created on","Gemaakt op",module,Magento_GiftRegistry
+"Created on","Aangemaakt Op",module,Magento_GiftRegistry
 "Shipping Address",Bezorgadres,module,Magento_GiftRegistry
 "Shopping Cart Items","items in winkelwagen",module,Magento_GiftRegistry
 "New Attribute","Nieuw attribuut",module,Magento_GiftRegistry
@@ -5313,7 +5313,7 @@ Qty,Hoeveelheid,module,Magento_GiftRegistry
 "Update Gift Registry","Update verlanglijst",module,Magento_GiftRegistry
 Back,terug,module,Magento_GiftRegistry
 "This gift registry has no items.","Dit geschenk register heeft geen producten.",module,Magento_GiftRegistry
-"Created On","Gemaakt op",module,Magento_GiftRegistry
+"Created On","Aangemaakt Op",module,Magento_GiftRegistry
 "Manage Items","Beheer Items",module,Magento_GiftRegistry
 Share,Delen,module,Magento_GiftRegistry
 Edit,Bewerken,module,Magento_GiftRegistry
@@ -7123,7 +7123,7 @@ Error,Foutmelding,module,Magento_Paypal
 "Billing Agreement",Incasso-overeenkomt,module,Magento_Paypal
 "Please Select","Selecteer a.u.b.",module,Magento_Paypal
 Customer,Klant,module,Magento_Paypal
-"Created At","Gemaakt op",module,Magento_Paypal
+"Created At","Aangemaakt Op",module,Magento_Paypal
 "Updated At","Geüpdate op",module,Magento_Paypal
 ending,"eindigend op",module,Magento_Paypal
 expires,verloopt,module,Magento_Paypal
@@ -7543,7 +7543,7 @@ Subtotal,subtotaal,module,Magento_Quote
 "Cart %1 doesn't contain item  %2","Winkelwagen %1 bevat geen artikel %2",module,Magento_Quote
 "Could not remove item from quote","Kan item niet verwijderen uit offerte",module,Magento_Quote
 "The qty value is required to update quote item.","De qty waarde is verplicht om het offerte product bij te werken.",module,Magento_Quote
-"Minimum order amount is %1","Minimum order amount is %1",module,Magento_Quote
+"Minimum order amount is %1","Minimale bestelhoeveelheid is %1",module,Magento_Quote
 "Invalid customer id %1","Ongeldig klant id %1",module,Magento_Quote
 "Invalid address id %1","Ongeldig adres id %1",module,Magento_Quote
 "Invalid customer address id %1","Invalid customer address id %1",module,Magento_Quote
@@ -7944,7 +7944,7 @@ Action,Aktie,module,Magento_Reports
 "The Order Updated report is created in real time and does not require a refresh.","Het Bijgewerkte Order overzicht wordt in real-time is gemaakt en hoeft niet vernieuwd te worden.",module,Magento_Reports
 "Last Invoice Created Date","Laatste factuur aangemaakt op",module,Magento_Reports
 "Last Credit Memo Created Date","Laatste creditfactuur aangemaakt op",module,Magento_Reports
-"First Invoice Created Date","Eerste Factuur aangemaakt op",module,Magento_Reports
+"First Invoice Created Date","Eerste factuur aangemaakt op",module,Magento_Reports
 "Refresh Lifetime Statistics","Vernieuw Statistieken complete historie",module,Magento_Reports
 "Are you sure you want to refresh lifetime statistics right now? This operation may slow down your customers' shopping experience.","Weet u zeker dat u de complete levensduur statistieken nu wilt vernieuwen? Deze bewerking kan het winkelen door uw klanten vertragen.",module,Magento_Reports
 "Refresh Statistics for the Last Day","Vernieuw Statistieken van vandaag",module,Magento_Reports
@@ -8893,7 +8893,7 @@ Sales,Verkopen,module,Magento_Sales
 "You can't create an invoice without products.","U kunt geen factuur zonder producten maken.",module,Magento_Sales
 "New Invoice","Nieuwe factuur",module,Magento_Sales
 "We can't save the invoice right now.","We kunnen de factuur nu niet opslaan.",module,Magento_Sales
-"The invoice and the shipment  have been created. The shipping label cannot be created now.","De factuur en de afleveropdracht zijn aangemaakt. Het verzendlabel kan momenteel niet aangemaakt worden.",module,Magento_Sales
+"The invoice and the shipment  have been created. The shipping label cannot be created now.","De factuur en de verzending zijn aangemaakt. Het verzendlabel kan momenteel niet aangemaakt worden.",module,Magento_Sales
 "You created the invoice and shipment.","U heeft de factuur en verzending aangemaakt.",module,Magento_Sales
 "The invoice has been created.","De factuur is aangemaakt",module,Magento_Sales
 "We can't send the invoice email right now.","We kunnen de factuur nu niet per email verzenden.",module,Magento_Sales
@@ -9236,7 +9236,7 @@ Comment,Commentaar,module,Magento_Sales
 "Order ID","Bestelling ID",module,Magento_Sales
 "Transaction Type",Transactietype,module,Magento_Sales
 "Is Closed",Afgerond,module,Magento_Sales
-"Created At","Gemaakt op",module,Magento_Sales
+"Created At","Aangemaakt Op",module,Magento_Sales
 "Child Transactions","Bijbehorende transacties",module,Magento_Sales
 "Transaction Details",Transactiedetails,module,Magento_Sales
 Items,Items,module,Magento_Sales
@@ -9697,7 +9697,7 @@ Labels,Labels,module,Magento_SalesRuleStaging
 "Default Rule Label for All Store Views","Standaard label voor alle Winkelaanzichten",module,Magento_SalesRuleStaging
 "Save as a New Update","Opslaan als nieuwe update",module,Magento_SalesRuleStaging
 "Move to Another Campaign","Move to Another Campaign",module,Magento_SalesRuleStaging
-"Delete the Update","Delete the Update",module,Magento_SalesRuleStaging
+"Delete the Update","Verwijder de Update",module,Magento_SalesRuleStaging
 "Deleting the update will remove the cart price rule from this campaign and all scheduled changes will be lost.","Deleting the update will remove the cart price rule from this campaign and all scheduled changes will be lost.",module,Magento_SalesRuleStaging
 20,20,module,Magento_SalesRuleStaging
 30,30,module,Magento_SalesRuleStaging
@@ -10003,7 +10003,7 @@ Invitee,genodigde,module,Magento_SendFriend
 "Add Invitee","Genodigde toevoegen",module,Magento_SendFriend
 "Send Email","Verstuur e-mail",module,Magento_SendFriend
 Back,terug,module,Magento_SendFriend
-"Welcome, %name","Welcome, %name",module,Magento_SendFriend
+"Welcome, %name","Welkom %name",module,Magento_SendFriend
 "%name,","%naam,",module,Magento_SendFriend
 "%sender_name wants to share this product with you:","%sender_name wenst dit product met u te delen:",module,Magento_SendFriend
 "Message from %sender_name:","Bericht van %sender_name:",module,Magento_SendFriend
@@ -10029,11 +10029,11 @@ Add,Toevoegen,module,Magento_Shipping
 Print,Print,module,Magento_Shipping
 "the shipment email was sent","de verzendemail is <em>wel verzonden</em>",module,Magento_Shipping
 "the shipment email is not sent","de verzendemail is <em>niet verzonden</em>",module,Magento_Shipping
-"Shipment #%1 | %3 (%2)","Zending #%1 | %3 (%2)",module,Magento_Shipping
+"Shipment #%1 | %3 (%2)","Verzending #%1 | %3 (%2)",module,Magento_Shipping
 "Create Shipping Label...","Maak verzend-label aan...",module,Magento_Shipping
 "Print Shipping Label","Print Verzendetiket",module,Magento_Shipping
 "Show Packages","Toon Pakketten",module,Magento_Shipping
-"About Your Shipment","Over uw zending",module,Magento_Shipping
+"About Your Shipment","Over uw verzending",module,Magento_Shipping
 "Order # %1","Bestelling # %1",module,Magento_Shipping
 "Back to My Orders","Terug naar bestellingsoverzicht",module,Magento_Shipping
 "View Another Order","Bekijk een andere bestelling",module,Magento_Shipping
@@ -10501,7 +10501,7 @@ Void,"Nietig verklaard",module,Magento_Support
 "Cron Schedules List","Cron schema's lijst",module,Magento_Support
 "Schedule Id",Schema-Id,module,Magento_Support
 Status,Status,module,Magento_Support
-"Created At","Gemaakt op",module,Magento_Support
+"Created At","Aangemaakt Op",module,Magento_Support
 "Scheduled At","Gepland op",module,Magento_Support
 "Executed At","Uitgevoerd op",module,Magento_Support
 "Finished At","Eindigde op",module,Magento_Support
@@ -11142,7 +11142,7 @@ Store,Winkel,module,Magento_Theme
 "Skip to Content","Ga naar de inhoud",module,Magento_Theme
 Menu,Menu,module,Magento_Theme
 Account,Account,module,Magento_Theme
-Settings,Settings,module,Magento_Theme
+Settings,Instellingen,module,Magento_Theme
 "2 columns with left bar","2 kolommen met linker balk",module,Magento_Theme
 "2 columns with right bar","2 kolommen met rechter balk",module,Magento_Theme
 "3 columns","3 kolommen",module,Magento_Theme
