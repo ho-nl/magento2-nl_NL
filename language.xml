@@ -7,5 +7,6 @@
     <code>nl_NL</code>
     <vendor>Ho</vendor>
     <package>nl_NL</package>
-    <use vendor="magento" package="nl_nl"/>
+    <sort_order>10</sort_order>
+    <!--<use vendor="magento" package="nl_nl"/>-->
 </language>
