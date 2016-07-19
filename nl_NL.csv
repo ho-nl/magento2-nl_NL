@@ -153,7 +153,7 @@ No,Nee,module,Magento_AdvancedCheckout
 "Remove Coupon Code","Verwijder kortingscode",module,Magento_AdvancedCheckout
 Remove,Verwijder,module,Magento_AdvancedCheckout
 "The coupon code ""%1"" is not valid.","Kortingscode ""%1"" is niet geldig.",module,Magento_AdvancedCheckout
-"Shopping Cart Items","items in winkelwagen",module,Magento_AdvancedCheckout
+"Shopping Cart Items","Producten in winkelwagen",module,Magento_AdvancedCheckout
 Qty,Hoeveelheid,module,Magento_AdvancedCheckout
 Subtotal,subtotaal,module,Magento_AdvancedCheckout
 Discount,Korting,module,Magento_AdvancedCheckout
@@ -895,7 +895,7 @@ Error,Foutmelding,module,Magento_Banner
 "Displays Specified or Promotion Banners","laat aangewezen of promotie banners zien",module,Magento_Banner
 "Banners to Display","banners om weer te geven",module,Magento_Banner
 "Specified Banners","gespecificeerde banners",module,Magento_Banner
-"Shopping Cart Promotions Related","gerelateerd aan winkelwagen promoties",module,Magento_Banner
+"Shopping Cart Promotions Related","Gerelateerde winkelwagen-aanbiedingen",module,Magento_Banner
 "Catalog Promotions Related","gerelateerd aan de promoties in de catalogus",module,Magento_Banner
 "Restrict by Banner Types","afgesloten door banner types",module,Magento_Banner
 "Rotation Mode","modus om te roteren",module,Magento_Banner
@@ -964,7 +964,7 @@ Braintree,Braintree,module,Magento_Braintree
 &nbsp;,&nbsp;,module,Magento_Braintree
 "Enable this Solution","Inschakelen van deze oplossing",module,Magento_Braintree
 "Enable PayPal through Braintree","PayPal ingeschakeld via Braintree",module,Magento_Braintree
-"Vault enabled","Vault enabled",module,Magento_Braintree
+"Vault enabled","Kluis ingeschakeld",module,Magento_Braintree
 "Basic Braintree Settings","Basis Braintree instellingen",module,Magento_Braintree
 Title,Titel,module,Magento_Braintree
 Environment,Omgeving,module,Magento_Braintree
@@ -973,7 +973,7 @@ Environment,Omgeving,module,Magento_Braintree
 "Public Key","Openbare sleutel",module,Magento_Braintree
 "Private Key","Persoonlijke sleutel",module,Magento_Braintree
 "Advanced Braintree Settings","Geavanceerde Braintree instellingen",module,Magento_Braintree
-"Vault Title","Vault Title",module,Magento_Braintree
+"Vault Title","Titel Kluis",module,Magento_Braintree
 "Merchant Account ID","Merchant Account-ID",module,Magento_Braintree
 "Advanced Fraud Protection","Geavanceerde Fraudebescherming",module,Magento_Braintree
 "Kount Merchant ID","Kount Merchant ID",module,Magento_Braintree
@@ -992,7 +992,7 @@ Debug,"Fouten opsporen in programma",module,Magento_Braintree
 "Display on Shopping Cart","Weergave in winkelwagen",module,Magento_Braintree
 "3D Secure Verification Settings","3D veilige verificatie instellingen",module,Magento_Braintree
 "3D Secure Verification","3D-beveiligde verificatie",module,Magento_Braintree
-"Threshold Amount","Threshold Amount",module,Magento_Braintree
+"Threshold Amount","Drempel bedrag",module,Magento_Braintree
 "Verify for Applicable Countries","Verify for Applicable Countries",module,Magento_Braintree
 "Verify for Specific Countries","Verify for Specific Countries",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.",module,Magento_Braintree
@@ -2140,7 +2140,7 @@ Inventory,Assortimentsbeheer,module,Magento_CatalogInventory
 "Please note that these settings apply to individual items in the cart, not to the entire cart.","Hou er rekening mee dat deze instellingen enkel gelden voor afzonderlijke producten in de winkelwagen, niet de hele winkelwagen.",module,Magento_CatalogInventory
 "Manage Stock","Voorraad beheren",module,Magento_CatalogInventory
 Backorders,Backorders,module,Magento_CatalogInventory
-"Maximum Qty Allowed in Shopping Cart","Maximaal hoeveelheid in winkelwagen",module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","Maximaal aantal in winkelwagen",module,Magento_CatalogInventory
 "Out-of-Stock Threshold","Niet op voorraad drempel",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","Minimaal aantal  in winkelwagen",module,Magento_CatalogInventory
 "Notify for Quantity Below","Melden bij hoeveelheid lager dan",module,Magento_CatalogInventory
@@ -2381,9 +2381,9 @@ Layout,Lay-out,module,Magento_CatalogStaging
 "Layout Update XML","Lay-out update XML",module,Magento_CatalogStaging
 "Apply Design to Products","Ontwerp op producten toepassen",module,Magento_CatalogStaging
 "Save as a New Update","Opslaan als nieuwe update",module,Magento_CatalogStaging
-"Move to Another Campaign","Move to Another Campaign",module,Magento_CatalogStaging
-"Delete the Update","Delete the Update",module,Magento_CatalogStaging
-"Deleting the update will remove the page from this campaign and all scheduled changes will be lost.","Deleting the update will remove the page from this campaign and all scheduled changes will be lost.",module,Magento_CatalogStaging
+"Move to Another Campaign","Verplaats naar een andere Campagne",module,Magento_CatalogStaging
+"Delete the Update","Verwijder de Update",module,Magento_CatalogStaging
+"Deleting the update will remove the page from this campaign and all scheduled changes will be lost.","Verwijderen van deze update zal de pagina uit de Campagne verwijderen en alle geplande wijzigingen zullen verloren gaan.",module,Magento_CatalogStaging
 20,20,module,Magento_CatalogStaging
 30,30,module,Magento_CatalogStaging
 50,50,module,Magento_CatalogStaging
@@ -2393,20 +2393,20 @@ Layout,Lay-out,module,Magento_CatalogStaging
 "End Time",Eindtijd,module,Magento_CatalogStaging
 ID,ID,module,Magento_CatalogStaging
 Thumbnail,Thumbnail,module,Magento_CatalogStaging
-"Attribute Set","Attribute Set",module,Magento_CatalogStaging
-AttributeSetText,AttributeSetText,module,Magento_CatalogStaging
+"Attribute Set",Attributenset,module,Magento_CatalogStaging
+AttributeSetText,AttributensetTekst,module,Magento_CatalogStaging
 Status,Status,module,Magento_CatalogStaging
-StatusText,StatusText,module,Magento_CatalogStaging
+StatusText,StatusTekst,module,Magento_CatalogStaging
 Type,Type,module,Magento_CatalogStaging
 SKU,SKU,module,Magento_CatalogStaging
-Price,Price,module,Magento_CatalogStaging
-"Remove Product from Campaign","Remove Product from Campaign",module,Magento_CatalogStaging
-"Deleting the update will remove the product from this campaign and all scheduled changes will be lost.","Deleting the update will remove the product from this campaign and all scheduled changes will be lost.",module,Magento_CatalogStaging
-Products,Products,module,Magento_CatalogStaging
+Price,Prijs,module,Magento_CatalogStaging
+"Remove Product from Campaign","Verwijder product uit Campagne",module,Magento_CatalogStaging
+"Deleting the update will remove the product from this campaign and all scheduled changes will be lost.","Verwijderen van deze update zal het product uit de Campagne verwijderen en alle geplande wijzigingen zullen verloren gaan.",module,Magento_CatalogStaging
+Products,Producten,module,Magento_CatalogStaging
 Categories,Categorieën,module,Magento_CatalogStaging
 Path,Pad,module,Magento_CatalogStaging
-Quantity,Quantity,module,Magento_CatalogStaging
-Visibility,Visibility,module,Magento_CatalogStaging
+Quantity,Aantal,module,Magento_CatalogStaging
+Visibility,Zichtbaarheid,module,Magento_CatalogStaging
 Websites,Websites,module,Magento_CatalogStaging
 "Create Permanent Redirect for old URL","Maak een permanente redirect voor de oude URL",module,Magento_CatalogUrlRewrite
 "Category URL Suffix","Categorie URL toevoeging",module,Magento_CatalogUrlRewrite
@@ -4083,7 +4083,7 @@ ordered,besteld,module,Magento_CustomerSegment
 was,was,module,Magento_CustomerSegment
 "was not","was niet",module,Magento_CustomerSegment
 "If Product %1 %2 and matches %3 of these Conditions:","Als product %1 %2 en overeenkomt met %3 van deze voorwaarden:",module,Magento_CustomerSegment
-"Shopping Cart",winkelwagen,module,Magento_CustomerSegment
+"Shopping Cart",Winkelwagen,module,Magento_CustomerSegment
 "Wish List",Verlanglijst,module,Magento_CustomerSegment
 found,gevonden,module,Magento_CustomerSegment
 "not found","niet gevonden",module,Magento_CustomerSegment
@@ -4905,7 +4905,7 @@ From,Van,module,Magento_GiftCard
 "Maximum: %1","Maximale: %1",module,Magento_GiftCard
 Availability,Beschikbaarheid,module,Magento_GiftCard
 "In stock","Op voorraad",module,Magento_GiftCard
-"You've been sent a gift from %store_name","You've been sent a gift from %store_name",module,Magento_GiftCard
+"You've been sent a gift from %store_name","U heeft een cadeau ontvangen van %store_name",module,Magento_GiftCard
 "%name,","%naam,",module,Magento_GiftCard
 "%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.","%sender heeft u een cadeaukaart gestuurd voor gebruik op <a href=""%store_url"">%store_name</a> en deze kan nu gebruikt worden voor aankopen.",module,Magento_GiftCard
 "Gift Card Codes:","Cadeaubon codes:",module,Magento_GiftCard
@@ -5283,7 +5283,7 @@ Type,Type,module,Magento_GiftRegistry
 Owner,Eigenaar,module,Magento_GiftRegistry
 "Created on","Aangemaakt Op",module,Magento_GiftRegistry
 "Shipping Address",Bezorgadres,module,Magento_GiftRegistry
-"Shopping Cart Items","items in winkelwagen",module,Magento_GiftRegistry
+"Shopping Cart Items","Items in winkelwagen",module,Magento_GiftRegistry
 "New Attribute","Nieuw attribuut",module,Magento_GiftRegistry
 "Input Type",Invoertype,module,Magento_GiftRegistry
 "Attribute Group",Atributengroep,module,Magento_GiftRegistry
@@ -6863,7 +6863,7 @@ Sales,Verkopen,module,Magento_Paypal
 "The PayPal gateway rejected the request. %1","De PayPal gateway heeft de aanvraag geweigerd. %1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Helaas, we konden jouw betaling niet voltooien. Probeer een andere betalingsmethode of neem contact op zodat we u verder kunnen helpen.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Het spijt me - maar wij zijn niet in staat om uw transactie te voltooien. Neem contact met ons op zodat wij u kunnen helpen.",module,Magento_Paypal
-"A match of the Shipping Address City, State, and Postal Code failed.","A match of the Shipping Address City, State, and Postal Code failed.",module,Magento_Paypal
+"A match of the Shipping Address City, State, and Postal Code failed.","Een match van de velden Stad, Staat en Postcode van het Verzendadres is mislukt.",module,Magento_Paypal
 "The payment method code is not set.","De code van betalingsmethode is niet ingesteld.",module,Magento_Paypal
 "The reference ID is not set.","De referentie-ID is niet ingesteld.",module,Magento_Paypal
 "Unable to save Billing Agreement:","Niet mogelijk om incasso-overeenkomst op te slaan:",module,Magento_Paypal
@@ -7169,7 +7169,7 @@ Create...,Aanmaken...,module,Magento_Paypal
 Edit,Bewerken,module,Magento_Paypal
 "Buy now with PayPal","Nu kopen met PayPal",module,Magento_Paypal
 "Edit Payment Information","Betalingsgegevens bewerken",module,Magento_Paypal
-"Items in Your Shopping Cart","Artikelen in uw winkelwagen",module,Magento_Paypal
+"Items in Your Shopping Cart","Producten in uw winkelwagen",module,Magento_Paypal
 "Edit Shopping Cart","Winkelwagen bewerken",module,Magento_Paypal
 "Place Order","Plaats bestelling",module,Magento_Paypal
 "Submitting order information...","Informatie van de bestelling wordt opgeslagen...",module,Magento_Paypal
@@ -7270,7 +7270,7 @@ Title,Titel,module,Magento_Paypal
 "Number of Child Authorizations","Number of Child Authorizations",module,Magento_Paypal
 "The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.","The default number of child authorizations in your PayPal account is 1. To do multiple authorizations please contact PayPal to request an increase.",module,Magento_Paypal
 "Advanced Settings","Geavanceerde Instellingen",module,Magento_Paypal
-"Display on Shopping Cart","Weergave in winkelwagen",module,Magento_Paypal
+"Display on Shopping Cart","Toon in Winkelwagen",module,Magento_Paypal
 "Also affects mini-shopping cart.","Ook van invloed op de mini-winkelwagen.",module,Magento_Paypal
 "Payment Applicable From","Payment Applicable From",module,Magento_Paypal
 "Countries Payment Applicable From","Countries Payment Applicable From",module,Magento_Paypal
@@ -7373,9 +7373,9 @@ User,Gebruiker,module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Basisinstellingen - gehoste PayPal Website Payments Pro oplossing",module,Magento_Paypal
 "Payflow Pro","Payflow Pro",module,Magento_Paypal
 "Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Sluit uw merchant account op een volledig aanpasbare gateway aan, waarmee uw klanten betalen zonder uw site te verlaten.",module,Magento_Paypal
-"Vault enabled","Vault enabled",module,Magento_Paypal
+"Vault enabled","Kluis ingeschakeld",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Basisinstellingen - PayPal Payflow Pro",module,Magento_Paypal
-"Vault Title","Vault Title",module,Magento_Paypal
+"Vault Title","Titel Kluis",module,Magento_Paypal
 "Credit Card Settings","Credit Card Settings",module,Magento_Paypal
 "Allowed Credit Card Types","Toegestane credit card typen",module,Magento_Paypal
 "Supporting of American Express cards require additional agreement. Learn more at <a href=""http://www.paypal.com/amexupdate"">http://www.paypal.com/amexupdate</a>.","Ondersteuning van American Express kaarten vereistbeen aanvullende overeenkomst. Meer informatie op <a href=""http://www.paypal.com/amexupdate""> http://www.paypal.com/amexupdate</a>.",module,Magento_Paypal
@@ -7680,7 +7680,7 @@ found,gevonden,module,Magento_Reminder
 "Virtual Only","Alleen Virtueel",module,Magento_Reminder
 "Shopping cart %1 only virtual items","Winkelwagen %1 alleen virtuele artikelen",module,Magento_Reminder
 "Wish List",Verlanglijst,module,Magento_Reminder
-"Shopping Cart",winkelwagen,module,Magento_Reminder
+"Shopping Cart",Winkelwagen,module,Magento_Reminder
 "The wish list is not empty and abandoned %1 %2 days and %3 of these conditions match:","De wensenlijst is niet leeg en verlaten %1 %2 dagen en %3 van deze voorwaarden komen overeen met:",module,Magento_Reminder
 "The root wish list condition should have a days value of 1 or greater.","De basis verlanglijst voorwaarde moet een waarde hebben van 1 dag of hoger.",module,Magento_Reminder
 "Product Attributes","Product Kenmerken",module,Magento_Reminder
@@ -7861,7 +7861,7 @@ Coupons,Kortingsbonnen,module,Magento_Reports
 "Orders Report","Orders rapport",module,Magento_Reports
 "Shipping Report","Verzending verslag",module,Magento_Reports
 "Tax Report","Fiscaal verslag",module,Magento_Reports
-"Shopping Cart",winkelwagen,module,Magento_Reports
+"Shopping Cart",Winkelwagen,module,Magento_Reports
 "Abandoned Carts","Achtergelaten winkelwagens",module,Magento_Reports
 "Customer Shopping Carts","Winkelwagens van klant",module,Magento_Reports
 "Products in Carts","Producten in winkelwagen",module,Magento_Reports
@@ -8036,7 +8036,7 @@ Reviews,Beoordelen,module,Magento_Review
 Ratings,Waarderingen,module,Magento_Review
 "You saved the rating.","U heeft de waardering opgeslagen.",module,Magento_Review
 "My Product Reviews",Productreviews,module,Magento_Review
-"Cannot initialize product","Cannot initialize product",module,Magento_Review
+"Cannot initialize product","Kan product niet initialiseren",module,Magento_Review
 "You submitted your review for moderation.","U heeft uw beoordeling aangeboden ter goedkeuring.",module,Magento_Review
 "We can't post your review right now.","Wij kunnen uw beoordeling nu niet plaatsen.",module,Magento_Review
 "Storage key was not set","Opslag sleutel is niet ingesteld",module,Magento_Review
@@ -8710,7 +8710,7 @@ Quantity,Hoeveelheid,module,Magento_Sales
 "Shipping Address",Afleveradres,module,Magento_Sales
 "Shipping Method",Afleverwijze,module,Magento_Sales
 "Update Changes","Wijzigingen bijwerken",module,Magento_Sales
-"Shopping Cart",winkelwagen,module,Magento_Sales
+"Shopping Cart",Winkelwagen,module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?","Weet u er zeker dat u alle producten wilt verwijderen uit de winkelwagen?",module,Magento_Sales
 "Clear Shopping Cart","Leeg winkelwagen",module,Magento_Sales
 "Products in Comparison List","Producten in vergelijk-lijst",module,Magento_Sales
@@ -9331,11 +9331,11 @@ Enable,Activeer,module,Magento_Sales
 "Include Tax to Amount","Inclusief belasting bedrag",module,Magento_Sales
 "Description Message",Omschrijving,module,Magento_Sales
 "This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","Dit bericht zal getoond worden in de winkelwagen als het subtotaal (na korting) lager is dan het minimale toegestane bedrag.",module,Magento_Sales
-"Error to Show in Shopping Cart","Foutmelding in winkelwagen",module,Magento_Sales
+"Error to Show in Shopping Cart","Foutmelding te tonen in winkelwagen",module,Magento_Sales
 "Validate Each Address Separately in Multi-address Checkout","Elk adres apart valideren bij Afrekenen met meer adressen",module,Magento_Sales
 "Multi-address Description Message","Beschrijving bij meer adressen",module,Magento_Sales
 "We'll use the default description above if you leave this empty.","De hierboven weergegeven standaard beschrijving wordt gebruikt, als u dit leeg laat.",module,Magento_Sales
-"Multi-address Error to Show in Shopping Cart","Probleem om meer adressen te tonen in winkelwagen",module,Magento_Sales
+"Multi-address Error to Show in Shopping Cart","Meerdere-adressen: Fout om te tonen in de Winkelwagen",module,Magento_Sales
 "We'll use the default error above if you leave this empty.","De hierboven weergegeven standaard foutmelding zal gebruikt worden, als u dit leeg laat.",module,Magento_Sales
 Dashboard,Dashboard,module,Magento_Sales
 "Use Aggregated Data","Toon samengevatte gegevens",module,Magento_Sales
@@ -9778,7 +9778,7 @@ Password,Wachtwoord,module,Magento_ScheduledImportExport
 "You deleted a total of %1 record(s).","U verwijderde een totaal van %1 rij(en).",module,Magento_ScheduledImportExport
 "We can't delete all the items right now.","We kunnen momenteel niet alle producten verwijderen.",module,Magento_ScheduledImportExport
 "We can't save the scheduled operation right now.","We kunnen momenteel de geplande taak niet bewaren.",module,Magento_ScheduledImportExport
-"We can't create directory ""%1""","We can't create directory ""%1""",module,Magento_ScheduledImportExport
+"We can't create directory ""%1""","We kunnen folder ""%1"" niet aanmaken",module,Magento_ScheduledImportExport
 "The directory ""%1"" is not writable.","De folder ""%1"" heeft geen schrijfrechten.",module,Magento_ScheduledImportExport
 "We can't delete ""%1"" because the directory is not writable.","We can't delete ""%1"" because the directory is not writable.",module,Magento_ScheduledImportExport
 "Scheduled Import","Geplande Import",module,Magento_ScheduledImportExport
@@ -10316,26 +10316,26 @@ Upcoming,Komend,module,Magento_Staging
 "Future Update End Time cannot be equal or earlier than Start Time.","Toekomstige Update eindtijd kan niet gelijk of vroeger zijn dan de begintijd.",module,Magento_Staging
 "Future Update End Time cannot be earlier than current time.","Future Update End Time cannot be earlier than current time.",module,Magento_Staging
 "Update with id ""%1"" does not exist.","Update met id ""%1"" bestaat niet.",module,Magento_Staging
-"Active update can not be deleted","Active update can not be deleted",module,Magento_Staging
+"Active update can not be deleted","Een actieve update kan niet worden verwijderd",module,Magento_Staging
 "Start time could not be changed while update active","Start time could not be changed while update active",module,Magento_Staging
 "Unable to save Future Update.","Kan toekomstige update niet opslaan.",module,Magento_Staging
 Test,Test,module,Magento_Staging
-Error,Error,module,Magento_Staging
+Error,Fout,module,Magento_Staging
 "Test Exception","Test Exception",module,Magento_Staging
 View/Edit,Bekijken/bewerken,module,Magento_Staging
 Preview,Voorbeeld,module,Magento_Staging
-"This action is unavailable","This action is unavailable",module,Magento_Staging
+"This action is unavailable","Deze actie is niet beschikbaar",module,Magento_Staging
 "Magento Admin Panel","Magento Admin Panel",module,Magento_Staging
-Calendar,Calendar,module,Magento_Staging
-Share,Share,module,Magento_Staging
+Calendar,Calender,module,Magento_Staging
+Share,Delen,module,Magento_Staging
 Close,Sluiten,module,Magento_Staging
-Scope,Scope,module,Magento_Staging
+Scope,Bereik,module,Magento_Staging
 "Scheduled Changes","Geplande wijzigingen",module,Magento_Staging
 Start,Start,module,Magento_Staging
 End,Einde,module,Magento_Staging
 "Belongs to","Behoort tot",module,Magento_Staging
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Bevestig wijziging toepassing niveau. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan.",module,Magento_Staging
-"Share Preview Link","Share Preview Link",module,Magento_Staging
+"Share Preview Link","Voorvertoning link delen",module,Magento_Staging
 Staging,Enscenering,module,Magento_Staging
 "Create New Campaign","Nieuwe campagne maken",module,Magento_Staging
 Back,terug,module,Magento_Staging
@@ -10347,7 +10347,7 @@ Includes,Omvat,module,Magento_Staging
 "End Time",Eindtijd,module,Magento_Staging
 Description,Beschrijving,module,Magento_Staging
 Action,Aktie,module,Magento_Staging
-"MMM d, y h:mm a","MMM d, y h:mm a",module,Magento_Staging
+"MMM d, y h:mm a","MMM, d, y h:mm a",module,Magento_Staging
 Name,Naam,module,Magento_Staging
 "Invalid store parameter.","Ongeldige winkel parameter.",module,Magento_Store
 "Current store is not active.","Huidige winkel is niet actief.",module,Magento_Store
@@ -10664,7 +10664,7 @@ Image,Afbeelding,module,Magento_Swatches
 "Example format: 200x300.","Voorbeeld afmeting: 200 x 300.",module,Magento_Swatches
 "Image Position",Afbeeldingspositie,module,Magento_Swatches
 "Default Store View","Standaard Winkelaanzicht",module,Magento_Swatches
-Admin,Admin,module,Magento_Swatches
+Admin,Beheerder,module,Magento_Swatches
 "Related Products Rule","Verwante producten regel",module,Magento_TargetRule
 "Add Rule","Regel toevoegen",module,Magento_TargetRule
 "Save and Continue Edit","Bewaar en Ga Door met Bewerking",module,Magento_TargetRule
@@ -10833,8 +10833,8 @@ Tax,Belasting,module,Magento_Tax
 "Use digits only for the zip code.","Gebruik alleen cijfers voor de postcode.",module,Magento_Tax
 "Range To should be equal or greater than Range From.","""Bereik tot"" moet gelijk zijn of groter dan ""Bereik van""",module,Magento_Tax
 "The tax rate cannot be removed. It exists in a tax rule.","Het btwtarief kan niet verwijderd worden. Het bestaat in een belastingsregel.",module,Magento_Tax
-"%fieldName is a required field.","%fieldName is a required field.",module,Magento_Tax
-"Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_Tax
+"%fieldName is a required field.","%fieldName is een verplicht veld.",module,Magento_Tax
+"Invalid value of ""%value"" provided for the %fieldName field.","Ongeldige waarde voor ""%"" opgegeven voor het %fieldName veld.",module,Magento_Tax
 "This class no longer exists.","Deze klasse bestaat niet meer.",module,Magento_Tax
 "You cannot delete this tax class because it is used in Tax Rules. You have to delete the rules it is used in first.","U kunt deze tariefgroep niet verwijderen omdat hij nog gebruikt wordt in BTW regels. U moet eerst de regels verwijderen waarin hij wordt gebruikt.",module,Magento_Tax
 "You cannot delete this tax class because it is used in existing %1(s).","U kan deze tariefgroep niet verwijderen aangezien het wordt gebruikt in bestaande %1(s).",module,Magento_Tax
@@ -11008,7 +11008,7 @@ Theme,Thema,module,Magento_Theme
 "Are you sure you want to delete this folder?","Weet u zeker dat u deze map wilt verwijderen?",module,Magento_Theme
 "Are you sure you want to delete this file?","Weet u zeker dat u dit bestand wilt verwijderen?",module,Magento_Theme
 "Storage Root","Opslag root",module,Magento_Theme
-welcome,welcome,module,Magento_Theme
+welcome,welkom,module,Magento_Theme
 Global,Globaal,module,Magento_Theme
 "Design Configuration",Ontwerpconfiguratie,module,Magento_Theme
 "You saved the configuration.","U heeft de configuratie opgeslagen.",module,Magento_Theme
@@ -11027,9 +11027,9 @@ Global,Globaal,module,Magento_Theme
 "Sorry, something went wrong. That's all we know.","Er ging iets mis. Verder is er geen informatie.",module,Magento_Theme
 "Invalid type","Ongeldig type",module,Magento_Theme
 "Invalid scope or scope id","Ongeldige scope of de scope-id",module,Magento_Theme
-"%1 does not contain field '%2'","%1 does not contain field '%2'",module,Magento_Theme
+"%1 does not contain field '%2'","%1 bevat geen veld '%2'",module,Magento_Theme
 "Invalid regular expression: ""%1"".","Ongeldige reguliere expressie: ""%1"".",module,Magento_Theme
-"%1 does not contain field 'file'","%1 does not contain field 'file'",module,Magento_Theme
+"%1 does not contain field 'file'","%1 bevat geen veld 'file'",module,Magento_Theme
 "Backend model is not specified for %1","Backend-model is niet opgegeven voor %1",module,Magento_Theme
 "The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.","The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.",module,Magento_Theme
 "Can not save empty config","Lege config kan niet opgeslagen worden",module,Magento_Theme
@@ -11193,10 +11193,10 @@ Off,Uit,module,Magento_Ui
 "Default View",Standaardweergave,module,Magento_Ui
 "${ $.visible } out of ${ $.total } visible","${ $.visible } uit ${ $.total } zichtbaar",module,Magento_Ui
 "You have successfully saved your edits.","Uw bewerkingen zijn opgeslagen.",module,Magento_Ui
-"You haven't selected any items!","You haven't selected any items!",module,Magento_Ui
+"You haven't selected any items!","Er zijn geen producten geselecteerd!",module,Magento_Ui
 "Search by keyword","Zoeken op trefwoord",module,Magento_Ui
 Keyword,Trefwoord,module,Magento_Ui
-"Select Date","Select Date",module,Magento_Ui
+"Select Date","Datum selecteren",module,Magento_Ui
 "Please enter more or equal than {0} symbols.","Voer {0} of meerdere symbolen in.",module,Magento_Ui
 "Please enter less or equal than {0} symbols.","Voer {0} of minder symbolen in.",module,Magento_Ui
 "Please enter {0} words or less.","Voer {0} of minder woorden in.",module,Magento_Ui
