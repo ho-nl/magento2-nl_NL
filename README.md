@@ -5,12 +5,15 @@
 composer require ho-nl/magento2-ho_nl
 ```
 
+## Contributing
+Go to https://crowdin.com/project/magento-2/nl#/Head and translate files.
+
 ## Development install:
 ```BASH
 composer require ho-nl/magento2-ho_nl "dev-master"
 ```
 
-The translations are based on https://crowdin.com/project/magento-2/nl#/Head
+
 
 Import translations:
 ```
