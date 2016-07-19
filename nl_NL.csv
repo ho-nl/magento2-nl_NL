@@ -848,7 +848,7 @@ Content,inhoud,module,Magento_Banner
 "Default Content","standaard inhoud",module,Magento_Banner
 "No Default Content","geen standaard inhoud",module,Magento_Banner
 "Banner Default Content for All Store Views","standaard banner voor alle winkelmogelijkheden",module,Magento_Banner
-"Store View Specific Content","specifiek winkelmogelijkheid inhoud",module,Magento_Banner
+"Store View Specific Content","Winkelaanzicht Specifieke Content",module,Magento_Banner
 "Use Default","Gebruik standaard",module,Magento_Banner
 "Related Promotions","gerelateerde promoties",module,Magento_Banner
 ID,ID,module,Magento_Banner
@@ -885,7 +885,7 @@ Position,positie,module,Magento_Banner
 "You saved the banner.","U heeft de banner opgeslagen.",module,Magento_Banner
 "We cannot save the banner.","We konden de banner niet opslaan.",module,Magento_Banner
 "Please enter a name.","Voer een naam in.",module,Magento_Banner
-"Please specify default content for at least one store view.","specificeer standaard inhoud voor tenminste 1 winkelmogelijkheid aub",module,Magento_Banner
+"Please specify default content for at least one store view.","Specificeer standaard inhoud voor tenminste één winkelaanzicht aub.",module,Magento_Banner
 "-- None --","-- Niets --",module,Magento_Banner
 Error,Foutmelding,module,Magento_Banner
 "Related Cart Price Rules","Gerelateerde Winkelwagen-prijsregels",module,Magento_Banner
@@ -1163,7 +1163,7 @@ Cancel,Annuleer,module,Magento_Bundle
 "New Option","Nieuwe optie",module,Magento_Bundle
 "Option Title","Titel optie",module,Magento_Bundle
 "Default Title",Standaardtitel,module,Magento_Bundle
-"Store View Title","Zichttitel bewaren",module,Magento_Bundle
+"Store View Title","Winkelaanzicht Titel",module,Magento_Bundle
 "Input Type",Invoertype,module,Magento_Bundle
 Drop-down,Drop-down,module,Magento_Bundle
 "Radio Buttons","Radio buttons",module,Magento_Bundle
@@ -2631,7 +2631,7 @@ Disabled,Uitgeschakeld,module,Magento_CheckoutAgreements
 Text,Tekst,module,Magento_CheckoutAgreements
 HTML,HTML,module,Magento_CheckoutAgreements
 Applied,Toegepast,module,Magento_CheckoutAgreements
-"Store View",winkelweergave,module,Magento_CheckoutAgreements
+"Store View",Winkelaanzicht,module,Magento_CheckoutAgreements
 "Checkbox Text","Tekst checkbox",module,Magento_CheckoutAgreements
 Content,inhoud,module,Magento_CheckoutAgreements
 "Content Height (css)","Hoogte inhoud (css)",module,Magento_CheckoutAgreements
@@ -2787,7 +2787,7 @@ Template,Template,module,Magento_Cms
 Block,Blok,module,Magento_Cms
 "Select Block...","Selecteer blok...",module,Magento_Cms
 "CMS Static Block Default Template","CMS Statisch Block > Standaard sjabloon",module,Magento_Cms
-"General Information","Generale informatie",module,Magento_Cms
+"General Information","Algemene informatie",module,Magento_Cms
 "Enable Block","Blok inschakelen",module,Magento_Cms
 "Block Title",Bloktitel,module,Magento_Cms
 "Delete items","Items verwijderen",module,Magento_Cms
@@ -2833,7 +2833,7 @@ Action,Aktie,module,Magento_CmsStaging
 "Enable Block","Blok inschakelen",module,Magento_CmsStaging
 "Block Title",Bloktitel,module,Magento_CmsStaging
 Identifier,Identifier,module,Magento_CmsStaging
-"Store View",Winkelweergave,module,Magento_CmsStaging
+"Store View",Winkelaanzicht,module,Magento_CmsStaging
 "Save as a New Update","Opslaan als nieuwe update",module,Magento_CmsStaging
 "Move to Another Campaign","Verplaatsen naar een andere Campagne",module,Magento_CmsStaging
 "Delete the Update","Verwijder de Update",module,Magento_CmsStaging
@@ -2924,7 +2924,7 @@ Optional,Optioneel,module,Magento_Config
 Required,Vereist,module,Magento_Config
 Website,Website,module,Magento_Config
 Store,Winkel,module,Magento_Config
-"Store View",winkelweergave,module,Magento_Config
+"Store View",Winkelaanzicht,module,Magento_Config
 "HTTP (unsecure)","HTTP (onveilig)",module,Magento_Config
 "HTTPS (SSL)","HTTPS (SSL)",module,Magento_Config
 "Yes (302 Found)","Ja (302 gevonden)",module,Magento_Config
@@ -3592,7 +3592,7 @@ Save,Bewaar,module,Magento_Customer
 Password,Wachtwoord,module,Magento_Customer
 "Forgot Your Password?","Wachtwoord vergeten?",module,Magento_Customer
 "Subscription option",Abonnementoptie,module,Magento_Customer
-"General Subscription","Generale inschrijving",module,Magento_Customer
+"General Subscription","Algemene inschrijving",module,Magento_Customer
 "Sign Up for Newsletter","Inschrijven op de nieuwsbrief",module,Magento_Customer
 "Address Information","Adres Gegevens",module,Magento_Customer
 "Sign-in Information",Inloggegevens,module,Magento_Customer
@@ -3770,7 +3770,7 @@ No,Nee,module,Magento_CustomerBalance
 "Update Balance","Update Saldo",module,Magento_CustomerBalance
 "An amount on which to change the balance","Een bedrag waarnaar saldo moet worden veranderd",module,Magento_CustomerBalance
 "Notify Customer by Email","Bericht klant per email",module,Magento_CustomerBalance
-"Send Email Notification From the Following Store View","Stuur E-mail notificatie vanuit het volgende Winkelzicht",module,Magento_CustomerBalance
+"Send Email Notification From the Following Store View","Stuur E-mail notificatie vanuit het volgende Winkelaanzicht",module,Magento_CustomerBalance
 Comment,Commentaar,module,Magento_CustomerBalance
 "Failed to initialize customer","Klant initializeren mislukt",module,Magento_CustomerBalance
 "The store credit payment has been removed from shopping cart.","De Winkeltegoed betaling is verwijderd uit winkelwagen.",module,Magento_CustomerBalance
@@ -3865,13 +3865,13 @@ Yes,ja,module,Magento_CustomerCustomAttributes
 "Manage Form Types","Beheer formuliertypes",module,Magento_CustomerCustomAttributes
 "New Form Type","Nieuw forumuliertype",module,Magento_CustomerCustomAttributes
 "Edit Form Type ""%1""","Bewerk formuliertype ""%1""",module,Magento_CustomerCustomAttributes
-"General Information","Generale informatie",module,Magento_CustomerCustomAttributes
+"General Information","Algemene informatie",module,Magento_CustomerCustomAttributes
 "-- Please Select --","-- Selecteer Alstublieft --",module,Magento_CustomerCustomAttributes
 "Based On","Gebaseerd Op",module,Magento_CustomerCustomAttributes
 "Form Label","formulier label",module,Magento_CustomerCustomAttributes
 "All Themes","Alle Thema's",module,Magento_CustomerCustomAttributes
 "For Theme","voor thema",module,Magento_CustomerCustomAttributes
-"Store View",winkelweergave,module,Magento_CustomerCustomAttributes
+"Store View",Winkelaanzicht,module,Magento_CustomerCustomAttributes
 "Form Code","formulier code",module,Magento_CustomerCustomAttributes
 "Form Title","formulier titel",module,Magento_CustomerCustomAttributes
 General,Normaal,module,Magento_CustomerCustomAttributes
@@ -4949,7 +4949,7 @@ Website,Website,module,Magento_GiftCardAccount
 "Send Gift Card","Cadeaubon versturen",module,Magento_GiftCardAccount
 "Recipient Email","E-mail van ontvanger",module,Magento_GiftCardAccount
 "Recipient Name","Ontvanger Naam",module,Magento_GiftCardAccount
-"Send Email from the Following Store View","Stuur E-mail notificatie vanuit het volgende Winkelzicht",module,Magento_GiftCardAccount
+"Send Email from the Following Store View","Stuur E-mail notificatie vanuit het volgende Winkelaanzicht",module,Magento_GiftCardAccount
 "-- First Please Select a Website --","-- Selecteer eerst een website --",module,Magento_GiftCardAccount
 "Gift Card Account","Cadeaubon account",module,Magento_GiftCardAccount
 History,Geschiedenis,module,Magento_GiftCardAccount
@@ -5163,7 +5163,7 @@ Long,Lang,module,Magento_GiftRegistry
 Full,Vol,module,Magento_GiftRegistry
 "Add New Option","Voeg nieuwe optie toe",module,Magento_GiftRegistry
 "Delete Option","Verwijder optie",module,Magento_GiftRegistry
-"General Information","Generale informatie",module,Magento_GiftRegistry
+"General Information","Algemene informatie",module,Magento_GiftRegistry
 Code,"Interne naam",module,Magento_GiftRegistry
 Label,label,module,Magento_GiftRegistry
 "Sort Order","Sorteer Bestelling",module,Magento_GiftRegistry
@@ -5171,7 +5171,7 @@ Label,label,module,Magento_GiftRegistry
 Attributes,Attributen,module,Magento_GiftRegistry
 [GLOBAL],[GLOBAAL],module,Magento_GiftRegistry
 [WEBSITE],[WEBSITE],module,Magento_GiftRegistry
-"[STORE VIEW]",[WINKELZICHT],module,Magento_GiftRegistry
+"[STORE VIEW]",[WINKELAANZICHT],module,Magento_GiftRegistry
 None,Geen,module,Magento_GiftRegistry
 "New Address","Nieuw Adres",module,Magento_GiftRegistry
 "Edit Gift Registry","Bewerk verlanglijst",module,Magento_GiftRegistry
@@ -5727,7 +5727,7 @@ Save,Bewaar,module,Magento_Integration
 "New Integration","Nieuwe integratie",module,Magento_Integration
 "Edit Integration '%1'","Bewerk integratie '%1'",module,Magento_Integration
 "Integration Info","Integratie Info",module,Magento_Integration
-General,Normaal,module,Magento_Integration
+General,Algemeen,module,Magento_Integration
 Name,Naam,module,Magento_Integration
 Email,Email,module,Magento_Integration
 "Callback URL",Callback-URL,module,Magento_Integration
@@ -5921,7 +5921,7 @@ Discarded,Verwijderd,module,Magento_Invitation
 Email,Email,module,Magento_Invitation
 Status,Status,module,Magento_Invitation
 Website,Website,module,Magento_Invitation
-"Store View",winkelweergave,module,Magento_Invitation
+"Store View",Winkelaanzicht,module,Magento_Invitation
 "Signed Up At","Geregistreerd op",module,Magento_Invitation
 "Invitation URL",UitnodigingsURL,module,Magento_Invitation
 Link,link,module,Magento_Invitation
@@ -6109,7 +6109,7 @@ Reports,Verslagen,module,Magento_Logging
 "Admin Permission Users","Beheerder Toestemming Gebruikers",module,Magento_Logging
 "Manage Websites","Beheer Websites",module,Magento_Logging
 "Manage Stores","Beheer Winkels",module,Magento_Logging
-"Manage Store Views","Beheren Winkel Views",module,Magento_Logging
+"Manage Store Views","Beheer Winkelaanzichten",module,Magento_Logging
 "Manage Design","Beheer Ontwerp",module,Magento_Logging
 "Manage Currency Rates","Beheer Wisselkoersen",module,Magento_Logging
 "Transactional Emails","Transactionele e-mails",module,Magento_Logging
@@ -6456,7 +6456,7 @@ Options,Opties,module,Magento_Multishipping
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","De New Relic integratie vereist de newrelic-php5-agent, die niet is geïnstalleerd. Meer informatie over het installeren van de agent is <a target=""_blank"" href=""%1"">hier</a> beschikbaar.",module,Magento_NewRelicReporting
 "New Relic Reporting Section","New Relic Rapportage Sectie",module,Magento_NewRelicReporting
 "New Relic Reporting","New Relic Rapportage",module,Magento_NewRelicReporting
-General,Normaal,module,Magento_NewRelicReporting
+General,Algemeen,module,Magento_NewRelicReporting
 "Enable New Relic Integration","Schakel New Relic integratie in",module,Magento_NewRelicReporting
 "New Relic API URL","New Relic API URL",module,Magento_NewRelicReporting
 "Insights API URL","Insights API URL",module,Magento_NewRelicReporting
@@ -6567,7 +6567,7 @@ Paused,Gepauzeerd,module,Magento_Newsletter
 "Duplicate template code","Dubbele sjabloon code",module,Magento_Newsletter
 "Follow this link to unsubscribe <!-- This tag is for unsubscribe link  --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>","Klik op deze link om u uit te schrijven <!-- This tag is for unsubscribe link --><a href=""{{var subscriber.getUnsubscriptionLink()}}"">{{var subscriber.getUnsubscriptionLink()}}</a>",module,Magento_Newsletter
 "No such entity with %fieldName = %fieldValue","No such entity with %fieldName = %fieldValue",module,Magento_Newsletter
-"Choose Store View:","Selecteer winkel aanzicht:",module,Magento_Newsletter
+"Choose Store View:","Selecteer Winkelaanzicht:",module,Magento_Newsletter
 "Newsletter Message Preview","Preview nieuwsbrief-bericht",module,Magento_Newsletter
 "Add to Queue","Aan wachtrij toevoegen",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","Weet u zeker dat u alle tags wilt ontkoppelen?",module,Magento_Newsletter
@@ -6623,7 +6623,7 @@ Unsubscribed,Uitgeschreven,module,Magento_Newsletter
 Unconfirmed,Onbevestigd,module,Magento_Newsletter
 "Web Site",Website,module,Magento_Newsletter
 Store,Winkel,module,Magento_Newsletter
-"Store View",winkelweergave,module,Magento_Newsletter
+"Store View",Winkelaanzicht,module,Magento_Newsletter
 "Newsletter Subscriptions",Nieuwsbrieven,module,Magento_Newsletter
 "Make Check payable to:","Maak overboeking naar:",module,Magento_OfflinePayments
 "Send Check to:","Maak overboeking naar:",module,Magento_OfflinePayments
@@ -6792,7 +6792,7 @@ Back,terug,module,Magento_Paypal
 "Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_Paypal
 Cancel,Annuleer,module,Magento_Paypal
 "Billing Agreement #%1","Betalingsovereenkomst #%1",module,Magento_Paypal
-"General Information","Generale informatie",module,Magento_Paypal
+"General Information","Algemene informatie",module,Magento_Paypal
 "Related Orders","Gerelateerde bestellingen",module,Magento_Paypal
 Order,Bestelling,module,Magento_Paypal
 Purchased,Gekocht,module,Magento_Paypal
@@ -7046,8 +7046,8 @@ Charge-off,Charge-off,module,Magento_Paypal
 "Fee: Web Site Payments Pro Account Monthly","Fee: Web Site Payments Pro Account Monthly",module,Magento_Paypal
 "Fee: WorldLink Check Withdrawal","Fee: WorldLink Check Withdrawal",module,Magento_Paypal
 Funding,Funding,module,Magento_Paypal
-"General (Authorization)","General (Authorization)",module,Magento_Paypal
-"General (Dividend)","General (Dividend)",module,Magento_Paypal
+"General (Authorization)","Algemeen (Authorisatie)",module,Magento_Paypal
+"General (Dividend)","Algemeen (Dividend)",module,Magento_Paypal
 "General (Funds Transfer from PayPal Account to Another)","General (Funds Transfer from PayPal Account to Another)",module,Magento_Paypal
 "General (Purchase with a credit card)","General (Purchase with a credit card)",module,Magento_Paypal
 "General Adjustment without businessrelated event","General Adjustment without businessrelated event",module,Magento_Paypal
@@ -7259,7 +7259,7 @@ Size,Grote,module,Magento_Paypal
 "Checkout Cart Page","Winkelwagen-afreken pagina",module,Magento_Paypal
 "Basic Settings - PayPal Express Checkout","Basisinstellingen - PayPal Express Checkout",module,Magento_Paypal
 Title,Titel,module,Magento_Paypal
-"It is recommended to set this value to ""PayPal"" per store views.","It is recommended to set this value to ""PayPal"" per store views.",module,Magento_Paypal
+"It is recommended to set this value to ""PayPal"" per store views.","Wij raden aan om deze waarde op ""PayPal"" in te stellen per winkelaanzicht.",module,Magento_Paypal
 "Sort Order","Sorteer Bestelling",module,Magento_Paypal
 "Payment Action",Betaling,module,Magento_Paypal
 "Display on Product Details Page","Weergave op Product Details pagina",module,Magento_Paypal
@@ -7341,7 +7341,7 @@ User,Gebruiker,module,Magento_Paypal
                                             Gebruik PayPal's gratis banner advertenties waardoor u PayPal Credit&#174; financiering als betalingsoptie aanbiedt aan uw klanten om te betalen met PayPal.
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.",module,Magento_Paypal
 "Basic Settings - PayPal Payments Advanced","Basisinstellingen - Geavanceerde PayPal betalingen",module,Magento_Paypal
-"It is recommended to set this value to ""Debit or Credit Card"" per store views.","It is recommended to set this value to ""Debit or Credit Card"" per store views.",module,Magento_Paypal
+"It is recommended to set this value to ""Debit or Credit Card"" per store views.","Wij raden aan om deze waarde op ""Debit or Credit Card"" in te stellen per winkelaanzicht.",module,Magento_Paypal
 "CVV Entry is Editable","CVV vermelding is bewerkbaar",module,Magento_Paypal
 "Require CVV Entry","Require CVV Entry",module,Magento_Paypal
 "Send Email Confirmation","Verzenden van e-mailbevestiging",module,Magento_Paypal
@@ -7595,7 +7595,7 @@ N/A,n.v.t.,module,Magento_Reminder
 "Emails Sent","E-mails verzonden",module,Magento_Reminder
 "Emails Failed","E-mails niet gelukt",module,Magento_Reminder
 "Last Sent","Laatst verzonden",module,Magento_Reminder
-"General Information","Generale informatie",module,Magento_Reminder
+"General Information","Algemene informatie",module,Magento_Reminder
 "Reminder emails may promote a cart price rule with or without a coupon. If a cart price rule defines an auto-generated coupon, this reminder rule will generate a random coupon code for each customer.","Herrineringsemails kunnen een prijsregel op een winkelwagen toepassen met of zonder kortingscode.' 'Indien een winkelwagen prijsregel een automatisch gegenereerde kortingscode heeft, zal deze herinneringsregel een willekeurige kortingscode voor elke klant genereren.",module,Magento_Reminder
 "Rule Name","Regel Naam",module,Magento_Reminder
 Description,Beschrijving,module,Magento_Reminder
@@ -7617,7 +7617,7 @@ To,Aan,module,Magento_Reminder
 "Rule Title for All Store Views","Regel titel voor alle winkel views.",module,Magento_Reminder
 "Rule Description for All Store Views","Beschrijving van de regel voor alle winkel views",module,Magento_Reminder
 "Titles and Descriptions Per Store View","Titels en beschrijvingen per winkel bekijken",module,Magento_Reminder
-"Overrides default titles and descriptions. Note that if an email template is not specified for this store view, the respective variable values will be deleted.","Overschrijft de standaard titels en beschrijvingen. Let op dat als een e-mailtemplate is niet opgegeven voor dit winkelaanzicht de desbetreffende variabele waarden zullen worden verwijderd.",module,Magento_Reminder
+"Overrides default titles and descriptions. Note that if an email template is not specified for this store view, the respective variable values will be deleted.","Overschrijft de standaard titels en beschrijvingen. Let op dat als een e-mailsjabloon is niet opgegeven voor dit winkelaanzicht de desbetreffende variabele waarden zullen worden verwijderd.",module,Magento_Reminder
 "Rule Information","Regel Informatie",module,Magento_Reminder
 "Emails and Labels","E-mails en labels",module,Magento_Reminder
 "Matched Customers","Overeengekomen klanten",module,Magento_Reminder
@@ -7668,7 +7668,7 @@ has,"heeft (in andere context: bevat)",module,Magento_Reminder
 "Number of shopping cart line items %1 %2:","Aantal producten in de winkelwagen %1 %2:",module,Magento_Reminder
 SKU,"stock keeping unit",module,Magento_Reminder
 "Item SKU %1 %2","Artikelnummer %1 %2",module,Magento_Reminder
-"Store View",winkelweergave,module,Magento_Reminder
+"Store View",Winkelaanzicht,module,Magento_Reminder
 "The item was added to shopping cart %1, store view %2.","Het item is toegevoegd aan het winkelwagen %1, winkelaanzicht %2.",module,Magento_Reminder
 from,van,module,Magento_Reminder
 "not from","niet van",module,Magento_Reminder
@@ -8290,7 +8290,7 @@ OK,OK,module,Magento_Rma
 Cancel,Annuleer,module,Magento_Rma
 "Delete Image","Verwijder afbeelding",module,Magento_Rma
 "View Full Size","Bekijk op ware grootte",module,Magento_Rma
-"General Information","Generale informatie",module,Magento_Rma
+"General Information","Algemene informatie",module,Magento_Rma
 "Submit Comment","Bevestig Opmerking",module,Magento_Rma
 Add,Toevoegen,module,Magento_Rma
 "Custom Value","Speciale waarde",module,Magento_Rma
@@ -8773,7 +8773,7 @@ Capture,"Registreer betaling",module,Magento_Sales
 "Order Status Information",Bestelling-statusinformatie,module,Magento_Sales
 "Status Code",Statuscode,module,Magento_Sales
 "Status Label",Statuslabel,module,Magento_Sales
-"Store View Specific Labels","Naamstelling van kortingsregel per winkel",module,Magento_Sales
+"Store View Specific Labels","Winkelaanzicht Specifieke Labels",module,Magento_Sales
 "Total Paid","Totaal betaald",module,Magento_Sales
 "Total Refunded","Totaal terugbetaald",module,Magento_Sales
 "Total Due","Totaal te betalen",module,Magento_Sales
@@ -9537,7 +9537,7 @@ CSV,CSV,module,Magento_SalesRule
 "Excel XML","Excel XML",module,Magento_SalesRule
 "Are you sure you want to delete the selected coupon(s)?","Weet u zeker dat u dez geselecteerde coupons wilt verwijderen?",module,Magento_SalesRule
 Labels,Labels,module,Magento_SalesRule
-"Store View Specific Labels","Naamstelling van kortingsregel per winkel",module,Magento_SalesRule
+"Store View Specific Labels","Winkelaanzicht specifieke labels",module,Magento_SalesRule
 ID,ID,module,Magento_SalesRule
 Rule,Regel,module,Magento_SalesRule
 Start,Start,module,Magento_SalesRule
@@ -9661,7 +9661,7 @@ Apply,"Actie type",module,Magento_SalesRule
 "Discount amount is applied to subtotal and shipping amount separately","Discount amount is applied to subtotal and shipping amount separately",module,Magento_SalesRule
 "Apply to Shipping Amount","Pas toe op afleverkosten",module,Magento_SalesRule
 "Discard subsequent rules","Volgende regels negeren",module,Magento_SalesRule
-"Default Rule Label for All Store Views","Standaard label voor alle winkelzichten",module,Magento_SalesRule
+"Default Rule Label for All Store Views","Standaard label voor alle winkelaanzichten",module,Magento_SalesRule
 "Future Update in this time range already exists. Select a different range to add a new Future Update.","Er bestaat al een toekomstige update in deze tijdsperiode. Selecteer een andere periode om een toekomstige update toe te voegen.",module,Magento_SalesRuleStaging
 ID,ID,module,Magento_SalesRuleStaging
 Rule,Regel,module,Magento_SalesRuleStaging
@@ -9694,7 +9694,7 @@ Apply,Toepassen,module,Magento_SalesRuleStaging
 "Apply to Shipping Amount","Pas toe op Verzendkosten",module,Magento_SalesRuleStaging
 "Discard subsequent rules","Opvolgende regels negeren",module,Magento_SalesRuleStaging
 Labels,Labels,module,Magento_SalesRuleStaging
-"Default Rule Label for All Store Views","Standaard label voor alle winkelaanzichten",module,Magento_SalesRuleStaging
+"Default Rule Label for All Store Views","Standaard label voor alle Winkelaanzichten",module,Magento_SalesRuleStaging
 "Save as a New Update","Opslaan als nieuwe update",module,Magento_SalesRuleStaging
 "Move to Another Campaign","Move to Another Campaign",module,Magento_SalesRuleStaging
 "Delete the Update","Delete the Update",module,Magento_SalesRuleStaging
@@ -9870,7 +9870,7 @@ Search,Zoek,module,Magento_Search
 "Edit Search '%1'","Zoekactie '%1' wijzigen",module,Magento_Search
 "New Search","Nieuwe zoekactie",module,Magento_Search
 "Search Information",Zoekinformatie,module,Magento_Search
-"General Information","Generale informatie",module,Magento_Search
+"General Information","Algemene informatie",module,Magento_Search
 No,Nee,module,Magento_Search
 Yes,ja,module,Magento_Search
 "Search Query",Zoekterm,module,Magento_Search
@@ -10206,7 +10206,7 @@ Filename,Bestandsnaam,module,Magento_Sitemap
 "example: sitemap.xml","voorbeeld: sitemap.xml",module,Magento_Sitemap
 Path,Pad:,module,Magento_Sitemap
 "example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","voorbeeld: ""/sitemap/"" of ""/"" voor basispad (pad moet overschrijfbaar zijn)",module,Magento_Sitemap
-"Store View",winkelweergave,module,Magento_Sitemap
+"Store View",Winkelaanzicht,module,Magento_Sitemap
 Generate,Genereren,module,Magento_Sitemap
 "XML Sitemap",XML-Sitemap,module,Magento_Sitemap
 "Add Sitemap","Sitemap toevoegen",module,Magento_Sitemap
@@ -10363,7 +10363,7 @@ Name,Naam,module,Magento_Staging
 "The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","De winkelcode mag alleen letters (a-z), cijfers (0-9) of een underscore (_) bevatten. Het eerste teken moet een letter zijn.",module,Magento_Store
 "Store is inactive","Winkel is inactief",module,Magento_Store
 "Default store is inactive","Standaar winkel is inactief",module,Magento_Store
-"All Store Views","Alle Winkelbezichtigingen",module,Magento_Store
+"All Store Views","Alle Winkelaanzichten",module,Magento_Store
 "-- Please Select --","-- Selecteer Alstublieft --",module,Magento_Store
 Admin,Beheerder,module,Magento_Store
 "More than one default website is defined","Meer dan een standaardwebsite is gedefinieerd",module,Magento_Store
@@ -10579,7 +10579,7 @@ Message,Bericht,module,Magento_Support
 "Store Views List","Winkelaanzichten overzicht",module,Magento_Support
 "Stores List",Winkellijst,module,Magento_Support
 "Root Category","Basis-categorie (root)",module,Magento_Support
-"Default Store View","Standaard Winkelzicht",module,Magento_Support
+"Default Store View","Standaard Winkelaanzicht",module,Magento_Support
 "Websites List","Websites lijst",module,Magento_Support
 "Is Default","Is standaard",module,Magento_Support
 "Default Store","Standaard Winkel",module,Magento_Support
@@ -10663,7 +10663,7 @@ Image,Afbeelding,module,Magento_Swatches
 "Image Size",Afbeeldingsgrootte,module,Magento_Swatches
 "Example format: 200x300.","Voorbeeld afmeting: 200 x 300.",module,Magento_Swatches
 "Image Position",Afbeeldingspositie,module,Magento_Swatches
-"Default Store View","Default Store View",module,Magento_Swatches
+"Default Store View","Standaard Winkelaanzicht",module,Magento_Swatches
 Admin,Admin,module,Magento_Swatches
 "Related Products Rule","Verwante producten regel",module,Magento_TargetRule
 "Add Rule","Regel toevoegen",module,Magento_TargetRule
@@ -11401,7 +11401,7 @@ Status,Status,module,Magento_UrlRewrite
 "Please assign a website to the selected CMS page.","Ken een website toe aan de geselecteerde CMS pagina.",module,Magento_UrlRewrite
 Title,Titel,module,Magento_UrlRewrite
 "URL Key","URL sleutel",module,Magento_UrlRewrite
-"Store View",Winkelweergave,module,Magento_UrlRewrite
+"Store View",Winkelaanzicht,module,Magento_UrlRewrite
 "Edit URL Rewrite","Bewerk URL Rewrite",module,Magento_UrlRewrite
 "Add New URL Rewrite","Voeg nieuwe URL Rewrite toe",module,Magento_UrlRewrite
 Reset,Reset,module,Magento_UrlRewrite
@@ -11871,7 +11871,7 @@ Pages,Pagina's,module,Magento_VersionsCms
 Template,Template,module,Magento_VersionsCms
 "CMS Page Link Block Template","CMS pagina link blokkerende template",module,Magento_VersionsCms
 "CMS Page Link Inline Template","CMS link ingelijnde template",module,Magento_VersionsCms
-"All Store Views","Alle Winkelbezichtigingen",module,Magento_VersionsCms
+"All Store Views","Alle Winkelaanzichten",module,Magento_VersionsCms
 "Search All Products","Zoek in alle producten",module,Magento_VisualMerchandiser
 "Add Product by SKU","Product toevoegen op art.nr.",module,Magento_VisualMerchandiser
 Position,positie,module,Magento_VisualMerchandiser
@@ -12053,7 +12053,7 @@ Widget,Widget,module,Magento_Widget
 Type,Type,module,Magento_Widget
 "Design Package/Theme","Ontwerp Pakket/Thema",module,Magento_Widget
 "Widget Title","Widget titel",module,Magento_Widget
-"Assign to Store Views","Koppel aan Storeviews",module,Magento_Widget
+"Assign to Store Views","Koppel aan Winkelaanzichten",module,Magento_Widget
 "Sort Order","Sorteer Bestelling",module,Magento_Widget
 "Sort Order of widget instances in the same container","Sorteervolgorde van widgets in dezelfde container",module,Magento_Widget
 "Layout Updates","Lay-out update",module,Magento_Widget
