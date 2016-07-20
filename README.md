@@ -21,6 +21,7 @@ curl http://107.170.242.99/build.php
 cd vendor/ho-nl/magento2-nl-nl
 wget -O nl_NL.csv http://107.170.242.99/var/Head/source_nl_NL.csv
 git commit -am"Imported translations from crowdin"
+git push
 
 ```
 
