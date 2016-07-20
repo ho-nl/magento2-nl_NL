@@ -171,7 +171,7 @@ Subtotal:,Subtotaal,module,Magento_AdvancedCheckout
 "Your csv file must include ""sku"" and ""qty"" columns.","Het CSV-bestand moet ""Art.nr."" (SKU) en ""aantal"" kolommen bevatten.",module,Magento_AdvancedCheckout
 Reset,Reset,module,Magento_AdvancedCheckout
 SKU:,Art.nr:,module,Magento_AdvancedCheckout
-"Only <span id=""%1_max_allowed"">%2</span> in stock","Nog slechts <span id=""%1_max_allowed"">%2</span> op voorraad",module,Magento_AdvancedCheckout
+"Only <span id=""%1_max_allowed"">%2</span> in stock","Nog <span id=""%1_max_allowed"">%2</span> op voorraad",module,Magento_AdvancedCheckout
 Item,Item,module,Magento_AdvancedCheckout
 "See price before order confirmation.","Bekijk prijs voor bestelbevestiging.",module,Magento_AdvancedCheckout
 "What's this?","Wat is dit?",module,Magento_AdvancedCheckout
@@ -557,7 +557,7 @@ Hour,Uur,module,Magento_Backend
 Minute,Minuut,module,Magento_Backend
 "JavaScript may be disabled in your browser.","JavaScript is mogelijk uitgeschakeld in uw browser.",module,Magento_Backend
 "To use this website you must first enable JavaScript in your browser.","Om deze website te gebruiken moet u eerst JavaScript inschakelen in uw browser.",module,Magento_Backend
-"This is only a demo store. You can browse and place orders, but nothing will be processed.","Dit is slechts een demo winkel. U kunt de winkel bekijken en bestellingen plaatsen, maar niets zal worden verwerkt of verstuurd.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","Dit is een demo winkel. U kunt de winkel bekijken en bestellingen plaatsen, maar niets zal worden verwerkt of verstuurd.",module,Magento_Backend
 "Report Bugs","Meld fouten",module,Magento_Backend
 "Store View:",Winkelaanzicht:,module,Magento_Backend
 "Stores Configuration","Winkels Configuratie",module,Magento_Backend
@@ -764,11 +764,11 @@ Pagination,Paginering,module,Magento_Backend
 "Database and Media Backup","Database- en mediabackup",module,Magento_Backup
 "Database Backup",Databasebackup,module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","Dit gecomprimeerde bestand kan worden uitgepakt met <a href=""%1"">%2</a> op Windows systemen.",module,Magento_Backup
-"You need more permissions to activate maintenance mode right now.","U heeft meer rechten nodig om de onderhoudsmodus te activeren.",module,Magento_Backup
-"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Als u een back-up wilt maken, deselecteer ""Zet winkel in onderhoudsmodus"" of werk uw Rechten bij.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","U heeft meer bevoegdheden nodig om de onderhoudsmodus te activeren.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","Als u een back-up wilt maken, deselecteer ""Zet winkel in onderhoudsmodus"" of werk uw bevoegdheden bij.",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.","Winkel kan niet in onderhoudsmodus worden gezet.",module,Magento_Backup
 "You need more free space to create a backup.","Onvoldoende opslagruimte voor het maken van een back-up.",module,Magento_Backup
-"You need more permissions to create a backup.","U heeft meer rechten nodig om een back-up te maken.",module,Magento_Backup
+"You need more permissions to create a backup.","U heeft meer bevoegdheden nodig om een back-up te maken.",module,Magento_Backup
 "We can't create the backup right now.","We kunnen de back-up nu niet maken.",module,Magento_Backup
 Backups,Backups,module,Magento_Backup
 System,systeem,module,Magento_Backup
@@ -846,7 +846,7 @@ Banners,Banners,module,Magento_Banner
 "New Banner","nieuwe banner",module,Magento_Banner
 Content,inhoud,module,Magento_Banner
 "Default Content","standaard inhoud",module,Magento_Banner
-"No Default Content","geen standaard inhoud",module,Magento_Banner
+"No Default Content","Geen standaard inhoud",module,Magento_Banner
 "Banner Default Content for All Store Views","Standaard Banner Inhoud voor alle Winkelaanzichten",module,Magento_Banner
 "Store View Specific Content","Winkelaanzicht Specifieke Content",module,Magento_Banner
 "Use Default","Gebruik standaard",module,Magento_Banner
@@ -1146,7 +1146,7 @@ Delete,Verwijder,module,Magento_Bundle
 "Cannot delete option with id %1","Kan de optie met id: %1 niet verwijderen",module,Magento_Bundle
 "Could not save option","De optie kon niet opgeslagen worden",module,Magento_Bundle
 "Price Range",Prijsrange,module,Magento_Bundle
-"As Low as",Slechts,module,Magento_Bundle
+"As Low as",Vanaf,module,Magento_Bundle
 Together,Samen,module,Magento_Bundle
 Separately,Apart,module,Magento_Bundle
 "Please specify product option(s).","Selecteer de productoptie(s).",module,Magento_Bundle
@@ -1187,7 +1187,7 @@ Invoiced,Gefactureerd,module,Magento_Bundle
 Shipped,Verzonden,module,Magento_Bundle
 Refunded,Teruggestort,module,Magento_Bundle
 Canceled,Geannuleerd,module,Magento_Bundle
-"As low as",Slechts,module,Magento_Bundle
+"As low as",Vanaf,module,Magento_Bundle
 "Regular Price","Normale prijs",module,Magento_Bundle
 From,Van,module,Magento_Bundle
 To,Aan,module,Magento_Bundle
@@ -1953,7 +1953,7 @@ Anchor,Anker,module,Magento_Catalog
 "URL Key","URL sleutel",module,Magento_Catalog
 "Meta Title","Meta titel",module,Magento_Catalog
 "Meta Keywords",Meta-keywords,module,Magento_Catalog
-"Meta Description",Meta-omschrijving,module,Magento_Catalog
+"Meta Description","Meta Description",module,Magento_Catalog
 "Products in Category","Producten in categorie",module,Magento_Catalog
 Design,Ontwerp,module,Magento_Catalog
 "Use Parent Category Settings","Bovenliggende categorie instellingen gebruiken",module,Magento_Catalog
@@ -2117,13 +2117,13 @@ Edit,Bewerken,module,Magento_CatalogEvent
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","U kunt %1 alleen in hoeveelheden van %2 kopen in één keer.",module,Magento_CatalogInventory
-"You can buy this product only in quantities of %1 at a time.","U kunt dit product slechts één keer in hoeveelheden van %1 kopen.",module,Magento_CatalogInventory
+"You can buy this product only in quantities of %1 at a time.","U kunt dit product enkel in veelvouden van %1 kopen.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","Het is niet toegestaan om het aantal met decimalen te verhogen.",module,Magento_CatalogInventory
 "Stock Status",Voorraadstatus,module,Magento_CatalogInventory
 Quantity,Aantal,module,Magento_CatalogInventory
 "Advanced Inventory","Geavanceerd voorraadbeheer",module,Magento_CatalogInventory
 "%1 is available to buy in increments of %2","%1 is beschikbaar om te kopen in stappen van %2",module,Magento_CatalogInventory
-"Only %1 left","Slechts %1 beschikbaar",module,Magento_CatalogInventory
+"Only %1 left","Nog %1 beschikbaar",module,Magento_CatalogInventory
 "Product availability",Productbeschikbaarheid,module,Magento_CatalogInventory
 "Product Name","Product Naam",module,Magento_CatalogInventory
 Qty,Aantal,module,Magento_CatalogInventory
@@ -2153,11 +2153,11 @@ Stock,Voorraad,module,Magento_CatalogInventory
 "Qty Uses Decimals","Hoeveelheid gebruikt decimalen",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Meerdere dozen voor verzending toestaan",module,Magento_CatalogInventory
 "Use Deferred Stock Update","Gebruik Uitgestelde Voorraadupdate",module,Magento_CatalogInventory
-"New Permission","Nieuwe Permissie",module,Magento_CatalogPermissions
-"You already have a permission with this scope.","U heeft al toestemming met deze scope.",module,Magento_CatalogPermissions
+"New Permission","Nieuwe Bevoegdheid",module,Magento_CatalogPermissions
+"You already have a permission with this scope.","U heeft al bevoegdheid binnen dit bereik.",module,Magento_CatalogPermissions
 (Allow),(toestaan),module,Magento_CatalogPermissions
 (Deny),(weiger),module,Magento_CatalogPermissions
-"Category Permissions","Toestemmingen categorie",module,Magento_CatalogPermissions
+"Category Permissions","Categorie Bevoegdheden",module,Magento_CatalogPermissions
 "Browsing Category","Categorie doorbladeren",module,Magento_CatalogPermissions
 "Display Product Prices","Geef productprijzen weer",module,Magento_CatalogPermissions
 "Add to Cart","In Winkelwagen",module,Magento_CatalogPermissions
@@ -2165,11 +2165,11 @@ Stock,Voorraad,module,Magento_CatalogInventory
 "Yes, for Specified Customer Groups","Ja, voor gespecificeerde klantengroepen",module,Magento_CatalogPermissions
 No,Nee,module,Magento_CatalogPermissions
 "No, Redirect to Landing Page","Nee, stuur door naar landingspagina",module,Magento_CatalogPermissions
-"Permission with the same scope","Permissie met dezelfde scope",module,Magento_CatalogPermissions
-"You may need more permissions to access this category.","U heeft meer rechten nodig voor toegang tot deze categorie.",module,Magento_CatalogPermissions
-"You may need more permissions to access this product.","U heeft meer rechten nodig voor toegang tot dit product.",module,Magento_CatalogPermissions
+"Permission with the same scope","Bevoegdheid met hetzelfde bereik",module,Magento_CatalogPermissions
+"You may need more permissions to access this category.","U heeft meer bevoegdheden nodig voor toegang tot deze categorie.",module,Magento_CatalogPermissions
+"You may need more permissions to access this product.","U heeft meer bevoegdheden nodig voor toegang tot dit product.",module,Magento_CatalogPermissions
 "You cannot add ""%1"" to the cart.","U kunt ""%1"" niet toevoegen aan de winkelwagen.",module,Magento_CatalogPermissions
-"Permissions do not depend on store views.","Permissies hangen niet af van winkelzichten .",module,Magento_CatalogPermissions
+"Permissions do not depend on store views.","Bevoegdheden hangen niet af van winkelaanzichten.",module,Magento_CatalogPermissions
 Website,Website,module,Magento_CatalogPermissions
 "Customer Group",Klantengroep,module,Magento_CatalogPermissions
 Action,Aktie,module,Magento_CatalogPermissions
@@ -2187,10 +2187,10 @@ Enable,Activeer,module,Magento_CatalogPermissions
 "Allow Adding to Cart","Toestaan om aan winkelwagen toe te voegen",module,Magento_CatalogPermissions
 "Landing Page","Landings Pagina",module,Magento_CatalogPermissions
 "Disallow Catalog Search By","Weiger doorzoeken van catalogus door",module,Magento_CatalogPermissions
-"Catalog Category Permissions","Catalogus Categorie Rechten",module,Magento_CatalogPermissions
-"Indexed permissions for categories","Geïndexeerde rechten voor categorieën",module,Magento_CatalogPermissions
-"Catalog Product Permissions","Catalogus Product Rechten",module,Magento_CatalogPermissions
-"Indexed permissions for products","Geïndexeerde rechten voor producten",module,Magento_CatalogPermissions
+"Catalog Category Permissions","Catalogus Categorie Bevoegdheden",module,Magento_CatalogPermissions
+"Indexed permissions for categories","Geïndexeerde bevoegdheden voor categorieën",module,Magento_CatalogPermissions
+"Catalog Product Permissions","Catalogus Product Bevoegdheden",module,Magento_CatalogPermissions
+"Indexed permissions for products","Geïndexeerde bevoegdheden voor producten",module,Magento_CatalogPermissions
 "Delete Rule","Regel verwijderen",module,Magento_CatalogRule
 "Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_CatalogRule
 Reset,Reset,module,Magento_CatalogRule
@@ -2373,7 +2373,7 @@ Anchor,Anker,module,Magento_CatalogStaging
 "Search Engine Optimization","Zoekmachine-optimalisatie (SEO)",module,Magento_CatalogStaging
 "Meta Title","Meta titel",module,Magento_CatalogStaging
 "Meta Keywords",Meta-keywords,module,Magento_CatalogStaging
-"Meta Description",Meta-omschrijving,module,Magento_CatalogStaging
+"Meta Description","Meta Description",module,Magento_CatalogStaging
 Design,Ontwerp,module,Magento_CatalogStaging
 "Use Parent Category Settings","Bovenliggende categorie instellingen gebruiken",module,Magento_CatalogStaging
 "New Theme","Nieuw thema",module,Magento_CatalogStaging
@@ -2853,7 +2853,7 @@ Content,Inhoud,module,Magento_CmsStaging
 "Search Engine Optimisation","Zoekmachine-optimalisatie (SEO)",module,Magento_CmsStaging
 "URL Key","URL sleutel",module,Magento_CmsStaging
 "Meta Keywords","Meta trefwoorden",module,Magento_CmsStaging
-"Meta Description",Meta-beschrijving,module,Magento_CmsStaging
+"Meta Description","Meta Description",module,Magento_CmsStaging
 "Page in Websites","Pagina in Websites",module,Magento_CmsStaging
 Design,Ontwerp,module,Magento_CmsStaging
 Layout,Lay-out,module,Magento_CmsStaging
@@ -3303,8 +3303,8 @@ Indeterminate,Onbepaalde,module,Magento_Customer
 Offline,Offline,module,Magento_Customer
 Online,Online,module,Magento_Customer
 Never,Nooit,module,Magento_Customer
-Unlocked,Gedeblokkeerd,module,Magento_Customer
-Locked,Geblokkeerd,module,Magento_Customer
+Unlocked,Ontgrendeld,module,Magento_Customer
+Locked,Vergrendeld,module,Magento_Customer
 "Deleted Stores","Verwijderde winkels",module,Magento_Customer
 "Add Locale","Locale toevoegen",module,Magento_Customer
 "Add Date","Datum toevoegen",module,Magento_Customer
@@ -3404,7 +3404,7 @@ Customers,Klanten,module,Magento_Customer
 "You saved the customer.","U heeft de klant opgeslagen.",module,Magento_Customer
 "Something went wrong while saving the customer.","Er ging iets mis bij het opslaan van de klant.",module,Magento_Customer
 "Page not found.","Pagina niet gevonden.",module,Magento_Customer
-"Customer has been unlocked successfully.","Klant is gedeblokkeerd.",module,Magento_Customer
+"Customer has been unlocked successfully.","Klant is ontgrendeld.",module,Magento_Customer
 "Online Customers","Online klanten",module,Magento_Customer
 "Customers Now Online","Klanten nu online",module,Magento_Customer
 "Please define Wish List item ID.","Geef verlanglijstje item-ID.",module,Magento_Customer
@@ -3619,7 +3619,7 @@ Password:,Wachtwoord:,module,Magento_Customer
 "View past orders","Orderhistorie bekijken",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Meerdere adressen opslaan (om bijvoorbeeld bestellingen naar vrienden en familie te sturen)",module,Magento_Customer
 "Please confirm your %store_name account","Bevestig uw %store_name account",module,Magento_Customer
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","Confirmeer uw %customer_email email voor u kan inloggen (de link is slechts één keer geldig):",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Bevestig uw e-mailadres (%customer_email) om in te kunnen loggen (u kunt de link één keer gebruiken):",module,Magento_Customer
 "Confirm Your Account","Uw account bevestigen",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Bedankt voor het bevestigen van uw %store_name account.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Om in te loggen op onze website en een wachtwoord in te stellen, klik op deze <a href=""%create_password_url"">link</a>:",module,Magento_Customer
@@ -3994,7 +3994,7 @@ Conditions,Voorwaarden,module,Magento_CustomerSegment
 "* applicable to visitors and registered customers","* van toepassing op bezoekers en geregistreerde klanten",module,Magento_CustomerSegment
 "General Properties","Algemene Kenmerken",module,Magento_CustomerSegment
 "Segment Name","Segment Naam",module,Magento_CustomerSegment
-Description,Beschrijving,module,Magento_CustomerSegment
+Description,Omschrijving,module,Magento_CustomerSegment
 "Assigned to Website","Toegewezen aan de Website",module,Magento_CustomerSegment
 Status,Status,module,Magento_CustomerSegment
 Active,Actief,module,Magento_CustomerSegment
@@ -5715,7 +5715,7 @@ Never,Nooit,module,Magento_Indexer
 "Test Phrase","Test zin",module,Magento_Indexer
 "Change indexer mode","Indexeer modus wijzigen",module,Magento_Indexer
 Indexer,Indexer,module,Magento_Indexer
-Description,Beschrijving,module,Magento_Indexer
+Description,Omschrijving,module,Magento_Indexer
 Mode,Type,module,Magento_Indexer
 Status,Status,module,Magento_Indexer
 Updated,Ge-update,module,Magento_Indexer
@@ -5768,7 +5768,7 @@ Reauthorize,"Opnieuw autoriseren",module,Magento_Integration
 "You did not sign in correctly or your account is temporarily disabled.","Inloggegevens zijn onjuist of uw account is tijdelijk uitgeschakeld.",module,Magento_Integration
 "This user has no tokens.","Deze gebruiker heeft geen sleutels.",module,Magento_Integration
 "The tokens could not be revoked.","De sleutels konden niet worden ingetrokken.",module,Magento_Integration
-"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Er ging iets fout met het toekennen van rechten. U vindt meer informatie in het exceptions logboek.",module,Magento_Integration
+"Sorry, something went wrong granting permissions. You can find out more in the exceptions log.","Er ging iets fout met het toekennen van bevoegdheden. U vindt meer informatie in het exceptions logboek.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Er ging iets mis tijdens het verwijderen van rollen en rechten. Meer informatie in het exceptions logboek.",module,Magento_Integration
 "%fieldName is a required field.","%fieldName is een verplicht veld.",module,Magento_Integration
 "This customer has no tokens.","De klant heeft geen sleutels.",module,Magento_Integration
@@ -6027,7 +6027,7 @@ label,label,module,Magento_Logging
 "Cache types: %1","Cache type: %1",module,Magento_Logging
 "Tax Rates Export","Export Belastingtarieven",module,Magento_Logging
 "Unknown callback function: %1::%2","Onbekende callback functie: %1::%2",module,Magento_Logging
-"You need more permissions to access this.","U heeft meer rechten nodig om toegang te krijgen.",module,Magento_Logging
+"You need more permissions to access this.","U heeft meer bevoegdheden nodig om toegang te krijgen.",module,Magento_Logging
 Success,Succes,module,Magento_Logging
 Failure,Mislukking,module,Magento_Logging
 Daily,Dagelijks,module,Magento_Logging
@@ -7515,7 +7515,7 @@ Delete,Verwijder,module,Magento_ProductVideo
 "Could not apply coupon code","Kortingscode kan niet worden toegepast",module,Magento_Quote
 "Coupon code is not valid","Couponcode is niet geldig",module,Magento_Quote
 "Could not delete coupon code","couponcode kan niet verwijderd worden",module,Magento_Quote
-"Cannot assign customer to the given cart. You don't have permission for this operation.","Kan klant niet aan de opgegeven winkelwagen koppelen. U heeft geen rechten om dit uit te voeren.",module,Magento_Quote
+"Cannot assign customer to the given cart. You don't have permission for this operation.","Kan klant niet aan de opgegeven winkelwagen koppelen. U heeft geen bevoegdheid om dit uit te voeren.",module,Magento_Quote
 "Shipping address is not set","Verzendadres is niet ingesteld",module,Magento_Quote
 "The requested Payment Method is not available.","De gevraagde betaalmethode is niet beschikbaar",module,Magento_Quote
 "We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte.",module,Magento_Quote
@@ -7598,7 +7598,7 @@ N/A,n.v.t.,module,Magento_Reminder
 "General Information","Algemene informatie",module,Magento_Reminder
 "Reminder emails may promote a cart price rule with or without a coupon. If a cart price rule defines an auto-generated coupon, this reminder rule will generate a random coupon code for each customer.","Herrineringsemails kunnen een prijsregel op een winkelwagen toepassen met of zonder kortingscode.' 'Indien een winkelwagen prijsregel een automatisch gegenereerde kortingscode heeft, zal deze herinneringsregel een willekeurige kortingscode voor elke klant genereren.",module,Magento_Reminder
 "Rule Name","Regel Naam",module,Magento_Reminder
-Description,Beschrijving,module,Magento_Reminder
+Description,Omschrijving,module,Magento_Reminder
 "Cart Price Rule","Winkelwagen prijs regels",module,Magento_Reminder
 "Promotion rule this reminder will advertise.","Promotie regel die deze herinnering zal adverteren",module,Magento_Reminder
 "Assigned to Website","Toegewezen aan de Website",module,Magento_Reminder
@@ -7612,7 +7612,7 @@ To,Aan,module,Magento_Reminder
 "Select Rule...","Selecteer regel...",module,Magento_Reminder
 "Email Templates","E-mail templates",module,Magento_Reminder
 "Only customers who have an account for a store view will receive emails related to that store view.","Alleen klanten die een account hebben voor een winkelaanzicht zullen e-mails ontvangen gerelateerd aan dit winkelaanzicht.",module,Magento_Reminder
-"Default Titles and Description","Standaard titels en omschrijving",module,Magento_Reminder
+"Default Titles and Description","Standaard Titels en Omschrijving",module,Magento_Reminder
 "You can find and edit rule label and descriptions, per store view, in email templates.","U kunt de regellabels en -beschrijvingen per winkelaanzicht vinden en bewerken in de e-mailtemplates.",module,Magento_Reminder
 "Rule Title for All Store Views","Regel titel voor alle winkel views.",module,Magento_Reminder
 "Rule Description for All Store Views","Beschrijving van de regel voor alle winkel views",module,Magento_Reminder
@@ -9733,7 +9733,7 @@ Backorders,Backorders,module,Magento_ScalableInventory
 "Scheduled Import/Export","Geplande Import/Export",module,Magento_ScheduledImportExport
 "Please correct the scheduled operation type.","Corrigeer het type van de geplande actie.",module,Magento_ScheduledImportExport
 Name,Naam,module,Magento_ScheduledImportExport
-Description,Beschrijving,module,Magento_ScheduledImportExport
+Description,Omschrijving,module,Magento_ScheduledImportExport
 "Entity Type","Eenheid Type",module,Magento_ScheduledImportExport
 "Start Time","Begin Tijd",module,Magento_ScheduledImportExport
 Frequency,Frequentie,module,Magento_ScheduledImportExport
@@ -10345,7 +10345,7 @@ Status,Status,module,Magento_Staging
 Includes,Omvat,module,Magento_Staging
 "Start Time","Begin Tijd",module,Magento_Staging
 "End Time",Eindtijd,module,Magento_Staging
-Description,Beschrijving,module,Magento_Staging
+Description,Omschrijving,module,Magento_Staging
 Action,Aktie,module,Magento_Staging
 "MMM d, y h:mm a","MMM, d, y h:mm a",module,Magento_Staging
 Name,Naam,module,Magento_Staging
@@ -11414,7 +11414,7 @@ Save,Opslaan,module,Magento_UrlRewrite
 "Request Path","Gevraagd Pad",module,Magento_UrlRewrite
 "Target Path",Doelpad,module,Magento_UrlRewrite
 "Redirect Type","Type omleiden",module,Magento_UrlRewrite
-Description,Beschrijving,module,Magento_UrlRewrite
+Description,Omschrijving,module,Magento_UrlRewrite
 Store,Winkel,module,Magento_UrlRewrite
 "URL Rewrite Management","URL-herschrijf beheer",module,Magento_UrlRewrite
 "Add URL Rewrite","URL Rewrite toevoegen",module,Magento_UrlRewrite
@@ -11495,10 +11495,10 @@ Role,Rol,module,Magento_User
 "Please correct this email address:","Corrigeer het e-mailadres:",module,Magento_User
 "Please enter an email address.","Voer een e-mailadres in.",module,Magento_User
 "You updated your password.","Uw wachtwoord is bijgewerkt.",module,Magento_User
-"Locked Users","Gesloten Gebruikers",module,Magento_User
-"Unlocked %1 user(s).","%1 gebruiker(s) gedeblokkeerd.",module,Magento_User
+"Locked Users","Vergrendelde gebruikers",module,Magento_User
+"Unlocked %1 user(s).","%1 gebruiker(s) ontgrendeld.",module,Magento_User
 System,Systeem,module,Magento_User
-Permissions,Machtigingen,module,Magento_User
+Permissions,Bevoegdheden,module,Magento_User
 "You cannot delete your own account.","U kan niet uw eigen account verwijderen",module,Magento_User
 "You deleted the user.","U heeft de gebruiker verwijderd.",module,Magento_User
 "We can't find a user to delete.","We kunnen geen gebruiker vinden om te verwijderen.",module,Magento_User
@@ -11580,7 +11580,7 @@ ID,ID,module,Magento_User
 Username,Gebruikersnaam,module,Magento_User
 "Last login","Laatste login",module,Magento_User
 Failures,Mislukkingen,module,Magento_User
-Unlocked,Vrijgeven,module,Magento_User
+Unlocked,Ontgrendeld,module,Magento_User
 "First-Class Mail Large Envelope","First-Class Mail grote envelop",module,Magento_Usps
 "First-Class Mail Letter","First-Class Mail brief",module,Magento_Usps
 "First-Class Mail Parcel","First-Class Mail pakket",module,Magento_Usps
@@ -12079,7 +12079,7 @@ CMS,CMS,module,Magento_Widget
 Widgets,Widget,module,Magento_Widget
 "The widget instance has been saved.","De widget is opgeslagen",module,Magento_Widget
 name,naam,module,Magento_Widget
-description,beschrijving,module,Magento_Widget
+description,omschrijving,module,Magento_Widget
 "We cannot create the widget instance because it is missing required information.","We kunnen het widget niet aanmaken omdat het verplichte informatie mist.",module,Magento_Widget
 None,Geen,module,Magento_Widget
 %1,%1,module,Magento_Widget
