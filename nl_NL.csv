@@ -1341,14 +1341,14 @@ Visible,Zichtbaar,module,Magento_Catalog
 Searchable,Doorzoekbaar,module,Magento_Catalog
 Comparable,Vergelijkbaar,module,Magento_Catalog
 "Delete Selected Group","Geselecteerde groep verwijderen",module,Magento_Catalog
-"Add New","Voeg nieuwe toe",module,Magento_Catalog
+"Add New","Nieuwe toevoegen",module,Magento_Catalog
 Back,terug,module,Magento_Catalog
 Reset,Reset,module,Magento_Catalog
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","U staat op het punt alle producten te verwijderen in deze reeks van archiefattributen. Weet u zeker dat u dat willen doen?",module,Magento_Catalog
 "New Set Name","Nieuwe set-naam",module,Magento_Catalog
 "Edit Attribute Set '%1'","Attributenset '%s' bewerken",module,Magento_Catalog
 Empty,Leeg,module,Magento_Catalog
-"Add Attribute","Voeg attribuut toe",module,Magento_Catalog
+"Add Attribute","Attribuut toevoegen",module,Magento_Catalog
 "Add New Group","Nieuwe groep toevoegen",module,Magento_Catalog
 "Add Group","Groep toevoegen",module,Magento_Catalog
 "Edit Attribute Set Name","Bewerk naam attribuutset",module,Magento_Catalog
@@ -1386,7 +1386,7 @@ Type,Type,module,Magento_Catalog
 "Attribute Set",Attributenset,module,Magento_Catalog
 Status,Status,module,Magento_Catalog
 Visibility,Zichtbaarheid,module,Magento_Catalog
-"Add New Option","Voeg nieuwe optie toe",module,Magento_Catalog
+"Add New Option","Optie toevoegen",module,Magento_Catalog
 "Import Options","Import opties",module,Magento_Catalog
 "Use Default","Gebruik standaard",module,Magento_Catalog
 Import,Import,module,Magento_Catalog
@@ -1399,8 +1399,8 @@ Import,Import,module,Magento_Catalog
 "Add Price","Prijs toevoegen",module,Magento_Catalog
 "Default Values",standaardwaarden,module,Magento_Catalog
 "Related Products","Gerelateerde producten",module,Magento_Catalog
-Up-sells,"verkoop van duurdere producten",module,Magento_Catalog
-Cross-sells,Kruis-verkopen,module,Magento_Catalog
+Up-sells,Up-sells,module,Magento_Catalog
+Cross-sells,Cross-sells,module,Magento_Catalog
 "Size for %1","Afmeting voor %1",module,Magento_Catalog
 "Watermark File for %1","Watermerk-bestand voor %1",module,Magento_Catalog
 "Position of Watermark for %1","Positie van watermerk voor %1",module,Magento_Catalog
@@ -1683,7 +1683,7 @@ Done,Klaar,module,Magento_Catalog
 "Create New Attribute","Nieuw attribuut aanmaken",module,Magento_Catalog
 "Customizable Options","Aanpasbare opties",module,Magento_Catalog
 "Custom options let customers choose the product variations they want.","Aangepaste opties laat klanten de productvariaties die ze willen kiezen.",module,Magento_Catalog
-"Add Option","Voeg optie toe",module,Magento_Catalog
+"Add Option","Optie toevoegen",module,Magento_Catalog
 "New Option","Nieuwe optie",module,Magento_Catalog
 "Select Product","Selecteer Product",module,Magento_Catalog
 "Option Title","Titel optie",module,Magento_Catalog
@@ -1700,16 +1700,16 @@ Required,Vereist,module,Magento_Catalog
 "This item has weight","Dit product heeft een gewicht",module,Magento_Catalog
 "This item has no weight","Dit product heeft geen gewicht",module,Magento_Catalog
 "Set Product as New From","Stel het product in als nieuw vanaf",module,Magento_Catalog
-"Related Products, Up-Sells, and Cross-Sells","Gerelateerde producten, bijverkopen en accessoire verkopen",module,Magento_Catalog
-"Related products are shown to customers in addition to the item the customer is looking at.","Gerelateerde producten worden getoond aan bezoekers als toevoeging aan het product dat de bezoeker bekijkt.",module,Magento_Catalog
-"Add Related Products","Voeg gerelateerde producten toe",module,Magento_Catalog
-"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Een up-sell-product wordt aangeboden aan de klant als een duurder of hogere kwaliteit alternatief voor het product dat de klant bekijkt.",module,Magento_Catalog
-"Add Up-Sell Products","Up-Sell producten toevoegen",module,Magento_Catalog
-"Up-Sell Products","Up-Sell producten",module,Magento_Catalog
-"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Deze ""impuls-aankoop""-producten worden weergegeven naast de winkelwagen als cross sell voor producten die al in de winkelwagen zijn.",module,Magento_Catalog
-"Add Cross-Sell Products","Cross-Sell producten toevoegen",module,Magento_Catalog
-"Cross-Sell Products","Cross-Sell producten",module,Magento_Catalog
-"Add Selected Products","Voeg geselecteerde producten toe",module,Magento_Catalog
+"Related Products, Up-Sells, and Cross-Sells","Verwante producten, up-sells en cross-sells",module,Magento_Catalog
+"Related products are shown to customers in addition to the item the customer is looking at.","Verwante producten worden getoond aan bezoekers als toevoeging aan het product dat de bezoeker bekijkt.",module,Magento_Catalog
+"Add Related Products","Verwante producten toevoegen",module,Magento_Catalog
+"An up-sell item is offered to the customer as a pricier or higher-quality alternative to the product the customer is looking at.","Een duurder alternatief of alternatief van hogere kwaliteit dan het huidige product.",module,Magento_Catalog
+"Add Up-Sell Products","Up-sell producten toevoegen",module,Magento_Catalog
+"Up-Sell Products","Up-sell producten",module,Magento_Catalog
+"These ""impulse-buy"" products appear next to the shopping cart as cross-sells to the items already in the shopping cart.","Extra of complementaire producten. Deze impuls-aankopen worden in de winkelwagen getoond.",module,Magento_Catalog
+"Add Cross-Sell Products","Cross-sell producten toevoegen",module,Magento_Catalog
+"Cross-Sell Products","Cross-sell producten",module,Magento_Catalog
+"Add Selected Products","Geselecteerde producten toevoegen",module,Magento_Catalog
 Remove,Verwijder,module,Magento_Catalog
 Thumbnail,Thumbnail,module,Magento_Catalog
 Actions,acties,module,Magento_Catalog
@@ -1811,7 +1811,7 @@ Role,Rol,module,Magento_Catalog
 "Add to Cart","In Winkelwagen",module,Magento_Catalog
 "In stock","Op voorraad",module,Magento_Catalog
 "Out of stock","Niet op voorraad",module,Magento_Catalog
-"Add to Wish List","Voeg toe aan verlanglijst",module,Magento_Catalog
+"Add to Wish List","Toevoegen aan verlanglijst",module,Magento_Catalog
 "You have no items to compare.","Geen producten geselecteerd.",module,Magento_Catalog
 "Remove This Item","Verwijder dit artikel",module,Magento_Catalog
 Compare,Vergelijken,module,Magento_Catalog
@@ -1844,7 +1844,7 @@ Submit,Bevestig,module,Magento_Catalog
 "Configure Product","Configureer product",module,Magento_Catalog
 OK,OK,module,Magento_Catalog
 "Select type of option.","Type optie selecteren.",module,Magento_Catalog
-"Please add rows to option.","Voeg a.u.b. rijen toe aan de optie.",module,Magento_Catalog
+"Please add rows to option.","Voeg rijen toe aan optie.",module,Magento_Catalog
 "Please select items.","Selecteer artikelen.",module,Magento_Catalog
 "Choose existing category.","Kies bestaande categorie.",module,Magento_Catalog
 "Image Detail","Afbeelding details",module,Magento_Catalog
@@ -1976,8 +1976,8 @@ Small,Klein,module,Magento_Catalog
 "Attribute Label",Attribuutetiket,module,Magento_Catalog
 "Catalog Input Type for Store Owner","Catalogus invoertype voor winkeleigenaar",module,Magento_Catalog
 Values,Waarden,module,Magento_Catalog
-"Add this attribute to the list of column options in the product grid.","Voeg dit attribuut toe aan de lijst van kolom-opties in de product-grid.",module,Magento_Catalog
-"Add this attribute to the list of filter options in the product grid.","Voeg dit attribuut toe aan de lijst met filteropties in het product-grid.",module,Magento_Catalog
+"Add this attribute to the list of column options in the product grid.","Dit attribuut toe aan de lijst van kolom-opties in de product-grid toevoegen.",module,Magento_Catalog
+"Add this attribute to the list of filter options in the product grid.","Dit attribuut toe aan de lijst met filteropties in het product-grid toevoegen.",module,Magento_Catalog
 System,Systeem,module,Magento_Catalog
 "All Store Views","Alle Winkelaanzichten",module,Magento_Catalog
 "Delete items","Items verwijderen",module,Magento_Catalog
