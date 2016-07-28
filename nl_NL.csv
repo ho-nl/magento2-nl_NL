@@ -9,7 +9,7 @@ None,Geen,module,Magento_AdminGws
 "You need more permissions to save this item.","U heeft niet de juiste rechten om dit product op te slaan.",module,Magento_AdminGws
 "You need more permissions to delete this item.","U heeft niet de juiste rechten om dit product te verwijderen.",module,Magento_AdminGws
 "You need more permissions to view this item.","U heeft niet de juiste rechten om dit product te bekijken.",module,Magento_AdminGws
-"Please specify at least one website or one store group.","Specificeer tenminste één website of één winkel groep.",module,Magento_AdminGws
+"Please specify at least one website or one store group.","Geef tenminste één website of één winkel groep op.",module,Magento_AdminGws
 "You need more permissions to set All Scopes to a Role.","U heeft niet de juiste rechten om Alle Scopes aan een Rol toe te voegen.",module,Magento_AdminGws
 "Incorrect website ID: %1","Onjuiste website ID: %1",module,Magento_AdminGws
 "You need more permissions to access website ""%1"".","U heeft meer rechten nodig voor toegang tot de website ""%1"".",module,Magento_AdminGws
@@ -1283,7 +1283,7 @@ Year,Jaar,module,Magento_Catalog
 "Add Product","Product toevoegen",module,Magento_Catalog
 label,label,module,Magento_Catalog
 "Product Attributes",Productattributen,module,Magento_Catalog
-"Add New Attribute","Voeg nieuw attribuut toe",module,Magento_Catalog
+"Add New Attribute","Nieuw attribuut toevoegen",module,Magento_Catalog
 Cancel,Annuleer,module,Magento_Catalog
 "Save Attribute","Bewaar attribuut",module,Magento_Catalog
 "Save in New Attribute Set","Opslaan in nieuwe attribuutset",module,Magento_Catalog
@@ -2436,7 +2436,7 @@ Template,Template,module,Magento_CatalogWidget
 "86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 als standaardwaarde, indien niet ingesteld. Voor direct vernieuwen, leeg de Blokken HTML Output cache.",module,Magento_CatalogWidget
 Conditions,Voorwaarden,module,Magento_CatalogWidget
 "Shopping Cart",Winkelwagen,module,Magento_Checkout
-"Invalid method: %1","Ongeldige wijze: %1",module,Magento_Checkout
+"Invalid method: %1","Ongeldige methode: %1",module,Magento_Checkout
 City,Stad,module,Magento_Checkout
 Country,Land,module,Magento_Checkout
 State/Province,Staat/provincie,module,Magento_Checkout
@@ -2657,8 +2657,8 @@ Manually,Handmatig,module,Magento_CheckoutAgreements
 Close,Sluiten,module,Magento_CheckoutAgreements
 "Terms & Conditions","Algemene voorwaarden",module,Magento_CheckoutAgreements
 "Enable Terms and Conditions","Algemene Voorwaarden activeren",module,Magento_CheckoutAgreements
-"Preview mode doesn't allow submitting the order.","In preview modus kan de order niet opgeslagen worden.",module,Magento_CheckoutStaging
-"Preview Quote Lifetime (minutes)","Offerte preview levensduur (minuten)",module,Magento_CheckoutStaging
+"Preview mode doesn't allow submitting the order.","In voorvertoning modus kan de bestelling niet opgeslagen worden.",module,Magento_CheckoutStaging
+"Preview Quote Lifetime (minutes)","Voorvertoning quota levensduur (minuten)",module,Magento_CheckoutStaging
 "Static Blocks","Statische blokken",module,Magento_Cms
 "Add New Block","Nieuw blok toevoegen",module,Magento_Cms
 Back,Terug,module,Magento_Cms
@@ -3082,7 +3082,7 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 "Remove Product","Product verwijderen",module,Magento_ConfigurableProduct
 "Create Product Configurations","Productconfiguraties maken",module,Magento_ConfigurableProduct
 Cancel,Annuleer,module,Magento_ConfigurableProduct
-"New Product Review","Nieuwe productbeoordeling",module,Magento_ConfigurableProduct
+"New Product Review","Nieuwe Productreview",module,Magento_ConfigurableProduct
 "Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken.",module,Magento_ConfigurableProduct
 "You created these products for this configuration.","Deze producten zijn aangemaakt voor deze configuratie.",module,Magento_ConfigurableProduct
 "Disassociated Products","Niet-gekoppelde producten",module,Magento_ConfigurableProduct
@@ -3119,7 +3119,7 @@ Status,Status,module,Magento_ConfigurableProductStaging
 ID,ID,module,Magento_ConfigurableProductStaging
 Thumbnail,Thumbnail,module,Magento_ConfigurableProductStaging
 Name,Naam,module,Magento_ConfigurableProductStaging
-SKU,SKU,module,Magento_ConfigurableProductStaging
+SKU,Art.nr.,module,Magento_ConfigurableProductStaging
 Price,Prijs,module,Magento_ConfigurableProductStaging
 Quantity,Aantal,module,Magento_ConfigurableProductStaging
 Weight,Gewicht,module,Magento_ConfigurableProductStaging
@@ -3135,7 +3135,7 @@ Comparable,Vergelijkbaar,module,Magento_ConfigurableProductStaging
 "Page not found.","Pagina niet gevonden.",module,Magento_Contact
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Bedankt dat u contact met ons op met uw opmerkingen en vragen. U kunt spoedig op antwoord rekenen.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","We kunnen uw aanvraag nu niet verwerken. Sorry, dat is alles wat we weten.",module,Magento_Contact
-"* Required Fields","* Vereiste velden",module,Magento_Contact
+"* Required Fields","* Verplichte velden",module,Magento_Contact
 "Write Us","Neem contact met ons op",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","Laat een vraag of opmerking achter en wij zullen hier zo spoedig mogelijk op terugkomen.",module,Magento_Contact
 Name,Naam,module,Magento_Contact
@@ -3688,7 +3688,7 @@ Strong,Sterk,module,Magento_Customer
 "Forgot Email Template","Sjabloon e-mail vergeten",module,Magento_Customer
 "Remind Email Template","Email Template herinnering-e-mail",module,Magento_Customer
 "Reset Password Template","Reset wachtwoord sjabloon",module,Magento_Customer
-"Password Template Email Sender","Wachtwoord Sjabloon E-Mail Afzender",module,Magento_Customer
+"Password Template Email Sender","Afzender Wachtwoord Sjabloon E-mail",module,Magento_Customer
 "Recovery Link Expiration Period (hours)","Herstel Link verloopperiode (uur)",module,Magento_Customer
 "Please enter a number 1 or greater in this field.","Vul een nummer van 1 of groter in in dit veld.",module,Magento_Customer
 "Number of Required Character Classes","Aantal vereiste tekenklassen",module,Magento_Customer
@@ -4642,8 +4642,8 @@ Unknown,Onbekend,module,Magento_Email
 "New Template","Nieuw sjabloon",module,Magento_Email
 "New System Template","Nieuw systeem-sjabloon",module,Magento_Email
 "Email Templates","E-mail templates",module,Magento_Email
-"Email Preview","E-mail Preview",module,Magento_Email
-"An error occurred. The email template can not be opened for preview.","Er is een fout opgetreden. De e-mailtemplate kan niet worden geopend voor preview.",module,Magento_Email
+"Email Preview","Voorvertoning E-mail",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Er is een fout opgetreden. De e-mailtemplate kan niet worden geopend als voorvertoning.",module,Magento_Email
 "This email template no longer exists.","Dit e-mail-sjabloon bestaat niet meer.",module,Magento_Email
 "You saved the email template.","U hebt de e-mailtemplate opgeslagen.",module,Magento_Email
 "Area is already set","Gebied is al ingesteld",module,Magento_Email
@@ -6083,7 +6083,7 @@ Create,Creëren,module,Magento_Logging
 "URL Rewrites","Herschreven URL's",module,Magento_Logging
 "Catalog Search","Catalogus Doorzoeken",module,Magento_Logging
 "Catalog Ratings","Catalogus Becijfering",module,Magento_Logging
-"Catalog Reviews","Catalogus Beoordelingen",module,Magento_Logging
+"Catalog Reviews","Catalogus Reviews",module,Magento_Logging
 "Catalog Attributes","Catalogus Eigenschappen",module,Magento_Logging
 "Catalog Product Templates","Catalogus productsjablonen",module,Magento_Logging
 "Admin Sign In","Beheerder Aanmelden",module,Magento_Logging
@@ -6175,7 +6175,7 @@ Database,Database,module,Magento_MediaStorage
 "After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Na het selecteren van de nieuwe media opslaglocatie, drukt u op de synchronizeren knop om alle media naar de nieuwe locatie over te brengen. De media zal niet beschikbaar zijn op de nieuwe locatie totdat het synchronisatieproces voltooid is.",module,Magento_MediaStorage
 "Environment Update Time","Update tijd",module,Magento_MediaStorage
 "Some exception","Een uitzondering",module,Magento_MessageQueue
-"To see product price, add this item to your cart. You can always remove it later.","To see product price, add this item to your cart. You can always remove it later.",module,Magento_Msrp
+"To see product price, add this item to your cart. You can always remove it later.","Om de prijs van het product te zien, voeg dit product toe aan uw winkelwagen. U kunt het later altijd verwijderen.",module,Magento_Msrp
 "See price before order confirmation.","Bekijk prijs voor bestelbevestiging.",module,Magento_Msrp
 "On Gesture","Op verzoek",module,Magento_Msrp
 "In Cart","In winkelwagen",module,Magento_Msrp
@@ -7177,7 +7177,7 @@ Item,Item,module,Magento_Paypal
 Price,prijs,module,Magento_Paypal
 Qty,Aantal,module,Magento_Paypal
 Subtotal,subtotaal,module,Magento_Paypal
-"Please update order data to get shipping methods and rates","Update gegeven bestelling voor verzendmethodes en kosten",module,Magento_Paypal
+"Please update order data to get shipping methods and rates","Update gegeven bestelling voor verzendmethodes en -kosten",module,Magento_Paypal
 or,of,module,Magento_Paypal
 "Checkout with PayPal","Checkout with PayPal",module,Magento_Paypal
 "Please do not refresh the page until you complete payment.","Please do not refresh the page until you complete payment.",module,Magento_Paypal
@@ -7278,7 +7278,7 @@ Title,Titel,module,Magento_Paypal
 "Enable SSL verification","SSL-verificatie inschakelen",module,Magento_Paypal
 "Transfer Cart Line Items","Transfer Cart Line Items",module,Magento_Paypal
 "Transfer Shipping Options","Transfer Shipping Options",module,Magento_Paypal
-"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.",module,Magento_Paypal
+"If this option is enabled, customer can change shipping address and shipping method on PayPal website. In live mode works via HTTPS protocol only.","Indien deze optie aan staat kan de klant zijn verzendadres en verzendmethode aanpassen op de PayPal website. Dit werkt enkel via het HTTPS protocol.",module,Magento_Paypal
 "Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.","Notice that PayPal can handle up to 10 shipping options. That is why Magento will transfer only first 10 cheapest shipping options if there are more than 10 available.",module,Magento_Paypal
 "Shortcut Buttons Flavor","Shortcut Buttons Flavor",module,Magento_Paypal
 "Enable PayPal Guest Checkout","Enable PayPal Guest Checkout",module,Magento_Paypal
@@ -7399,7 +7399,7 @@ User,Gebruiker,module,Magento_Paypal
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.                <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">.",module,Magento_Paypal
 "Not you?","Bent u het niet?",module,Magento_Persistent
 "Your shopping cart has been updated with new prices.","Uw winkelwagen is bijgewerkt met de nieuwe prijzen.",module,Magento_Persistent
-"Welcome, %1!","Welkom, %s!",module,Magento_Persistent
+"Welcome, %1!","Welkom, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","Het is niet mogelijk om de configuratie van bestand %1 te laden.",module,Magento_Persistent
 "Method ""%1"" is not defined in ""%2""","Methode ""%1"" is niet gedefinieerd in ""%2""",module,Magento_Persistent
 "To check out, please sign in using your email address.","Om af te rekenen, log in met uw e-mailadres.",module,Magento_Persistent
@@ -7407,14 +7407,14 @@ User,Gebruiker,module,Magento_Paypal
 "What's this?","Wat is dit?",module,Magento_Persistent
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Vink &quot;Onthoud mij&quot; om uw winkelwagen op deze computer te raadplegen, ook als u niet ingelogd bent.",module,Magento_Persistent
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Vink 'Onthoud mij' aan om uw winkelwagen op deze computer in te zien, ook als u niet bent ingelogd.",module,Magento_Persistent
-"Persistent Shopping Cart","Winkelmand volgen",module,Magento_Persistent
+"Persistent Shopping Cart","Winkelwagen volgen",module,Magento_Persistent
 "General Options","Algemene opties",module,Magento_Persistent
-"Enable Persistence","Activeer het volgen van het winkelwagen",module,Magento_Persistent
+"Enable Persistence","Activeer het volgen van de winkelwagen",module,Magento_Persistent
 "Persistence Lifetime (seconds)","Levensduur in seconden",module,Magento_Persistent
 "Enable ""Remember Me""","Activeer ""Onthoud mij""",module,Magento_Persistent
 """Remember Me"" Default Value","""Onthoud mij"" Standaardwaarde",module,Magento_Persistent
 "Clear Persistence on Sign Out","Bij afmelden ""aangemeld blijven"" verwijderen",module,Magento_Persistent
-"Persist Shopping Cart","Winkelmand volgen",module,Magento_Persistent
+"Persist Shopping Cart","Winkelwagen volgen",module,Magento_Persistent
 "Persist Wish List","Behoud verlanglijstje",module,Magento_PersistentHistory
 "Persist Recently Ordered Items","Houd recent bestelde producten aan",module,Magento_PersistentHistory
 "Persist Currently Compared Products","Houd huidig vergeleken producten aan",module,Magento_PersistentHistory
@@ -7473,7 +7473,7 @@ Description,Beschrijving,module,Magento_ProductVideo
 Role,Rol,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","Youtube en Vimeo ondersteund.",module,Magento_ProductVideo
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo ondersteund.<br />Om een YouTube video toe te voegen, gelieve eerst<a href=""%1"">uw YouTube API Key in te vullen</a>.",module,Magento_ProductVideo
-"Could not get preview image information. Please check your connection and try again.","Preview beeldinformatie kon niet verkregen worden. Controleer uw verbinding en probeer het opnieuw.",module,Magento_ProductVideo
+"Could not get preview image information. Please check your connection and try again.","Kan afbeelding voorvertoning niet ophalen. Controleer uw verbinding en probeer het opnieuw.",module,Magento_ProductVideo
 "Add Video","Video toevoegen",module,Magento_ProductVideo
 "Browse to find or drag image here","Bladeren om de afbeelding te vinden of sleep de afbeelding hierheen",module,Magento_ProductVideo
 "Delete video","Video verwijderen",module,Magento_ProductVideo
@@ -7729,17 +7729,17 @@ Website,Website,module,Magento_Reminder
 "New Accounts","Nieuwe accounts:",module,Magento_Reports
 "Customers by number of orders","Klanten per totaal aantal bestellingen",module,Magento_Reports
 "Customers by Orders Total","Klanten o.b.v. orderwaarde",module,Magento_Reports
-Filter,Filteren,module,Magento_Reports
+Filter,Filter,module,Magento_Reports
 "Date Used","Datum gebruikt",module,Magento_Reports
 Day,Dag,module,Magento_Reports
-Month,maand,module,Magento_Reports
+Month,Maand,module,Magento_Reports
 Year,Jaar,module,Magento_Reports
 Period,Periode,module,Magento_Reports
 From,Van,module,Magento_Reports
 To,Aan,module,Magento_Reports
 Yes,Ja,module,Magento_Reports
 No,Nee,module,Magento_Reports
-"Empty Rows","Toon lege regels",module,Magento_Reports
+"Empty Rows","Lege regels",module,Magento_Reports
 "Invalid date specified","Ongeldige datum opgegeven",module,Magento_Reports
 Refresh,Vernieuwen,module,Magento_Reports
 "We can't find records for this period.","We kunnen geen resultaten voor deze periode vinden.",module,Magento_Reports
@@ -7845,10 +7845,10 @@ Reports,Rapportages,module,Magento_Reports
 "Product Views Report","Bekeken producten rapportage",module,Magento_Reports
 "An error occurred while showing the product views report. Please review the log and try again.","Er is een fout opgetreden tijdens het weergeven van de productrapportage. Controleer het logboek en probeer opnieuw.",module,Magento_Reports
 Review,Review,module,Magento_Reports
-Reviews,Beoordelen,module,Magento_Reports
+Reviews,Reviews,module,Magento_Reports
 "Customers Report",Klantenrapport,module,Magento_Reports
-"Customer Reviews Report","Klant beoordelingen rapportage",module,Magento_Reports
-"Product Reviews Report","Product beoordelingen rapportage",module,Magento_Reports
+"Customer Reviews Report","Rapportage Klant Reviews",module,Magento_Reports
+"Product Reviews Report","Rapportage Product Reviews",module,Magento_Reports
 "Product Reviews",Productreviews,module,Magento_Reports
 Details,Gegevens,module,Magento_Reports
 Sales,Verkopen,module,Magento_Reports
@@ -7900,8 +7900,8 @@ Marketing,Marketing,module,Magento_Reports
 "Products in Cart","Producten in winkelwagen",module,Magento_Reports
 "Abandoned Cart","Achtergelaten winkelwagen",module,Magento_Reports
 "Search Terms",Zoektermen,module,Magento_Reports
-"By Customers","Op klanten",module,Magento_Reports
-"By Products","Op producten",module,Magento_Reports
+"By Customers","Per klant",module,Magento_Reports
+"By Products","Per product",module,Magento_Reports
 Refunds,Terugbetalingen,module,Magento_Reports
 "Order Total",Ordertotaal,module,Magento_Reports
 "Order Count",Orderaantal,module,Magento_Reports
@@ -7938,7 +7938,7 @@ Average,Gemiddeld,module,Magento_Reports
 Guest,Bezoeker,module,Magento_Reports
 Action,Aktie,module,Magento_Reports
 "Average (Approved)","Gemiddelde (goedgekeurd)",module,Magento_Reports
-"Last Review","Laatste beoordeling",module,Magento_Reports
+"Last Review","Laatste Review",module,Magento_Reports
 "Order Created","Order gemaakt",module,Magento_Reports
 "Order Updated",Bestellingsupdate,module,Magento_Reports
 "The Order Updated report is created in real time and does not require a refresh.","Het Bijgewerkte Order overzicht wordt in real-time is gemaakt en hoeft niet vernieuwd te worden.",module,Magento_Reports
@@ -7953,7 +7953,7 @@ Report,Verslag,module,Magento_Reports
 Description,Beschrijving,module,Magento_Reports
 undefined,"niet van toepassing",module,Magento_Reports
 "Save Review","Review opslaan",module,Magento_Review
-"New Review","Nieuwe reviews",module,Magento_Review
+"New Review","Nieuwe review",module,Magento_Review
 "Review Details","Review details",module,Magento_Review
 Product,Product,module,Magento_Review
 "Product Rating",Productwaardering,module,Magento_Review
@@ -7986,10 +7986,10 @@ Delete,Verwijder,module,Magento_Review
 "Are you sure?","Weet je het zeker?",module,Magento_Review
 "Update Status","Status bijwerken",module,Magento_Review
 Customer,Klant,module,Magento_Review
-"Pending Reviews of Customer `%1`","In behandeling beoordelingen van klant '%1'",module,Magento_Review
+"Pending Reviews of Customer `%1`","Pending reviews van klanten '%1'",module,Magento_Review
 "Pending Reviews","Te modereren reviews",module,Magento_Review
-"All Reviews of Customer `%1`","Alle beoordelingen van klant '%1'",module,Magento_Review
-"All Reviews of Product `%1`","Alle beoordelingen van Product '%1'",module,Magento_Review
+"All Reviews of Customer `%1`","Alle reviews van klant '%1'",module,Magento_Review
+"All Reviews of Product `%1`","Alle reviews van Product '%1'",module,Magento_Review
 "All Reviews","Alle reviews",module,Magento_Review
 Name,Naam,module,Magento_Review
 "Product Store Name","Product winkelnaam",module,Magento_Review
@@ -8009,43 +8009,43 @@ Websites,Websites,module,Magento_Review
 "Sort Order","Sorteer Bestelling",module,Magento_Review
 "Rating Information","Informatie waardering",module,Magento_Review
 "Product Reviews",Productreviews,module,Magento_Review
-"Pending product review(s)","Onafgehandelde productbeoordelingen",module,Magento_Review
+"Pending product review(s)","Pending product review(s)",module,Magento_Review
 "Product: <a href=""%1"" target=""_blank"">%2</a> <br/>","Product: <a href=""%1"" target=""_blank"">%2</a> <br/>",module,Magento_Review
-"Summary of review: %1 <br/>","Samenvatting van beoordeling: %s<br>",module,Magento_Review
-"Review: %1 <br/>","Beoordeel: %s",module,Magento_Review
+"Summary of review: %1 <br/>","Samenvatting van review: %1<br/>",module,Magento_Review
+"Review: %1 <br/>","Review: %1 <br/>",module,Magento_Review
 "Store: %1 <br/>","Winkel: %s<br />",module,Magento_Review
-"Click <a href=""%1"">here</a> to see the review.","Klik <a href=""%1""> hier</a> om de beoordeling te zien.",module,Magento_Review
-"Product: ""%1"" reviewed by: %2","Product: ""%1"" beoordeeld door: %2",module,Magento_Review
+"Click <a href=""%1"">here</a> to see the review.","<a href=""%1"">Bekijk review</a>.",module,Magento_Review
+"Product: ""%1"" reviewed by: %2","Product: ""%1"" gereviewd door: %2",module,Magento_Review
 "Pending Reviews RSS","RSS van wachtende reviews",module,Magento_Review
-"Reviews %1","Beoordelingen %1",module,Magento_Review
-Reviews,Beoordelen,module,Magento_Review
+"Reviews %1","Reviews %1",module,Magento_Review
+Reviews,Reviews,module,Magento_Review
 "The review has been deleted.","De review is verwijderd.",module,Magento_Review
-"Something went wrong  deleting this review.","Er ging iets mis bij het verwijderen van deze beoordeling.",module,Magento_Review
+"Something went wrong  deleting this review.","Er ging iets mis bij het verwijderen van deze review.",module,Magento_Review
 "Customer Reviews",Klantenreviews,module,Magento_Review
 "Edit Review","Bewerk review",module,Magento_Review
 "We can't retrieve the product ID.","We kunnen het product-ID niet ophalen.",module,Magento_Review
-"Please select review(s).","Selecteer beoordeling(en)",module,Magento_Review
+"Please select review(s).","Selecteer review(en).",module,Magento_Review
 "A total of %1 record(s) have been deleted.","%1 record(s) verwijderd.",module,Magento_Review
 "Something went wrong while deleting these records.","Er ging iets mis tijdens het verwijderen van deze records.",module,Magento_Review
 "A total of %1 record(s) have been updated.","%1 record(s) bijgewerkt.",module,Magento_Review
-"Something went wrong while updating these review(s).","Er ging iets mis tijdens het bijwerken van deze beoordeling(en).",module,Magento_Review
-"You saved the review.","U hebt de beoordeling opgeslagen.",module,Magento_Review
-"Something went wrong while saving this review.","Er ging iets mis bij het opslaan van deze beoordeling.",module,Magento_Review
+"Something went wrong while updating these review(s).","Er ging iets mis tijdens het bijwerken van deze review(en).",module,Magento_Review
+"You saved the review.","U hebt de review opgeslagen.",module,Magento_Review
+"Something went wrong while saving this review.","Er ging iets mis bij het opslaan van deze review.",module,Magento_Review
 "The review was removed by another user or does not exist.","De review is verwijderd door een andere gebruiker, of bestaat niet",module,Magento_Review
 "You deleted the rating.","U heeft de waardering verwijderd.",module,Magento_Review
 Ratings,Waarderingen,module,Magento_Review
 "You saved the rating.","U heeft de waardering opgeslagen.",module,Magento_Review
 "My Product Reviews",Productreviews,module,Magento_Review
 "Cannot initialize product","Kan product niet initialiseren",module,Magento_Review
-"You submitted your review for moderation.","U heeft uw beoordeling aangeboden ter goedkeuring.",module,Magento_Review
+"You submitted your review for moderation.","U heeft uw review aangeboden ter goedkeuring.",module,Magento_Review
 "We can't post your review right now.","Wij kunnen uw beoordeling nu niet plaatsen.",module,Magento_Review
 "Storage key was not set","Opslag sleutel is niet ingesteld",module,Magento_Review
 Approved,Akkoord,module,Magento_Review
 Pending,"In behandeling",module,Magento_Review
 "Not Approved","Niet Akkoord",module,Magento_Review
-"Please enter a review summary.","Voer een beoordeling samenvatting in.",module,Magento_Review
+"Please enter a review summary.","Voer een review samenvatting in.",module,Magento_Review
 "Please enter a nickname.","Voer een bijnaam in.",module,Magento_Review
-"Please enter a review.","Voor een beoordeling in.",module,Magento_Review
+"Please enter a review.","Voer een review in.",module,Magento_Review
 "Rating isn't Available","Waardering is niet beschikbaar",module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.","Geef een waardering titel voor een winkel, Anders gebruiken we de standaardwaarde.",module,Magento_Review
 "Assigned Options","Toegewezen opties",module,Magento_Review
@@ -8059,7 +8059,7 @@ Back,terug,module,Magento_Review
 "My Recent Reviews","Recente reviews",module,Magento_Review
 "View All","Bekijk alles",module,Magento_Review
 "Average Customer Rating:","Gemiddelde klantwaardering:",module,Magento_Review
-"Your Review","Uw beoordeling",module,Magento_Review
+"Your Review","Uw Review",module,Magento_Review
 "Submitted on %1","Ingediend op %1",module,Magento_Review
 "Back to My Reviews","Terug naar reviews-overzicht",module,Magento_Review
 "Ratings Review Summary","Waarderingen Review Samenvatting",module,Magento_Review
@@ -8071,18 +8071,18 @@ Back,terug,module,Magento_Review
 "%1 %2","%1 %2",module,Magento_Review
 Summary,Samenvatting,module,Magento_Review
 "Submit Review","Review versturen",module,Magento_Review
-"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Alleen geregistreerde gebruikers kunnen beoordelingen schrijven. Log in of maak alstublieft een account aan. <a href=""%1""> inloggen</a> of <a href=""%2"">maak een account aan</a>",module,Magento_Review
+"Only registered users can write reviews. Please <a href=""%1"">Sign in</a> or <a href=""%2"">create an account</a>","Alleen geregistreerde gebruikers kunnen reviews schrijven. Log in of maak alstublieft een account aan. <a href=""%1""> inloggen</a> of <a href=""%2"">maak een account aan</a>",module,Magento_Review
 "Add Your Review","Schrijf een review",module,Magento_Review
 "%1 Review(s)","%d review(s)",module,Magento_Review
-"Review by","Beoordeelt door",module,Magento_Review
+"Review by","Gereviewd door",module,Magento_Review
 "Posted on","Gepost op",module,Magento_Review
 "Back to Main Product Info","Terug naar productpagina",module,Magento_Review
 "Average Customer Rating","Gemiddelde klantwaardering",module,Magento_Review
 "Product Rating:",Productwaardering:,module,Magento_Review
 "Product Review (submitted on %1):","Productreview (ingestuurd op %s):",module,Magento_Review
 "Back to Product Reviews","Terug naar productreviews",module,Magento_Review
-"By Customers","Op klanten",module,Magento_Review
-"By Products","Op producten",module,Magento_Review
+"By Customers","Per klant",module,Magento_Review
+"By Products","Per product",module,Magento_Review
 "Allow Guests to Write Reviews","Reviews door gasten toestaan",module,Magento_Review
 Active,Actief,module,Magento_Review
 Inactive,Inactief,module,Magento_Review
@@ -8091,7 +8091,7 @@ Created,Aangemaakt,module,Magento_ReviewStaging
 Status,Status,module,Magento_ReviewStaging
 Title,Titel,module,Magento_ReviewStaging
 Nickname,"Uw naam",module,Magento_ReviewStaging
-Review,Beoordeling,module,Magento_ReviewStaging
+Review,Review,module,Magento_ReviewStaging
 Visibility,Zichtbaarheid,module,Magento_ReviewStaging
 Type,Type,module,Magento_ReviewStaging
 Product,Product,module,Magento_ReviewStaging
@@ -10989,7 +10989,7 @@ Manage,Beheer,module,Magento_Theme
 "Parent Theme","Bovenliggend Thema",module,Magento_Theme
 "Theme Path","Thema pad",module,Magento_Theme
 "Theme Title","Thema titel",module,Magento_Theme
-"Theme Preview Image","Thema Preview afbeelding",module,Magento_Theme
+"Theme Preview Image","Voorvertoning thema-afbeelding",module,Magento_Theme
 General,Algemeen,module,Magento_Theme
 "Copy of %1","Kopie van %1",module,Magento_Theme
 "Max image size %1M","Maximale afbeeldingsgrootte %1M",module,Magento_Theme
