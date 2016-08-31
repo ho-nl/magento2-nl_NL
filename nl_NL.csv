@@ -88,12 +88,12 @@ ID,ID,module,Magento_AdvancedCheckout
 SKU,Art.nr.,module,Magento_AdvancedCheckout
 "Recently Compared Products (%1)","Recent vergeleken producten (%1)",module,Magento_AdvancedCheckout
 "Recently Viewed Products (%1)","Recent bekeken producten (%1)",module,Magento_AdvancedCheckout
-"Add to Shopping Cart by SKU","Voeg toe aan winkelwagen via SKU",module,Magento_AdvancedCheckout
+"Add to Shopping Cart by SKU","Toevoegen aan winkelwagen via art.nr.",module,Magento_AdvancedCheckout
 "Add to Shopping Cart","Voeg toe aan winkelwagen",module,Magento_AdvancedCheckout
 "Wish List (%1)","Verlanglijst (%1)",module,Magento_AdvancedCheckout
 Apply,"Actie type",module,Magento_AdvancedCheckout
 Configure,Configureren,module,Magento_AdvancedCheckout
-"Add to Order by SKU","Voeg toe aan bestelling via SKU",module,Magento_AdvancedCheckout
+"Add to Order by SKU","Toevoegen aan bestelling via art.nr.",module,Magento_AdvancedCheckout
 "Add to Order","Voeg toe aan bestelling",module,Magento_AdvancedCheckout
 "Add Products to Order","Voeg producten toe aan bestelling",module,Magento_AdvancedCheckout
 "<span><span id=""sku-attention-num"">%1</span> product(s) require attention.</span>","<span><span id=""sku-attention-num"">%1</span> product(en) vereisen aandacht.</span>",module,Magento_AdvancedCheckout
@@ -122,8 +122,8 @@ Customers,Klanten,module,Magento_AdvancedCheckout
 "You removed the item.","U heeft het product verwijderd.",module,Magento_AdvancedCheckout
 "You added %1 to your shopping cart.","U heeft %1 aan de winkelwagen toegevoegd.",module,Magento_AdvancedCheckout
 "You cannot add a product.","U kan geen product toevoegen.",module,Magento_AdvancedCheckout
-"Order by SKU","Bestel via SKU",module,Magento_AdvancedCheckout
-"SKU not found in catalog.","SKU niet gevonden in de catalogus.",module,Magento_AdvancedCheckout
+"Order by SKU","Bestel via art.nr.",module,Magento_AdvancedCheckout
+"SKU not found in catalog.","Art.nr. niet gevonden in de catalogus.",module,Magento_AdvancedCheckout
 "Availability: Out of stock.","Beschikbaarheid: niet op voorraad.",module,Magento_AdvancedCheckout
 "We don't have as many of these as you want.","De voorraad is kleiner dan het aantal gevraagd.",module,Magento_AdvancedCheckout
 "You can't add this many to your cart.","Het is niet mogelijk deze hoeveelheid aan de winkelwagen toe te voegen.",module,Magento_AdvancedCheckout
@@ -143,7 +143,7 @@ Customers,Klanten,module,Magento_AdvancedCheckout
 "You added %1 products to your shopping cart.","U heeft %1 producten aan de winkelwagen toegevoegd.",module,Magento_AdvancedCheckout
 "%1 product requires your attention.","%1 product vereist uw aandacht.",module,Magento_AdvancedCheckout
 "%1 products require your attention.","%1 producten vereisen uw aandacht.",module,Magento_AdvancedCheckout
-"Yes, for Specified Customer Groups","Ja, voor gespecificeerde klantengroepen",module,Magento_AdvancedCheckout
+"Yes, for Specified Customer Groups","Ja, voor opgegeven klantengroepen",module,Magento_AdvancedCheckout
 "Yes, for Everyone","Ja, voor iedereen",module,Magento_AdvancedCheckout
 No,Nee,module,Magento_AdvancedCheckout
 "The file is corrupt.","Het bestand is beschadigd.",module,Magento_AdvancedCheckout
@@ -158,7 +158,7 @@ Qty,Aantal,module,Magento_AdvancedCheckout
 Subtotal,Subtotaal,module,Magento_AdvancedCheckout
 Discount,Korting,module,Magento_AdvancedCheckout
 "Row Subtotal","Subtotaal rij",module,Magento_AdvancedCheckout
-Action,Aktie,module,Magento_AdvancedCheckout
+Action,Actie,module,Magento_AdvancedCheckout
 "No ordered items","Geen bestelde artikelen",module,Magento_AdvancedCheckout
 "Total %1 product(s)","Totaal %1 product(en)",module,Magento_AdvancedCheckout
 Subtotal:,Subtotaal:,module,Magento_AdvancedCheckout
@@ -229,9 +229,9 @@ Results,Resultaten,module,Magento_AdvancedSearch
 Uses,Gebruik,module,Magento_AdvancedSearch
 "Redirect URL","Doorstuur URL",module,Magento_AdvancedSearch
 "Suggested Term","Voorgestelde termijn",module,Magento_AdvancedSearch
-Yes,ja,module,Magento_AdvancedSearch
+Yes,Ja,module,Magento_AdvancedSearch
 No,Nee,module,Magento_AdvancedSearch
-Action,Aktie,module,Magento_AdvancedSearch
+Action,Actie,module,Magento_AdvancedSearch
 Edit,Bewerken,module,Magento_AdvancedSearch
 "RPC call failed, connection timed out after %time_out.","RPC call mislukt, connectie time out na %time_out.",module,Magento_Amqp
 "Message has been rejected: %1","Bericht is afgekeurd: %1",module,Magento_Amqp
@@ -600,7 +600,7 @@ Loading...,"Bezig met laden...",module,Magento_Backend
 "Global Search","Globale zoektocht",module,Magento_Backend
 Marketing,Marketing,module,Magento_Backend
 "SEO & Search","SEO & zoeken",module,Magento_Backend
-"User Content",User-Content,module,Magento_Backend
+"User Content",Gebruikers-content,module,Magento_Backend
 Content,inhoud,module,Magento_Backend
 Elements,Elementen,module,Magento_Backend
 Design,Ontwerp,module,Magento_Backend
@@ -636,7 +636,7 @@ Debug,"Fouten opsporen in programma",module,Magento_Backend
 "Template Settings","Template instellingen",module,Magento_Backend
 "Allow Symlinks","Symlinks toestaan",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Waarschuwing! Het activeren van deze functionaliteit wordt niet aanbevolen in productieomgevingen, vormt mogelijk een beveiligsingsrisico.",module,Magento_Backend
-"Minify Html","Verkleinen HTML",module,Magento_Backend
+"Minify Html","Minify HTML",module,Magento_Backend
 "Minification is not applied in developer mode.","Minification wordt niet toegepast in de ontwikkelaarsmodus.",module,Magento_Backend
 "Translate Inline","Inline vertaling",module,Magento_Backend
 "Enabled for Storefront","Ingeschakeld voor Storefront",module,Magento_Backend
@@ -647,8 +647,8 @@ Debug,"Fouten opsporen in programma",module,Magento_Backend
 "Enable JavaScript Bundling","Inschakelen Javascript bundeling",module,Magento_Backend
 "Minify JavaScript Files","Minify JavaScript bestanden",module,Magento_Backend
 "CSS Settings","CSS instellingen",module,Magento_Backend
-"Merge CSS Files","CSS bestanden samengevoegen",module,Magento_Backend
-"Minify CSS Files","Verkleinen CSS-bestanden",module,Magento_Backend
+"Merge CSS Files","CSS bestanden samenvoegen",module,Magento_Backend
+"Minify CSS Files","Minify CSS-bestanden",module,Magento_Backend
 "Image Processing Settings","Afbeelding verwerking opties",module,Magento_Backend
 "Image Adapter","Afbeelding Adapter",module,Magento_Backend
 "Static Files Settings","Instellingen voor statische bestanden",module,Magento_Backend
@@ -669,7 +669,7 @@ Locale,Taal,module,Magento_Backend
 Country,Land,module,Magento_Backend
 Region/State,Provincie,module,Magento_Backend
 "ZIP/Postal Code",Postcode,module,Magento_Backend
-City,stad,module,Magento_Backend
+City,Plaats,module,Magento_Backend
 "Street Address","Straat Adres",module,Magento_Backend
 "Street Address Line 2",Adres,module,Magento_Backend
 "VAT Number","BTW nummer",module,Magento_Backend
@@ -837,7 +837,7 @@ Name,Naam,module,Magento_Backup
 Size(bytes),Size(bytes),module,Magento_Backup
 Type,Type,module,Magento_Backup
 Download,Downloads,module,Magento_Backup
-Action,Aktie,module,Magento_Backup
+Action,Actie,module,Magento_Backup
 Banners,Banners,module,Magento_Banner
 "Add Banner","Banner toevoegen",module,Magento_Banner
 "Save Banner","Banner opslaan",module,Magento_Banner
@@ -1126,13 +1126,13 @@ Close,sluiten,module,Magento_Bundle
 "What are you looking for?","Wat zoekt u?",module,Magento_Bundle
 ID,ID,module,Magento_Bundle
 Product,Product,module,Magento_Bundle
-SKU,"stock keeping unit",module,Magento_Bundle
-Price,prijs,module,Magento_Bundle
+SKU,Art.nr.,module,Magento_Bundle
+Price,Prijs,module,Magento_Bundle
 Delete,Verwijder,module,Magento_Bundle
 "Use Default Value","Standaardwaarde gebruiken",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Er is geen weergave gedefinieerd voor optietype ""%1"".",module,Magento_Bundle
 "Only implemented for bundle product","Alleen geïmplementeerd voor bundelproduct",module,Magento_Bundle
-"Product with specified sku: ""%1"" is not a bundle product","Het product met Art.nr: '%1' is geen bundel-product",module,Magento_Bundle
+"Product with specified sku: ""%1"" is not a bundle product","Het product met art.nr: '%1' is geen bundel-product",module,Magento_Bundle
 "Bundle product could not contain another composite product","Een bundel-product kan geen ander samengesteld product bevatten",module,Magento_Bundle
 "Id field of product link is required","ID veld van product link is vereist",module,Magento_Bundle
 "Can not find product link with id ""%1""","Kan de productlink met id: ""%1"" niet vinden",module,Magento_Bundle
@@ -1194,7 +1194,7 @@ To,Aan,module,Magento_Bundle
 "Buy %1 with %2 discount each","%1 kopen met %2 korting elk",module,Magento_Bundle
 "Go back to product details","Ga terug naar Productgegevens",module,Magento_Bundle
 "Customize and Add to Cart","Aanpassen en aan winkelwagen toevoegen",module,Magento_Bundle
-"* Required Fields","* Vereiste velden",module,Magento_Bundle
+"* Required Fields","* Verplichte velden",module,Magento_Bundle
 "Your Customization","Uw aanpassing",module,Magento_Bundle
 Availability,Beschikbaarheid,module,Magento_Bundle
 "In stock","Op voorraad",module,Magento_Bundle
@@ -1230,7 +1230,7 @@ ID,ID,module,Magento_BundleStaging
 Thumbnail,Thumbnail,module,Magento_BundleStaging
 Name,Naam,module,Magento_BundleStaging
 Type,Soort,module,Magento_BundleStaging
-SKU,SKU,module,Magento_BundleStaging
+SKU,Art.nr.,module,Magento_BundleStaging
 Quantity,Aantal,module,Magento_BundleStaging
 Price,Prijs,module,Magento_BundleStaging
 Always,Altijd,module,Magento_Captcha
@@ -1496,7 +1496,7 @@ Products,Producten,module,Magento_Catalog
 "You cleared the comparison list.","Vergelijkingslijst leeggemaakt.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","Er ging iets fout tijdens het leegmaken van de vergelijkingslijst.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","Product %1 uit de vergelijkingslijst verwijderd.",module,Magento_Catalog
-"1 item","1 artikel",module,Magento_Catalog
+"1 item","1 product",module,Magento_Catalog
 "%1 items","%1 producten",module,Magento_Catalog
 "Invalid attribute %1","Ongeldig attribuut %1",module,Magento_Catalog
 Grid,Foto-tabel,module,Magento_Catalog
@@ -1583,7 +1583,7 @@ Category,categorie,module,Magento_Catalog
 "Provided Attribute set non product Attribute set.","Opgegeven attribuutset is geen product-attribuutset.",module,Magento_Catalog
 "Use config","Gebruik configuratie",module,Magento_Catalog
 Enabled,Ingeschakeld,module,Magento_Catalog
-Disabled,Gedeactiveerd,module,Magento_Catalog
+Disabled,Uitgeschakeld,module,Magento_Catalog
 "Attribute Set already exists.","Attribuutset bestaat al.",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Bestand %1 kon niet gekopieerd worden. Verwijder media met niet-bestaande afbeeldingen en probeer het opnieuw.",module,Magento_Catalog
 "The image content is not valid.","Inhoud van de afbeelding is niet geldig.",module,Magento_Catalog
@@ -1771,7 +1771,7 @@ Backorders,Backorders,module,Magento_Catalog
 "%1 <span>x</span> %2 <span>px.</span>","%1 <span>x</span> %2 <span>px.</span>",module,Magento_Catalog
 "Sort Custom Option","Aangepaste sorteeroptie",module,Magento_Catalog
 "Item Price",Productprijs,module,Magento_Catalog
-Action,Aktie,module,Magento_Catalog
+Action,Actie,module,Magento_Catalog
 "and above","en hoger",module,Magento_Catalog
 "Delete Tier","Verwijder staffel",module,Magento_Catalog
 "Product In Websites","Product in websites",module,Magento_Catalog
@@ -1836,7 +1836,7 @@ Show,Toon,module,Magento_Catalog
 "View as","Tonen als",module,Magento_Catalog
 "More Information","Meer informatie",module,Magento_Catalog
 Loading...,"Bezig met laden...",module,Magento_Catalog
-"* Required Fields","* Vereiste velden",module,Magento_Catalog
+"* Required Fields","* Verplichte velden",module,Magento_Catalog
 Availability,Beschikbaarheid,module,Magento_Catalog
 "Warning message",Waarschuwingsbericht,module,Magento_Catalog
 Submit,Bevestig,module,Magento_Catalog
@@ -2059,7 +2059,7 @@ ID,ID,module,Magento_CatalogEvent
 Start,Start,module,Magento_CatalogEvent
 End,Einde,module,Magento_CatalogEvent
 "Countdown Ticker","Countdown Ticker",module,Magento_CatalogEvent
-Action,Aktie,module,Magento_CatalogEvent
+Action,Actie,module,Magento_CatalogEvent
 Edit,Bewerken,module,Magento_CatalogEvent
 "Entity type model '%1' is not found","Type entiteitsmodel '%1' is niet gevonden",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteitstype model moet onderdeel zijn van\Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
@@ -2109,11 +2109,11 @@ Edit,Bewerken,module,Magento_CatalogEvent
 "Unable to save Stock Status","Kan Stock status niet opslaan",module,Magento_CatalogInventory
 "Unable to remove Stock Status for product %1","Kan Stock Status niet verwijderen voor product %1",module,Magento_CatalogInventory
 "Not all of your products are available in the requested quantity.","Niet al uw producten zijn beschikbaar in het gevraagde aantal.",module,Magento_CatalogInventory
-"Product with SKU ""%1"" does not exist","Product met SKU ""%1"" bestaat niet",module,Magento_CatalogInventory
+"Product with SKU ""%1"" does not exist","Product met art.nr. ""%1"" bestaat niet",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","Het minimale aantal dat u kunt bestellen is %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Corrigeer het aantal voor sommige producten.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Het meeste dat u kunt kopen is %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","We don't have as many ""%1"" as you requested.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","We hebben niet zo veel van ""%1"" als u gevraagd heeft.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","U kunt %1 alleen in hoeveelheden van %2 kopen in één keer.",module,Magento_CatalogInventory
@@ -2148,7 +2148,7 @@ Backorders,Backorders,module,Magento_CatalogInventory
 "Enable Qty Increments","Activeer opklimmende aantallen",module,Magento_CatalogInventory
 "Qty Increments","Opklimmend aantal",module,Magento_CatalogInventory
 Stock,Voorraad,module,Magento_CatalogInventory
-"Index stock","Index voorraad",module,Magento_CatalogInventory
+"Index stock","Voorraad index",module,Magento_CatalogInventory
 "Use Config Settings","Gebruik configuratieinstellingen",module,Magento_CatalogInventory
 "Qty Uses Decimals","Hoeveelheid gebruikt decimalen",module,Magento_CatalogInventory
 "Allow Multiple Boxes for Shipping","Meerdere dozen voor verzending toestaan",module,Magento_CatalogInventory
@@ -2172,7 +2172,7 @@ No,Nee,module,Magento_CatalogPermissions
 "Permissions do not depend on store views.","Bevoegdheden hangen niet af van winkelaanzichten.",module,Magento_CatalogPermissions
 Website,Website,module,Magento_CatalogPermissions
 "Customer Group",Klantengroep,module,Magento_CatalogPermissions
-Action,Aktie,module,Magento_CatalogPermissions
+Action,Actie,module,Magento_CatalogPermissions
 "-- Please Select --","-- Selecteer Alstublieft --",module,Magento_CatalogPermissions
 "All Websites","Alle Websites",module,Magento_CatalogPermissions
 "All Customer Groups","Alle klantengroepen",module,Magento_CatalogPermissions
@@ -2186,7 +2186,7 @@ Enable,Activeer,module,Magento_CatalogPermissions
 "Customer Groups",Klantengroepen,module,Magento_CatalogPermissions
 "Allow Adding to Cart","Toestaan om aan winkelwagen toe te voegen",module,Magento_CatalogPermissions
 "Landing Page","Landings Pagina",module,Magento_CatalogPermissions
-"Disallow Catalog Search By","Weiger doorzoeken van catalogus door",module,Magento_CatalogPermissions
+"Disallow Catalog Search By","Weiger doorzoeken van catalogus op",module,Magento_CatalogPermissions
 "Catalog Category Permissions","Catalogus Categorie Bevoegdheden",module,Magento_CatalogPermissions
 "Indexed permissions for categories","Geïndexeerde bevoegdheden voor categorieën",module,Magento_CatalogPermissions
 "Catalog Product Permissions","Catalogus Product Bevoegdheden",module,Magento_CatalogPermissions
@@ -2244,10 +2244,10 @@ Promo,Promotie,module,Magento_CatalogRule
 "Product Attribute",Product-attribuut,module,Magento_CatalogRule
 "Updated rules applied.","Bijgewerkte regels toegepast.",module,Magento_CatalogRule
 "You disabled %1 Catalog Price Rules based on ""%2"" attribute.","%1 catalogus prijsregel is uitgeschakeld op basis van attribuut ""%2"".",module,Magento_CatalogRule
-"Catalog Rule Product","Regel Catalogusproduct",module,Magento_CatalogRule
+"Catalog Rule Product",Catalogusproductregel,module,Magento_CatalogRule
 "Indexed rule/product association","Geïndexeerde artikel/product vereniging",module,Magento_CatalogRule
 "Catalog Product Rule","Catalogus productregel",module,Magento_CatalogRule
-"Indexed product/rule association","Geïndexeerde productregel/vereniging",module,Magento_CatalogRule
+"Indexed product/rule association","Productregelkoppelingen index",module,Magento_CatalogRule
 Rule,Regel,module,Magento_CatalogRule
 Start,Start,module,Magento_CatalogRule
 End,Einde,module,Magento_CatalogRule
@@ -2267,7 +2267,7 @@ ID,ID,module,Magento_CatalogRuleStaging
 Rule,Regel,module,Magento_CatalogRuleStaging
 Priority,Prioriteit,module,Magento_CatalogRuleStaging
 "Web Site",Website,module,Magento_CatalogRuleStaging
-Action,Aktie,module,Magento_CatalogRuleStaging
+Action,Actie,module,Magento_CatalogRuleStaging
 Edit,Bewerken,module,Magento_CatalogRuleStaging
 "Scheduled Changes","Geplande wijzigingen",module,Magento_CatalogRuleStaging
 Name,Naam,module,Magento_CatalogRuleStaging
@@ -2301,7 +2301,7 @@ Home,Home,module,Magento_CatalogSearch
 "Go to Home Page","Ga naar homepagina",module,Magento_CatalogSearch
 "Catalog Advanced Search","Catalogus geavanceerd zoeken",module,Magento_CatalogSearch
 All,Allen,module,Magento_CatalogSearch
-Yes,ja,module,Magento_CatalogSearch
+Yes,Ja,module,Magento_CatalogSearch
 No,Nee,module,Magento_CatalogSearch
 Results,Resultaten,module,Magento_CatalogSearch
 Grid,Foto-tabel,module,Magento_CatalogSearch
@@ -2330,7 +2330,7 @@ name,naam,module,Magento_CatalogSearch
 "Don't see what you're looking for?","Niet gevonden wat u zocht?",module,Magento_CatalogSearch
 "Your search returned no results.","Uw zoekopdracht heeft geen resultaten opgeleverd.",module,Magento_CatalogSearch
 "Popular Search Terms","Populaire zoekwoorden",module,Magento_CatalogSearch
-"Catalog Search","Catalogus Doorzoeken",module,Magento_CatalogSearch
+"Catalog Search","Catalogus doorzoeken",module,Magento_CatalogSearch
 "Minimal Query Length","Minimale lengte zoekopdracht",module,Magento_CatalogSearch
 "Maximum Query Length","Maximale lengte zoekopdracht",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Product 'fulltext' zoekindex",module,Magento_CatalogSearch
@@ -2398,7 +2398,7 @@ AttributeSetText,AttributensetTekst,module,Magento_CatalogStaging
 Status,Status,module,Magento_CatalogStaging
 StatusText,StatusTekst,module,Magento_CatalogStaging
 Type,Type,module,Magento_CatalogStaging
-SKU,SKU,module,Magento_CatalogStaging
+SKU,Art.nr.,module,Magento_CatalogStaging
 Price,Prijs,module,Magento_CatalogStaging
 "Remove Product from Campaign","Verwijder product uit Campagne",module,Magento_CatalogStaging
 "Deleting the update will remove the product from this campaign and all scheduled changes will be lost.","Verwijderen van deze update zal het product uit de Campagne verwijderen en alle geplande wijzigingen zullen verloren gaan.",module,Magento_CatalogStaging
@@ -2417,7 +2417,7 @@ Websites,Websites,module,Magento_CatalogStaging
 "Catalog Url Rewrite Staging","Catalogus Url herschrijven klaarzetten",module,Magento_CatalogUrlRewriteStaging
 "Conditions Combination",Voorwaardencombinatie,module,Magento_CatalogWidget
 "Product Attribute",Product-attribuut,module,Magento_CatalogWidget
-SKU,"stock keeping unit",module,Magento_CatalogWidget
+SKU,Art.nr.,module,Magento_CatalogWidget
 "Please choose a condition to add.","Kies een voorwaarde om toe te voegen.",module,Magento_CatalogWidget
 "Add to Cart","In Winkelwagen",module,Magento_CatalogWidget
 "In stock","Op voorraad",module,Magento_CatalogWidget
@@ -2437,7 +2437,7 @@ Template,Template,module,Magento_CatalogWidget
 Conditions,Voorwaarden,module,Magento_CatalogWidget
 "Shopping Cart",Winkelwagen,module,Magento_Checkout
 "Invalid method: %1","Ongeldige methode: %1",module,Magento_Checkout
-City,Stad,module,Magento_Checkout
+City,Plaats,module,Magento_Checkout
 Country,Land,module,Magento_Checkout
 State/Province,Staat/provincie,module,Magento_Checkout
 "Zip/Postal Code",Postcode,module,Magento_Checkout
@@ -2461,7 +2461,7 @@ State/Province,Staat/provincie,module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 is bijgewerkt in uw winkelwagen.",module,Magento_Checkout
 "We can't update the item right now.","Het product kon niet worden bijgewerkt.",module,Magento_Checkout
 "We can't update the shopping cart.","We kunnen uw winkelwagen niet bijwerken.",module,Magento_Checkout
-"One-page checkout is turned off.","Eén-pagina kassa is uitgeschakeld.",module,Magento_Checkout
+"One-page checkout is turned off.","One-page checkout is uitgeschakeld.",module,Magento_Checkout
 "Guest checkout is disabled.","Gast kassa is uitgeschakeld.",module,Magento_Checkout
 Checkout,Afrekenen,module,Magento_Checkout
 "Page not found.","Pagina niet gevonden.",module,Magento_Checkout
@@ -2469,8 +2469,8 @@ Checkout,Afrekenen,module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Er ging iets mis tijdens het verwerken van uw bestelling. Probeer het later nog eens.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 breidt \Magento\Checkout\CustomerData\ItemInterface niet uit",module,Magento_Checkout
 "We can't find the product.","We kunnen het product niet vinden.",module,Magento_Checkout
-"The product does not exist.","Het artikel bestaat niet",module,Magento_Checkout
-"We don't have some of the products you want.","We hebben enkele van de producten die u wenst niet.",module,Magento_Checkout
+"The product does not exist.","Het artikel bestaat niet.",module,Magento_Checkout
+"We don't have some of the products you want.","We hebben niet alle producten die u wenst.",module,Magento_Checkout
 "We don't have as many of some products as you want.","We hebben het gevraagde aantal producten niet op voorraad.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Aantal is opnieuw berekend van %1 tot %2",module,Magento_Checkout
 "We adjusted product quantities to fit the required increments.","We hebben de producthoeveelheden aangepast om aan de vereiste hoeveelheden te voldoen.",module,Magento_Checkout
@@ -2504,7 +2504,7 @@ Message,Bericht,module,Magento_Checkout
 "Cancel Coupon","Kortingscode annuleren",module,Magento_Checkout
 "Shopping Cart Items","Producten in winkelwagen",module,Magento_Checkout
 Item,Product,module,Magento_Checkout
-Price,prijs,module,Magento_Checkout
+Price,Prijs,module,Magento_Checkout
 Qty,Aantal,module,Magento_Checkout
 Subtotal,Subtotaal,module,Magento_Checkout
 "Continue Shopping","Ga verder met winkelen",module,Magento_Checkout
@@ -2671,7 +2671,7 @@ ID,ID,module,Magento_Cms
 Title,Titel,module,Magento_Cms
 Identifier,Identifier,module,Magento_Cms
 Status,Status,module,Magento_Cms
-Disabled,Gedeactiveerd,module,Magento_Cms
+Disabled,Uitgeschakeld,module,Magento_Cms
 Enabled,Ingeschakeld,module,Magento_Cms
 "Manage Pages","Beheer pagina's",module,Magento_Cms
 "Add New Page","Nieuwe pagina toevoegen",module,Magento_Cms
@@ -2682,7 +2682,7 @@ Layout,Lay-out,module,Magento_Cms
 "Store View",Winkelaanzicht,module,Magento_Cms
 Created,Aangemaakt,module,Magento_Cms
 Modified,Gewijzigd,module,Magento_Cms
-Action,Aktie,module,Magento_Cms
+Action,Actie,module,Magento_Cms
 Preview,Voorbeeld,module,Magento_Cms
 "Media Storage","Media opslag",module,Magento_Cms
 "Create Folder...","Maak map....",module,Magento_Cms
@@ -2715,7 +2715,7 @@ Blocks,Blokken,module,Magento_Cms
 Pages,Pagina's,module,Magento_Cms
 "Something went wrong while saving the page.","Er ging iets mis bij het opslaan van de pagina.",module,Magento_Cms
 "A total of %1 record(s) have been disabled.","Een totaal van %1 document(en) zijn uitgeschakeld.",module,Magento_Cms
-"A total of %1 record(s) have been enabled.","Een totaal van %1 document(en) zijn ingeschakeld.",module,Magento_Cms
+"A total of %1 record(s) have been enabled.","In totaal van %1 records(s) zijn ingeschakeld.",module,Magento_Cms
 "Page Title",Paginatitel,module,Magento_Cms
 "To apply changes you should fill in hidden required ""%1"" field","Om de wijzigingen toe te passen dient u het verborgen benodigde veld ""%1"" in te vullen",module,Magento_Cms
 "You saved the page.","Pagina opgeslagen.",module,Magento_Cms
@@ -2724,7 +2724,7 @@ Pages,Pagina's,module,Magento_Cms
 "CMS Block with id ""%1"" does not exist.","CMS blok met id ""%1"" bestaat niet.",module,Magento_Cms
 "Enabled by Default","Standaard ingeschakeld",module,Magento_Cms
 "Disabled by Default","Standaard uitgeschakeld",module,Magento_Cms
-"Disabled Completely","Compleet gedeactiveerd",module,Magento_Cms
+"Disabled Completely","Volledig uitgeschakeld",module,Magento_Cms
 "This identifier is reserved for ""CMS No Route Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS geen Route pagina"" in configuratie.",module,Magento_Cms
 "This identifier is reserved for ""CMS Home Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Home Pagina"" in configuratie.",module,Magento_Cms
 "This identifier is reserved for ""CMS No Cookies Page"" in configuration.","Deze identifier is gereserveerd voor ""CMS Geen Cookies Pagina"" in configuratie.",module,Magento_Cms
@@ -2768,7 +2768,7 @@ px.,px.,module,Magento_Cms
 "Show Breadcrumbs for CMS Pages","Kruimelpad tonen voor CMS-pagina's",module,Magento_Cms
 "Browser Capabilities Detection","Detectie van browsermogelijkheden",module,Magento_Cms
 "Redirect to CMS-page if Cookies are Disabled","Redirect naar de CMS-page als de Cookies zijn uitgeschakeld",module,Magento_Cms
-"Show Notice if JavaScript is Disabled","Waarschuw als Javascript gedeactiveerd is",module,Magento_Cms
+"Show Notice if JavaScript is Disabled","Waarschuw als javascript is uitgeschakeld",module,Magento_Cms
 "Show Notice if Local Storage is Disabled","Waarschuw als lokale opslag is uitgeschakeld",module,Magento_Cms
 "WYSIWYG Options","WYSIWYG Opties",module,Magento_Cms
 "Enable WYSIWYG Editor","WYSWIGY editor activeren",module,Magento_Cms
@@ -2823,7 +2823,7 @@ Error,Foutmelding,module,Magento_CmsStaging
 "Scheduled Changes","Geplande wijzigingen",module,Magento_CmsStaging
 Name,Naam,module,Magento_CmsStaging
 Description,Omschrijving,module,Magento_CmsStaging
-Action,Aktie,module,Magento_CmsStaging
+Action,Actie,module,Magento_CmsStaging
 "Update Information","Informatie bijwerken",module,Magento_CmsStaging
 "Remove CMS block from Campaign","Verwijder CMS blok van de Campagne",module,Magento_CmsStaging
 "Update Name","Naam van update",module,Magento_CmsStaging
@@ -2928,7 +2928,7 @@ Store,Winkel,module,Magento_Config
 "HTTP (unsecure)","HTTP (onveilig)",module,Magento_Config
 "HTTPS (SSL)","HTTPS (SSL)",module,Magento_Config
 "Yes (302 Found)","Ja (302 gevonden)",module,Magento_Config
-"Yes (301 Moved Permanently)","Ja (301 Permanent verhuisd)",module,Magento_Config
+"Yes (301 Moved Permanently)","Ja (301 Permanent verplaatst)",module,Magento_Config
 Yes,Ja,module,Magento_Config
 Specified,Gespecificeerd,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Configuratie form fieldset clone model verplicht om velden te kunnen kopieren.",module,Magento_Config
@@ -3023,7 +3023,7 @@ Done,Klaar,module,Magento_ConfigurableProduct
 Image,Beeld,module,Magento_ConfigurableProduct
 Name,Naam,module,Magento_ConfigurableProduct
 SKU,Art.nr.,module,Magento_ConfigurableProduct
-Price,prijs,module,Magento_ConfigurableProduct
+Price,Prijs,module,Magento_ConfigurableProduct
 Quantity,Aantal,module,Magento_ConfigurableProduct
 Weight,Gewicht,module,Magento_ConfigurableProduct
 Status,Status,module,Magento_ConfigurableProduct
@@ -3262,9 +3262,9 @@ ID,ID,module,Magento_Customer
 Product,Product,module,Magento_Customer
 SKU,Art.nr.,module,Magento_Customer
 Quantity,Aantal,module,Magento_Customer
-Price,prijs,module,Magento_Customer
+Price,Prijs,module,Magento_Customer
 Total,totaal,module,Magento_Customer
-Action,Aktie,module,Magento_Customer
+Action,Actie,module,Magento_Customer
 Configure,Configureren,module,Magento_Customer
 Delete,Verwijder,module,Magento_Customer
 "Shopping Cart from %1","Winkelwagen van %1",module,Magento_Customer
@@ -3339,7 +3339,7 @@ Download,Downloads,module,Magento_Customer
 "There was an error detecting Customer Group.","Er is een fout opgetreden bij Klant Groep.",module,Magento_Customer
 "Validate VAT Number","Valideer BTW-nummer",module,Magento_Customer
 "Customer Login",Klant-login,module,Magento_Customer
-"Create New Customer Account","Nieuwe account aanmaken",module,Magento_Customer
+"Create New Customer Account","Nieuw account aanmaken",module,Magento_Customer
 "Date of Birth",Geboortedatum,module,Magento_Customer
 "Bad request.","Foute aanvraag",module,Magento_Customer
 "This confirmation key is invalid or has expired.","Deze bevestiging sleutel is ongeldig of is verlopen.",module,Magento_Customer
@@ -3554,7 +3554,7 @@ or,of,module,Magento_Customer
 "Additional Address Entries","Additionele Adresgegevens",module,Magento_Customer
 "Delete Address","Verwijder adres",module,Magento_Customer
 "You have no other address entries in your address book.","U hebt geen andere adressen ingevoerd in uw adresboek.",module,Magento_Customer
-"* Required Fields","* Vereiste velden",module,Magento_Customer
+"* Required Fields","* Verplichte velden",module,Magento_Customer
 Company,Bedrijfsnaam,module,Magento_Customer
 "Phone Number",Telefoonnummer,module,Magento_Customer
 Fax,Fax,module,Magento_Customer
@@ -3562,7 +3562,7 @@ Address,Straat,module,Magento_Customer
 "Street Address","Straat Adres",module,Magento_Customer
 "Street Address %1","Straat en huisnummer %1",module,Magento_Customer
 "VAT Number","BTW nummer",module,Magento_Customer
-City,stad,module,Magento_Customer
+City,Plaats,module,Magento_Customer
 State/Province,staat/provincie,module,Magento_Customer
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_Customer
 "Zip/Postal Code",Postcode,module,Magento_Customer
@@ -3583,7 +3583,7 @@ Email,Email,module,Magento_Customer
 "New Password","Nieuw wachtwoord",module,Magento_Customer
 "Password Strength",Wachtwoordsterkte,module,Magento_Customer
 "No Password","Geen wachtwoord",module,Magento_Customer
-"Confirm New Password","Bevestig Nieuw Wachtwoord",module,Magento_Customer
+"Confirm New Password","Bevestig nieuw wachtwoord",module,Magento_Customer
 Save,Opslaan,module,Magento_Customer
 "Please enter your email address below to receive a password reset link.","Voer uw e-mailadres hieronder in om een wachtwoord reset link te ontvangen.",module,Magento_Customer
 "Reset My Password","Wachtwoord resetten",module,Magento_Customer
@@ -3596,8 +3596,8 @@ Password,Wachtwoord,module,Magento_Customer
 "Sign Up for Newsletter","Inschrijven op de nieuwsbrief",module,Magento_Customer
 "Address Information","Adres Gegevens",module,Magento_Customer
 "Sign-in Information",Inloggegevens,module,Magento_Customer
-"Confirm Password","Bevestig Wachtwoord",module,Magento_Customer
-"Create an Account",Registreren,module,Magento_Customer
+"Confirm Password","Bevestig wachtwoord",module,Magento_Customer
+"Create an Account","Account aanmaken",module,Magento_Customer
 "Set a New Password","Een nieuw wachtwoord instellen",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","U heeft zich afgemeld en zal over 5 seconden naar de homepage doorgestuurd worden.",module,Magento_Customer
 "New Customers","Nieuwe klanten",module,Magento_Customer
@@ -3606,7 +3606,7 @@ Gender,Geslacht,module,Magento_Customer
 Name,Naam,module,Magento_Customer
 "Tax/VAT number",BTW-nummer,module,Magento_Customer
 "Welcome to %store_name","Welkom bij %store_name",module,Magento_Customer
-"%name,","%naam,",module,Magento_Customer
+"%name,","%name,",module,Magento_Customer
 "Welcome to %store_name.","Welkom op %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Om in te loggen op onze website, gebruik deze gegevens tijdens het betalen of op de <a href=""%customer_url"">Uw Account</a> pagina:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -3760,7 +3760,7 @@ Addresses,Adressen,module,Magento_Customer
 "Delete Orphan Balances","Verwijder verweesde saldo's",module,Magento_CustomerBalance
 Date,Datum,module,Magento_CustomerBalance
 Website,Website,module,Magento_CustomerBalance
-Action,Aktie,module,Magento_CustomerBalance
+Action,Actie,module,Magento_CustomerBalance
 "Balance Change","Saldo Verandering",module,Magento_CustomerBalance
 Balance,Saldo,module,Magento_CustomerBalance
 "Customer notified","Klant ingelicht",module,Magento_CustomerBalance
@@ -3791,7 +3791,7 @@ Reverted,Terugstellen,module,Magento_CustomerBalance
 "Order #%1","Order #%1",module,Magento_CustomerBalance
 "There is no credit memo set to balance model.","Er is geen creditfactuur gezet voor het Saldo-model.",module,Magento_CustomerBalance
 "Order #%1, creditmemo #%2","Bestelling #%1, creditfactuur #%2",module,Magento_CustomerBalance
-"Unknown balance history action code","Onbekende Saldo geschiedenis aktie code",module,Magento_CustomerBalance
+"Unknown balance history action code","Onbekende Saldo geschiedenisactie code",module,Magento_CustomerBalance
 "There is no order set to balance model.","Er is geen volorde gezet voor het Saldo-model.",module,Magento_CustomerBalance
 "You do not have enough store credit to complete this order.","U heeft niet genoeg winkel krediet om deze bestelling af te ronden.",module,Magento_CustomerBalance
 "You can't use more store credit than the order amount.","U kan niet meer winkelkrediet gebruiken dan het bedrag van de bestelling.",module,Magento_CustomerBalance
@@ -3920,7 +3920,7 @@ Customer,Klant,module,Magento_CustomerCustomAttributes
 "This fieldset is not empty!","De veldenset is niet leeg!",module,Magento_CustomerCustomAttributes
 "Choose Website:","Kies Website:",module,Magento_CustomerCustomAttributes
 "Please confirm site switching. All data that hasn't been saved will be lost.","Bevestig sitewissel. Alle gegevens die nog niet opgeslagen zijn, zullen verloren gaan.",module,Magento_CustomerCustomAttributes
-"* Required Fields","* Vereiste velden",module,Magento_CustomerCustomAttributes
+"* Required Fields","* Verplichte velden",module,Magento_CustomerCustomAttributes
 "Contact Information",Contactgegevens,module,Magento_CustomerCustomAttributes
 Company,Bedrijfsnaam,module,Magento_CustomerCustomAttributes
 "Phone Number",Telefoonnummer,module,Magento_CustomerCustomAttributes
@@ -3929,7 +3929,7 @@ Address,Straat,module,Magento_CustomerCustomAttributes
 "Street Address","Straat Adres",module,Magento_CustomerCustomAttributes
 "Street Address %1","Straat en huisnummer %1",module,Magento_CustomerCustomAttributes
 "VAT Number","BTW nummer",module,Magento_CustomerCustomAttributes
-City,stad,module,Magento_CustomerCustomAttributes
+City,Plaats,module,Magento_CustomerCustomAttributes
 State/Province,staat/provincie,module,Magento_CustomerCustomAttributes
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_CustomerCustomAttributes
 "Zip/Postal Code",Postcode,module,Magento_CustomerCustomAttributes
@@ -3949,14 +3949,14 @@ Email,Email,module,Magento_CustomerCustomAttributes
 "New Password","Nieuw wachtwoord",module,Magento_CustomerCustomAttributes
 "Password Strength",Wachtwoordsterkte,module,Magento_CustomerCustomAttributes
 "No Password","Geen wachtwoord",module,Magento_CustomerCustomAttributes
-"Confirm New Password","Bevestig Nieuw Wachtwoord",module,Magento_CustomerCustomAttributes
+"Confirm New Password","Bevestig nieuw wachtwoord",module,Magento_CustomerCustomAttributes
 "Personal Information","persoonlijke informatie",module,Magento_CustomerCustomAttributes
 "Sign Up for Newsletter","geef u op voor de nieuwsbrief",module,Magento_CustomerCustomAttributes
 "Address Information","Adres Gegevens",module,Magento_CustomerCustomAttributes
 "Sign-in Information",Inloggegevens,module,Magento_CustomerCustomAttributes
 Password,Wachtwoord,module,Magento_CustomerCustomAttributes
-"Confirm Password","Bevestig Wachtwoord",module,Magento_CustomerCustomAttributes
-"Create an Account","Creëer een Account",module,Magento_CustomerCustomAttributes
+"Confirm Password","Bevestig wachtwoord",module,Magento_CustomerCustomAttributes
+"Create an Account","Account aanmaken",module,Magento_CustomerCustomAttributes
 Back,Terug,module,Magento_CustomerCustomAttributes
 "Customer Address",Klantadres,module,Magento_CustomerCustomAttributes
 "Default Values",standaardwaarden,module,Magento_CustomerCustomAttributes
@@ -4103,7 +4103,7 @@ matches,"komt overeen",module,Magento_CustomerSegment
 "is not one of","behoort niet tot",module,Magento_CustomerSegment
 "Shopping Cart Total","Winkelwagen Totaal",module,Magento_CustomerSegment
 Subtotal,Subtotaal,module,Magento_CustomerSegment
-"Grand Total","Groot Totaal",module,Magento_CustomerSegment
+"Grand Total",Eindtotaal,module,Magento_CustomerSegment
 Tax,Belasting,module,Magento_CustomerSegment
 "Gift Card",Cadeaubon,module,Magento_CustomerSegment
 "Shopping Cart %1 Amount %2 %3:","Winkelenwagen %1 bedrag %2 %3:",module,Magento_CustomerSegment
@@ -4164,7 +4164,7 @@ Decision,Besluit,module,Magento_Cybersource
 "Unverifiable address. The billing or shipping address cannot be verified","Oncontroleerbaar adres. Factuur- en verzendadres kan niet worden geverifieerd",module,Magento_Cybersource
 "Velocity. The account number was use  many times in the past 15 minutes","Snelheid. Het rekeningnummer is vele malen gebruikt in de afgelopen 15 minuten",module,Magento_Cybersource
 "Marked as suspect. The billing or shipping address is similar to an address previously marked as suspect","Gemarkeerd als verdacht. Het factuur- of verzendadres is vergelijkbaar met een adres dat eerder is gemarkeerd als verdacht",module,Magento_Cybersource
-"Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestelling. De straatnaam, stad, staat of land van het facturerings- en verzendgegevens adressen komen niet overeen",module,Magento_Cybersource
+"Gift Order. The street address, city, state, or country of the billing and shipping addresses do not correlate","Geschenkbestelling. De straatnaam, plaats, staat of land van het facturerings- en verzendgegevens adressen komen niet overeen",module,Magento_Cybersource
 "Invalid value. Because the request contains an unexpected value, a default value was substituted. Although the transact on can still be processed, examine the request carefully for abnormalities in the order","Ongeldige waarde. Omdat de aanvraag een onverwachte waarde bevat, werd een standaardwaarde vervangen. Hoewel de transactie nog steeds kan worden verwerkt, wordt geadviseerd de order zorgvuldig te onderzoeken op afwijkingen",module,Magento_Cybersource
 "Unknown factor. Please contact Cybersource customer service","Onbekende factor. Neem contact op met klantenservice van Cybersource",module,Magento_Cybersource
 "Payment Token Build Error.","Betaling Token Build fout.",module,Magento_Cybersource
@@ -4395,7 +4395,7 @@ Title,Titel,module,Magento_Downloadable
 "Links can be purchased separately","Links kunnen afzonderlijk worden gekocht",module,Magento_Downloadable
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","Alfanumeriek- (a-z en A-Z), streepje- (-) en underscore- (_) karakters zijn aanbevolen voor bestandnamen. Ongeldige karakters worden vervangen door een underscore (_).",module,Magento_Downloadable
 "Add Link","Link toevoegen",module,Magento_Downloadable
-Price,prijs,module,Magento_Downloadable
+Price,Prijs,module,Magento_Downloadable
 File,Bestand,module,Magento_Downloadable
 Sample,demo,module,Magento_Downloadable
 Shareable,Deelbaar,module,Magento_Downloadable
@@ -4664,7 +4664,7 @@ Unknown,Onbekend,module,Magento_Email
 Country,Land,module,Magento_Email
 Region/State,Provincie,module,Magento_Email
 "Zip/Postal Code",Postcode,module,Magento_Email
-City,stad,module,Magento_Email
+City,Plaats,module,Magento_Email
 "Street Address 1","Straat en huisnummer 1",module,Magento_Email
 "Street Address 2","Straat en huisnummer 2",module,Magento_Email
 "Store Contact Information",Contactinformatie,module,Magento_Email
@@ -4681,7 +4681,7 @@ City,stad,module,Magento_Email
 "<pre> %1 </pre>","<pre> %1 </pre>",module,Magento_Email
 "CSS inlining error:","CSS inlining fout:",module,Magento_Email
 "Error filtering template: %s","Fout filteren sjabloon: %s",module,Magento_Email
-"We're sorry, an error has occurred while generating this email.","Er ging iets mis bij het genereren van deze e-mail.",module,Magento_Email
+"We're sorry, an error has occurred while generating this email.","Er is een fout opgetreden bij het genereren van deze e-mail.",module,Magento_Email
 "Invalid sender data","Ongeldige gegevens afzender",module,Magento_Email
 Title,Titel,module,Magento_Email
 "Load default template","Standaard-sjabloon laden",module,Magento_Email
@@ -4699,7 +4699,7 @@ Added,Toegevoegd,module,Magento_Email
 Updated,Ge-update,module,Magento_Email
 Subject,Onderwerp,module,Magento_Email
 "Template Type","Template soort",module,Magento_Email
-Action,Aktie,module,Magento_Email
+Action,Actie,module,Magento_Email
 "Logo Image","Logo afbeelding",module,Magento_Email
 "Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Toegestane bestand types: jpg, jpeg, gif, png. Om een logo te optimalizeren voor hoge resolutie schermen, upload een afbeelding die 3x zo groot is en specifieer vervolgens 1x de dimensies in de breedte/hoogte velden.",module,Magento_Email
 "Logo Image Alt","Alt-tekst logo",module,Magento_Email
@@ -4716,7 +4716,7 @@ Action,Aktie,module,Magento_Email
 "The encryption key is used to protect passwords and other sensitive data.","De encryptiesleutel wordt gebruikt om wachtwoorden en andere gevoelige gegevens te beveiligen.",module,Magento_EncryptionKey
 "Auto-generate a Key","Automatisch een encryptiesleutel genereren",module,Magento_EncryptionKey
 No,Nee,module,Magento_EncryptionKey
-Yes,ja,module,Magento_EncryptionKey
+Yes,Ja,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","De gegenereerde encryptiesleutel wordt weergegeven na het veranderen.",module,Magento_EncryptionKey
 "New Key","Nieuwe encryptiesleutel",module,Magento_EncryptionKey
 "Deployment configuration file is not writable.","Deployment configuratiebestand is niet schrijfbaar.",module,Magento_EncryptionKey
@@ -4897,7 +4897,7 @@ Message,Bericht,module,Magento_GiftCard
 "Maximum length of the message is %1 characters.","Maximale lengte van het bericht is %1 tekens.",module,Magento_GiftCard
 Quantity,Aantal,module,Magento_GiftCard
 Website,Website,module,Magento_GiftCard
-Action,Aktie,module,Magento_GiftCard
+Action,Actie,module,Magento_GiftCard
 "Delete Amount","Bedrag verwijderen",module,Magento_GiftCard
 Delete,Verwijder,module,Magento_GiftCard
 From,Van,module,Magento_GiftCard
@@ -4933,7 +4933,7 @@ Delete,Verwijder,module,Magento_GiftCardAccount
 "New Gift Card Account","Nieuw cadeaubon account",module,Magento_GiftCardAccount
 ID,ID,module,Magento_GiftCardAccount
 Date,Datum,module,Magento_GiftCardAccount
-Action,Aktie,module,Magento_GiftCardAccount
+Action,Actie,module,Magento_GiftCardAccount
 "Balance Change","Saldo Verandering",module,Magento_GiftCardAccount
 Balance,Saldo,module,Magento_GiftCardAccount
 "More Information","Meer informatie",module,Magento_GiftCardAccount
@@ -5128,7 +5128,7 @@ ID,ID,module,Magento_GiftRegistry
 Requested,Gevraagd,module,Magento_GiftRegistry
 Fulfilled,Voltooid,module,Magento_GiftRegistry
 Note,Opmerking,module,Magento_GiftRegistry
-Action,Aktie,module,Magento_GiftRegistry
+Action,Actie,module,Magento_GiftRegistry
 "Update Quantity","Aantal bijwerken",module,Magento_GiftRegistry
 "Remove Item","Product verwijderen",module,Magento_GiftRegistry
 "Sharing Information","Delen Informatie",module,Magento_GiftRegistry
@@ -5298,7 +5298,7 @@ Company,Bedrijfsnaam,module,Magento_GiftRegistry
 Address,Straat,module,Magento_GiftRegistry
 "Street Address","Straat Adres",module,Magento_GiftRegistry
 "Street Address %1","Straat en huisnummer %1",module,Magento_GiftRegistry
-City,stad,module,Magento_GiftRegistry
+City,Plaats,module,Magento_GiftRegistry
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_GiftRegistry
 "Zip/Postal Code",Postcode,module,Magento_GiftRegistry
 Country,Land,module,Magento_GiftRegistry
@@ -5323,7 +5323,7 @@ Remove,Verwijder,module,Magento_GiftRegistry
 "First Name",Voornaam,module,Magento_GiftRegistry
 Name,Naam,module,Magento_GiftRegistry
 Email,Email,module,Magento_GiftRegistry
-"* Required Fields","* Vereiste velden",module,Magento_GiftRegistry
+"* Required Fields","* Verplichte velden",module,Magento_GiftRegistry
 Sender,Afzender,module,Magento_GiftRegistry
 Invitee,genodigde,module,Magento_GiftRegistry
 "Maximum %1 email addresses.","Maximale %1 e-mailadressen.",module,Magento_GiftRegistry
@@ -5357,13 +5357,13 @@ Search,Zoek,module,Magento_GiftRegistry
 "Gift Registry ID",Verlanglijst-ID,module,Magento_GiftRegistry
 "Search Results",Zoekresultaten,module,Magento_GiftRegistry
 Location,Plaats,module,Magento_GiftRegistry
-Actions,acties,module,Magento_GiftRegistry
+Actions,Acties,module,Magento_GiftRegistry
 View,Bekijk,module,Magento_GiftRegistry
 "Your search returned no results.","Uw zoekopdracht heeft geen resultaten opgeleverd.",module,Magento_GiftRegistry
 "Please enter at least two letters of the name.","Voer ten minste twee letters van de naam in.",module,Magento_GiftRegistry
 "Search By","Zoeken op",module,Magento_GiftRegistry
 "Please enter at least two letters.","Voer ten minste 2 letters in.",module,Magento_GiftRegistry
-"Unit Price",Eenheidsprijs,module,Magento_GiftRegistry
+"Unit Price",Stukprijs,module,Magento_GiftRegistry
 "Add to Cart","In Winkelwagen",module,Magento_GiftRegistry
 "Gift Registry created at %store_name","Geschenklijst aangemaakt op %store_name",module,Magento_GiftRegistry
 "%name,","%naam,",module,Magento_GiftRegistry
@@ -5491,7 +5491,7 @@ Delete,Verwijder,module,Magento_GiftWrapping
 "Change Status","Verander status",module,Magento_GiftWrapping
 ID,ID,module,Magento_GiftWrapping
 "Gift Wrap Design","Cadeau papier ontwerp",module,Magento_GiftWrapping
-Action,Aktie,module,Magento_GiftWrapping
+Action,Actie,module,Magento_GiftWrapping
 Edit,Bewerken,module,Magento_GiftWrapping
 Dynamic,Dynamisch,module,Magento_GoogleAdwords
 Constant,Constante,module,Magento_GoogleAdwords
@@ -5547,8 +5547,8 @@ Thumbnail,Thumbnail,module,Magento_GroupedProduct
 Name,Naam,module,Magento_GroupedProduct
 "Attribute Set",Attributenset,module,Magento_GroupedProduct
 Status,Status,module,Magento_GroupedProduct
-SKU,"stock keeping unit",module,Magento_GroupedProduct
-Price,prijs,module,Magento_GroupedProduct
+SKU,Art.nr.,module,Magento_GroupedProduct
+Price,Prijs,module,Magento_GroupedProduct
 "Default Quantity","Standaard aantal",module,Magento_GroupedProduct
 Actions,Acties,module,Magento_GroupedProduct
 "Associated Products","Gerelateerde producten",module,Magento_GroupedProduct
@@ -5575,7 +5575,7 @@ ID,ID,module,Magento_GroupedProductStaging
 Thumbnail,Thumbnail,module,Magento_GroupedProductStaging
 Name,Naam,module,Magento_GroupedProductStaging
 Type,Soort,module,Magento_GroupedProductStaging
-SKU,SKU,module,Magento_GroupedProductStaging
+SKU,Art.nr.,module,Magento_GroupedProductStaging
 Quantity,Aantal,module,Magento_GroupedProductStaging
 Price,Prijs,module,Magento_GroupedProductStaging
 "Attribute Set",Attributenset,module,Magento_GroupedProductStaging
@@ -5933,7 +5933,7 @@ Link,link,module,Magento_Invitation
 "Sign Up At","Registreer op",module,Magento_Invitation
 "Inviter Information","informatie over uitnodiger",module,Magento_Invitation
 Admin,Beheerder,module,Magento_Invitation
-"* Required Fields","* Vereiste velden",module,Magento_Invitation
+"* Required Fields","* Verplichte velden",module,Magento_Invitation
 "Invite your friends by entering their email addresses","Vrienden uitnodigen door het invoeren van hun email adressen",module,Magento_Invitation
 "Maximum %1 email addresses allowed.","Maximum %1 email adressen toegestaan.",module,Magento_Invitation
 Add,Toevoegen,module,Magento_Invitation
@@ -6081,7 +6081,7 @@ Create,Creëren,module,Magento_Logging
 "Catalog Products","Catalogus Producten",module,Magento_Logging
 "Catalog Categories","Catalogus Categorieën",module,Magento_Logging
 "URL Rewrites","Herschreven URL's",module,Magento_Logging
-"Catalog Search","Catalogus Doorzoeken",module,Magento_Logging
+"Catalog Search","Catalogus doorzoeken",module,Magento_Logging
 "Catalog Ratings","Catalogus Becijfering",module,Magento_Logging
 "Catalog Reviews","Catalogus Reviews",module,Magento_Logging
 "Catalog Attributes","Catalogus Eigenschappen",module,Magento_Logging
@@ -6129,7 +6129,7 @@ CSV,CSV,module,Magento_Logging
 "Excel XML","Excel XML",module,Magento_Logging
 Time,Tijd,module,Magento_Logging
 "Action Group","Actie Groep",module,Magento_Logging
-Action,Aktie,module,Magento_Logging
+Action,Actie,module,Magento_Logging
 "IP Address","IP Adres",module,Magento_Logging
 Username,Gebruikersnaam,module,Magento_Logging
 Result,Resultaat,module,Magento_Logging
@@ -6185,7 +6185,7 @@ Database,Database,module,Magento_MediaStorage
 "What's this?","Wat is dit?",module,Magento_Msrp
 "Order total will be displayed before you submit the order","Bestel totalen zullen worden weergegeven voordat je de bestelling verstuurd",module,Magento_Msrp
 "You will see the order total before you submit the order.","Je ziet het besteltotaal voordat je de bestelling verstuurd.",module,Magento_Msrp
-Price,prijs,module,Magento_Msrp
+Price,Prijs,module,Magento_Msrp
 "Actual Price","Werkelijke prijs",module,Magento_Msrp
 "Add to Cart","In Winkelwagen",module,Magento_Msrp
 "Minimum Advertised Price","Minimum geadverteerde verkoopprijs",module,Magento_Msrp
@@ -6219,7 +6219,7 @@ Name,Naam,module,Magento_MultipleLocationInventory
 Email,Email,module,Magento_MultipleLocationInventory
 Country,Land,module,Magento_MultipleLocationInventory
 State/Province,Staat/provincie,module,Magento_MultipleLocationInventory
-City,stad,module,Magento_MultipleLocationInventory
+City,Plaats,module,Magento_MultipleLocationInventory
 Street,Straat,module,Magento_MultipleLocationInventory
 ZIP,Postcode,module,Magento_MultipleLocationInventory
 Status,Status,module,Magento_MultipleLocationInventory
@@ -6284,7 +6284,7 @@ Refresh,Vernieuwen,module,Magento_MultipleWishlist
 "All Wish Lists","Alle verlanlijsten",module,Magento_MultipleWishlist
 Item,Item,module,Magento_MultipleWishlist
 Qty,Aantal,module,Magento_MultipleWishlist
-Price,prijs,module,Magento_MultipleWishlist
+Price,Prijs,module,Magento_MultipleWishlist
 Remove,Verwijder,module,Magento_MultipleWishlist
 "Add To Order","Aan bestelling toevoegen",module,Magento_MultipleWishlist
 "Configure and Add to Order","Configureer en voeg toe aan bestelling",module,Magento_MultipleWishlist
@@ -6353,7 +6353,7 @@ Comment,Commentaar,module,Magento_MultipleWishlist
 "Surplus / Deficit","Overschot / tekort",module,Magento_MultipleWishlist
 "All Websites","Alle Websites",module,Magento_MultipleWishlist
 "Product Info",Productinformatie,module,Magento_MultipleWishlist
-"Unit Price",Eenheidsprijs,module,Magento_MultipleWishlist
+"Unit Price",Stukprijs,module,Magento_MultipleWishlist
 "Add to Wish List","Voeg toe aan verlanglijst",module,Magento_MultipleWishlist
 "Change Billing Address","Verander Factuuradres",module,Magento_Multishipping
 "Ship to Multiple Addresses","Verzenden naar meerdere adressen",module,Magento_Multishipping
@@ -6421,10 +6421,10 @@ Change,Verander,module,Magento_Multishipping
 "Order Review","Controleer uw bestelling",module,Magento_Multishipping
 Item,Item,module,Magento_Multishipping
 Edit,Bewerken,module,Magento_Multishipping
-Price,prijs,module,Magento_Multishipping
+Price,Prijs,module,Magento_Multishipping
 Subtotal,Subtotaal,module,Magento_Multishipping
 Items,Items,module,Magento_Multishipping
-"Grand Total:","Algemeen totaal:",module,Magento_Multishipping
+"Grand Total:",Eindtotaal:,module,Magento_Multishipping
 "Submitting order information...","Informatie van de bestelling wordt opgeslagen...",module,Magento_Multishipping
 "Sorry, no quotes are available for this order right now.","Geen quotes gevonden voor deze bestelling.",module,Magento_Multishipping
 "Continue to Billing Information","Ga verder naar factuurinformatie",module,Magento_Multishipping
@@ -6517,7 +6517,7 @@ Added,Toegevoegd,module,Magento_Newsletter
 Updated,Ge-update,module,Magento_Newsletter
 Sender,Afzender,module,Magento_Newsletter
 "Template Type","Template soort",module,Magento_Newsletter
-Action,Aktie,module,Magento_Newsletter
+Action,Actie,module,Magento_Newsletter
 "Queue Newsletter","Wachtrij nieuwsbrief",module,Magento_Newsletter
 "We unsubscribed the people you identified.","We hebben de mensen uitgeschreven die u geïdentificeerd heeft.",module,Magento_Newsletter
 "The problems you identified have been deleted.","De problemen die u vaststelde werden verwijderd.",module,Magento_Newsletter
@@ -6686,7 +6686,7 @@ Field,Veld,module,Magento_OfflineShipping
 "Flat Rate","Vast tarief",module,Magento_OfflineShipping
 Enabled,Ingeschakeld,module,Magento_OfflineShipping
 "Method Name","Naam van methode",module,Magento_OfflineShipping
-Price,prijs,module,Magento_OfflineShipping
+Price,Prijs,module,Magento_OfflineShipping
 "Calculate Handling Fee","Verzendkosten berekenen",module,Magento_OfflineShipping
 "Handling Fee",Verwerkingskosten,module,Magento_OfflineShipping
 "Sort Order","Sorteer Bestelling",module,Magento_OfflineShipping
@@ -6863,7 +6863,7 @@ Sales,Verkopen,module,Magento_Paypal
 "The PayPal gateway rejected the request. %1","De PayPal gateway heeft de aanvraag geweigerd. %1",module,Magento_Paypal
 "I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.","Helaas, we konden jouw betaling niet voltooien. Probeer een andere betalingsmethode of neem contact op zodat we u verder kunnen helpen.",module,Magento_Paypal
 "I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.","Het spijt me - maar wij zijn niet in staat om uw transactie te voltooien. Neem contact met ons op zodat wij u kunnen helpen.",module,Magento_Paypal
-"A match of the Shipping Address City, State, and Postal Code failed.","Een match van de velden Stad, Staat en Postcode van het Verzendadres is mislukt.",module,Magento_Paypal
+"A match of the Shipping Address City, State, and Postal Code failed.","Een match van de velden Plaats, Staat en Postcode van het Verzendadres is mislukt.",module,Magento_Paypal
 "The payment method code is not set.","De code van betalingsmethode is niet ingesteld.",module,Magento_Paypal
 "The reference ID is not set.","De referentie-ID is niet ingesteld.",module,Magento_Paypal
 "Unable to save Billing Agreement:","Niet mogelijk om incasso-overeenkomst op te slaan:",module,Magento_Paypal
@@ -7085,7 +7085,7 @@ Incentive,Incentive,module,Magento_Paypal
 "Points Incentive Redemption","Points Incentive Redemption",module,Magento_Paypal
 "Postage Payment to either USPS or UPS","Postage Payment to either USPS or UPS",module,Magento_Paypal
 "Preapproved Payment (BillUser API, either sent or received","Vooraf goedgekeurde betaling (BillUser API, verzonden of ontvangen",module,Magento_Paypal
-Reauthorization,Reauthorization,module,Magento_Paypal
+Reauthorization,"Opnieuw autoriseren",module,Magento_Paypal
 "Reimbursement of Chargeback","Reimbursement of Chargeback",module,Magento_Paypal
 Reversal,Reversal,module,Magento_Paypal
 "Reversal of General Account Hold","Reversal of General Account Hold",module,Magento_Paypal
@@ -7174,7 +7174,7 @@ Edit,Bewerken,module,Magento_Paypal
 "Place Order","Plaats bestelling",module,Magento_Paypal
 "Submitting order information...","Informatie van de bestelling wordt opgeslagen...",module,Magento_Paypal
 Item,Item,module,Magento_Paypal
-Price,prijs,module,Magento_Paypal
+Price,Prijs,module,Magento_Paypal
 Qty,Aantal,module,Magento_Paypal
 Subtotal,Subtotaal,module,Magento_Paypal
 "Please update order data to get shipping methods and rates","Update gegeven bestelling voor verzendmethodes en -kosten",module,Magento_Paypal
@@ -7524,7 +7524,7 @@ Delete,Verwijder,module,Magento_ProductVideo
 "The address model is not defined.","De adres-model is niet gedefinieerd.",module,Magento_Quote
 "The address total model should be extended from
                     \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.","Het adres totaal model zal moeten worden uitgebreid van \Magento\Quote\Model\Quote\Address\Total\AbstractTotal.",module,Magento_Quote
-"Grand Total","Groot Totaal",module,Magento_Quote
+"Grand Total",Eindtotaal,module,Magento_Quote
 "Shipping & Handling (%1)","Verzending & verwerking (%1)",module,Magento_Quote
 "Shipping & Handling","Verzending en verwerking",module,Magento_Quote
 Shipping,Verzending,module,Magento_Quote
@@ -7647,8 +7647,8 @@ for,voor,module,Magento_Reminder
 "Shopping cart is not empty and abandoned %1 %2 days and %3 of these conditions match:","Winkelwagen is niet leeg en verlaten %1 %2 dagen en %3 van deze condities overeenkomen:",module,Magento_Reminder
 "The root shopping cart condition should have a days value of 0 or greater.","De top winkelwagen voorwaarde moet een dag waarde van 0 of hoger hebben.",module,Magento_Reminder
 "Total Amount","Totaal Bedrag",module,Magento_Reminder
-subtotal,subtotaal,module,Magento_Reminder
-"grand total","algemeen totaal",module,Magento_Reminder
+subtotal,Subtotaal,module,Magento_Reminder
+"grand total",Eindtotaal,module,Magento_Reminder
 "Shopping cart %1 amount %2 %3:","Winkelenwagen %1 bedrag %2 %3:",module,Magento_Reminder
 "Unknown quote total specified","Onbekend quote-totaal gespecificeerd",module,Magento_Reminder
 "Numeric Attribute","Numerisch attribuut",module,Magento_Reminder
@@ -7748,7 +7748,7 @@ Refresh,Vernieuwen,module,Magento_Reports
 Downloads,Downloads,module,Magento_Reports
 Product,Product,module,Magento_Reports
 Link,link,module,Magento_Reports
-SKU,"stock keeping unit",module,Magento_Reports
+SKU,Art.nr.,module,Magento_Reports
 Purchases,Aankopen,module,Magento_Reports
 CSV,CSV,module,Magento_Reports
 "Excel XML","Excel XML",module,Magento_Reports
@@ -7936,7 +7936,7 @@ Average,Gemiddeld,module,Magento_Reports
 "The report displays the top 5 most viewed products for each interval.","Het rapport bevat de top 5 meest bekeken producten voor elk interval.",module,Magento_Reports
 "For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Voor een nauwkeurige verslaggeving, ververs de levensduur van de statistieken telkens als u de tijdzone wijzigt.",module,Magento_Reports
 Guest,Bezoeker,module,Magento_Reports
-Action,Aktie,module,Magento_Reports
+Action,Actie,module,Magento_Reports
 "Average (Approved)","Gemiddelde (goedgekeurd)",module,Magento_Reports
 "Last Review","Laatste Review",module,Magento_Reports
 "Order Created","Order gemaakt",module,Magento_Reports
@@ -7979,8 +7979,8 @@ ID,ID,module,Magento_Review
 Created,Aangemaakt,module,Magento_Review
 Title,Titel,module,Magento_Review
 Type,Type,module,Magento_Review
-SKU,"stock keeping unit",module,Magento_Review
-Action,Aktie,module,Magento_Review
+SKU,Art.nr.,module,Magento_Review
+Action,Actie,module,Magento_Review
 Edit,Bewerken,module,Magento_Review
 Delete,Verwijder,module,Magento_Review
 "Are you sure?","Weet je het zeker?",module,Magento_Review
@@ -7993,7 +7993,7 @@ Customer,Klant,module,Magento_Review
 "All Reviews","Alle reviews",module,Magento_Review
 Name,Naam,module,Magento_Review
 "Product Store Name","Product winkelnaam",module,Magento_Review
-Price,prijs,module,Magento_Review
+Price,Prijs,module,Magento_Review
 Quantity,Aantal,module,Magento_Review
 Websites,Websites,module,Magento_Review
 "Manage Ratings","Beheer waarderingen",module,Magento_Review
@@ -8065,7 +8065,7 @@ Back,Terug,module,Magento_Review
 "Ratings Review Summary","Waarderingen Review Samenvatting",module,Magento_Review
 "Be the first to review this product","Schrijf de eerste review over dit product",module,Magento_Review
 "Write Your Own Review","Schrijf uw eigen review",module,Magento_Review
-"* Required Fields","* Vereiste velden",module,Magento_Review
+"* Required Fields","* Verplichte velden",module,Magento_Review
 "You're reviewing:","U plaatst een review over:",module,Magento_Review
 "Your Rating","Uw waardering",module,Magento_Review
 "%1 %2","%1 %2",module,Magento_Review
@@ -8277,8 +8277,8 @@ Order,Bestelling,module,Magento_Rma
 Purchased,Gekocht,module,Magento_Rma
 "Customer First Name","Voornaam klant",module,Magento_Rma
 "Customer Last Name","Achternaam klant",module,Magento_Rma
-"Grand Total (Base)","Eindtotaal (Base)",module,Magento_Rma
-"Grand Total (Purchased)","Eindtotaal (gekocht)",module,Magento_Rma
+"Grand Total (Base)","Eindtotaal (Basis)",module,Magento_Rma
+"Grand Total (Purchased)","Eindtotaal (Gekocht)",module,Magento_Rma
 Status,Status,module,Magento_Rma
 "Save and Continue Edit","Bewaar en ga door met bewerken",module,Magento_Rma
 Close,Sluiten,module,Magento_Rma
@@ -8310,7 +8310,7 @@ Approved,Akkoord,module,Magento_Rma
 Resolution,Resolutie,module,Magento_Rma
 Details,Gegevens,module,Magento_Rma
 Split,Deel,module,Magento_Rma
-Action,Aktie,module,Magento_Rma
+Action,Actie,module,Magento_Rma
 "Return Information",Retourinformatie,module,Magento_Rma
 RMA,RMA,module,Magento_Rma
 Ordered,Bestelt,module,Magento_Rma
@@ -8357,7 +8357,7 @@ Yes,Ja,module,Magento_Rma
 Delete,Verwijder,module,Magento_Rma
 "Add Details","Voeg details toe",module,Magento_Rma
 Select,Selecteer,module,Magento_Rma
-Price,prijs,module,Magento_Rma
+Price,Prijs,module,Magento_Rma
 "The wrong RMA was requested.","De verkeerde RMA werd opgevraagd.",module,Magento_Rma
 "This is the wrong RMA order ID.","Dit is de verkeerde RMA order-ID.",module,Magento_Rma
 "Invalid RMA","Ongeldige RMA",module,Magento_Rma
@@ -8538,7 +8538,7 @@ Back,Terug,module,Magento_Rma
 Date,Datum,module,Magento_Rma
 "Ship From","Bezorg Vanaf",module,Magento_Rma
 "Return Status","Retourzending Status",module,Magento_Rma
-Actions,acties,module,Magento_Rma
+Actions,Actions,module,Magento_Rma
 "View Return","Bekijk retournering",module,Magento_Rma
 "You have placed no returns.","U heeft geen retourneringen geplaatst",module,Magento_Rma
 Packages,Pakketten,module,Magento_Rma
@@ -8591,7 +8591,7 @@ Ok,OK,module,Magento_Rma
 "Use Store Address","Gebruik winkeladres",module,Magento_Rma
 "Contact Name","contact naam",module,Magento_Rma
 "Street Address","Straat Adres",module,Magento_Rma
-City,stad,module,Magento_Rma
+City,Plaats,module,Magento_Rma
 State/Province,staat/provincie,module,Magento_Rma
 "ZIP/Postal Code",Postcode,module,Magento_Rma
 Country,Land,module,Magento_Rma
@@ -8615,7 +8615,7 @@ Comma-separated,"Komma gescheiden",module,Magento_Rma
 "Send RMA Comment Email Copy To","Stuur RMA Opmerkingen E-mail Naar",module,Magento_Rma
 "RMA Customer Comments","RMA commentaren van klanten",module,Magento_Rma
 "RMA Comment Email Recipient","Geadresseerde RMA Autorisatie e-mail",module,Magento_Rma
-"Enabled for RMA","Werkzaam gemaakt voor RMA",module,Magento_Rma
+"Enabled for RMA","Enabled for RMA",module,Magento_Rma
 "Page not found.","Pagina niet gevonden.",module,Magento_Rss
 Feed,Feed,module,Magento_Rss
 "Miscellaneous Feeds","Diverse Feeds",module,Magento_Rss
@@ -8703,8 +8703,8 @@ Configure,Configureren,module,Magento_Sales
 "Add Selected Product(s) to Order","Geselecteerd(e) product(en) aan bestelling toevoegen",module,Magento_Sales
 ID,ID,module,Magento_Sales
 Product,Product,module,Magento_Sales
-SKU,"stock keeping unit",module,Magento_Sales
-Price,prijs,module,Magento_Sales
+SKU,Art.nr.,module,Magento_Sales
+Price,Prijs,module,Magento_Sales
 Select,Selecteer,module,Magento_Sales
 Quantity,Aantal,module,Magento_Sales
 "Shipping Address",Afleveradres,module,Magento_Sales
@@ -8735,7 +8735,7 @@ Refund,Terugbetaling,module,Magento_Sales
 "Refund Amount","Bedrag terugbetaling",module,Magento_Sales
 "Shipping Amount",Afleverbedrag,module,Magento_Sales
 "Shipping Refund","Terugbetaling van verzending",module,Magento_Sales
-"Order Grand Total","Totaal van bestelling",module,Magento_Sales
+"Order Grand Total","Eindtotaal van bestelling",module,Magento_Sales
 "Adjustment Refund","Extra creditering (klant extra terug betalen)",module,Magento_Sales
 "Adjustment Fee","Crediteringskosten (klant minder terug betalen)",module,Magento_Sales
 "Send Email","Verstuur e-mail",module,Magento_Sales
@@ -8828,7 +8828,7 @@ Subtotal,Subtotaal,module,Magento_Sales
 "Shipping & Handling","Verzending & verwerking",module,Magento_Sales
 "Discount (%1)","Korting (%s)",module,Magento_Sales
 Discount,Korting,module,Magento_Sales
-"Grand Total","Groot Totaal",module,Magento_Sales
+"Grand Total",Eindtotaal,module,Magento_Sales
 Back,Terug,module,Magento_Sales
 Fetch,"Haal op",module,Magento_Sales
 "Transaction # %1 | %2","Transactie # %1 | %2",module,Magento_Sales
@@ -9071,7 +9071,7 @@ title,titel,module,Magento_Sales
 "Status can't be unassigned, because it is used by existing order(s).","De status kan niet worden verwijderd, want deze wordt gebruikt bij bestaande orders.",module,Magento_Sales
 "The total model should be extended from \Magento\Sales\Model\Order\Total\AbstractTotal.","Het totaal model moet een uitbreiding zijn op \Magento\Sales\Model\Order\Total\AbstractTotal.",module,Magento_Sales
 "We cannot determine the field name.","We kunnen de naam van het veld niet bepalen.",module,Magento_Sales
-City,stad,module,Magento_Sales
+City,Plaats,module,Magento_Sales
 Company,Bedrijfsnaam,module,Magento_Sales
 Country,Land,module,Magento_Sales
 Email,Email,module,Magento_Sales
@@ -9141,7 +9141,7 @@ Remove,Verwijder,module,Magento_Sales
 "Gift Message for the Entire Order","Kadobericht voor hele bestelling",module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.","Laat dit vak leeg wanneer u geen cadeau boodschap wilt achterlaten voor de volledige bestelling.",module,Magento_Sales
 "Row Subtotal","Subtotaal rij",module,Magento_Sales
-Action,Aktie,module,Magento_Sales
+Action,Actie,module,Magento_Sales
 "No ordered items","Geen bestelde artikelen",module,Magento_Sales
 "Update Items and Quantities","Producten en aantallen bijwerken",module,Magento_Sales
 "Total %1 product(s)","Totaal %1 product(en)",module,Magento_Sales
@@ -9164,8 +9164,8 @@ Item,Item,module,Magento_Sales
 "No items","Geen items",module,Magento_Sales
 "Append Comments","Opmerkingen bijvoegen",module,Magento_Sales
 "Email Order Confirmation","E-mail bestelbevestiging",module,Magento_Sales
-"Grand Total Excl. Tax","Totaal (excl. BTW)",module,Magento_Sales
-"Grand Total Incl. Tax","Totaal (incl. BTW)",module,Magento_Sales
+"Grand Total Excl. Tax","Eindtotaal excl. BTW",module,Magento_Sales
+"Grand Total Incl. Tax","Eindtotaal incl. BTW",module,Magento_Sales
 "Subtotal (Excl. Tax)","Subtotaal (excl. BTW)",module,Magento_Sales
 "Subtotal (Incl. Tax)","Subtotaal (incl. BTW)",module,Magento_Sales
 "Payment &amp; Shipping Method","Betaling- &amp; verzendmethode",module,Magento_Sales
@@ -9251,7 +9251,7 @@ Continue,"Verder gaan",module,Magento_Sales
 "Print All Refunds","Alle terugbetalingen printen",module,Magento_Sales
 "Refund #","Terugbetaling #",module,Magento_Sales
 "Print Refund","Terugbetaling printen",module,Magento_Sales
-"Product Name","Product Naam",module,Magento_Sales
+"Product Name",Productnaam,module,Magento_Sales
 "Order #","Bestelling #",module,Magento_Sales
 Date,Datum,module,Magento_Sales
 "Ship To","Verzenden aan",module,Magento_Sales
@@ -9305,7 +9305,7 @@ Search,Zoek,module,Magento_Sales
 "Gift Options for","Cadeau opties voor",module,Magento_Sales
 "Add Products","Voeg producten toe",module,Magento_Sales
 "You have item changes","Er zijn productwijzigingen",module,Magento_Sales
-Ok,Oke,module,Magento_Sales
+Ok,OK,module,Magento_Sales
 Operations,Bewerkingen,module,Magento_Sales
 Create,Aanmaken,module,Magento_Sales
 "Send Order Email","Verstuur bestelling email",module,Magento_Sales
@@ -9422,8 +9422,8 @@ Created,Aangemaakt,module,Magento_Sales
 "Print All","Alles printen",module,Magento_Sales
 "Print Shipping Labels","Print afleveretiketten",module,Magento_Sales
 "Purchase Date",Aankoopdatum,module,Magento_Sales
-"Grand Total (Base)","Eindtotaal (Base)",module,Magento_Sales
-"Grand Total (Purchased)","Eindtotaal (gekocht)",module,Magento_Sales
+"Grand Total (Base)","Eindtotaal (Basis)",module,Magento_Sales
+"Grand Total (Purchased)","Eindtotaal (Gekocht)",module,Magento_Sales
 "Customer Email","Klant e-mail",module,Magento_Sales
 "Shipping and Handling","Verzending en verwerking",module,Magento_Sales
 "PDF Invoices","PDF facturen",module,Magento_Sales
@@ -9475,7 +9475,7 @@ Subtotal,Subtotaal,module,Magento_SalesArchive
 "Shipping & Handling","Verzending en verwerking",module,Magento_SalesArchive
 "Adjustment Refund","Extra creditering (klant extra terug betalen)",module,Magento_SalesArchive
 "Adjustment Fee","Crediteringskosten (klant minder terug betalen)",module,Magento_SalesArchive
-"Grand Total","Groot Totaal",module,Magento_SalesArchive
+"Grand Total",Eindtotaal,module,Magento_SalesArchive
 "Return to Order Management","Terug naar Order Management",module,Magento_SalesArchive
 "Purchase Point",Verkooppunt,module,Magento_SalesArchive
 Cancel,Annuleer,module,Magento_SalesArchive
@@ -9490,8 +9490,8 @@ Unhold,Vrijgeven,module,Magento_SalesArchive
 ID,ID,module,Magento_SalesArchive
 "Purchase Date",Aankoopdatum,module,Magento_SalesArchive
 "Ship-to Name",Verzendnaam,module,Magento_SalesArchive
-"Grand Total (Base)","Eindtotaal (Base)",module,Magento_SalesArchive
-"Grand Total (Purchased)","Eindtotaal (gekocht)",module,Magento_SalesArchive
+"Grand Total (Base)","Eindtotaal (Basis)",module,Magento_SalesArchive
+"Grand Total (Purchased)","Eindtotaal (Gekocht)",module,Magento_SalesArchive
 "Customer Email","Klant e-mail",module,Magento_SalesArchive
 "Shipping and Handling","Verzend- en administratiekosten",module,Magento_SalesArchive
 "Total Refunded","Totaal terugbetaald",module,Magento_SalesArchive
@@ -9671,7 +9671,7 @@ Status,Status,module,Magento_SalesRuleStaging
 Active,Actief,module,Magento_SalesRuleStaging
 Inactive,Inactief,module,Magento_SalesRuleStaging
 "Web Site",Website,module,Magento_SalesRuleStaging
-Action,Aktie,module,Magento_SalesRuleStaging
+Action,Actie,module,Magento_SalesRuleStaging
 Edit,Bewerken,module,Magento_SalesRuleStaging
 "Scheduled Changes","Geplande wijzigingen",module,Magento_SalesRuleStaging
 Name,Naam,module,Magento_SalesRuleStaging
@@ -9809,7 +9809,7 @@ Password,Wachtwoord,module,Magento_ScheduledImportExport
 "We can't save the file history file.","We kunnen de geschiedenis van het bestand niet wegschrijven.",module,Magento_ScheduledImportExport
 "Unknown file format","Onbekend bestandsformaat",module,Magento_ScheduledImportExport
 Enabled,Ingeschakeld,module,Magento_ScheduledImportExport
-Disabled,Gedeactiveerd,module,Magento_ScheduledImportExport
+Disabled,Uitgeschakeld,module,Magento_ScheduledImportExport
 Import,Import,module,Magento_ScheduledImportExport
 Export,Export,module,Magento_ScheduledImportExport
 Daily,Dagelijks,module,Magento_ScheduledImportExport
@@ -9848,7 +9848,7 @@ Delete,Verwijder,module,Magento_ScheduledImportExport
 Operation,Operatie,module,Magento_ScheduledImportExport
 "Last Run","Laatst uitgevoerd",module,Magento_ScheduledImportExport
 "Last Outcome","Laatste Resultaat",module,Magento_ScheduledImportExport
-Action,Aktie,module,Magento_ScheduledImportExport
+Action,Actie,module,Magento_ScheduledImportExport
 Edit,Bewerken,module,Magento_ScheduledImportExport
 Run,Run,module,Magento_ScheduledImportExport
 "Search Term",Zoekterm,module,Magento_Search
@@ -9925,9 +9925,9 @@ ID,ID,module,Magento_Search
 Hits,Hits,module,Magento_Search
 "Are you sure?","Weet je het zeker?",module,Magento_Search
 "Suggested Terms","Voorgestelde voorwaarden",module,Magento_Search
-yes,ja,module,Magento_Search
+yes,Ja,module,Magento_Search
 no,nee,module,Magento_Search
-Action,Aktie,module,Magento_Search
+Action,Actie,module,Magento_Search
 Edit,Bewerken,module,Magento_Search
 Scope,Bereik,module,Magento_Search
 "You can adjust the scope of this synonym group by selecting an option from the list.","U kunt het bereik van deze synoniem-groep aanpassen door een optie te selecteren uit de lijst.",module,Magento_Search
@@ -9995,7 +9995,7 @@ Exception.,Uitzondering.,module,Magento_SendFriend
 Remove,Verwijder,module,Magento_SendFriend
 Name,Naam,module,Magento_SendFriend
 Email,Email,module,Magento_SendFriend
-"* Required Fields","* Vereiste velden",module,Magento_SendFriend
+"* Required Fields","* Verplichte velden",module,Magento_SendFriend
 Sender,Afzender,module,Magento_SendFriend
 Message,Bericht,module,Magento_SendFriend
 Invitee,genodigde,module,Magento_SendFriend
@@ -10045,7 +10045,7 @@ Shipments,Verzendingen,module,Magento_Shipping
 "We can't initialize shipment for adding tracking number.","Initialiseren van verzending voor het track-and-trace nummer mislukt.",module,Magento_Shipping
 "Cannot add tracking number.","Kan geen traceernummer toevoegen",module,Magento_Shipping
 "You created the shipping label.","U heeft het verzendlabel aangemaakt.",module,Magento_Shipping
-"An error occurred while creating shipping label.","Er heeft zich een fout voorgedaan bij het aanmaken van het verzendingslabel.",module,Magento_Shipping
+"An error occurred while creating shipping label.","Er is een fout opgetreden bij het aanmaken van het verzendingslabel.",module,Magento_Shipping
 "You sent the shipment.","U hebt de verzending verzonden.",module,Magento_Shipping
 "Cannot send shipment information.","Kan de verzend details niet versturen",module,Magento_Shipping
 "There are no shipping labels related to selected orders.","Er zijn geen verzendlabels gerelateerd aan de geselecteerde bestellingen.",module,Magento_Shipping
@@ -10139,7 +10139,7 @@ Explanation,Uitleg,module,Magento_Shipping
 Carrier,drager,module,Magento_Shipping
 Title,Titel,module,Magento_Shipping
 Number,Nummer,module,Magento_Shipping
-Action,Aktie,module,Magento_Shipping
+Action,Actie,module,Magento_Shipping
 "Are you sure?","Weet je het zeker?",module,Magento_Shipping
 "Shipping &amp; Handling Information","Verzend- en verwerkinginfomatie",module,Magento_Shipping
 "Track Order","Volg bestelling",module,Magento_Shipping
@@ -10190,7 +10190,7 @@ Origin,Herkomst,module,Magento_Shipping
 Country,Land,module,Magento_Shipping
 Region/State,Provincie,module,Magento_Shipping
 "ZIP/Postal Code",postcode,module,Magento_Shipping
-City,stad,module,Magento_Shipping
+City,Plaats,module,Magento_Shipping
 "Street Address","Straat Adres",module,Magento_Shipping
 "Street Address Line 2",Adres,module,Magento_Shipping
 "Shipping Policy Parameters","Parameters verzendmethodes",module,Magento_Shipping
@@ -10262,7 +10262,7 @@ Enabled,Ingeschakeld,module,Magento_Sitemap
 ID,ID,module,Magento_Sitemap
 "Link for Google","Link voor Google",module,Magento_Sitemap
 "Last Generated","Laatst gegenereerd",module,Magento_Sitemap
-Action,Aktie,module,Magento_Sitemap
+Action,Actie,module,Magento_Sitemap
 "This search no longer exists.","Deze zoekopdracht bestaat niet meer",module,Magento_Solr
 "We were unable to perform the search because of a search engine misconfiguration.","We kunnen de zoekopdracht niet uitvoeren omwille van een onjuiste zoekmachine configuratie.",module,Magento_Solr
 "Could not ping search engine: %1","Kan niet pingen naar zoekmachine: %1",module,Magento_Solr
@@ -10346,7 +10346,7 @@ Includes,Omvat,module,Magento_Staging
 "Start Time","Begin Tijd",module,Magento_Staging
 "End Time",Eindtijd,module,Magento_Staging
 Description,Omschrijving,module,Magento_Staging
-Action,Aktie,module,Magento_Staging
+Action,Actie,module,Magento_Staging
 "MMM d, y h:mm a","MMM, d, y h:mm a",module,Magento_Staging
 Name,Naam,module,Magento_Staging
 "Invalid store parameter.","Ongeldige winkel parameter.",module,Magento_Store
@@ -10423,7 +10423,7 @@ Support,Ondersteuning,module,Magento_Support
 "Unable to read system report data to display.","Kan het systeemverslag niet lezen en dus ook niet weergeven.",module,Magento_Support
 "No groups were specified to generate system report.","Er werden geen groepen opgegeven om een systeemverslag te genereren.",module,Magento_Support
 "The system report has been generated.","Het systeemverslag is gegenereerd.",module,Magento_Support
-"An error occurred while the system report was being created. Please review the log and try again.","Er is een fout opgetreden terwijl werd het systeem verslag werd gemaakt. Controleer het logboek en probeer het opnieuw.",module,Magento_Support
+"An error occurred while the system report was being created. Please review the log and try again.","Er is een fout opgetreden bij het maken van het systeemverslag. Controleer het logboek en probeer het opnieuw.",module,Magento_Support
 "System Reports","Systeem rapporten",module,Magento_Support
 "An error occurred during mass deletion of system reports. Please review log and try again.","Er is een fout opgetreden tijdens het massa verwijderen van systeem rapportages. Controleer het logboek en probeer het opnieuw.",module,Magento_Support
 "Utility %1 not found","Hulpprogramma voor %1 niet gevonden",module,Magento_Support
@@ -10645,7 +10645,7 @@ Delete,Verwijder,module,Magento_Swatches
 "Upload a file","Bestand opladen",module,Magento_Swatches
 Clear,Legen,module,Magento_Swatches
 "Step 2: Attribute Values","Stap 2: Kenmerkwaarden",module,Magento_Swatches
-"Select from the following attribute values for this product. Each unique combination of values creates a unique product SKU.","Selecteer van de volgende attribuut-waarden voor dit product. Elke unieke combinatie van waarden maakt een eigen product SKU aan.",module,Magento_Swatches
+"Select from the following attribute values for this product. Each unique combination of values creates a unique product SKU.","Selecteer van de volgende attribuut-waarden voor dit product. Elke unieke combinatie van waarden maakt een eigen product art.nr. aan.",module,Magento_Swatches
 "Sort Variations","Sorteer variaties",module,Magento_Swatches
 Options,Opties,module,Magento_Swatches
 "Select All","Alles selecteren",module,Magento_Swatches
@@ -10753,7 +10753,7 @@ Close,sluiten,module,Magento_TargetRule
 "Target Rule","Doel regel",module,Magento_TargetRule
 "Target Rule Index","Doel regel Index",module,Magento_TargetRule
 "Product/Target Rule","Product/Target regel",module,Magento_TargetRule
-"Indexed product/rule association","Geïndexeerde productregel/vereniging",module,Magento_TargetRule
+"Indexed product/rule association","Productregelkoppelingen index",module,Magento_TargetRule
 "Target Rule/Product",Regel/doelproduct,module,Magento_TargetRule
 "Indexed rule/product association","Geïndexeerde artikel/product vereniging",module,Magento_TargetRule
 ID,ID,module,Magento_TargetRule
@@ -10792,7 +10792,7 @@ Priority,Prioriteit,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","BTW-tarieven met dezelfde prioriteit worden opgeteld, andere worden gecombineerd.",module,Magento_Tax
 "Calculate Off Subtotal Only","Enkel subtotaal berekenen",module,Magento_Tax
 "Sort Order","Sorteer Bestelling",module,Magento_Tax
-"Do you really want to delete this tax class?","Wenst u dit BTW-tariefgroep te verwijderen?",module,Magento_Tax
+"Do you really want to delete this tax class?","Wil u deze BTW-tariefgroep verwijderen?",module,Magento_Tax
 "Add New Tax Class","Nieuwe BTW-tariefgroep",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Verzendkosten incl. BTW (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Verzendkosten excl. BTW (%1)",module,Magento_Tax
@@ -10800,8 +10800,8 @@ Priority,Prioriteit,module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotaal (incl. BTW)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Verzend- en verwerkingskosten (excl. BTW)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Verzend- en verwerkingskosten (incl. BTW)",module,Magento_Tax
-"Grand Total (Excl.Tax)","Totaal (excl. BTW)",module,Magento_Tax
-"Grand Total (Incl.Tax)","Totaal (incl. BTW)",module,Magento_Tax
+"Grand Total (Excl.Tax)","Eindtotaal (excl. BTW)",module,Magento_Tax
+"Grand Total (Incl.Tax)","Eindtotaal (incl. BTW)",module,Magento_Tax
 Sales,Verkopen,module,Magento_Tax
 Tax,BTW,module,Magento_Tax
 "Manage Tax Rates","Beheer BTW-tarieven",module,Magento_Tax
@@ -10851,14 +10851,14 @@ Code,"Interne naam",module,Magento_Tax
 "Invalid type supplied","Ongeldig type opgegeven",module,Magento_Tax
 "Class name and class type","Klassenaam en klassetype",module,Magento_Tax
 "No such entity with %fieldName = %fieldValue","Geen dergelijke entiteit met %fieldName = %fieldValue",module,Magento_Tax
-"Grand Total (Excl. Tax)","Totaal (excl. BTW)",module,Magento_Tax
-"Grand Total (Incl. Tax)","Totaal (incl. BTW)",module,Magento_Tax
+"Grand Total (Excl. Tax)","Eindtotaal (excl. BTW)",module,Magento_Tax
+"Grand Total (Incl. Tax)","Eindtotaal (incl. BTW)",module,Magento_Tax
 "Shipping (Excl. Tax)","Verzendkosten (excl. BTW)",module,Magento_Tax
 "Shipping (Incl. Tax)","Verzendkosten (incl. BTW)",module,Magento_Tax
 "Subtotal (Excl. Tax)","Subtotaal (excl. BTW)",module,Magento_Tax
 "Subtotal (Incl. Tax)","Subtotaal (incl. BTW)",module,Magento_Tax
 Subtotal,Subtotaal,module,Magento_Tax
-"Unit Price",Eenheidsprijs,module,Magento_Tax
+"Unit Price",Stukprijs,module,Magento_Tax
 "Row Total",Rijtotaal,module,Magento_Tax
 Total,totaal,module,Magento_Tax
 "Before Discount","Voorafgaand aan korting",module,Magento_Tax
@@ -10894,8 +10894,8 @@ Note:,Notitie:,module,Magento_Tax
 "Do you really want to delete this tax rate?","Wenst u dit BTW-tarief te verwijderen?",module,Magento_Tax
 Save,Opslaan,module,Magento_Tax
 "Add New Class","Nieuwe tariefgroep toevoegen",module,Magento_Tax
-"Grand Total Excl. Tax","Totaal (excl. BTW)",module,Magento_Tax
-"Grand Total Incl. Tax","Totaal (incl. BTW)",module,Magento_Tax
+"Grand Total Excl. Tax","Eindtotaal excl. BTW",module,Magento_Tax
+"Grand Total Incl. Tax","Eindtotaal incl. BTW",module,Magento_Tax
 Taxes,BTW,module,Magento_Tax
 "Tax Section","BTW Sectie",module,Magento_Tax
 "Tax Classes",BTW-tariefgroepen,module,Magento_Tax
@@ -11125,7 +11125,7 @@ Configuration,Configuratie,module,Magento_Theme
 "Default Keywords",Standaard-keywords,module,Magento_Theme
 "Scripts and Style Sheets","Scripts en stylesheets",module,Magento_Theme
 "Display Demo Store Notice","Toon melding demowinkel",module,Magento_Theme
-Header,bovenschrift,module,Magento_Theme
+Header,Header,module,Magento_Theme
 "Logo Image","Logo afbeelding",module,Magento_Theme
 "Allowed file types: png, gif, jpg, jpeg, svg.","Toegestane bestandstypes: png, gif, jpg, jpeg, svg.",module,Magento_Theme
 "Logo Image Width","Logo afbeeldingsbreedte",module,Magento_Theme
@@ -11158,7 +11158,7 @@ Translations,Vertalingen,module,Magento_Translation
 "New %1","Nieuwe %1",module,Magento_Ui
 "Please select item(s).","Selecteer product(en).",module,Magento_Ui
 "Unsupported bookmark action.","Niet-ondersteunde bladwijzer actie.",module,Magento_Ui
-"Parameter ""class"" must be present.","Met de parameter ""klasse"" moet aanwezig zijn.",module,Magento_Ui
+"Parameter ""class"" must be present.","Parameter ""klasse"" moet aanwezig zijn.",module,Magento_Ui
 "Parameter ""sortOrder"" must be present.","Met de parameter ""sortOrder"" moet aanwezig zijn.",module,Magento_Ui
 "Invalid UI Component element name: '%1'","Ongeldige UI Component element naam: '%1'",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","Bladwijzer met id ""%1"" bestaat niet.",module,Magento_Ui
@@ -11261,9 +11261,9 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please use tag SCRIPT with SRC attribute or with proper content to include JavaScript to the document.","Gebruik SCRIPT tag met het kenmerk SRC of met goede inhoud om JavaScript te voegen aan het document.",module,Magento_Ui
 "The date is not within the specified range.","De datum valt niet in het opgegeven bereik.",module,Magento_Ui
 Attention,Attentie,module,Magento_Ui
-OK,Oke,module,Magento_Ui
+OK,OK,module,Magento_Ui
 Close,Sluiten,module,Magento_Ui
-Ok,Oke,module,Magento_Ui
+Ok,OK,module,Magento_Ui
 "Log JS Errors to Session Storage","Log JS fouten naar sessie opslag",module,Magento_Ui
 "Log JS Errors to Session Storage Key","Log JS fouten naar Session Storage Key",module,Magento_Ui
 Action,Actie,module,Magento_Ui
@@ -11514,7 +11514,7 @@ Permissions,Bevoegdheden,module,Magento_User
 "This role no longer exists.","Deze rol bestaat niet meer.",module,Magento_User
 "You saved the role.","U heeft de rol opgeslagen.",module,Magento_User
 "You have entered an invalid password for current user.","U heeft een ongeldig wachtwoord voor de huidige gebruiker ingevoerd.",module,Magento_User
-"An error occurred while saving this role.","Er is een fout opgetreden bij het opslaan van deze rol:",module,Magento_User
+"An error occurred while saving this role.","Er is een fout opgetreden bij het opslaan van deze rol.",module,Magento_User
 "You saved the user.","U heeft de gebruiker opgeslagen.",module,Magento_User
 "A user with the same user name or email already exists.","Een gebruiker met deze gebruikersnaam of dit emailadres bestaat reeds.",module,Magento_User
 Recommended,Aanbevolen,module,Magento_User
@@ -11535,7 +11535,7 @@ username,gebruikersnaam,module,Magento_User
 "Your password must include both numeric and alphabetic characters.","Uw wachtwoord moet zowel numeriek als alfanumerieke tekens bevatten.",module,Magento_User
 "Your password confirmation must match your password.","Uw wachtwoord bevestiging moet overeenkomen met uw wachtwoord.",module,Magento_User
 "It's time to change your password.","Het is tijd om uw wachtwoord te wijzigen.",module,Magento_User
-"It's time to <a href=""%1"">change your password</a>.","It's time to <a href=""%1"">change your password</a>.",module,Magento_User
+"It's time to <a href=""%1"">change your password</a>.","Het is tijd om uw <a href=""%1"">wachtwoord te wijzigen</a>.",module,Magento_User
 "Your password has expired; please contact your administrator.","Uw wachtwoord is verlopen, neem contact op met de beheerder.",module,Magento_User
 "Password Help","Wachtwoord Hulp",module,Magento_User
 "Enter your email address.  You will receive an email with a link to reset your password.","Voer uw e-mailadres in. U zal een link ontvangen om uw wachtwoord te opnieuw in te stellen.",module,Magento_User
@@ -11544,7 +11544,7 @@ username,gebruikersnaam,module,Magento_User
 "Back to Sign in","Terug naar aanmelden",module,Magento_User
 "Forgot your password?","Wachtwoord vergeten?",module,Magento_User
 "Reset a Password","Wachtwoord opnieuw instellen",module,Magento_User
-"Confirm New Password","Bevestig Nieuw Wachtwoord",module,Magento_User
+"Confirm New Password","Bevestig nieuw wachtwoord",module,Magento_User
 "Reset Password","Wachtwoord resetten",module,Magento_User
 "Roles Resources","Rollen bronnen",module,Magento_User
 "Resource Access","Toegang tot bron",module,Magento_User
@@ -11881,10 +11881,10 @@ Top,Top,module,Magento_VisualMerchandiser
 Bottom,Onderste,module,Magento_VisualMerchandiser
 "Choose a selection...","Kies een optie&hellip;",module,Magento_VisualMerchandiser
 "Page not found.","Pagina niet gevonden.",module,Magento_VisualMerchandiser
-"No SKU entered","Geen artikelnummer opgegeven",module,Magento_VisualMerchandiser
+"No SKU entered","Geen art.nr. opgegeven",module,Magento_VisualMerchandiser
 "Undefined Action","Niet-gedefinieerde actie",module,Magento_VisualMerchandiser
-"Products with the following SKUs do not exist: %s","Producten met de volgende artikelnummers bestaan niet: %s",module,Magento_VisualMerchandiser
-"%s SKU(s) processed successfully","%s SKU(s) verwerkt",module,Magento_VisualMerchandiser
+"Products with the following SKUs do not exist: %s","Producten met de volgende art.nrs. bestaan niet: %s",module,Magento_VisualMerchandiser
+"%s SKU(s) processed successfully","%s art.nr.(s) verwerkt",module,Magento_VisualMerchandiser
 "On Top",Bovenaan,module,Magento_VisualMerchandiser
 "On Bottom",Onderaan,module,Magento_VisualMerchandiser
 "Category rules validation failed","Validatie categorieregels mislukt",module,Magento_VisualMerchandiser
@@ -11939,7 +11939,7 @@ Logic,Logica,module,Magento_VisualMerchandiser
 "Add Condition","Voorwaarde toevoegen",module,Magento_VisualMerchandiser
 Delete,Verwijder,module,Magento_VisualMerchandiser
 "Match products by rule","Vergelijk producten per regel",module,Magento_VisualMerchandiser
-Yes,ja,module,Magento_VisualMerchandiser
+Yes,Ja,module,Magento_VisualMerchandiser
 No,Nee,module,Magento_VisualMerchandiser
 "Add Products","Voeg producten toe",module,Magento_VisualMerchandiser
 "Save and Close","Opslaan en Sluiten",module,Magento_VisualMerchandiser
@@ -11960,7 +11960,7 @@ Sort,Sorteer,module,Magento_VisualMerchandiser
 "Sort order",Sorteervolgorde,module,Magento_VisualMerchandiser
 Thumbnail,Thumbnail,module,Magento_VisualMerchandiser
 Name,Naam,module,Magento_VisualMerchandiser
-Price,prijs,module,Magento_VisualMerchandiser
+Price,Prijs,module,Magento_VisualMerchandiser
 SKU,Art.nr.,module,Magento_VisualMerchandiser
 Stock,Voorraad,module,Magento_VisualMerchandiser
 "Consumer is not authorized to access %resources","Gebruiker heeft is niet gemachtigd tot %resources",module,Magento_Webapi
@@ -12018,7 +12018,7 @@ frontend_label,frontend_label,module,Magento_Weee
 Country/State,Land/Provincie,module,Magento_Weee
 Tax,BTW,module,Magento_Weee
 Website,Website,module,Magento_Weee
-Action,Aktie,module,Magento_Weee
+Action,Actie,module,Magento_Weee
 "Excl. Tax","Excl. BTW",module,Magento_Weee
 Total,totaal,module,Magento_Weee
 "Incl. Tax","Incl. BTW",module,Magento_Weee
@@ -12099,7 +12099,7 @@ Page,Pagina,module,Magento_Widget
 "Defines whether a link to My Account","Definieert of een link naar uw Account",module,Magento_Widget
 "Link Text","Link tekst",module,Magento_Widget
 "The text of the link to the My Account &gt; Order by SKU page","De tekst van de link naar de Account &gt; Bestelling via art. nr. pagina",module,Magento_Widget
-"Load a list of SKUs","Laad een lijst met SKU's",module,Magento_Widget
+"Load a list of SKUs","Lijst met art.nr.'s laden",module,Magento_Widget
 Product,Product,module,Magento_Widget
 "Select Product...","Selecteer product...",module,Magento_Widget
 Conditions,Voorwaarden,module,Magento_Widget
@@ -12132,10 +12132,10 @@ Conditions,Voorwaarden,module,Magento_Widget
 "Can't update wish list","Verlanglijst kan niet worden bijgewerkt",module,Magento_Wishlist
 "%1 has been updated in your Wish List.","%1 is bijgewerkt in uw verlanglijst.",module,Magento_Wishlist
 "We can't update your Wish List right now.","Verlanglijst kan niet worden bijgewerkt.",module,Magento_Wishlist
-"The requested Wish List doesn't exist.","De gevraagde wens-lijst bestaat niet.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","De gevraagde verlanglijst bestaat niet.",module,Magento_Wishlist
 "We can't create the Wish List right now.","We kunnen de verlanglijst momenteel niet aanmaken.",module,Magento_Wishlist
 "%1 items","%1 producten",module,Magento_Wishlist
-"1 item","1 artikel",module,Magento_Wishlist
+"1 item","1 product",module,Magento_Wishlist
 Comment,Commentaar,module,Magento_Wishlist
 "Display number of items in wish list","Toon aantal items in verlanglijst",module,Magento_Wishlist
 "Display item quantities","Artikel aantallen tonen",module,Magento_Wishlist
@@ -12165,7 +12165,7 @@ LocalizedException,LocalizedException,module,Magento_Wishlist
 "Share Wish List","Verlanglijst delen",module,Magento_Wishlist
 "Add All to Cart","Alles toevoegen aan winkelwagen",module,Magento_Wishlist
 "Update Wish List","Wensenlijst updaten",module,Magento_Wishlist
-"Move to Wishlist","Verplaats naar Wensenlijst",module,Magento_Wishlist
+"Move to Wishlist","Verplaats naar verlanglijst",module,Magento_Wishlist
 "View Product","Product bekijken",module,Magento_Wishlist
 Qty,Aantal,module,Magento_Wishlist
 "Add to Cart","In Winkelwagen",module,Magento_Wishlist
@@ -12187,7 +12187,7 @@ Product,Product,module,Magento_Wishlist
 "Add to Wish List","Voeg toe aan verlanglijst",module,Magento_Wishlist
 Back,Terug,module,Magento_Wishlist
 "Wish List is empty now.","Verlanglijst is nu leeg.",module,Magento_Wishlist
-"* Required Fields","* Vereiste velden",module,Magento_Wishlist
+"* Required Fields","* Verplichte velden",module,Magento_Wishlist
 "Sharing Information","Delen Informatie",module,Magento_Wishlist
 "Email addresses, separated by commas","E-mailadressen, gescheiden door komma’s",module,Magento_Wishlist
 "Check here to link an RSS feed to your Wish List.","Klilk hier als u een RSS feed wil koppelen aan uw Verlanglijst.",module,Magento_Wishlist
@@ -12218,7 +12218,7 @@ Quantity,Aantal,module,Magento_Wishlist
 "Add Locale","Locale toevoegen",module,Magento_Wishlist
 "Add Date","Datum toevoegen",module,Magento_Wishlist
 "Days in Wish List","Dagen in verlanglijst",module,Magento_Wishlist
-Action,Aktie,module,Magento_Wishlist
+Action,Actie,module,Magento_Wishlist
 Configure,Configureren,module,Magento_Wishlist
 Delete,Verwijder,module,Magento_Wishlist
 "Product Details and Comment","Productdetails en opmerkingen",module,Magento_Wishlist
