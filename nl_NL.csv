@@ -3606,7 +3606,6 @@ Gender,Geslacht,module,Magento_Customer
 Name,Naam,module,Magento_Customer
 "Tax/VAT number",BTW-nummer,module,Magento_Customer
 "Welcome to %store_name","Welkom bij %store_name",module,Magento_Customer
-"%name,","%name,",module,Magento_Customer
 "Welcome to %store_name.","Welkom op %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Om in te loggen op onze website, gebruik deze gegevens tijdens het betalen of op de <a href=""%customer_url"">Uw Account</a> pagina:",module,Magento_Customer
 Email:,E-mail:,module,Magento_Customer
@@ -3807,7 +3806,6 @@ available,Beschikbaar,module,Magento_CustomerBalance
 Remove,Verwijder,module,Magento_CustomerBalance
 "Refunded to Store Credit","Teruggestort naar Winkeltegoed",module,Magento_CustomerBalance
 "Store Credit update","Winkeltegoed Update",module,Magento_CustomerBalance
-"%name,","%naam,",module,Magento_CustomerBalance
 "We have updated your <a href=""%store_url"">%store_name</a> account and you have credit that you can use for future purchases.","We hebben uw <a href=""%store_url"">%store_name</a> account gewijzigd en u heeft kredit dat je kan gebruiken voor uw volgende aankopen.",module,Magento_CustomerBalance
 "Your Store Credit balance is now %balance.","Uw winkel kredit saldo is nu %balance.",module,Magento_CustomerBalance
 "Store credit",Winkeltegoed,module,Magento_CustomerBalance
@@ -4906,7 +4904,6 @@ From,Van,module,Magento_GiftCard
 Availability,Beschikbaarheid,module,Magento_GiftCard
 "In stock","Op voorraad",module,Magento_GiftCard
 "You've been sent a gift from %store_name","U heeft een cadeau ontvangen van %store_name",module,Magento_GiftCard
-"%name,","%naam,",module,Magento_GiftCard
 "%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.","%sender heeft u een cadeaukaart gestuurd voor gebruik op <a href=""%store_url"">%store_name</a> en deze kan nu gebruikt worden voor aankopen.",module,Magento_GiftCard
 "Gift Card Codes:","Cadeaubon codes:",module,Magento_GiftCard
 "Gift Card Code:","Cadeaubon code:",module,Magento_GiftCard
@@ -5039,7 +5036,6 @@ Expires:,Vervalt:,module,Magento_GiftCardAccount
 "Add or remove gift cards","Toevoegen of verwijderen van cadeaubonnen",module,Magento_GiftCardAccount
 "Gift Card amount applied to order:","Cadeaubon bedrag toegepast op bestelling:",module,Magento_GiftCardAccount
 "You've been sent a gift from %store_name","U heeft een cadeau ontvangen van %store_name",module,Magento_GiftCardAccount
-"%name,","%naam,",module,Magento_GiftCardAccount
 "You've been sent a gift card for use at %store_name and it is now ready to be used for purchases.","Er werd een cadeaubon gestuurd om te gebruiken op %store_name en deze kan nu gebruikt worden voor aankopen.",module,Magento_GiftCardAccount
 "Gift Card Code: %code","Cadeaubon code: %code",module,Magento_GiftCardAccount
 "The card has a balance of %balance and can be used at","De bon heeft een saldo van %balance en kan worden gebruikt bij",module,Magento_GiftCardAccount
@@ -5366,7 +5362,6 @@ View,Bekijk,module,Magento_GiftRegistry
 "Unit Price",Stukprijs,module,Magento_GiftRegistry
 "Add to Cart","In Winkelwagen",module,Magento_GiftRegistry
 "Gift Registry created at %store_name","Geschenklijst aangemaakt op %store_name",module,Magento_GiftRegistry
-"%name,","%naam,",module,Magento_GiftRegistry
 "You have successfully created the new gift registry ""%registry_name"".","U heeft een nieuwe geschenkenlijst ""%registry_name"" aangemaakt.",module,Magento_GiftRegistry
 "Your Gift Registry Message","Uw geschenkenlijst bericht",module,Magento_GiftRegistry
 "Now you can add products to your gift registry.","U kan nu producten toevoegen aan uw geschenkenlijst.",module,Magento_GiftRegistry
@@ -7447,7 +7442,6 @@ Price:,Prijs:,module,Magento_ProductAlert
 "Product alerts Cron error","Product notificaties Cron error",module,Magento_ProductAlert
 "Product alerts cron warnings","Product notificaties cron waarschuwingen",module,Magento_ProductAlert
 "Products price changed alert","Notificatie product prijswijzigingen",module,Magento_ProductAlert
-"%name,","%naam,",module,Magento_ProductAlert
 "Products back in stock alert","Weer op voorraad notificatie",module,Magento_ProductAlert
 "Product Alerts",Product-notificaties,module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","Melding toestaan bij prijswijziging",module,Magento_ProductAlert
@@ -7702,7 +7696,6 @@ is,is,module,Magento_Reminder
 LocalizedException,LocalizedException,module,Magento_Reminder
 text,tekst,module,Magento_Reminder
 "Promotion reminder at %store_name","Promotie herinnering op %store_name",module,Magento_Reminder
-"%name,","%naam,",module,Magento_Reminder
 "Hurry up to take advantage of our %promotion_name promotion!","Haast u om nog te profiteren van onze %promotion_name aanbieding!",module,Magento_Reminder
 "Hurry up to take advantage of this promotion!","Haast u om nog te profiteren van deze aanbieding!",module,Magento_Reminder
 "To take advantage of the promotion you need to sign in at <a href=""%account_url"">%store_name</a> and apply the coupon ""%coupon_code"" in the shopping cart.","Als u wilt profiteren van deze aanbieding, moet u inloggen op <a href=""%account_url"">%store_name</a> en de couponcode ""%coupon_code"" invoeren bij de winkelwagen.",module,Magento_Reminder
@@ -8204,7 +8197,6 @@ None,Geen,module,Magento_Reward
 "Email Notification Settings","E-mail notificatie instellingen",module,Magento_Reward
 "Save Subscription Settings","Notificatie-intstellingen Opslaan",module,Magento_Reward
 "Reward Points Balance Updated at %store_name","Spaarpunten balans bijgewerkt op %store_name",module,Magento_Reward
-"%name,","%naam,",module,Magento_Reward
 "You have %points_balance points that may be used in our store:","U heeft een totaal van %points_balance punten die u kan gebruiken in onze winkel:",module,Magento_Reward
 "<a href=""%unsubscription_url"">Unsubscribe</a> from these notifications.","<a href=""%unsubscription_url"">Uitschrijven</a> voor deze meldingen.",module,Magento_Reward
 "Reward Points Expiry Warning at %store_name","Spaarpunten vervallen waarschuwing op %store_name",module,Magento_Reward
@@ -8569,7 +8561,6 @@ Answers,Antwoorden,module,Magento_Rma
 "New Comment for RMA #%increment_id","Nieuwe commentaar voor RMA #%increment_id",module,Magento_Rma
 "Customer %name has left a new comment:","Klant %name heeft een nieuwe opmerking achtergelaten:",module,Magento_Rma
 "%store_name : New Return # %increment_id","%store_name: Nieuwe retour # %increment_id",module,Magento_Rma
-"%name,","%naam,",module,Magento_Rma
 "Your return request has been updated. Please see below.","Uw retourverzoek is bijgewerkt. Zie hieronder.",module,Magento_Rma
 "You can check the status of your return by <a href=""%account_url"">logging into your account</a> or <a href=""%form_url"">using your order number</a>.","U kan de status van uw retour bekijken door <a href=""%account_url"">in te loggen op uw account</a> of <a href=""%form_url"">door gebruik van uw bestelnummer</a>.",module,Magento_Rma
 "If you have any questions, please feel free to contact us at <a href=""mailto:%support_email"">%support_email</a> or by phone at %store_phone","Indien u nog vragen heeft, aarzel dan niet om ons te contacteren op <a href=""mailto:%support_email"">%support_email</a> of telefonisch op %store_phone",module,Magento_Rma
@@ -9277,7 +9268,6 @@ Close,sluiten,module,Magento_Sales
 "Add to Cart","In Winkelwagen",module,Magento_Sales
 Search,Zoek,module,Magento_Sales
 "Credit memo for your %store_name order","Creditfactuur voor uw %store_name bestelling",module,Magento_Sales
-"%name,","%naam,",module,Magento_Sales
 "Thank you for your order from %store_name.","Bedankt voor je bestelling bij %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","U kunt de status van uw bestelling controleren door in te <a href=""%account_url"">loggen op uw account</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Indien u vragen heeft over uw bestelling, kan u ons emailen op <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
@@ -10004,7 +9994,6 @@ Invitee,genodigde,module,Magento_SendFriend
 "Send Email","Verstuur e-mail",module,Magento_SendFriend
 Back,Terug,module,Magento_SendFriend
 "Welcome, %name","Welkom %name",module,Magento_SendFriend
-"%name,","%naam,",module,Magento_SendFriend
 "%sender_name wants to share this product with you:","%sender_name wenst dit product met u te delen:",module,Magento_SendFriend
 "Message from %sender_name:","Bericht van %sender_name:",module,Magento_SendFriend
 "Email to a Friend","E-mail naar een vriend",module,Magento_SendFriend
@@ -11084,7 +11073,6 @@ WK,WK,module,Magento_Theme
 Time,Tijd,module,Magento_Theme
 Hour,Uur,module,Magento_Theme
 Minute,Minuut,module,Magento_Theme
-"%name,","%naam,",module,Magento_Theme
 "Welcome to %store_name.","Welkom op %store_name.",module,Magento_Theme
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Om in te loggen op onze website, gebruik deze gegevens tijdens het afrekenen of op de <a href=""%customer_url"">Uw Account</a> pagina:",module,Magento_Theme
 Email:,E-mail:,module,Magento_Theme
@@ -11554,7 +11542,6 @@ Resources,Bronnen,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Waarschuwin:\r\nDeze actie verwijderd de gebruik van de reeds toegekende rollen\r\nBent u zeker?",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Waarschuwin:\r\nDeze actie verwijderd de gebruikers van de reeds toegekende rollen\r\nBent u zeker?",module,Magento_User
 "Password Reset Confirmation for %name","Wachtwoord reset bevestiging voor %name",module,Magento_User
-"%name,","%naam,",module,Magento_User
 "There was recently a request to change the password for your account.","Er was onlangs een aanvraag om het wachtwoord van uw account te wijzigen.",module,Magento_User
 "If you requested this change, reset your password here:","Indien u deze wijziging heeft aangevraagd, stel je wachtoord hier opnieuw in:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Indien u deze aanvraag niet heeft ingediend, kan u deze email negeren en uw wachtwoord zal ongewijzigd blijven.",module,Magento_User
@@ -12290,7 +12277,6 @@ Remove,Verwijder,theme,frontend/Magento/luma
 "Clear All","Alles wissen",theme,frontend/Magento/luma
 "Shopping Options","Selectie verfijnen",theme,frontend/Magento/luma
 "Welcome to %store_name","Welkom bij %store_name",theme,frontend/Magento/luma
-"%name,","%naam,",theme,frontend/Magento/luma
 "Welcome to %store_name.","Welkom op %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Om in te loggen op onze website, gebruik deze gegevens tijdens het betalen of op de <a href=""%customer_url"">Uw Account</a> pagina:",theme,frontend/Magento/luma
 Email:,E-mail:,theme,frontend/Magento/luma
