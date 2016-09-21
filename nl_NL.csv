@@ -946,7 +946,7 @@ Credit,Krediet,module,Magento_Braintree
 "Credit Card Number",Creditcard-nummer,module,Magento_Braintree
 "Please, enter valid Credit Card Number","Vul een geldig creditcard-nummer in",module,Magento_Braintree
 "Expiration Date",Vervaldatum,module,Magento_Braintree
-"Please, enter valid Expiration Date","Vul een geldige vervaldatum in",module,Magento_Braintree
+"Please, enter valid Expiration Date","Voer een geldige vervaldatum in",module,Magento_Braintree
 "Card Verification Number",Verificatienummer,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Vul een geldige Creditcard Verificatie Nummer in",module,Magento_Braintree
 ending,einde,module,Magento_Braintree
@@ -1051,7 +1051,7 @@ Credit,Tegoed,module,Magento_BraintreeTwo
 "Credit Card Number",Kredietkaartnummer,module,Magento_BraintreeTwo
 "Please, enter valid Credit Card Number","Voer geldig kredietkaartnummer in",module,Magento_BraintreeTwo
 "Expiration Date",Vervaldatum,module,Magento_BraintreeTwo
-"Please, enter valid Expiration Date","Gelieve een geldige vervaldatum op te geven",module,Magento_BraintreeTwo
+"Please, enter valid Expiration Date","Voer een geldige vervaldatum in",module,Magento_BraintreeTwo
 "Card Verification Number",Verificatienummer,module,Magento_BraintreeTwo
 "Please, enter valid Card Verification Number","Gelieve een geldig kredietkaart verificatie nummer op te geven",module,Magento_BraintreeTwo
 ending,einddatum,module,Magento_BraintreeTwo
@@ -1558,7 +1558,7 @@ Center,Centreer,module,Magento_Catalog
 "Please correct the category.","Corrigeer de categorie.",module,Magento_Catalog
 "Must be category model instance or its id.","Moet een modelinstantie of ID van een categorie zijn.",module,Magento_Catalog
 "The attribute model is not defined.","Het attribuut model is niet opgegeven.",module,Magento_Catalog
-Category,categorie,module,Magento_Catalog
+Category,Categorie,module,Magento_Catalog
 "%1 - %2","%1 - %2",module,Magento_Catalog
 "%1 was not found in algorithms","%1 werd niet in de algoritmen gevonden",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 is geen uitbreiding van \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface",module,Magento_Catalog
@@ -1997,7 +1997,7 @@ Events,gebeurtenissen,module,Magento_CatalogEvent
 "Back to Category","Terug naar categorie",module,Magento_CatalogEvent
 "Edit Catalog Event","Bewerk catalogus gebeurtenis",module,Magento_CatalogEvent
 "Catalog Event Information","Catalogus-gebeurtenis informatie",module,Magento_CatalogEvent
-Category,categorie,module,Magento_CatalogEvent
+Category,Categorie,module,Magento_CatalogEvent
 "Start Date",begindatum,module,Magento_CatalogEvent
 "End Date",einddatum,module,Magento_CatalogEvent
 Image,Beeld,module,Magento_CatalogEvent
@@ -2313,7 +2313,7 @@ Relevance,Relevantie,module,Magento_CatalogSearch
 "Please specify at least one search term.","Geef tenminste 1 zoekterm op.",module,Magento_CatalogSearch
 "%1 and greater","%1 en groter",module,Magento_CatalogSearch
 "up to %1","tot %1",module,Magento_CatalogSearch
-Category,categorie,module,Magento_CatalogSearch
+Category,Categorie,module,Magento_CatalogSearch
 "%1 and above","%1 en hoger",module,Magento_CatalogSearch
 "%1 - %2","%1 - %2",module,Magento_CatalogSearch
 "Sorry, something went wrong. You can find out more in the error log.","Er ging iets mis. U kunt meer informatie vinden in het error logboek vinden.",module,Magento_CatalogSearch
@@ -3133,7 +3133,7 @@ Scope,Bereik,module,Magento_ConfigurableProductStaging
 Searchable,Doorzoekbaar,module,Magento_ConfigurableProductStaging
 Comparable,Vergelijkbaar,module,Magento_ConfigurableProductStaging
 "Page not found.","Pagina niet gevonden.",module,Magento_Contact
-"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Bedankt dat u contact met ons op met uw opmerkingen en vragen. U kunt spoedig op antwoord rekenen.",module,Magento_Contact
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Bedankt dat u contact met ons opnam. U kunt spoedig op ons antwoord rekenen.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","We kunnen uw aanvraag nu niet verwerken. Sorry, dat is alles wat we weten.",module,Magento_Contact
 "* Required Fields","* Verplichte velden",module,Magento_Contact
 "Write Us","Neem contact met ons op",module,Magento_Contact
@@ -3245,7 +3245,7 @@ Email,Email,module,Magento_CustomAttributeManagement
 "You have not set a default billing address.","U heeft geen standaard factuuradres ingevoerd.",module,Magento_Customer
 "Address Book",Adresboek,module,Magento_Customer
 "Edit Address","Bewerk adres",module,Magento_Customer
-"Add New Address","Adres Toevoegen",module,Magento_Customer
+"Add New Address","Adres toevoegen",module,Magento_Customer
 region,regio,module,Magento_Customer
 "Create Order","Bestelling aanmaken",module,Magento_Customer
 "Save Customer","Klant opslaan",module,Magento_Customer
@@ -3468,9 +3468,9 @@ Admin,Beheerder,module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" is geen geldige URL.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" is geen geldige datum.",module,Magento_Customer
 """%1"" does not fit the entered date format.","""%1"" past niet in het ingevulde datum-formaat.",module,Magento_Customer
-"Please enter a valid date between %1 and %2 at %3.","Vul een geldige datum in tussen %1 en %2 bij %3.",module,Magento_Customer
-"Please enter a valid date equal to or greater than %1 at %2.","Vul een geldige datum gelijk aan of groter dan %1 bij %2.",module,Magento_Customer
-"Please enter a valid date less than or equal to %1 at %2.","Vul een geldige datum in minder of gelijk aan %1 bij %2.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","Voer een geldige datum in tussen %1 en %2 bij %3.",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","Voer een geldige datum gelijk aan of groter dan %1 bij %2.",module,Magento_Customer
+"Please enter a valid date less than or equal to %1 at %2.","Voer een geldige datum in minder of gelijk aan %1 bij %2.",module,Magento_Customer
 """%1"" is not a valid file extension.","""%1"" is geen geldige bestandsextentie.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" is geen geldig bestand.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" overschrijdt de toegestane bestandsgrootte.",module,Magento_Customer
@@ -3543,7 +3543,7 @@ Change,Verander,module,Magento_Customer
 "Default Shipping Address","Standaard verzendadres",module,Magento_Customer
 "Contact Information",Contactgegevens,module,Magento_Customer
 "Change Password","Wachtwoord wijzigen",module,Magento_Customer
-Newsletters,nieuwsbrieven,module,Magento_Customer
+Newsletters,Nieuwsbrieven,module,Magento_Customer
 "You subscribe to ""General Subscription"".","U heeft zich geabonneerd op ""Algemeen Abonnement"".",module,Magento_Customer
 or,of,module,Magento_Customer
 "Default Addresses","Standaard adres",module,Magento_Customer
@@ -3563,7 +3563,7 @@ Address,Straat,module,Magento_Customer
 "Street Address %1","Straat en huisnummer %1",module,Magento_Customer
 "VAT Number","BTW nummer",module,Magento_Customer
 City,Plaats,module,Magento_Customer
-State/Province,staat/provincie,module,Magento_Customer
+State/Province,Staat/Provincie,module,Magento_Customer
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_Customer
 "Zip/Postal Code",Postcode,module,Magento_Customer
 Country,Land,module,Magento_Customer
@@ -3930,7 +3930,7 @@ Address,Straat,module,Magento_CustomerCustomAttributes
 "Street Address %1","Straat en huisnummer %1",module,Magento_CustomerCustomAttributes
 "VAT Number","BTW nummer",module,Magento_CustomerCustomAttributes
 City,Plaats,module,Magento_CustomerCustomAttributes
-State/Province,staat/provincie,module,Magento_CustomerCustomAttributes
+State/Province,Staat/Provincie,module,Magento_CustomerCustomAttributes
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_CustomerCustomAttributes
 "Zip/Postal Code",Postcode,module,Magento_CustomerCustomAttributes
 Country,Land,module,Magento_CustomerCustomAttributes
@@ -4058,7 +4058,7 @@ has,"heeft (in andere context: bevat)",module,Magento_CustomerSegment
 exists,bestaat,module,Magento_CustomerSegment
 "does not exist","bestaat niet",module,Magento_CustomerSegment
 "Customer %1","Klant %1",module,Magento_CustomerSegment
-"Newsletter Subscription","inschrijving op nieuwsbrief",module,Magento_CustomerSegment
+"Newsletter Subscription",Nieuwsbriefabonnement,module,Magento_CustomerSegment
 "Customer is %1 to newsletter.","Klant is %1 voor nieuwsbrief.",module,Magento_CustomerSegment
 subscribed,geabonneerd,module,Magento_CustomerSegment
 "not subscribed","niet geabonneerd",module,Magento_CustomerSegment
@@ -4133,7 +4133,7 @@ Group,Groep,module,Magento_CustomerSegment
 Phone,Telefoonnummer,module,Magento_CustomerSegment
 ZIP,Postcode,module,Magento_CustomerSegment
 Country,Land,module,Magento_CustomerSegment
-State/Province,staat/provincie,module,Magento_CustomerSegment
+State/Province,Staat/Provincie,module,Magento_CustomerSegment
 "Customer Since","Klant Sinds",module,Magento_CustomerSegment
 "View Combined Report","Gecombineerd Rapport Inzien",module,Magento_CustomerSegment
 Set,"Stel (noun) / Bevestigd / Vastgelegd",module,Magento_CustomerSegment
@@ -4286,7 +4286,7 @@ Size,Grootte,module,Magento_Dhl
 "Show Method if Not Applicable","Laat verzendmethode zien indien niet van toepassing",module,Magento_Dhl
 "Sort Order","Sorteer Bestelling",module,Magento_Dhl
 Debug,"Fouten opsporen in programma",module,Magento_Dhl
-State/Province,staat/provincie,module,Magento_Directory
+State/Province,Provincie,module,Magento_Directory
 "--Please Select--","--Maak een keuze--",module,Magento_Directory
 lbs,lbs,module,Magento_Directory
 kgs,kg.,module,Magento_Directory
@@ -4513,7 +4513,7 @@ Dropdown,Dropdown,module,Magento_Eav
 """%1"" is a required value.","""%1"" is een vereiste waarde.",module,Magento_Eav
 "Please enter a valid date between %1 and %2 at %3.","Vul een geldige datum in tussen %1 en %2 bij %3.",module,Magento_Eav
 "Please enter a valid date equal to or greater than %1 at %2.","Vul een geldige datum gelijk aan of groter dan %1 bij %2.",module,Magento_Eav
-"Please enter a valid date less than or equal to %1 at %2.","Vul een geldige datum in minder of gelijk aan %1 bij %2.",module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.","Voer een geldige datum in minder of gelijk aan %1 bij %2.",module,Magento_Eav
 """%1"" is not a valid file extension.","""%1"" is geen geldige bestandsextentie.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" is geen geldig bestand.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" overschrijdt de toegestane bestandsgrootte.",module,Magento_Eav
@@ -5696,7 +5696,7 @@ User,Gebruiker,module,Magento_ImportExport
 Summary,Samenvatting,module,Magento_ImportExport
 "Indexer Management","indexering management",module,Magento_Indexer
 "Update by Schedule","Volgens schema bijwerken",module,Magento_Indexer
-"Update on Save","Bijwerken bij opslaan",module,Magento_Indexer
+"Update on Save","Indexeren bij opslaan",module,Magento_Indexer
 "Reindex required","Opnieuw indexeren vereist",module,Magento_Indexer
 Ready,Gereed,module,Magento_Indexer
 Processing,"Bezig met verwerken",module,Magento_Indexer
@@ -6080,7 +6080,7 @@ Send,Verzenden,module,Magento_Logging
 Create,Creëren,module,Magento_Logging
 "Catalog Products","Catalogus Producten",module,Magento_Logging
 "Catalog Categories","Catalogus Categorieën",module,Magento_Logging
-"URL Rewrites","Herschreven URL's",module,Magento_Logging
+"URL Rewrites","URL Rewrites",module,Magento_Logging
 "Catalog Search","Catalogus doorzoeken",module,Magento_Logging
 "Catalog Ratings","Catalogus Becijfering",module,Magento_Logging
 "Catalog Reviews","Catalogus Reviews",module,Magento_Logging
@@ -6389,7 +6389,7 @@ Total,totaal,module,Magento_Multishipping
 "Default Billing","Standaard Factuuradres",module,Magento_Multishipping
 "Default Shipping","Standaard verzendadres",module,Magento_Multishipping
 "Select Address","Kies een adres",module,Magento_Multishipping
-"Add New Address","Adres Toevoegen",module,Magento_Multishipping
+"Add New Address","Adres toevoegen",module,Magento_Multishipping
 "Back to Billing Information","Terug naar factuurinformatie",module,Magento_Multishipping
 "Please select a shipping address for applicable items.","Selecteer een verzendadres voor de geselecteerde producten.",module,Magento_Multishipping
 Product,Product,module,Magento_Multishipping
@@ -6429,7 +6429,7 @@ Items,Items,module,Magento_Multishipping
 "Sorry, no quotes are available for this order right now.","Geen quotes gevonden voor deze bestelling.",module,Magento_Multishipping
 "Continue to Billing Information","Ga verder naar factuurinformatie",module,Magento_Multishipping
 "Back to Select Addresses","Terug naar adressen selecteren",module,Magento_Multishipping
-"Thank you for your purchase!","Bedankt voor je bestelling!",module,Magento_Multishipping
+"Thank you for your purchase!","Bedankt voor uw bestelling!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","Bedankt voor uw bestelling. We emailen het detail van uw bestelling en tracking informatie.",module,Magento_Multishipping
 "Your order numbers are:","Uw bestelnummers zijn:",module,Magento_Multishipping
 "Your order number is:","Uw bestelnummer is:",module,Magento_Multishipping
@@ -6540,7 +6540,7 @@ Subscribers,Abonnees,module,Magento_Newsletter
 "Create Newsletter Template","Nieuwsbrief-sjabloon aanmaken",module,Magento_Newsletter
 "The newsletter template has been saved.","Het nieuwsbriefsjabloon werd opgeslaan.",module,Magento_Newsletter
 "Something went wrong while saving this template.","Er ging iets fout bij het bewaren van dit sjabloon.",module,Magento_Newsletter
-"Newsletter Subscription","inschrijving op nieuwsbrief",module,Magento_Newsletter
+"Newsletter Subscription",Nieuwsbriefabonnement,module,Magento_Newsletter
 "Something went wrong while saving your subscription.","Er ging iets mis bij het bewaren van uw abonnement.",module,Magento_Newsletter
 "We saved the subscription.","We hebben het abonnement opgeslagen.",module,Magento_Newsletter
 "We removed the subscription.","We hebben het abonnement verwijderd.",module,Magento_Newsletter
@@ -8592,7 +8592,7 @@ Ok,OK,module,Magento_Rma
 "Contact Name","contact naam",module,Magento_Rma
 "Street Address","Straat Adres",module,Magento_Rma
 City,Plaats,module,Magento_Rma
-State/Province,staat/provincie,module,Magento_Rma
+State/Province,Staat/Provincie,module,Magento_Rma
 "ZIP/Postal Code",Postcode,module,Magento_Rma
 Country,Land,module,Magento_Rma
 Enabled,Ingeschakeld,module,Magento_Rma
@@ -8653,7 +8653,7 @@ FALSE,"NIET WAAR",module,Magento_Rule
 "If %1 of these conditions are %2:","Als %1 van deze voorwaarden %2 zijn:",module,Magento_Rule
 "Conditions Combination",Voorwaardencombinatie,module,Magento_Rule
 "Attribute Set",Attributenset,module,Magento_Rule
-Category,categorie,module,Magento_Rule
+Category,Categorie,module,Magento_Rule
 "Open Chooser","Kiezer openen",module,Magento_Rule
 "Unknown condition operator","Onbekende condition operator",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","Er is geen informatie over de geassocieerde entiteit-typen ""%1"".",module,Magento_Rule
@@ -8698,7 +8698,7 @@ Message,Bericht,module,Magento_Sales
 "* - Enter custom price excluding tax","* - Voer speciale prijs in exclusief BTW",module,Magento_Sales
 Configure,Configureren,module,Magento_Sales
 "This product does not have any configurable options","Dit product heeft geen configureerbare opties",module,Magento_Sales
-"Newsletter Subscription","inschrijving op nieuwsbrief",module,Magento_Sales
+"Newsletter Subscription",Nieuwsbriefabonnement,module,Magento_Sales
 "Please select products","Selecteer producten",module,Magento_Sales
 "Add Selected Product(s) to Order","Geselecteerd(e) product(en) aan bestelling toevoegen",module,Magento_Sales
 ID,ID,module,Magento_Sales
@@ -9077,7 +9077,7 @@ Country,Land,module,Magento_Sales
 Email,Email,module,Magento_Sales
 "First Name",Voornaam,module,Magento_Sales
 "Last Name",Achternaam,module,Magento_Sales
-State/Province,staat/provincie,module,Magento_Sales
+State/Province,Staat/Provincie,module,Magento_Sales
 "Street Address","Straat Adres",module,Magento_Sales
 "Phone Number",Telefoonnummer,module,Magento_Sales
 "Zip/Postal Code",Postcode,module,Magento_Sales
@@ -9135,7 +9135,7 @@ Remove,Verwijder,module,Magento_Sales
 "Order Currency:","Valuta van bestelling",module,Magento_Sales
 "Same As Billing Address","Zelfde als factuuradres",module,Magento_Sales
 "Select from existing customer addresses:","Selecteer uit bestaande klantenadressen",module,Magento_Sales
-"Add New Address","Adres Toevoegen",module,Magento_Sales
+"Add New Address","Adres toevoegen",module,Magento_Sales
 "Save in address book","Opslaan in adresboek",module,Magento_Sales
 "You don't need to select a shipping address.","Het is niet nodig om een afleveradres te selecteren.",module,Magento_Sales
 "Gift Message for the Entire Order","Kadobericht voor hele bestelling",module,Magento_Sales
@@ -9278,7 +9278,7 @@ Close,sluiten,module,Magento_Sales
 Search,Zoek,module,Magento_Sales
 "Credit memo for your %store_name order","Creditfactuur voor uw %store_name bestelling",module,Magento_Sales
 "%name,","%name,",module,Magento_Sales
-"Thank you for your order from %store_name.","Bedankt voor je bestelling bij %store_name.",module,Magento_Sales
+"Thank you for your order from %store_name.","Bedankt voor uw bestelling bij %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","U kunt de status van uw bestelling controleren door in te <a href=""%account_url"">loggen op uw account</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Indien u vragen heeft over uw bestelling, kan u ons emailen op <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","of telefonish op <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
@@ -10732,7 +10732,7 @@ Shuffle,Schud,module,Magento_TargetRule
 "Validate error 1","Valideer fout 1",module,Magento_TargetRule
 "Validate error 2","Valideer fout 2",module,Magento_TargetRule
 "Attribute Set",Attributenset,module,Magento_TargetRule
-Category,categorie,module,Magento_TargetRule
+Category,Categorie,module,Magento_TargetRule
 "Please choose a condition to add.","Kies een conditie om toe te voegen.",module,Magento_TargetRule
 Close,sluiten,module,Magento_TargetRule
 "Rule-based Settings","rule gebaseerde instellingen",module,Magento_TargetRule
@@ -11221,7 +11221,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please enter a valid IP v6 address.","Voer een geldig IP v6 adres in.",module,Magento_Ui
 "Invalid format.","Ongeldig formaat.",module,Magento_Ui
 "HTML tags are not allowed.","HTML-codes zijn niet toegestaan.",module,Magento_Ui
-"Please select an option.","Selecteer a.u.b. een optie.",module,Magento_Ui
+"Please select an option.","Kies een optie.",module,Magento_Ui
 "Empty Value.","Lege waarde.",module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Gebruik alleen letters (a-z of A-Z), cijfers (0-9) of spaties in dit veld.",module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Gebruik uitsluitend letters (a-z en A-Z), cijfers (0-9) of underscores (_) in dit veld, het eerste teken moet een een letter zijn.",module,Magento_Ui
@@ -11246,7 +11246,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","Gebruik uitsluitend letters  (a-z en A-Z) in dit veld.",module,Magento_Ui
 "Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Gebruik uitsluitend letters (a-z en A-Z), cijfers (0-9) of underscores (_) in dit veld, het eerste teken moet een een letter zijn.",module,Magento_Ui
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Gebruik uitsluitend letters (a-z en A-Z) of nummers (0-9) in dit veld. Gebruik geen spaties of andere tekens.",module,Magento_Ui
-"Please enter a valid date.","Geef a.u.b. een geldige datum op.",module,Magento_Ui
+"Please enter a valid date.","Voer een geldige datum in.",module,Magento_Ui
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Voer een geldige URL-sleutel in (Ex: ""voorbeeld-pagina"", ""voorbeeld-pagina.html"" of ""anderniveau/voorbeeld-pagina"").",module,Magento_Ui
 "Please enter a valid zip code.","Voer een geldige postcode in.",module,Magento_Ui
 "Please select State/Province.","Selecteer a.u.b. een provincie.",module,Magento_Ui
@@ -11425,7 +11425,7 @@ Custom,Aangepast,module,Magento_UrlRewrite
 "Create URL Rewrite:","URL Rewrite aanmaken:",module,Magento_UrlRewrite
 "You deleted the URL rewrite.","U heeft de URL rewrite verwijderd.",module,Magento_UrlRewrite
 "We can't delete URL Rewrite right now.","We kunnen de URL Rewrite momenteel niet verwijderen.",module,Magento_UrlRewrite
-"URL Rewrites","Herschreven URL's",module,Magento_UrlRewrite
+"URL Rewrites","URL Rewrites",module,Magento_UrlRewrite
 "The product you chose is not associated with the selected store or category.","Het product dat u koos is niet gekoppeld met de geselecteerde winkel of categorie.",module,Magento_UrlRewrite
 "The category you chose is not associated with the selected store.","De gekozen categorie is niet gekoppeld met de geselecteerde winkel.",module,Magento_UrlRewrite
 "The URL Rewrite has been saved.","De URL Rewrite is opgeslagen.",module,Magento_UrlRewrite
@@ -12313,7 +12313,7 @@ Footer,Footer,theme,frontend/Magento/luma
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>",theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Openingsuren:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Credit memo for your %store_name order","Creditfactuur voor uw %store_name bestelling",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","Bedankt voor je bestelling bij %store_name.",theme,frontend/Magento/luma
+"Thank you for your order from %store_name.","Bedankt voor uw bestelling bij %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","U kunt de status van uw bestelling controleren door in te <a href=""%account_url"">loggen op uw account</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Indien u vragen heeft over uw bestelling, kan u ons email op <a href=""mailto:%store_email"">%store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Uw creditfactuur #%creditmemo_id voor bestelling #%order_id",theme,frontend/Magento/luma
@@ -12333,7 +12333,7 @@ Footer,Footer,theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","Geplaatst op <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","Update van uw %store_name bestelling",theme,frontend/Magento/luma
 "Your %store_name order has shipped","Uw %store_name bestelling is verzonden",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","Je vind je verzendbevestiging hieronder.",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","U vind uw verzendbevestiging hieronder.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Uw verzending #%shipment_id voor bestelling #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Update van uw %store_name verzending",theme,frontend/Magento/luma
 "Account Dashboard",Accountoverzicht,theme,frontend/Magento/luma
