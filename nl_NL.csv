@@ -670,7 +670,7 @@ Country,Land,module,Magento_Backend
 Region/State,Provincie,module,Magento_Backend
 "ZIP/Postal Code",Postcode,module,Magento_Backend
 City,Plaats,module,Magento_Backend
-"Street Address","Straat Adres",module,Magento_Backend
+"Street Address",Adres,module,Magento_Backend
 "Street Address Line 2",Adres,module,Magento_Backend
 "VAT Number","BTW nummer",module,Magento_Backend
 "Single-Store Mode","Enkele store modus",module,Magento_Backend
@@ -3559,7 +3559,7 @@ Company,Bedrijfsnaam,module,Magento_Customer
 "Phone Number",Telefoonnummer,module,Magento_Customer
 Fax,Fax,module,Magento_Customer
 Address,Straat,module,Magento_Customer
-"Street Address","Straat Adres",module,Magento_Customer
+"Street Address",Adres,module,Magento_Customer
 "Street Address %1","Straat en huisnummer %1",module,Magento_Customer
 "VAT Number","BTW nummer",module,Magento_Customer
 City,Plaats,module,Magento_Customer
@@ -3926,7 +3926,7 @@ Company,Bedrijfsnaam,module,Magento_CustomerCustomAttributes
 "Phone Number",Telefoonnummer,module,Magento_CustomerCustomAttributes
 Fax,Fax,module,Magento_CustomerCustomAttributes
 Address,Straat,module,Magento_CustomerCustomAttributes
-"Street Address","Straat Adres",module,Magento_CustomerCustomAttributes
+"Street Address",Adres,module,Magento_CustomerCustomAttributes
 "Street Address %1","Straat en huisnummer %1",module,Magento_CustomerCustomAttributes
 "VAT Number","BTW nummer",module,Magento_CustomerCustomAttributes
 City,Plaats,module,Magento_CustomerCustomAttributes
@@ -5296,7 +5296,7 @@ Owner,Eigenaar,module,Magento_GiftRegistry
 "Select a shipping address from your address book or enter a new address.","Selecteer een verzendadres vanuit uw adresboek of geef een nieuw e-mailadres in",module,Magento_GiftRegistry
 Company,Bedrijfsnaam,module,Magento_GiftRegistry
 Address,Straat,module,Magento_GiftRegistry
-"Street Address","Straat Adres",module,Magento_GiftRegistry
+"Street Address",Adres,module,Magento_GiftRegistry
 "Street Address %1","Straat en huisnummer %1",module,Magento_GiftRegistry
 City,Plaats,module,Magento_GiftRegistry
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_GiftRegistry
@@ -6211,7 +6211,7 @@ Edit,Bewerken,module,Magento_MultipleLocationInventory
 "Manage Warehouses","Beheer magzijnen",module,Magento_MultipleLocationInventory
 "Warehouse Information",Magazijngegevens,module,Magento_MultipleLocationInventory
 "Use default address","Gebruik standaard adres",module,Magento_MultipleLocationInventory
-"Street Address","Straat Adres",module,Magento_MultipleLocationInventory
+"Street Address",Adres,module,Magento_MultipleLocationInventory
 "Add New Warehouse","Maak een nieuw magazijn aan",module,Magento_MultipleLocationInventory
 ID,ID,module,Magento_MultipleLocationInventory
 Name,Naam,module,Magento_MultipleLocationInventory
@@ -8590,7 +8590,7 @@ Ok,OK,module,Magento_Rma
 "Enable RMA on Product Level","Schakel RMA's in op productniveau",module,Magento_Rma
 "Use Store Address","Gebruik winkeladres",module,Magento_Rma
 "Contact Name","contact naam",module,Magento_Rma
-"Street Address","Straat Adres",module,Magento_Rma
+"Street Address",Adres,module,Magento_Rma
 City,Plaats,module,Magento_Rma
 State/Province,Staat/Provincie,module,Magento_Rma
 "ZIP/Postal Code",Postcode,module,Magento_Rma
@@ -9078,7 +9078,7 @@ Email,Email,module,Magento_Sales
 "First Name",Voornaam,module,Magento_Sales
 "Last Name",Achternaam,module,Magento_Sales
 State/Province,Staat/Provincie,module,Magento_Sales
-"Street Address","Straat Adres",module,Magento_Sales
+"Street Address",Adres,module,Magento_Sales
 "Phone Number",Telefoonnummer,module,Magento_Sales
 "Zip/Postal Code",Postcode,module,Magento_Sales
 "We can't save the address:\n%1","Het adres kan niet worden opgeslagen:\n%1",module,Magento_Sales
@@ -10191,7 +10191,7 @@ Country,Land,module,Magento_Shipping
 Region/State,Provincie,module,Magento_Shipping
 "ZIP/Postal Code",postcode,module,Magento_Shipping
 City,Plaats,module,Magento_Shipping
-"Street Address","Straat Adres",module,Magento_Shipping
+"Street Address",Adres,module,Magento_Shipping
 "Street Address Line 2",Adres,module,Magento_Shipping
 "Shipping Policy Parameters","Parameters verzendmethodes",module,Magento_Shipping
 "Apply custom Shipping Policy","Toepassen aangepaste verzendmethode",module,Magento_Shipping
