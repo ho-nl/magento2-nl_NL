@@ -166,9 +166,9 @@ Subtotal:,Subtotaal:,module,Magento_AdvancedCheckout
 "Move to Wish List","Naar verlanglijst verplaatsen",module,Magento_AdvancedCheckout
 "No item specified.","Geen artikel gespecificeerd.",module,Magento_AdvancedCheckout
 "Are you sure you want to remove this item?","Weet u zeker dat u dit product wilt wissen?",module,Magento_AdvancedCheckout
-"SKU number",Artikelnummer,module,Magento_AdvancedCheckout
+"SKU number",Art.nr.,module,Magento_AdvancedCheckout
 "Upload File","Bestand uploaden",module,Magento_AdvancedCheckout
-"Your csv file must include ""sku"" and ""qty"" columns.","Het CSV-bestand moet ""Art.nr."" (SKU) en ""aantal"" kolommen bevatten.",module,Magento_AdvancedCheckout
+"Your csv file must include ""sku"" and ""qty"" columns.","Het csv-bestand moet ""sku"" en ""qty"" kolommen bevatten.",module,Magento_AdvancedCheckout
 Reset,Reset,module,Magento_AdvancedCheckout
 SKU:,Art.nr:,module,Magento_AdvancedCheckout
 "Only <span id=""%1_max_allowed"">%2</span> in stock","Nog <span id=""%1_max_allowed"">%2</span> op voorraad",module,Magento_AdvancedCheckout
@@ -182,7 +182,7 @@ Edit,Bewerken,module,Magento_AdvancedCheckout
 "Remove item","Verwijder dit artikel",module,Magento_AdvancedCheckout
 "Products Requiring Attention","Producten die aandacht behoeven",module,Magento_AdvancedCheckout
 "Add to Cart","In Winkelwagen",module,Magento_AdvancedCheckout
-Sku,Artikelnummer,module,Magento_AdvancedCheckout
+Sku,Art.nr.,module,Magento_AdvancedCheckout
 File,Bestand,module,Magento_AdvancedCheckout
 "File extensions allowed: .csv","Toegestande extensie: .csv",module,Magento_AdvancedCheckout
 "Add Row","Rij Toevoegen",module,Magento_AdvancedCheckout
@@ -191,8 +191,8 @@ File,Bestand,module,Magento_AdvancedCheckout
 "Shopping Cart Management",Winkelwagenbeheer,module,Magento_AdvancedCheckout
 "View Shopping Cart","Bekijk winkelwagen",module,Magento_AdvancedCheckout
 "View and modify Shopping Cart","Bekijk en wijzig winkelwagen",module,Magento_AdvancedCheckout
-"Order by SKU Settings","Bestell via SKU Instellingen",module,Magento_AdvancedCheckout
-"Enable Order by SKU on My Account in Storefront","Schakel bestelling volgens SKU in op Account in winkelaanzicht",module,Magento_AdvancedCheckout
+"Order by SKU Settings","Bestel per Art.nr. Instellingen",module,Magento_AdvancedCheckout
+"Enable Order by SKU on My Account in Storefront","Bestel per Art.nr. inschakelen Account in winkelaanzicht",module,Magento_AdvancedCheckout
 "Customer Groups",Klantengroepen,module,Magento_AdvancedCheckout
 "Apply Coupon","Pas kortingscode Toe",module,Magento_AdvancedCheckout
 "Order by SKU Description","Bestel via SKU Omschrijving",module,Magento_AdvancedCheckout
@@ -545,7 +545,7 @@ Magento,Magento,module,Magento_Backend
 "Magento Admin Panel","Magento Admin Panel",module,Magento_Backend
 "Account Setting",Accountinstellingen,module,Magento_Backend
 "Customer View",Overzicht,module,Magento_Backend
-"Sign Out",Afmelden,module,Magento_Backend
+"Sign Out",Uitloggen,module,Magento_Backend
 "About the calendar","Over de kalender",module,Magento_Backend
 Close,sluiten,module,Magento_Backend
 "Go Today","Ga vandaag",module,Magento_Backend
@@ -667,7 +667,7 @@ Locale,Taal,module,Magento_Backend
 "Store Phone Number","Winkel telefoonnummer",module,Magento_Backend
 "Store Hours of Operation","Openingstijden winkel",module,Magento_Backend
 Country,Land,module,Magento_Backend
-Region/State,Provincie,module,Magento_Backend
+Region/State,Regio/Staat,module,Magento_Backend
 "ZIP/Postal Code",Postcode,module,Magento_Backend
 City,Plaats,module,Magento_Backend
 "Street Address",Adres,module,Magento_Backend
@@ -1313,7 +1313,7 @@ Scope,Bereik,module,Magento_Catalog
 "Use in Search","Gebruik bij zoeken",module,Magento_Catalog
 "Visible in Advanced Search","Zichtbaar in geavanceerd zoeken",module,Magento_Catalog
 "Comparable on Storefront","Vergelijkbaar in Winkeletalage",module,Magento_Catalog
-"Use for Promo Rule Conditions","Gebruik voor prijsregels",module,Magento_Catalog
+"Use for Promo Rule Conditions","Gebruik voor promotieregels",module,Magento_Catalog
 "Enable WYSIWYG","WYSIWYG activeren",module,Magento_Catalog
 "Allow HTML Tags on Storefront","Sta HTML tags toe in Winkeletalage",module,Magento_Catalog
 "Visible on Catalog Pages on Storefront","Zichtbaar op Cataloguspagina's in Winkeletalage",module,Magento_Catalog
@@ -1572,7 +1572,7 @@ Category,Categorie,module,Magento_Catalog
 "Group price must be a number greater than 0.","Groepsprijs moet een getal groter dan 0 zijn.",module,Magento_Catalog
 "Media Gallery converter should be an instance of EntryConverterInterface.","Media Gallerij converter moet een exemplaar van EntryConverterInterface zijn.",module,Magento_Catalog
 "There is no MediaGalleryEntryConverter for given type","Er is geen MediaGalleryEntryConverter voor het opgegeven type",module,Magento_Catalog
-"Please enter a number 0 or greater in this field.","Voer in dit veld a.u.b. een getal gelijk aan of groter dan 0 in.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","Voer in dit veld een getal gelijk aan of groter dan 0 in.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","De waarde van attribuut ""%1"" moet ingesteld worden",module,Magento_Catalog
 "SKU length should be %1 characters maximum.","De lengte van de SKU mag maximaal %1 tekens te zijn.",module,Magento_Catalog
 "Please enter a valid number in this field.","Voer een geldig getal in dit veld in.",module,Magento_Catalog
@@ -2113,7 +2113,7 @@ Edit,Bewerken,module,Magento_CatalogEvent
 "The fewest you may purchase is %1.","Het minimale aantal dat u kunt bestellen is %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Corrigeer het aantal voor sommige producten.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","Het meeste dat u kunt kopen is %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","We hebben niet zo veel van ""%1"" als u gevraagd heeft.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Onvoldoende voorraad beschikbaar voor: ""%1"".",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","We hebben niet zo veel van ""%1"" zoals u gevraagd heeft, maar we zullen de resterende %2 naleveren.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","U kunt %1 alleen in hoeveelheden van %2 kopen in één keer.",module,Magento_CatalogInventory
@@ -2310,7 +2310,7 @@ List,Lijst,module,Magento_CatalogSearch
 Relevance,Relevantie,module,Magento_CatalogSearch
 "Search results for: '%1'","Zoekresultaten voor: ‘%1’",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Minimale lengte zoekopdracht is %1",module,Magento_CatalogSearch
-"Please specify at least one search term.","Geef tenminste 1 zoekterm op.",module,Magento_CatalogSearch
+"Please specify at least one search term.","Geef tenminste één zoekterm op.",module,Magento_CatalogSearch
 "%1 and greater","%1 en groter",module,Magento_CatalogSearch
 "up to %1","tot %1",module,Magento_CatalogSearch
 Category,Categorie,module,Magento_CatalogSearch
@@ -2542,7 +2542,7 @@ Total:,Totaal:,module,Magento_Checkout
 "Payment Method:",Betaalmethode:,module,Magento_Checkout
 "Date & Time:","Datum & Tijd:",module,Magento_Checkout
 "Sign In",Aanmelden,module,Magento_Checkout
-"Email Address","email adres",module,Magento_Checkout
+"Email Address","E-mail adres",module,Magento_Checkout
 Password,Wachtwoord,module,Magento_Checkout
 "Forgot Your Password?","Wachtwoord vergeten?",module,Magento_Checkout
 "My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde",module,Magento_Checkout
@@ -3066,7 +3066,7 @@ Select,Selecteer,module,Magento_ConfigurableProduct
 "Apply unique prices by attribute to each SKU","Pas unieke prijzen toe door attribuut op elk art.nr.",module,Magento_ConfigurableProduct
 "Skip price at this time","Sla prijzen op dit moment over",module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","Pas enkele aantal toe op elke SKU",module,Magento_ConfigurableProduct
-"Apply unique quantity by attribute to each SKU","Apart aantal toepassen per attribuut voor elke SKU",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Apart aantal toepassen per attribuut voor elk Art.nr.",module,Magento_ConfigurableProduct
 "Skip quantity at this time","Sla aantal over voor dit moment",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Stap 1: Selecteer Attributen",module,Magento_ConfigurableProduct
 "Selected Attributes:","Geselecteerde Attributen:",module,Magento_ConfigurableProduct
@@ -3435,7 +3435,7 @@ Customers,Klanten,module,Magento_Customer
 "Please enter the phone number.","Vul het telefoonnummer in.",module,Magento_Customer
 "Please enter the zip/postal code.","Vul a.u.b. de postcode in.",module,Magento_Customer
 "Please enter the country.","Vul a.u.b. het land in.",module,Magento_Customer
-"Please enter the state/province.","Vul a.u.b. de staat/provincie in.",module,Magento_Customer
+"Please enter the state/province.","Vul a.u.b. de provincie in.",module,Magento_Customer
 """%1"" is a required value.","""%1"" is een vereiste waarde.",module,Magento_Customer
 Global,Systeem,module,Magento_Customer
 "Per Website","Per website",module,Magento_Customer
@@ -3643,7 +3643,7 @@ Password:,Wachtwoord:,module,Magento_Customer
 "Track order history","Bekijk bestelgeschiedenis",module,Magento_Customer
 "Check out faster","Reken sneller af",module,Magento_Customer
 "Checkout out using your account","Reken af met uw account",module,Magento_Customer
-"Email Address","email adres",module,Magento_Customer
+"Email Address","E-mail adres",module,Magento_Customer
 "Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_Customer
 "Are you sure you want to delete this address?","Weet u zeker dat u het adres wilt verwijderen?",module,Magento_Customer
 Weak,Zwak,module,Magento_Customer
@@ -3930,7 +3930,7 @@ Address,Straat,module,Magento_CustomerCustomAttributes
 "Street Address %1","Straat en huisnummer %1",module,Magento_CustomerCustomAttributes
 "VAT Number","BTW nummer",module,Magento_CustomerCustomAttributes
 City,Plaats,module,Magento_CustomerCustomAttributes
-State/Province,Staat/Provincie,module,Magento_CustomerCustomAttributes
+State/Province,Provincie,module,Magento_CustomerCustomAttributes
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_CustomerCustomAttributes
 "Zip/Postal Code",Postcode,module,Magento_CustomerCustomAttributes
 Country,Land,module,Magento_CustomerCustomAttributes
@@ -4133,7 +4133,7 @@ Group,Groep,module,Magento_CustomerSegment
 Phone,Telefoonnummer,module,Magento_CustomerSegment
 ZIP,Postcode,module,Magento_CustomerSegment
 Country,Land,module,Magento_CustomerSegment
-State/Province,Staat/Provincie,module,Magento_CustomerSegment
+State/Province,Provincie,module,Magento_CustomerSegment
 "Customer Since","Klant Sinds",module,Magento_CustomerSegment
 "View Combined Report","Gecombineerd Rapport Inzien",module,Magento_CustomerSegment
 Set,"Stel (noun) / Bevestigd / Vastgelegd",module,Magento_CustomerSegment
@@ -4412,7 +4412,7 @@ sample,voorbeeld,module,Magento_Downloadable
 "Browse Files...","Blader door bestanden...",module,Magento_Downloadable
 Delete,Verwijder,module,Magento_Downloadable
 "Add product preview files here.","Voeg productvoorvertoningsbestanden hier toe.",module,Magento_Downloadable
-SKU,"stock keeping unit",module,Magento_Downloadable
+SKU,Art.nr.,module,Magento_Downloadable
 U,U,module,Magento_Downloadable
 "Select all","Alles selecteren",module,Magento_Downloadable
 "Unselect all","Selectie ongedaan maken",module,Magento_Downloadable
@@ -6298,7 +6298,7 @@ Updated,Ge-update,module,Magento_MultipleWishlist
 "Add to Cart","In Winkelwagen",module,Magento_MultipleWishlist
 Back,Terug,module,Magento_MultipleWishlist
 "Add to:","Toevoegen aan:",module,Magento_MultipleWishlist
-"Create New Wish List","Nieuw verlanglijst aanmaken",module,Magento_MultipleWishlist
+"Create New Wish List","Nieuwe verlanglijst aanmaken",module,Magento_MultipleWishlist
 "Move to Wish List","Naar verlanglijst verplaatsen",module,Magento_MultipleWishlist
 "Copy to Wish List","Kopiëren naar verlanglijst",module,Magento_MultipleWishlist
 "Search Options",Zoekopties,module,Magento_MultipleWishlist
@@ -6346,7 +6346,7 @@ Status,Status,module,Magento_MultipleWishlist
 Public,Publiek,module,Magento_MultipleWishlist
 Private,Privé,module,Magento_MultipleWishlist
 Product,Product,module,Magento_MultipleWishlist
-SKU,"stock keeping unit",module,Magento_MultipleWishlist
+SKU,Art.nr.,module,Magento_MultipleWishlist
 Comment,Commentaar,module,Magento_MultipleWishlist
 "Wish List Quantity","Wensenlijst aantal",module,Magento_MultipleWishlist
 "Store Quantity","Winkel aantal",module,Magento_MultipleWishlist
@@ -6755,7 +6755,7 @@ Shipping,Verzending,module,Magento_Payment
 "The credit card number doesn't match the credit card type.","Het creditcardnummer komt niet overeen met het type creditcard.",module,Magento_Payment
 "Invalid Credit Card Number","Ongeldig credit card nummer",module,Magento_Payment
 "This credit card type is not allowed for this payment method.","Deze creditcard is niet toegestaan voor deze betaalwijze.",module,Magento_Payment
-"Please enter a valid credit card verification number.","Geef a.u.b. een geldig credit card verificatie nummer op.",module,Magento_Payment
+"Please enter a valid credit card verification number.","Geef een geldig credit card verificatie nummer op.",module,Magento_Payment
 "Please enter a valid credit card expiration date.","Voer een geldige credit card vervaldatum in.",module,Magento_Payment
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","klasse %1 implementeert de \Magento\Payment\Model\MethodInterface niet",module,Magento_Payment
 Yes,Ja,module,Magento_Payment
@@ -7666,8 +7666,8 @@ has,"heeft (in andere context: bevat)",module,Magento_Reminder
 "does not have","bevat geen",module,Magento_Reminder
 "Cart Line Items","Winkelwagen lijn items",module,Magento_Reminder
 "Number of shopping cart line items %1 %2:","Aantal producten in de winkelwagen %1 %2:",module,Magento_Reminder
-SKU,"stock keeping unit",module,Magento_Reminder
-"Item SKU %1 %2","Artikelnummer %1 %2",module,Magento_Reminder
+SKU,Art.nr.,module,Magento_Reminder
+"Item SKU %1 %2","Product art.nr. %1 %2",module,Magento_Reminder
 "Store View",Winkelaanzicht,module,Magento_Reminder
 "The item was added to shopping cart %1, store view %2.","Het item is toegevoegd aan het winkelwagen %1, winkelaanzicht %2.",module,Magento_Reminder
 from,van,module,Magento_Reminder
@@ -7792,7 +7792,7 @@ Orders,Bestellingen,module,Magento_Reports
 "Online Refunds","Online restituties",module,Magento_Reports
 "Offline Refunds","Off line restituties",module,Magento_Reports
 "Total Ordered Report","Rapportage Totaal Besteld",module,Magento_Reports
-"Sales Items",Uitverkoopproducten,module,Magento_Reports
+"Sales Items","Bestelling artikelen",module,Magento_Reports
 Items,Producten,module,Magento_Reports
 Revenue,Omzet,module,Magento_Reports
 Profit,Winst,module,Magento_Reports
@@ -8489,7 +8489,7 @@ ID,ID,module,Magento_Rma
 #,#,module,Magento_Rma
 "Order ID","Bestelling ID",module,Magento_Rma
 "Customer Name","Naam klant",module,Magento_Rma
-"Email Address","email adres",module,Magento_Rma
+"Email Address","E-mail adres",module,Magento_Rma
 "RMA History","RMA geschiedenis",module,Magento_Rma
 "Comment Text","commentaar tekst",module,Magento_Rma
 "Notify Customer by Email","Bericht klant per email",module,Magento_Rma
@@ -8592,7 +8592,7 @@ Ok,OK,module,Magento_Rma
 "Contact Name","contact naam",module,Magento_Rma
 "Street Address",Adres,module,Magento_Rma
 City,Plaats,module,Magento_Rma
-State/Province,Staat/Provincie,module,Magento_Rma
+State/Province,Provincie,module,Magento_Rma
 "ZIP/Postal Code",Postcode,module,Magento_Rma
 Country,Land,module,Magento_Rma
 Enabled,Ingeschakeld,module,Magento_Rma
@@ -8967,7 +8967,7 @@ Guest,Bezoeker,module,Magento_Sales
 "Please enter the phone number.","Vul het telefoonnummer in.",module,Magento_Sales
 "Please enter the zip/postal code.","Vul a.u.b. de postcode in.",module,Magento_Sales
 "Please enter the country.","Vul a.u.b. het land in.",module,Magento_Sales
-"Please enter the state/province.","Vul a.u.b. de staat/provincie in.",module,Magento_Sales
+"Please enter the state/province.","Vul a.u.b. de provincie in.",module,Magento_Sales
 "Requested entity doesn't exist","De opgevraagde entiteit bestaat niet",module,Magento_Sales
 "Could not delete order address","Kan het adres van bestelling niet verwijderen",module,Magento_Sales
 "Could not save order address","Kan het adres van de bestelling niet opslaan",module,Magento_Sales
@@ -9077,7 +9077,7 @@ Country,Land,module,Magento_Sales
 Email,Email,module,Magento_Sales
 "First Name",Voornaam,module,Magento_Sales
 "Last Name",Achternaam,module,Magento_Sales
-State/Province,Staat/Provincie,module,Magento_Sales
+State/Province,Provincie,module,Magento_Sales
 "Street Address",Adres,module,Magento_Sales
 "Phone Number",Telefoonnummer,module,Magento_Sales
 "Zip/Postal Code",Postcode,module,Magento_Sales
@@ -9281,7 +9281,7 @@ Search,Zoek,module,Magento_Sales
 "Thank you for your order from %store_name.","Bedankt voor uw bestelling bij %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","U kunt de status van uw bestelling controleren door in te <a href=""%account_url"">loggen op uw account</a>.",module,Magento_Sales
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Indien u vragen heeft over uw bestelling, kan u ons emailen op <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Sales
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","of telefonish op <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
+"or call us at <a href=""tel:%store_phone"">%store_phone</a>","of telefonisch op <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
 "Our hours are <span class=""no-link"">%store_hours</span>.","Onze openinsuren zijn <span class=""no-link"">%store_hours</span>.",module,Magento_Sales
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Uw creditfactuur #%creditmemo_id voor bestelling #%order_id",module,Magento_Sales
 "Billing Info",Facturering-Info,module,Magento_Sales
@@ -9401,7 +9401,7 @@ Phone,Telefoonnummer,module,Magento_Sales
 "ZIP/Post Code",Postcode,module,Magento_Sales
 "Signed-up Point",Inschrijvingspunt,module,Magento_Sales
 Website,Website,module,Magento_Sales
-order-header,orderkop,module,Magento_Sales
+order-header,order-header,module,Magento_Sales
 "Bill-to Name",Factuurnaam,module,Magento_Sales
 Created,Aangemaakt,module,Magento_Sales
 "Invoice Date",Factuurdatum,module,Magento_Sales
@@ -9934,7 +9934,7 @@ Scope,Bereik,module,Magento_Search
 Synonyms,Synoniemen,module,Magento_Search
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Door komma's gescheiden lijst met synoniemen. De termen ingevoerd (gescheiden door komma's) worden gebruikt als een zoekopdracht ""OR"" voor het zoeken van uw hele winkel. Bijvoorbeeld als u ""schoenen, schoeisel"" gebruiker waren om te zoeken naar 'schoenen', zal de zoekresultaten product of bevatten inhoud met de term ""schoenen"" of ""schoeisel.""",module,Magento_Search
 "Merge existing synonyms","Samenvoegen van bestaande synoniemen",module,Magento_Search
-"Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Automatisch worden samengevoegd synoniemen in groepen die delen van hetzelfde bereik. Als u dit selectievakje inschakelt en u een of meer van dezelfde voorwaarden aan verschillende synoniem groepen in hetzelfde bereik toevoegt, worden automatisch samengevoegd alle termen aan één groep. Als dit is niet wat je wilt, uncheck de doos en een fout wordt weergegeven als u probeert toe te voegen dezelfde voorwaarden.",module,Magento_Search
+"Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Automatisch worden synoniemen samengevoegd in groepen die hetzelfde bereik delen. Als u dit selectievakje inschakelt en u een of meerdere van dezelfde voorwaarden aan verschillende synoniem groepen in hetzelfde bereik toevoegt, worden automatisch alle termen samengevoegd aan één groep. Als dit niet is wat u wilt, schakel het selectievakje uit en een fout wordt weergegeven als u dezelfde voorwaarden probeert toe te voegen.",module,Magento_Search
 "Store View",Winkelaanzicht,module,Magento_Search
 Website,Website,module,Magento_Search
 "Delete items","Items verwijderen",module,Magento_Search
@@ -10528,7 +10528,7 @@ Store,Winkel,module,Magento_Support
 "Increment Id","Hoog ID op",module,Magento_Support
 "Customer Id","Klant ID",module,Magento_Support
 "Duplicate Products By SKU","Dubbele producten op art.nr.",module,Magento_Support
-SKU,"stock keeping unit",module,Magento_Support
+SKU,Art.nr.,module,Magento_Support
 "Duplicate Products By URL Key","Dubbele producten op URL sleutel",module,Magento_Support
 "URL Key","URL sleutel",module,Magento_Support
 Website,Website,module,Magento_Support
@@ -10634,11 +10634,11 @@ Stores,Winkels,module,Magento_Support
 "Use Product Image for Swatch if Possible","Gebruik indien mogelijk productafbeelding voor staal",module,Magento_Swatches
 "Allows use fallback logic for replacing swatch image with product swatch or base image","Sta gebruik van fallback logica toe voor het vervangen door productstaal of basisafbeelding",module,Magento_Swatches
 "Visual Swatch","Visuele Swatch",module,Magento_Swatches
-"Text Swatch","Tekst Swatch",module,Magento_Swatches
+"Text Swatch","Tekstuele staal",module,Magento_Swatches
 "Manage Swatch (Values of Your Attribute)","Staal beheren (waarden van het attribuut)",module,Magento_Swatches
 "Is Default","Is standaard",module,Magento_Swatches
 Swatch,Staal,module,Magento_Swatches
-"Add Swatch","Swatch toevoegen",module,Magento_Swatches
+"Add Swatch","Staal toevoegen",module,Magento_Swatches
 "Sort Option",Sorteeroptie,module,Magento_Swatches
 Delete,Verwijder,module,Magento_Swatches
 "Choose a color","Kies een kleur",module,Magento_Swatches
@@ -11216,7 +11216,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please specify a valid phone number","Geef een geldig telefoonnummer op",module,Magento_Ui
 "Please specify a valid mobile number","Geef een geldig 06-nummer op",module,Magento_Ui
 "Please enter at least {0} characters","Vul minstens {0} tekens in",module,Magento_Ui
-"Please enter a valid credit card number.","Geef a.u.b. een geldig creditcard-nummer op.",module,Magento_Ui
+"Please enter a valid credit card number.","Geef een geldig creditcard-nummer op.",module,Magento_Ui
 "Please enter a valid IP v4 address.","Voer een geldig IP v4 adres in.",module,Magento_Ui
 "Please enter a valid IP v6 address.","Voer een geldig IP v6 adres in.",module,Magento_Ui
 "Invalid format.","Ongeldig formaat.",module,Magento_Ui
@@ -11226,7 +11226,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Gebruik alleen letters (a-z of A-Z), cijfers (0-9) of spaties in dit veld.",module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Gebruik uitsluitend letters (a-z en A-Z), cijfers (0-9) of underscores (_) in dit veld, het eerste teken moet een een letter zijn.",module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Gebruik alleen letters (a-z of A-Z), cijfers (0-9) of spaties in dit veld.",module,Magento_Ui
-"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Geef a.u.b. een geldig telefoonnummer op. Bijvoorbeeld (123) 456-7889 of 123-456-7890",module,Magento_Ui
+"Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Geef een geldig telefoonnummer op. Bijvoorbeeld (123) 456-7889 of 123-456-7890.",module,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","Voer een geldig faxnummer in (Ex: 123-456-7890).",module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Voer een geldig e-mailadres in (Bijv.: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Voer zes of meer tekens in. Spaties aan begin en eind zullen worden genegeerd.",module,Magento_Ui
@@ -11238,11 +11238,11 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please enter a valid zip code (Ex: 90602 or 90602-1234).","Voer een geldige postcode in (Ex: 90602 of 90602-1234).",module,Magento_Ui
 "Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","Gebruik dd/mm/jjjj als datum-formaat. Bijvoorbeeld 17/03/2006 voor 17 maart 2006.",module,Magento_Ui
 "Please enter a valid $ amount. For example $100.00.","Voer een geldig € bedrag op. Bijvoorbeeld: €100,00.",module,Magento_Ui
-"Please enter a number 0 or greater in this field.","Voer in dit veld a.u.b. een getal gelijk aan of groter dan 0 in.",module,Magento_Ui
-"Please enter a number greater than 0 in this field.","Voer in dit veld a.u.b. een getal groter dan 0 in.",module,Magento_Ui
+"Please enter a number 0 or greater in this field.","Voer in dit veld een getal gelijk aan of groter dan 0 in.",module,Magento_Ui
+"Please enter a number greater than 0 in this field.","Voer in dit veld een getal groter dan 0 in.",module,Magento_Ui
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Voer een geldige CSS-lengte in (Vb: 100px, 77pt, 20em, .5ex of 50%).",module,Magento_Ui
 "Please enter a valid number in this field.","Voer een geldig getal in dit veld in.",module,Magento_Ui
-"The value is not within the specified range.","Het nummer valt niet in het verplichte bereik.",module,Magento_Ui
+"The value is not within the specified range.","De waarde valt niet binnen het opgegeven bereik.",module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","Gebruik uitsluitend letters  (a-z en A-Z) in dit veld.",module,Magento_Ui
 "Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Gebruik uitsluitend letters (a-z en A-Z), cijfers (0-9) of underscores (_) in dit veld, het eerste teken moet een een letter zijn.",module,Magento_Ui
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Gebruik uitsluitend letters (a-z en A-Z) of nummers (0-9) in dit veld. Gebruik geen spaties of andere tekens.",module,Magento_Ui
@@ -11331,7 +11331,7 @@ Commercial,Commercieel,module,Magento_Ups
 Pounds,"500 gram",module,Magento_Ups
 Kilograms,Kilogram,module,Magento_Ups
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","Er is iets fout gegaan. Probeer opnieuw of neem contact ons en wij zullen u helpen.",module,Magento_Ups
-"We can't convert a rate from ""%1-%2"".","We can't convert a rate from ""%1-%2"".",module,Magento_Ups
+"We can't convert a rate from ""%1-%2"".","We kunnen geen tarief converteren van ""%1-%2"".",module,Magento_Ups
 "Cannot retrieve shipping rates","Kan de verzendkosten niet ophalen",module,Magento_Ups
 status,status,module,Magento_Ups
 error_message,error_message,module,Magento_Ups
