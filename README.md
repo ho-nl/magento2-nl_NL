@@ -2,7 +2,7 @@
 
 ## Install:
 ```BASH
-composer require honl/magento2-ho-nl
+composer require honl/magento2-nl-nl
 ```
 
 ## Contributing
@@ -10,7 +10,7 @@ Go to https://crowdin.com/project/magento-2/nl#/Head and translate files.
 
 ## Development install:
 ```BASH
-composer require honl/magento2-ho-nl "dev-master"
+composer require honl/magento2-nl-nl "dev-master"
 ```
 
 
