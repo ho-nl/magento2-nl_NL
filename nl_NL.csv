@@ -9877,7 +9877,7 @@ Yes,Ja,module,Magento_Search
 Store,Winkel,module,Magento_Search
 "Number of results","Aantal resultaten",module,Magento_Search
 "Number of results (For the last time placed)","Aantal resultaten (voor de laatste keer geplaatst)",module,Magento_Search
-"For the last time placed.","For the last time placed.",module,Magento_Search
+"For the last time placed.","Voor de laatste keer geplaatst.",module,Magento_Search
 "Number of Uses","Aantal keer gebruikt",module,Magento_Search
 "Redirect URL","Doorverwijs URL",module,Magento_Search
 "ex. http://domain.com","bijv. http://domein.nl",module,Magento_Search
