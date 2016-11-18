@@ -8,3 +8,9 @@
     'ho_nl_nl',
     __DIR__
 );
+
+\Magento\Framework\Component\ComponentRegistrar::register(
+    \Magento\Framework\Component\ComponentRegistrar::MODULE,
+    'Ho_nl_NL',
+    __DIR__.'/src'
+);

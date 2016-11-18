@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright © 2016 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
+  ~ See LICENSE.txt for license details.
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer>
+            <address_templates>
+                <text>{{if company}}{{var company}}{{/if}}
+{{if prefix}}{{var prefix}} {{/if}}{{var firstname}} {{if middlename}}{{var middlename}} {{/if}}{{var lastname}} {{if suffix}} {{var suffix}}{{/if}}
+{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}
+{{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}
+{{if region}}{{var region}}
+{{/if}}{{var country}}
+{{if telephone}}T: {{var telephone}}{{/if}}
+{{if fax}}F: {{var fax}}{{/if}}</text>
+                <oneline>{{if company}}{{var company}} – {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}}{{if middlename}}{{var middlename}} {{/if}} {{var lastname}}{{if suffix}} {{var suffix}}{{/if}}{{if street1}}, {{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}, {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}{{if region}}, {{var region}}{{/if}}, {{var country}}</oneline>
+                <html><![CDATA[{{if company}}{{var company}}<br />
+t.a.v. {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}} {{if middlename}}{{var middlename}} {{/if}}{{var lastname}} {{if suffix}} {{var suffix}}{{/if}}<br />
+{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}<br />
+{{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}<br />
+{{if region}}{{var region}}<br />
+{{/if}}{{var country}}<br />
+{{if telephone}}T: {{var telephone}}{{/if}}<br />
+{{if fax}}F: {{var fax}}{{/if}}]]></html>
+                <pdf><![CDATA[{{if company}}{{var company}}|
+t.a.v. {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}} {{if middlename}}{{var middlename}} {{/if}}{{var lastname}} {{if suffix}} {{var suffix}}{{/if}}|
+{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}|
+{{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}|
+{{if region}}{{var region}}|
+{{/if}}{{var country}}|
+{{if telephone}}T: {{var telephone}}{{/if}}|
+{{if fax}}F: {{var fax}}{{/if}}|]]></pdf>
+            </address_templates>
+        </customer>
+    </default>
+</config>

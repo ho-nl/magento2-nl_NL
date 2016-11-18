@@ -1,5 +1,8 @@
 # H&O Magento 2 Nederlandse vertalingen / Dutch Translations
 
+- Complete translations for Magento 2.x CE and EE.
+- Added Dutch [address formatting](src/etc/config.xml)
+
 ## Install:
 ```BASH
 composer require honl/magento2-nl-nl
