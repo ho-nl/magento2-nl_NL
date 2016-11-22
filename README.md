@@ -3,18 +3,28 @@
 - Complete translations for Magento 2.x CE and EE.
 - Added Dutch [address formatting](src/etc/config.xml)
 
-## Install:
+## Installation through Marketplace
+
+As H&O extensions are offered in the official Magento® Marketplace you can directly install them via the Magento® 2 backend. Magento® did a great job simplifying this process, they also provided a really good documentation. Please read the official documentation for installing extensions over the marketplace. 
+
+https://marketplace.magento.com/
+http://devdocs.magento.com/guides/v2.0/comp-mgr/module-man/compman-start.html
+
+## Installation through composer
+
 ```BASH
 composer require honl/magento2-nl-nl
 ```
 
-## Contributing
-Go to https://crowdin.com/project/magento-2/nl#/Head and translate files.
-
-## Development install:
+### Development install:
 ```BASH
 composer require honl/magento2-nl-nl "dev-master"
 ```
+
+
+## Contributing
+Go to https://crowdin.com/project/magento-2/nl#/Head and translate files.
+
 
 
 
