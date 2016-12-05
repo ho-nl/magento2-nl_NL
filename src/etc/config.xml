@@ -16,22 +16,24 @@
 {{if telephone}}T: {{var telephone}}{{/if}}
 {{if fax}}F: {{var fax}}{{/if}}</text>
                 <oneline>{{if company}}{{var company}} – {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}}{{if middlename}}{{var middlename}} {{/if}} {{var lastname}}{{if suffix}} {{var suffix}}{{/if}}{{if street1}}, {{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}, {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}{{if region}}, {{var region}}{{/if}}, {{var country}}</oneline>
-                <html><![CDATA[{{if company}}{{var company}}<br />
-t.a.v. {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}} {{if middlename}}{{var middlename}} {{/if}}{{var lastname}} {{if suffix}} {{var suffix}}{{/if}}<br />
-{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}<br />
+                <html><![CDATA[{{if company}}{{var company}}<br />{{/if}}
+{{if prefix}}{{var prefix}} {{/if}}{{if firstname}}{{var firstname}} {{/if}}{{if middlename}}{{var middlename}} {{/if}}{{if lastname}}{{var lastname}} {{/if}}{{if suffix}} {{var suffix}}{{/if}}{{if lastname}}<br />
+{{/if}}{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}<br />
 {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}<br />
 {{if region}}{{var region}}<br />
 {{/if}}{{var country}}<br />
-{{if telephone}}T: {{var telephone}}{{/if}}<br />
-{{if fax}}F: {{var fax}}{{/if}}]]></html>
-                <pdf><![CDATA[{{if company}}{{var company}}|
-t.a.v. {{/if}}{{if prefix}}{{var prefix}} {{/if}}{{var firstname}} {{if middlename}}{{var middlename}} {{/if}}{{var lastname}} {{if suffix}} {{var suffix}}{{/if}}|
-{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}|
+{{if telephone}}{{var telephone}}{{/if}}<br />
+{{if fax}}F: {{var fax}}<br />{{/if}}
+{{if vat_id}}{{var vat_id}}{{/if}}]]></html>
+                <pdf><![CDATA[{{if company}}{{var company}}|{{/if}}
+{{if prefix}}{{var prefix}} {{/if}}{{if firstname}}{{var firstname}} {{/if}}{{if middlename}}{{var middlename}} {{/if}}{{if lastname}}{{var lastname}} {{/if}}{{if suffix}} {{var suffix}}{{/if}}{{if lastname}}|
+{{/if}}{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}|
 {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}|
 {{if region}}{{var region}}|
 {{/if}}{{var country}}|
-{{if telephone}}T: {{var telephone}}{{/if}}|
-{{if fax}}F: {{var fax}}{{/if}}|]]></pdf>
+{{if telephone}}{{var telephone}}{{/if}}|
+{{if fax}}F: {{var fax}}|{{/if}}
+{{if vat_id}}{{var vat_id}}{{/if}}]]></pdf>
             </address_templates>
         </customer>
     </default>
