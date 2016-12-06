@@ -1008,7 +1008,7 @@ Type,Type,module,Magento_Braintree
 Amount,Aantal,module,Magento_Braintree
 "Settlement Code",Betalingscode,module,Magento_Braintree
 "Settlement Response Text",Betalingsreactietekst,module,Magento_Braintree
-"Refund Ids","Terugbetaling Ids",module,Magento_Braintree
+"Refund Ids","Restitutie Ids",module,Magento_Braintree
 "Settlement Batch ID","Betalings batch ID",module,Magento_Braintree
 Currency,Valuta,module,Magento_Braintree
 Country,Land,module,Magento_BraintreeTwo
@@ -9249,8 +9249,8 @@ Items,Items,module,Magento_Sales
 "Billing ZIP Code","Factuur postcode",module,Magento_Sales
 Continue,Doorgaan,module,Magento_Sales
 "Print All Refunds","Alle terugbetalingen printen",module,Magento_Sales
-"Refund #","Terugbetaling #",module,Magento_Sales
-"Print Refund","Terugbetaling printen",module,Magento_Sales
+"Refund #","Restitutie #",module,Magento_Sales
+"Print Refund","Restitutie printen",module,Magento_Sales
 "Product Name",Productnaam,module,Magento_Sales
 "Order #","Bestelling #",module,Magento_Sales
 Date,Datum,module,Magento_Sales
@@ -9293,7 +9293,7 @@ Search,Zoek,module,Magento_Sales
 "Update to your %store_name invoice","Update van uw %store_name factuur",module,Magento_Sales
 "Your %store_name order confirmation","Uw %store_name bestelbevestiging",module,Magento_Sales
 "%customer_name,","%customer_name,",module,Magento_Sales
-"Once your package ships we will send you a tracking number.","Zodra we uw pakket verzenden, sturen wij u een tracking en tracing-nummer.",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","Zodra we uw pakket verzenden, sturen wij u een Track- en Tracenummer.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","Uw bestelling <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Placed on <span class=""no-link"">%created_at</span>","Geplaatst op <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Once your package ships we will send an email with a link to track your order.","Zodra uw pakket verstuurd is sturen we een email met een link om uw bestelling te volgen.",module,Magento_Sales
