@@ -20,20 +20,20 @@
 {{if prefix}}{{var prefix}} {{/if}}{{if firstname}}{{var firstname}} {{/if}}{{if middlename}}{{var middlename}} {{/if}}{{if lastname}}{{var lastname}} {{/if}}{{if suffix}} {{var suffix}}{{/if}}{{if lastname}}<br />
 {{/if}}{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}<br />
 {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}<br />
-{{if region}}{{var region}}<br />
-{{/if}}{{var country}}<br />
-{{if telephone}}{{var telephone}}{{/if}}<br />
+{{if region}}{{var region}}<br />{{/if}}
+{{if country}}{{var country}}<br />{{/if}}
+{{if telephone}}{{var telephone}}<br />{{/if}}
 {{if fax}}F: {{var fax}}<br />{{/if}}
 {{if vat_id}}{{var vat_id}}{{/if}}]]></html>
                 <pdf><![CDATA[{{if company}}{{var company}}|{{/if}}
-{{if prefix}}{{var prefix}} {{/if}}{{if firstname}}{{var firstname}} {{/if}}{{if middlename}}{{var middlename}} {{/if}}{{if lastname}}{{var lastname}} {{/if}}{{if suffix}} {{var suffix}}{{/if}}{{if lastname}}|
+{{if firstname}}{{var prefix}} {{/if}}{{if firstname}}{{var firstname}} {{/if}}{{if middlename}}{{var middlename}} {{/if}}{{if lastname}}{{var lastname}} {{/if}}{{if suffix}} {{var suffix}}{{/if}}{{if lastname}}|
 {{/if}}{{if street1}}{{var street1}}{{/if}}{{if street2}} {{var street2}}{{/if}}{{if street3}} {{var street3}}{{/if}}{{if street4}} {{var street4}}{{/if}}|
 {{if postcode}}{{var postcode}}{{/if}}{{if city}} {{var city}}{{/if}}|
-{{if region}}{{var region}}|
-{{/if}}{{var country}}|
-{{if telephone}}{{var telephone}}{{/if}}|
+{{if region}}{{var region}}|{{/if}}
+{{if country}}{{var country}}|{{/if}}
+{{if telephone}}{{var telephone}}|{{/if}}
 {{if fax}}F: {{var fax}}|{{/if}}
-{{if vat_id}}{{var vat_id}}{{/if}}]]></pdf>
+{{if vat_id}}{{var vat_id}}|{{/if}}]]></pdf>
             </address_templates>
         </customer>
     </default>
