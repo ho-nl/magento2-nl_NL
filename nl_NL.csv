@@ -303,7 +303,7 @@ Debug,"Fouten opsporen in programma",module,Magento_Authorizenet
 "Payment from Specific Countries","Betaling van Specifieke Landen",module,Magento_Authorizenet
 "Minimum Order Total","Minimale bestelwaarde",module,Magento_Authorizenet
 "Maximum Order Total","Maximale bestelwaarde",module,Magento_Authorizenet
-"Sort Order","Sorteer Bestelling",module,Magento_Authorizenet
+"Sort Order",Sorteervolgorde,module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","Ongeldige formuliersleutel. Gelieve de pagina te vernieuwen.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Er is een incorrecte Secret Key ingevoerd. Ververs de pagina.",module,Magento_Backend
 "Cache Storage Management","Beheer cachegeheugen",module,Magento_Backend
@@ -980,7 +980,7 @@ Environment,Omgeving,module,Magento_Braintree
 Debug,"Fouten opsporen in programma",module,Magento_Braintree
 "CVV Verification","CVV verificatie",module,Magento_Braintree
 "Credit Card Types",Creditcard-maatschappij,module,Magento_Braintree
-"Sort Order","Sorteer Bestelling",module,Magento_Braintree
+"Sort Order",Sorteervolgorde,module,Magento_Braintree
 "Country Specific Settings","Land specifieke instellingen",module,Magento_Braintree
 "Payment from Applicable Countries","Betaling van Geëigende Landen",module,Magento_Braintree
 "Payment from Specific Countries","Betaling van Specifieke Landen",module,Magento_Braintree
@@ -1043,7 +1043,7 @@ Settling,"Wordt geregeld",module,Magento_BraintreeTwo
 Voided,Ongeldig,module,Magento_BraintreeTwo
 Unrecognized,"Niet herkend",module,Magento_BraintreeTwo
 "Settlement declined","Regeling afgewezen",module,Magento_BraintreeTwo
-"Settlement pending","Regeling is in afwachting",module,Magento_BraintreeTwo
+"Settlement pending","Afwikkeling in afwachting",module,Magento_BraintreeTwo
 "Settlement confirmed","Regeling bevestigd",module,Magento_BraintreeTwo
 Sale,Uitverkoop,module,Magento_BraintreeTwo
 Credit,Tegoed,module,Magento_BraintreeTwo
@@ -2001,7 +2001,7 @@ Category,Categorie,module,Magento_CatalogEvent
 "Start Date",begindatum,module,Magento_CatalogEvent
 "End Date",einddatum,module,Magento_CatalogEvent
 Image,Beeld,module,Magento_CatalogEvent
-"Sort Order","Sorteer Bestelling",module,Magento_CatalogEvent
+"Sort Order",Sorteervolgorde,module,Magento_CatalogEvent
 Upcoming,aankomend,module,Magento_CatalogEvent
 Open,open,module,Magento_CatalogEvent
 Closed,gesloten,module,Magento_CatalogEvent
@@ -3558,9 +3558,9 @@ or,of,module,Magento_Customer
 Company,Bedrijfsnaam,module,Magento_Customer
 "Phone Number",Telefoonnummer,module,Magento_Customer
 Fax,Fax,module,Magento_Customer
-Address,Straat,module,Magento_Customer
+Address,Adres,module,Magento_Customer
 "Street Address",Adres,module,Magento_Customer
-"Street Address %1","Straat en huisnummer %1",module,Magento_Customer
+"Street Address %1","Adresregel %1",module,Magento_Customer
 "VAT Number","BTW nummer",module,Magento_Customer
 City,Plaats,module,Magento_Customer
 State/Province,Staat/Provincie,module,Magento_Customer
@@ -3625,18 +3625,18 @@ Password:,Wachtwoord:,module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Om in te loggen op onze website en een wachtwoord in te stellen, klik op deze <a href=""%create_password_url"">link</a>:",module,Magento_Customer
 "Your %store_name email has been changed","Uw %store_name e-mail is veranderd",module,Magento_Customer
 "Hello,","Hallo,",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email.","Wij hebben een verzoek ontvangen om het wijzigen van de volgende informatie in verband met uw account op %store_name: email.",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail.",module,Magento_Customer
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Als u geen toestemming voor deze actie gegeven hebt, neem onmiddellijk contact met ons op <a href=""mailto:%store_email"">%store_email</a>",module,Magento_Customer
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","of telefonish op <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Customer
 "Thanks,<br>%store_name","Dank u, <br>%store_name",module,Magento_Customer
 "Your %store_name email and password has been changed","Uw %store_name e-mail en wachtwoord is veranderd",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: email, password.","Wij hebben een verzoek ontvangen om het wijzigen van de volgende informatie in verband met uw account op %store_name: email, password.",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: email, password.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: e-mail, wachtwoord.",module,Magento_Customer
 "Reset your %store_name password","Uw %store_name wachtwoord resetten",module,Magento_Customer
 "There was recently a request to change the password for your account.","Er was onlangs een aanvraag om het wachtwoord van uw account te wijzigen.",module,Magento_Customer
 "If you requested this change, set a new password here:","Indien u deze wijziging heeft aangevraagd, kan u hier een nieuw wachtwoord instellen:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Indien u deze aanvraag niet heeft ingediend, kan u deze email negeren en uw wachtwoord zal ongewijzigd blijven.",module,Magento_Customer
 "Your %store_name password has been changed","Uw %store_name wachtwoord is veranderd",module,Magento_Customer
-"We have received a request to change the following information associated with your account at %store_name: password.","Wij hebben een verzoek ontvangen om het wijzigen van de volgende informatie in verband met uw account op %store_name: wachtwoord.",module,Magento_Customer
+"We have received a request to change the following information associated with your account at %store_name: password.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: wachtwoord.",module,Magento_Customer
 "Checkout out as a new customer","Afrekenen als een nieuwe klant",module,Magento_Customer
 "Creating an account has many benefits:","Het aanmaken van een account heeft vele voordelen:",module,Magento_Customer
 "See order and shipping status","Bekijk bestelling en verzendstatus",module,Magento_Customer
@@ -3752,7 +3752,7 @@ Type,Type,module,Magento_Customer
 Addresses,Adressen,module,Magento_Customer
 "Are you sure you want to delete this item?","Weet u zeker dat u dit artikel wil verwijderen?",module,Magento_Customer
 "Account Dashboard",Accountoverzicht,module,Magento_Customer
-"Edit Account Information","Bewerk rekening informatie",module,Magento_Customer
+"Edit Account Information","Bewerk account gegevens",module,Magento_Customer
 "Password forgotten","Wachtwoord vergeten",module,Magento_Customer
 "My Dashboard",Overzicht,module,Magento_Customer
 "You are signed out","U bent afgemeld",module,Magento_Customer
@@ -3850,7 +3850,7 @@ None,Geen,module,Magento_CustomerCustomAttributes
 "Select ""Yes"" to add this attribute to the list of search options in the customer grid.","Selecteer ""Ja"" om dit kenmerk toe te voegen aan de lijst van zoekopties in het klantoverzicht.",module,Magento_CustomerCustomAttributes
 "Storefront Properties","Eigenschappen winkelaanzicht",module,Magento_CustomerCustomAttributes
 "Show on Storefront","Toon in Winkelaanzicht",module,Magento_CustomerCustomAttributes
-"Sort Order","Sorteer Bestelling",module,Magento_CustomerCustomAttributes
+"Sort Order",Sorteervolgorde,module,Magento_CustomerCustomAttributes
 "Forms to Use In","Formulieren om te gebruiken in",module,Magento_CustomerCustomAttributes
 Properties,Kenmerken,module,Magento_CustomerCustomAttributes
 "Manage Label / Options","Beheer Label/Opties",module,Magento_CustomerCustomAttributes
@@ -3925,9 +3925,9 @@ Customer,Klant,module,Magento_CustomerCustomAttributes
 Company,Bedrijfsnaam,module,Magento_CustomerCustomAttributes
 "Phone Number",Telefoonnummer,module,Magento_CustomerCustomAttributes
 Fax,Fax,module,Magento_CustomerCustomAttributes
-Address,Straat,module,Magento_CustomerCustomAttributes
+Address,Adres,module,Magento_CustomerCustomAttributes
 "Street Address",Adres,module,Magento_CustomerCustomAttributes
-"Street Address %1","Straat en huisnummer %1",module,Magento_CustomerCustomAttributes
+"Street Address %1","Adresregel %1",module,Magento_CustomerCustomAttributes
 "VAT Number","BTW nummer",module,Magento_CustomerCustomAttributes
 City,Plaats,module,Magento_CustomerCustomAttributes
 State/Province,Provincie,module,Magento_CustomerCustomAttributes
@@ -4192,7 +4192,7 @@ Debug,"Fouten opsporen in programma",module,Magento_Cybersource
 "Payment from Specific Countries","Betaling van Specifieke Landen",module,Magento_Cybersource
 "Minimum Order Total","Minimale bestelwaarde",module,Magento_Cybersource
 "Maximum Order Total","Maximale bestelwaarde",module,Magento_Cybersource
-"Sort Order","Sorteer Bestelling",module,Magento_Cybersource
+"Sort Order",Sorteervolgorde,module,Magento_Cybersource
 "Cannot switch into given mode ""%1""","Onmogelijk om naar volgende mode ""%1"" over te schakelen",module,Magento_Deploy
 "Format for IDE '%1' is not supported","Opmaak voor IDE '%1' wordt niet ondersteund",module,Magento_Developer
 "Client side less compilation","Client less compilatie",module,Magento_Developer
@@ -4284,7 +4284,7 @@ Size,Grootte,module,Magento_Dhl
 "Ship to Applicable Countries","Verzenden naar landen die van toepassing zijn",module,Magento_Dhl
 "Ship to Specific Countries","Verzenden naar bepaalde landen",module,Magento_Dhl
 "Show Method if Not Applicable","Laat verzendmethode zien indien niet van toepassing",module,Magento_Dhl
-"Sort Order","Sorteer Bestelling",module,Magento_Dhl
+"Sort Order",Sorteervolgorde,module,Magento_Dhl
 Debug,"Fouten opsporen in programma",module,Magento_Dhl
 State/Province,Provincie,module,Magento_Directory
 "--Please Select--","--Maak een keuze--",module,Magento_Directory
@@ -4386,7 +4386,7 @@ No,Nee,module,Magento_Downloadable
 URL,URL,module,Magento_Downloadable
 attachment,bijlage,module,Magento_Downloadable
 inline,inline,module,Magento_Downloadable
-Pending,"In behandeling",module,Magento_Downloadable
+Pending,"In afwachting",module,Magento_Downloadable
 Invoiced,Gefactureerd,module,Magento_Downloadable
 "To enable the option set the weight to no","Om de optie in te schakelen, stel het gewicht in op nee",module,Magento_Downloadable
 "Is this downloadable Product?","Is dit een downloadable product?",module,Magento_Downloadable
@@ -4406,7 +4406,7 @@ sample,voorbeeld,module,Magento_Downloadable
 "Add links to your product files here.","Voeg links naar uw productbestanden hier toe.",module,Magento_Downloadable
 "[STORE VIEW]",[WINKELAANZICHT],module,Magento_Downloadable
 [GLOBAL],[GLOBAAL],module,Magento_Downloadable
-"Sort Order","Sorteer Bestelling",module,Magento_Downloadable
+"Sort Order",Sorteervolgorde,module,Magento_Downloadable
 "Attach File or Enter Link","Bestand toevoegen of voer link in",module,Magento_Downloadable
 "Sort Variations","Sorteer variaties",module,Magento_Downloadable
 "Browse Files...","Blader door bestanden...",module,Magento_Downloadable
@@ -4665,8 +4665,8 @@ Country,Land,module,Magento_Email
 Region/State,Provincie,module,Magento_Email
 "Zip/Postal Code",Postcode,module,Magento_Email
 City,Plaats,module,Magento_Email
-"Street Address 1","Straat en huisnummer 1",module,Magento_Email
-"Street Address 2","Straat en huisnummer 2",module,Magento_Email
+"Street Address 1","Adresregel 1",module,Magento_Email
+"Street Address 2","Adresregel 1",module,Magento_Email
 "Store Contact Information",Contactinformatie,module,Magento_Email
 %1,%1,module,Magento_Email
 "Template Variables",Templatevariabelen,module,Magento_Email
@@ -4763,7 +4763,7 @@ Debug,Debug,module,Magento_Eway
 "Credit Card Types",Creditcard-maatschappij,module,Magento_Eway
 "Payment from Applicable Countries","Betaling van Geëigende Landen",module,Magento_Eway
 "Payment from Specific Countries","Betaling van Specifieke Landen",module,Magento_Eway
-"Sort Order","Sorteer Bestelling",module,Magento_Eway
+"Sort Order",Sorteervolgorde,module,Magento_Eway
 "Europe First Priority","Europa hoogste prioriteit",module,Magento_Fedex
 "1 Day Freight","24 uurs zending",module,Magento_Fedex
 "2 Day Freight","48 uurs zending",module,Magento_Fedex
@@ -4840,7 +4840,7 @@ Dropoff,Dropshipment,module,Magento_Fedex
 "Ship to Specific Countries","Verzenden naar bepaalde landen",module,Magento_Fedex
 Debug,"Fouten opsporen in programma",module,Magento_Fedex
 "Show Method if Not Applicable","Laat verzendmethode zien indien niet van toepassing",module,Magento_Fedex
-"Sort Order","Sorteer Bestelling",module,Magento_Fedex
+"Sort Order",Sorteervolgorde,module,Magento_Fedex
 "Gift Card Information","Cadeau kaartinformatie",module,Magento_GiftCard
 Virtual,Virtuele,module,Magento_GiftCard
 Physical,Fysiek,module,Magento_GiftCard
@@ -5166,7 +5166,7 @@ Full,Vol,module,Magento_GiftRegistry
 "General Information","Algemene informatie",module,Magento_GiftRegistry
 Code,"Interne naam",module,Magento_GiftRegistry
 Label,label,module,Magento_GiftRegistry
-"Sort Order","Sorteer Bestelling",module,Magento_GiftRegistry
+"Sort Order",Sorteervolgorde,module,Magento_GiftRegistry
 "Is Listed","Is Genoteerd",module,Magento_GiftRegistry
 Attributes,Attributen,module,Magento_GiftRegistry
 [GLOBAL],[GLOBAAL],module,Magento_GiftRegistry
@@ -5295,9 +5295,9 @@ Owner,Eigenaar,module,Magento_GiftRegistry
 "Is Default","Is standaard",module,Magento_GiftRegistry
 "Select a shipping address from your address book or enter a new address.","Selecteer een verzendadres vanuit uw adresboek of geef een nieuw e-mailadres in",module,Magento_GiftRegistry
 Company,Bedrijfsnaam,module,Magento_GiftRegistry
-Address,Straat,module,Magento_GiftRegistry
+Address,Adres,module,Magento_GiftRegistry
 "Street Address",Adres,module,Magento_GiftRegistry
-"Street Address %1","Straat en huisnummer %1",module,Magento_GiftRegistry
+"Street Address %1","Adresregel %1",module,Magento_GiftRegistry
 City,Plaats,module,Magento_GiftRegistry
 "Please select a region, state or province.","Selecteer regio, staat of provincie.",module,Magento_GiftRegistry
 "Zip/Postal Code",Postcode,module,Magento_GiftRegistry
@@ -5957,7 +5957,7 @@ Conversions,Conversies,module,Magento_Invitation
 "Enable Invitations Functionality","E-mail uitnodigingen functionaliteit",module,Magento_Invitation
 "Enable Invitations on Storefront","Schakel uitnodigingen in voor winkelaanzicht",module,Magento_Invitation
 "Referred Customer Group","Gerefereerde klantgroep",module,Magento_Invitation
-"New Accounts Registration","nieuwe rekeningsregistratie",module,Magento_Invitation
+"New Accounts Registration","Nieuwe account registraties",module,Magento_Invitation
 "Allow Customers to Add Custom Message to Invitation Email","Sta klanten toe om een eigen bericht aan uitnodigingsmail toe te voegen",module,Magento_Invitation
 "Customer Invitations",Klant-uitnodigingen,module,Magento_Invitation
 "Discard Selected","Verwijder geselecteerde",module,Magento_Invitation
@@ -6636,7 +6636,7 @@ Store,Winkel,module,Magento_Newsletter
 "Check / Money Order","Betaling door middel van Overboeking",module,Magento_OfflinePayments
 Enabled,Ingeschakeld,module,Magento_OfflinePayments
 "New Order Status","Status nieuwe bestelling",module,Magento_OfflinePayments
-"Sort Order","Sorteer Bestelling",module,Magento_OfflinePayments
+"Sort Order",Sorteervolgorde,module,Magento_OfflinePayments
 Title,Titel,module,Magento_OfflinePayments
 "Payment from Applicable Countries","Betaling van Geëigende Landen",module,Magento_OfflinePayments
 "Payment from Specific Countries","Betaling van Specifieke Landen",module,Magento_OfflinePayments
@@ -6689,7 +6689,7 @@ Enabled,Ingeschakeld,module,Magento_OfflineShipping
 Price,Prijs,module,Magento_OfflineShipping
 "Calculate Handling Fee","Verzendkosten berekenen",module,Magento_OfflineShipping
 "Handling Fee",Verwerkingskosten,module,Magento_OfflineShipping
-"Sort Order","Sorteer Bestelling",module,Magento_OfflineShipping
+"Sort Order",Sorteervolgorde,module,Magento_OfflineShipping
 Title,Titel,module,Magento_OfflineShipping
 Type,Type,module,Magento_OfflineShipping
 "Ship to Applicable Countries","Verzenden naar landen die van toepassing zijn",module,Magento_OfflineShipping
@@ -7116,7 +7116,7 @@ Daily,Dagelijks,module,Magento_Paypal
 "Yes (PayPal recommends this option)","Ja (PayPal raadt deze optie aan)",module,Magento_Paypal
 "Created billing agreement #%1.","Incasso-overeenkomst #%1.",module,Magento_Paypal
 "We can't create a billing agreement for this order.","We kunnen voor deze order geen facturingsovereenkomst maken.",module,Magento_Paypal
-"Pending PayPal","In Behandeling Bij PayPal",module,Magento_Paypal
+"Pending PayPal","In afwachting bij PayPal",module,Magento_Paypal
 "PayPal Reversed","PayPal omgekeerd",module,Magento_Paypal
 "PayPal Canceled Reversal","PayPal geannuleerde de omkering",module,Magento_Paypal
 Error,Foutmelding,module,Magento_Paypal
@@ -7260,7 +7260,7 @@ Size,Grootte,module,Magento_Paypal
 "Basic Settings - PayPal Express Checkout","Basisinstellingen - PayPal Express Checkout",module,Magento_Paypal
 Title,Titel,module,Magento_Paypal
 "It is recommended to set this value to ""PayPal"" per store views.","Wij raden aan om deze waarde op ""PayPal"" in te stellen per winkelaanzicht.",module,Magento_Paypal
-"Sort Order","Sorteer Bestelling",module,Magento_Paypal
+"Sort Order",Sorteervolgorde,module,Magento_Paypal
 "Payment Action",Betaling,module,Magento_Paypal
 "Display on Product Details Page","Weergave op Product Details pagina",module,Magento_Paypal
 "Authorization Honor Period (days)","Authorization Honor Period (days)",module,Magento_Paypal
@@ -7987,7 +7987,7 @@ Delete,Verwijder,module,Magento_Review
 "Update Status","Status bijwerken",module,Magento_Review
 Customer,Klant,module,Magento_Review
 "Pending Reviews of Customer `%1`","Pending reviews van klanten '%1'",module,Magento_Review
-"Pending Reviews","Te modereren reviews",module,Magento_Review
+"Pending Reviews","Te beoordelen reviews",module,Magento_Review
 "All Reviews of Customer `%1`","Alle reviews van klant '%1'",module,Magento_Review
 "All Reviews of Product `%1`","Alle reviews van Product '%1'",module,Magento_Review
 "All Reviews","Alle reviews",module,Magento_Review
@@ -8006,7 +8006,7 @@ Websites,Websites,module,Magento_Review
 "Default Value",Standaardwaarde,module,Magento_Review
 "Rating Visibility","Zichtbaarheid scores",module,Magento_Review
 "Is Active","is actief",module,Magento_Review
-"Sort Order","Sorteer Bestelling",module,Magento_Review
+"Sort Order",Sorteervolgorde,module,Magento_Review
 "Rating Information","Informatie waardering",module,Magento_Review
 "Product Reviews",Productreviews,module,Magento_Review
 "Pending product review(s)","Pending product review(s)",module,Magento_Review
@@ -8041,7 +8041,7 @@ Ratings,Waarderingen,module,Magento_Review
 "We can't post your review right now.","Wij kunnen uw beoordeling nu niet plaatsen.",module,Magento_Review
 "Storage key was not set","Opslag sleutel is niet ingesteld",module,Magento_Review
 Approved,Akkoord,module,Magento_Review
-Pending,"In behandeling",module,Magento_Review
+Pending,"In afwachting",module,Magento_Review
 "Not Approved","Niet Akkoord",module,Magento_Review
 "Please enter a review summary.","Voer een review samenvatting in.",module,Magento_Review
 "Please enter a nickname.","Voer een bijnaam in.",module,Magento_Review
@@ -8339,7 +8339,7 @@ None,Geen,module,Magento_Rma
 "Input/Output Filter","Invoer/uitvoer filter",module,Magento_Rma
 "Storefront Properties","Eigenschappen winkelaanzicht",module,Magento_Rma
 "Show on Storefront","Toon op Winkelaanzicht",module,Magento_Rma
-"Sort Order","Sorteer Bestelling",module,Magento_Rma
+"Sort Order",Sorteervolgorde,module,Magento_Rma
 "Forms to Use In","Formulieren om te gebruiken in",module,Magento_Rma
 Properties,Kenmerken,module,Magento_Rma
 "Manage Label / Options","Beheer Label/Opties",module,Magento_Rma
@@ -8449,7 +8449,7 @@ Qty,Aantal,module,Magento_Rma
 """%1"" is longer than allowed.","""%1"" is langer dan toegestaan.",module,Magento_Rma
 "Unknown service","Onbekend dienst",module,Magento_Rma
 "We can't save this RMA. No items were specified.","Kan deze RMA niet opslaan. Er zijn geen producten opgegeven.",module,Magento_Rma
-Pending,"In behandeling",module,Magento_Rma
+Pending,"In afwachting",module,Magento_Rma
 "Partially Authorized","Gedeeltelijk Toegestaan",module,Magento_Rma
 "Return Received","Retourzending ontvangen",module,Magento_Rma
 "Return Partially Received","Retourzending deels ontvangen",module,Magento_Rma
@@ -8971,7 +8971,7 @@ Guest,Bezoeker,module,Magento_Sales
 "Requested entity doesn't exist","De opgevraagde entiteit bestaat niet",module,Magento_Sales
 "Could not delete order address","Kan het adres van bestelling niet verwijderen",module,Magento_Sales
 "Could not save order address","Kan het adres van de bestelling niet opslaan",module,Magento_Sales
-Pending,"In behandeling",module,Magento_Sales
+Pending,"In afwachting",module,Magento_Sales
 Refunded,Teruggestort,module,Magento_Sales
 Canceled,Geannuleerd,module,Magento_Sales
 "Unknown State","Onbekende staat",module,Magento_Sales
@@ -9103,7 +9103,7 @@ State/Province,Provincie,module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","De bestellingsstatus ""%1"" mag niet handmatig ingesteld worden.",module,Magento_Sales
 "VAT Request Identifier","BTW-nummer identifier",module,Magento_Sales
 "VAT Request Date","BTW-nummer validatie aanvraag-datum",module,Magento_Sales
-"Pending Payment","Betaling in behandeling",module,Magento_Sales
+"Pending Payment","In afwachting van de betaling",module,Magento_Sales
 Processing,"Bezig met verwerken",module,Magento_Sales
 "On Hold","Wordt vastgehouden",module,Magento_Sales
 Complete,Voltooid,module,Magento_Sales
@@ -9323,7 +9323,7 @@ General,Algemeen,module,Magento_Sales
 "Your default logo will be used in PDF and HTML documents.<br />(jpeg, tiff, png) If your pdf image is distorted, try to use larger file-size image.","Uw standaard logo zal gebruikt worden in PDF en HTML documenten.<br />(jpeg, tiff, png) Indien uw pdf afbeelding vervormd is, probeer een groter bestandsformaat van afbeelding te gebruiken.",module,Magento_Sales
 "Logo for HTML Print View","Logo voor HTML afdruk-preview",module,Magento_Sales
 "Logo for HTML documents only. If empty, default will be used.<br />(jpeg, gif, png)","Logo enkel voor HTML documenten. Indien leeg zal de standaard gebruikt worden.<br />(jpeg, gif, png)",module,Magento_Sales
-Address,Straat,module,Magento_Sales
+Address,Adres,module,Magento_Sales
 "Minimum Order Amount","Minimum bestelbedrag",module,Magento_Sales
 Enable,Activeer,module,Magento_Sales
 "Minimum Amount","Minimum aantal",module,Magento_Sales
@@ -9823,7 +9823,7 @@ ASCII,ASCII,module,Magento_ScheduledImportExport
 "Continue Processing","Doorgaan met verwerken",module,Magento_ScheduledImportExport
 Failed,Mislukt,module,Magento_ScheduledImportExport
 Successful,Succesvol,module,Magento_ScheduledImportExport
-Pending,"In behandeling",module,Magento_ScheduledImportExport
+Pending,"In afwachting",module,Magento_ScheduledImportExport
 label,label,module,Magento_ScheduledImportExport
 "Can not open file","Kan bestand niet openen",module,Magento_ScheduledImportExport
 "%store_name - Scheduled Export Failed","%store_name - Geplande export is mislukt",module,Magento_ScheduledImportExport
@@ -10791,7 +10791,7 @@ Name,Naam,module,Magento_Tax
 Priority,Prioriteit,module,Magento_Tax
 "Tax rates at the same priority are added, others are compounded.","BTW-tarieven met dezelfde prioriteit worden opgeteld, andere worden gecombineerd.",module,Magento_Tax
 "Calculate Off Subtotal Only","Enkel subtotaal berekenen",module,Magento_Tax
-"Sort Order","Sorteer Bestelling",module,Magento_Tax
+"Sort Order",Sorteervolgorde,module,Magento_Tax
 "Do you really want to delete this tax class?","Wil u deze BTW-tariefgroep verwijderen?",module,Magento_Tax
 "Add New Tax Class","Nieuwe BTW-tariefgroep",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Verzendkosten incl. BTW (%1)",module,Magento_Tax
@@ -11365,7 +11365,7 @@ Container,Container,module,Magento_Ups
 "Origin of the Shipment","Oorsprong van verzending",module,Magento_Ups
 Password,Wachtwoord,module,Magento_Ups
 "Pickup Method",Afhaalwijze,module,Magento_Ups
-"Sort Order","Sorteer Bestelling",module,Magento_Ups
+"Sort Order",Sorteervolgorde,module,Magento_Ups
 Title,Titel,module,Magento_Ups
 "Tracking XML URL","XML traceer URL",module,Magento_Ups
 "UPS Type","UPS type",module,Magento_Ups
@@ -11561,7 +11561,7 @@ Resources,Bronnen,module,Magento_User
 "Thank you,","Bedankt,",module,Magento_User
 "New %changes for %user_name","Nieuwe %changes voor %user_name",module,Magento_User
 "Hello,","Hallo,",module,Magento_User
-"We have received a request to change the following information associated with your account at %store_name: %changes.","Wij hebben een verzoek ontvangen om het wijzigen van de volgende informatie in verband met uw account op %store_name: %changes.",module,Magento_User
+"We have received a request to change the following information associated with your account at %store_name: %changes.","Wij hebben een verzoek ontvangen om de volgende informatie gekoppeld aan uw account op %store_name te wijzigen: %changes.",module,Magento_User
 "If you have not authorized this action, please contact us immediately at %store_email","Als u geen toestemming voor deze actie gegeven hebt, neem onmiddellijk contact met ons op %store_email",module,Magento_User
 "or call us at %store_phone","of bel ons op %store_phone",module,Magento_User
 "Thanks,","Bedankt,",module,Magento_User
@@ -11712,7 +11712,7 @@ Machinable,Machinaal,module,Magento_Usps
 "Ship to Specific Countries","Verzenden naar bepaalde landen",module,Magento_Usps
 Debug,"Fouten opsporen in programma",module,Magento_Usps
 "Show Method if Not Applicable","Laat verzendmethode zien indien niet van toepassing",module,Magento_Usps
-"Sort Order","Sorteer Bestelling",module,Magento_Usps
+"Sort Order",Sorteervolgorde,module,Magento_Usps
 "Custom Variables","Aangepaste Variabelen",module,Magento_Variable
 "Add New Variable","Voeg nieuwe variabele toe",module,Magento_Variable
 "Save and Continue Edit",Toepassen,module,Magento_Variable
@@ -12054,7 +12054,7 @@ Type,Type,module,Magento_Widget
 "Design Package/Theme","Ontwerp Pakket/Thema",module,Magento_Widget
 "Widget Title","Widget titel",module,Magento_Widget
 "Assign to Store Views","Koppel aan Winkelaanzichten",module,Magento_Widget
-"Sort Order","Sorteer Bestelling",module,Magento_Widget
+"Sort Order",Sorteervolgorde,module,Magento_Widget
 "Sort Order of widget instances in the same container","Sorteervolgorde van widgets in dezelfde container",module,Magento_Widget
 "Layout Updates","Lay-out update",module,Magento_Widget
 Categories,Categorieën,module,Magento_Widget
@@ -12274,7 +12274,7 @@ Debug,"Fouten opsporen in programma",module,Magento_Worldpay
 "Payment From Specific Countries","Betaling uit bepaalde landen",module,Magento_Worldpay
 "Set Order Status to Suspected Fraud for CVV","Zet bestellingstatus op verdenking van fraude voor CVV",module,Magento_Worldpay
 "Set Order Status to Suspected Fraud for Postcode AVS","Zet bestellingstatus op verdenking van fraude voor postcode AVS",module,Magento_Worldpay
-"Sort Order","Sorteer Bestelling",module,Magento_Worldpay
+"Sort Order",Sorteervolgorde,module,Magento_Worldpay
 Summary,Samenvatting,theme,frontend/Magento/blank
 "Account Dashboard",Accountoverzicht,theme,frontend/Magento/blank
 "Account Information","Account Gegevens",theme,frontend/Magento/blank
