@@ -8,6 +8,7 @@
 As H&O extensions are offered in the official Magento® Marketplace you can directly install them via the Magento® 2 backend. Magento® did a great job simplifying this process, they also provided a really good documentation. Please read the official documentation for installing extensions over the marketplace. 
 
 https://marketplace.magento.com/
+https://marketplace.magento.com/honl-magento2-nl-nl.html
 http://devdocs.magento.com/guides/v2.0/comp-mgr/module-man/compman-start.html
 
 ## Installation through composer
