@@ -1,3 +1,6 @@
+
+![Overview $0](docs/H-O-NL-Magento-2.jpg)
+
 # H&O Magento 2 Nederlandse vertalingen / Dutch Translations
 
 - Complete translations for Magento 2.x CE and EE.
