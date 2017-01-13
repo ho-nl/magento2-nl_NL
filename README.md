@@ -1,5 +1,5 @@
 
-![Overview $0](docs/H-O-NL-Magento-2.jpg)
+<center>![Overview $0](docs/H-O-NL-Magento-2.jpg)</center>
 
 # H&O Magento 2 Nederlandse vertalingen / Dutch Translations
 
