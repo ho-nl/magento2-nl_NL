@@ -7,14 +7,14 @@
   <a href="https://www.h-o.nl/blog/correcte-nederlandse-vertalingen-voor-magento-2-magento-2-nl-inclusief-e-mailvertalingen">Find it on our website</a><br />
 </p>
 
-- Complete translations for Magento 2.x CE and EE.
-- Added Dutch [address formatting](src/etc/config.xml)
-<br />
 <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-catalog-product-listing2.png?raw=true" width="45%">
 <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-dashboard2.png?raw=true" width="45%">
 <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-checkout.png?raw=true" width="45%">
 <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-customer-login2.png?raw=true" width="45%">
+<br />
 
+- Complete translations for Magento 2.x CE and EE.
+- Added Dutch [address formatting](src/etc/config.xml)
 ## Installation through Marketplace
 
 As H&O extensions are offered in the official Magento® Marketplace you can directly install them via the Magento® 2 backend. Magento® did a great job simplifying this process, they also provided a really good documentation. Please read the official documentation for installing extensions over the marketplace. 
