@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/H-O-NL-Magento-2.jpg" alt="Magento-2-nederlandse-vertalingen"/>
+  <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/H-O-NL-Magento-2.jpg" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/>
 </p>
-
-![Overview $0](docs/H-O-NL-Magento-2.jpg)
 
 # H&O Magento 2 Nederlandse vertalingen / Dutch Translations
 
