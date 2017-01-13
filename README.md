@@ -5,13 +5,13 @@
   <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/H-O-NL-Magento-2.jpg" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/><br />
   <a href="https://marketplace.magento.com/honl-magento2-nl-nl.html">Find it on the Magento Marketplace</a><br />
   <a href="https://www.h-o.nl/blog/correcte-nederlandse-vertalingen-voor-magento-2-magento-2-nl-inclusief-e-mailvertalingen">Find it on our website</a><br />
-</p>
 
-<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-catalog-product-listing2.png?raw=true" width="45%">
-<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-dashboard2.png?raw=true" width="45%">
-<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-checkout.png?raw=true" width="45%">
-<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-customer-login2.png?raw=true" width="45%">
-<br />
+
+<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-catalog-product-listing2.png?raw=true" width="49%">
+<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/admin-dashboard2.png?raw=true" width="49%">
+<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-checkout.png?raw=true" width="49%">
+<img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/frontend-customer-login2.png?raw=true" width="49%">
+<br /></p>
 
 - Complete translations for Magento 2.x CE and EE.
 - Added Dutch [address formatting](src/etc/config.xml)
