@@ -37,8 +37,7 @@ composer require honl/magento2-nl-nl "dev-master"
 
 ## Contributing
 Go to <a href="https://crowdin.com/project/magento-2/nl#/Head">CrowdIn</a> and translate files.
-<p align="center"><img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/Crowdin-screenshot.png?raw=true" width="75%"></p
->
+<p align="center"><img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/Crowdin-screenshot.png?raw=true" width="75%"></p>
 
 
 
