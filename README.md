@@ -15,6 +15,7 @@
 
 - Complete translations for Magento 2.x CE and EE.
 - Added Dutch [address formatting](src/etc/config.xml)
+
 ## Installation through Marketplace
 
 As H&O extensions are offered in the official Magento® Marketplace you can directly install them via the Magento® 2 backend. Magento® did a great job simplifying this process, they also provided a really good documentation. Please read the official documentation for installing extensions over the marketplace. 
