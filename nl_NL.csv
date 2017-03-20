@@ -11026,7 +11026,7 @@ Priority,Prioriteit,module,Magento_Tax
 "Add New Tax Class","Nieuwe BTW-tariefgroep",module,Magento_Tax
 "Shipping Incl. Tax (%1)","Verzendkosten incl. BTW (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","Verzendkosten excl. BTW (%1)",module,Magento_Tax
-"Subtotal (Excl.Tax)","Subtotaal (incl. BTW)",module,Magento_Tax
+"Subtotal (Excl.Tax)","Subtotaal (excl. BTW)",module,Magento_Tax
 "Subtotal (Incl.Tax)","Subtotaal (incl. BTW)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","Verzend- en verwerkingskosten (excl. BTW)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","Verzend- en verwerkingskosten (incl. BTW)",module,Magento_Tax
