@@ -8,7 +8,7 @@
             "email": "paul@h-o.nl"
         }
     ],
-    "version": "1.1.1",
+    "version": "1.1.2",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0"
     },
