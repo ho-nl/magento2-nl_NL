@@ -8,7 +8,6 @@
             "email": "paul@h-o.nl"
         }
     ],
-    "version": "1.1.2",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0"
     },
@@ -18,5 +17,10 @@
         "files": [
             "registration.php"
         ]
+    },
+     "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
     }
 }
