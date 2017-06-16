@@ -1,4 +1,3 @@
-
 # H&O Magento 2 Nederlandse vertalingen / Dutch Translations with e-mailtranslations
 
 <p align="center">
@@ -31,7 +30,7 @@ composer require honl/magento2-nl-nl
 
 ### Development install:
 ```BASH
-composer require honl/magento2-nl-nl "dev-master"
+composer require honl/magento2-nl-nl:"1.1.x@dev"
 ```
 
 
@@ -40,11 +39,8 @@ Go to <a href="https://crowdin.com/project/magento-2/nl#/Head">CrowdIn</a> and t
 <p align="center"><img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/Crowdin-screenshot.png?raw=true" width="75%"></p>
 
 
-
-
-
-Import translations:
-```
+## Import translations:
+```BASH
 curl http://107.170.242.99/build.php
 cd vendor/honl/magento2-nl-nl
 wget -O crowdin.csv http://107.170.242.99/var/Head/source_nl_NL.csv
@@ -60,4 +56,3 @@ required.
 
 ## Credits
 This extension was developed by H&O with a lot of help from the Magento Community on CrowdIn. www.h-o.nl
-
