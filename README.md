@@ -31,7 +31,7 @@ composer require honl/magento2-nl-nl
 
 ### Development install:
 ```BASH
-composer require honl/magento2-nl-nl "dev-master"
+composer require honl/magento2-nl-nl:^1@dev
 ```
 
 
