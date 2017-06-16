@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!--
-  ~ Copyright (c) 2016 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
+  ~ Copyright © 2017 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
   ~ See LICENSE.txt for license details.
   -->
 <language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../magento/framework/App/Language/package.xsd">
@@ -8,5 +8,5 @@
     <vendor>ho</vendor>
     <package>nl_nl</package>
     <sort_order>10</sort_order>
-    <!--<use vendor="magento" package="nl_nl"/>-->
+    <use vendor="magento" package="nl_nl"/>
 </language>
