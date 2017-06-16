@@ -30,7 +30,7 @@ composer require honl/magento2-nl-nl
 
 ### Development install:
 ```BASH
-composer require honl/magento2-nl-nl:"1.1.x@dev"
+composer require honl/magento2-nl-nl:"^1@dev"
 ```
 
 
