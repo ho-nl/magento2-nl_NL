@@ -8,5 +8,5 @@
     <vendor>ho</vendor>
     <package>nl_nl</package>
     <sort_order>10</sort_order>
-    <use vendor="magento" package="nl_nl"/>
+    <use vendor="Magento" package="nl_NL"/>
 </language>
