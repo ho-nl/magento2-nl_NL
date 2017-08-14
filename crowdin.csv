@@ -241,10 +241,10 @@ Edit,Bewerken,module,Magento_AdvancedSearch
 "Sorry, there was an error processing your registration request to Magento Analytics. Please try again later.","Sorry, is er een fout opgetreden tijdens de verwerking van uw aanvraag voor Magento Analytics. Probeer het later nog eens.",module,Magento_Analytics
 "Error occurred during postponement notification","Er is een fout opgetreden tijdens het uitstel kennisgeving",module,Magento_Analytics
 "Command was not found.","Opdracht is niet gevonden.",module,Magento_Analytics
-"There was an error save new configuration value.","There was an error save new configuration value.",module,Magento_Analytics
+"There was an error save new configuration value.","Er was een fout bij het opslaan van de nieuwe configuratiewaarde.",module,Magento_Analytics
 "Please select a vertical.","Selecteer een verticale.",module,Magento_Analytics
 "--Please Select--","--Maak een keuze--",module,Magento_Analytics
-"Cannot find predefined integration user!","Cannot find predefined integration user!",module,Magento_Analytics
+"Cannot find predefined integration user!","Vooraf gedefinieerde integratiegebruiker niet gevonden!",module,Magento_Analytics
 TestMessage,TestBericht,module,Magento_Analytics
 "Error message",Foutmelding,module,Magento_Analytics
 "Apps and Games","Apps en Games",module,Magento_Analytics
@@ -1014,7 +1014,7 @@ MM,MM,module,Magento_Braintree
 YY,JJ,module,Magento_Braintree
 "Please try again with another form of payment.","Probeer het opnieuw met een andere vorm van betaling.",module,Magento_Braintree
 "Sorry, but something went wrong.","Er ging iets verkeerd.",module,Magento_Braintree
-Payment,Payment,module,Magento_Braintree
+Payment,Betaling,module,Magento_Braintree
 Braintree,Braintree,module,Magento_Braintree
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.",module,Magento_Braintree
 "Enable this Solution","Inschakelen van deze oplossing",module,Magento_Braintree
@@ -1052,7 +1052,7 @@ Debug,Debug,module,Magento_Braintree
 "Verify for Applicable Countries","Controleer voor landen die van toepassing zijn",module,Magento_Braintree
 "Verify for Specific Countries","Controleer voor bepaalde landen",module,Magento_Braintree
 "Dynamic Descriptors","Dynamic Descriptors",module,Magento_Braintree
-Name,Name,module,Magento_Braintree
+Name,Naam,module,Magento_Braintree
 Phone,Telefoonnummer,module,Magento_Braintree
 URL,URL,module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Pas filters toe om resultaten te krijgen. Alleen de eerste 100 records worden weergegeven in de tabel. U kunt de volledige versie van het rapport als .csv bestand downloaden.",module,Magento_Braintree
@@ -3228,7 +3228,7 @@ Cancel,Annuleer,module,Magento_ConfigurableProduct
 "Please choose image(s).","Kies afbeelding(en).",module,Magento_ConfigurableProduct
 "We could not detect a size.","We kunnen geen grootte detecteren.",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","We herkennen of ondersteunen dit bestandsformaat type niet.",module,Magento_ConfigurableProduct
-"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.",module,Magento_ConfigurableProduct
+"When you remove or add an attribute, we automatically update all configurations and you will need to recreate current configurations manually.","Wanneer u een kenmerk verwijdert of toevoegt, updaten wij automatisch alle configuraties en u moet de huidige configuraties handmatig herstellen.",module,Magento_ConfigurableProduct
 "Please select attribute(s).","Selecteer attribute(n).",module,Magento_ConfigurableProduct
 "Generate Products","Genereer Producten",module,Magento_ConfigurableProduct
 "Something went wrong.","Er ging iets mis.",module,Magento_ConfigurableProduct
@@ -3755,7 +3755,7 @@ Password:,Wachtwoord:,module,Magento_Customer
 "View past orders","Orderhistorie bekijken",module,Magento_Customer
 "Store alternative addresses (for shipping to multiple family members and friends)","Meerdere adressen opslaan (om bijvoorbeeld bestellingen naar vrienden en familie te sturen)",module,Magento_Customer
 "Please confirm your %store_name account","Bevestig uw %store_name account",module,Magento_Customer
-"You must confirm your %customer_email email before you can sign in (link is only valid once):","Bevestig uw e-mailadres (%customer_email) om in te kunnen loggen (u kunt de link één keer gebruiken):",module,Magento_Customer
+"You must confirm your %customer_email email before you can sign in (link is only valid once):","Bevestig uw e-mailadres %customer_email om in te kunnen loggen (u kan deze link slecht één keer gebruiken):",module,Magento_Customer
 "Confirm Your Account","Uw account bevestigen",module,Magento_Customer
 "Thank you for confirming your %store_name account.","Bedankt voor het bevestigen van uw %store_name account.",module,Magento_Customer
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Om in te loggen op onze website en een wachtwoord in te stellen, klik op deze <a href=""%create_password_url"">link</a>:",module,Magento_Customer
@@ -4072,7 +4072,7 @@ State/Province,Provincie,module,Magento_CustomerCustomAttributes
 "Zip/Postal Code",Postcode,module,Magento_CustomerCustomAttributes
 Country,Land,module,Magento_CustomerCustomAttributes
 "This is your default billing address.","Dit is uw standaard factuuradres.",module,Magento_CustomerCustomAttributes
-"Use as my default billing address","Gebruik mijn standaard factuuradres",module,Magento_CustomerCustomAttributes
+"Use as my default billing address","Gebruik als standaard factuuradres",module,Magento_CustomerCustomAttributes
 "This is your default shipping address.","Dit is uw standaard leveringsadres.",module,Magento_CustomerCustomAttributes
 "Use as my default shipping address","Gebruik mijn standaard verzendadres",module,Magento_CustomerCustomAttributes
 "Save Address","Adres opslaan",module,Magento_CustomerCustomAttributes
@@ -5291,7 +5291,7 @@ Emails,E-mails,module,Magento_GiftRegistry
 "Send From","Verzenden van",module,Magento_GiftRegistry
 Message,Bericht,module,Magento_GiftRegistry
 "Share Gift Registry","Aanmelden Cadeau Delen",module,Magento_GiftRegistry
-"Gift Registry",Verlanglijst,module,Magento_GiftRegistry
+"Gift Registry",Geschenklijst,module,Magento_GiftRegistry
 Event,Gebeurtenis,module,Magento_GiftRegistry
 Registrants,Registranten,module,Magento_GiftRegistry
 "Event Date","Gebeurtenis datum",module,Magento_GiftRegistry
@@ -5483,7 +5483,7 @@ Sender,Afzender,module,Magento_GiftRegistry
 Invitee,genodigde,module,Magento_GiftRegistry
 "Maximum %1 email addresses.","Maximale %1 e-mailadressen.",module,Magento_GiftRegistry
 "Add Invitee","Genodigde toevoegen",module,Magento_GiftRegistry
-"Gift Registry Type",verlanglijst-type,module,Magento_GiftRegistry
+"Gift Registry Type","Geschenklijst type",module,Magento_GiftRegistry
 "Please select a gift registry type.","Selecteer een geschenk register type.",module,Magento_GiftRegistry
 Next,Volgende,module,Magento_GiftRegistry
 "Last Name",Achternaam,module,Magento_GiftRegistry
@@ -6570,7 +6570,7 @@ Actions,acties,module,Magento_Multishipping
 "Billing Address",Factuuradres,module,Magento_Multishipping
 Change,Verander,module,Magento_Multishipping
 "Payment Method",Betaalmethode,module,Magento_Multishipping
-"Go to Review Your Order","Ga naar Vallideer uw bestelling",module,Magento_Multishipping
+"Go to Review Your Order","Ga naar Valideer uw bestelling",module,Magento_Multishipping
 "Back to Shipping Information","Terug naar verzendinformatie",module,Magento_Multishipping
 "Other items in your order","Andere items in uw bestelling",module,Magento_Multishipping
 "Edit Items","Artikelen bewerken",module,Magento_Multishipping
@@ -6605,7 +6605,7 @@ Items,Items,module,Magento_Multishipping
 Options,Opties,module,Magento_Multishipping
 "Allow Shipping to Multiple Addresses","Verzending naar meer adressen toestaan",module,Magento_Multishipping
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maximaal aantal voor verzending naar meer adressen",module,Magento_Multishipping
-"Review Order","Controleer bestlling",module,Magento_Multishipping
+"Review Order","Controleer bestelling",module,Magento_Multishipping
 "Select Shipping Method","Kies een verzendmethode",module,Magento_Multishipping
 "We received your order!","Wij hebben uw bestelling ontvangen!",module,Magento_Multishipping
 "Message has been rejected: %1","Bericht is geweigerd: %1",module,Magento_MysqlMq
@@ -8376,7 +8376,7 @@ None,Geen,module,Magento_Reward
 "Each earned reward points award expires in %1 days.","Gespaarde spaarpunten verlopen over %1 dagen.",module,Magento_Reward
 "Refer to reward points history to see when a specific record expires.","Verwijs naar spaarpunten geschiedenis om te kijken wanneer een bepaalde record verloopt.",module,Magento_Reward
 "Email Notification Settings","E-mail notificatie instellingen",module,Magento_Reward
-"Save Subscription Settings","Notificatie-intstellingen Opslaan",module,Magento_Reward
+"Save Subscription Settings","Notificatie-instellingen opslaan",module,Magento_Reward
 "Reward Points Balance Updated at %store_name","Spaarpunten balans bijgewerkt op %store_name",module,Magento_Reward
 "%name,","%name,",module,Magento_Reward
 "You have %points_balance points that may be used in our store:","U heeft een totaal van %points_balance punten die u kan gebruiken in onze winkel:",module,Magento_Reward
@@ -9944,7 +9944,7 @@ Status,Status,module,Magento_ScheduledImportExport
 "File Directory","Bestands Indexering",module,Magento_ScheduledImportExport
 "For Type ""Local Server"" use relative path to Magento installation, e.g. var/export, var/import, var/export/some/dir","Voor type ""Local Server"" gebruik relatief pad naar Magento installatie, bijv. var/export, var/import, var/export/some/dir",module,Magento_ScheduledImportExport
 "FTP Host[:Port]","FTP Host[:Port]",module,Magento_ScheduledImportExport
-"User Name",Gebruiker-naam,module,Magento_ScheduledImportExport
+"User Name",Gebruikersnaam,module,Magento_ScheduledImportExport
 Password,Wachtwoord,module,Magento_ScheduledImportExport
 "File Mode",Bestandsmodus,module,Magento_ScheduledImportExport
 "Passive Mode","Passieve Modus",module,Magento_ScheduledImportExport
@@ -11470,7 +11470,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Voer zes of meer tekens in. Spaties aan begin en eind zullen worden genegeerd.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Voer 7 of meer tekens in, zowel numerieke en alfabetische.",module,Magento_Ui
 "Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimumlengte van dit veld moet gelijk of groter zijn dan %1 symbolen. Spaties in het begin en op het einde worden genegeerd.",module,Magento_Ui
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",module,Magento_Ui
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum van verschillende klassen van tekens in wachtwoord is %1. Soorten tekens: kleine letters, hoofdletters, cijfers en speciale tekens.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Geef een geldige URL op. Protocol is vereist (http://, https:// or ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Voer een geldige URL in. Bijvoorbeeld http://www.voorbeeld.com of www.voorbeeld.com.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Selecteer een geldige XML-identifier (Ex: voorbeeld_1, blok5, id-4).",module,Magento_Ui
@@ -11696,7 +11696,7 @@ Roles,Rollen,module,Magento_User
 "Role Information","Rol informatie",module,Magento_User
 "Role Users","Rol gebruikers",module,Magento_User
 "User ID",Gebruiker-ID,module,Magento_User
-"User Name",Gebruiker-naam,module,Magento_User
+"User Name",Gebruikersnaam,module,Magento_User
 "First Name",Voornaam,module,Magento_User
 "Last Name",Achternaam,module,Magento_User
 Email,E-mailadres,module,Magento_User
