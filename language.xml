@@ -3,7 +3,7 @@
   ~ Copyright © 2017 H&O E-commerce specialisten B.V. (http://www.h-o.nl/)
   ~ See LICENSE.txt for license details.
   -->
-<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../magento/framework/App/Language/package.xsd">
+<language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/Language/package.xsd">
     <code>nl_NL</code>
     <vendor>ho</vendor>
     <package>nl_nl</package>
