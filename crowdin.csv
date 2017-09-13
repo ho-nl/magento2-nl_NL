@@ -2653,7 +2653,7 @@ Total:,Totaal:,module,Magento_Checkout
 "Payment Method:",Betaalmethode:,module,Magento_Checkout
 "Date & Time:","Datum & Tijd:",module,Magento_Checkout
 "Sign In",Aanmelden,module,Magento_Checkout
-"Email Address","E-mail adres",module,Magento_Checkout
+"Email Address","E-mailadres",module,Magento_Checkout
 Password,Wachtwoord,module,Magento_Checkout
 "Forgot Your Password?","Wachtwoord vergeten?",module,Magento_Checkout
 "My billing and shipping address are the same","Factuur- en verzendadres zijn hetzelfde",module,Magento_Checkout
@@ -3198,7 +3198,7 @@ Select,Selecteer,module,Magento_ConfigurableProduct
 "Selected Attributes:","Geselecteerde Attributen:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Stap 4: Samenvatting",module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
-            You need to create a simple product for each configuration (Ex: a product for each color).","Configureerbare producten klanten toestaan om te kiezen van de opties (Ex: shirt kleur).             
+            You need to create a simple product for each configuration (Ex: a product for each color).","Configureerbare producten klanten toestaan om te kiezen van de opties (Ex: shirt kleur).
 U moet een een simpel product aanmaken voor elke configuratie (Ex: een product voor elke kleur).",module,Magento_ConfigurableProduct
 "Edit Configurations","Configuraties bewerken",module,Magento_ConfigurableProduct
 "Upload Image","Upload afbeeldingen",module,Magento_ConfigurableProduct
@@ -3779,7 +3779,7 @@ Password:,Wachtwoord:,module,Magento_Customer
 "Track order history","Bekijk bestelgeschiedenis",module,Magento_Customer
 "Check out faster","Reken sneller af",module,Magento_Customer
 "Checkout out using your account","Reken af met uw account",module,Magento_Customer
-"Email Address","E-mail adres",module,Magento_Customer
+"Email Address","E-mailadres",module,Magento_Customer
 "Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_Customer
 "Are you sure you want to delete this address?","Weet u zeker dat u het adres wilt verwijderen?",module,Magento_Customer
 Weak,Zwak,module,Magento_Customer
@@ -4287,7 +4287,7 @@ Decision,Besluit,module,Magento_Cybersource
 "Excessive address change. The customer changed the billing address two or more times in the last six months","Buitensporige adreswijziging. De klant veranderd het factuuradres twee of meer keer in de afgelopen zes maanden",module,Magento_Cybersource
 "Card BIN or authorization risk. Risk factors a e related to credit card BIN and/or card authorization checks","BIN kaart autorisatie risico. De risicofactoren hebben betrekking op een creditcard BIN en/of kaart vergunning controle",module,Magento_Cybersource
 "High number of account numbers. The customer used more than six credit cards numbers in the last six months","Hoge aantal rekeningnummers. De klant heeft gebruikt meer dan zes creditcards nummers in de afgelopen zes maanden",module,Magento_Cybersource
-"Email address impact. The customer uses a free email provider, or the email address is risky","E-mail adres effect. De klant gebruikt een gratis e-mail provider, of het e-mailadres is riskant",module,Magento_Cybersource
+"Email address impact. The customer uses a free email provider, or the email address is risky","E-mailadres effect. De klant gebruikt een gratis e-mail provider, of het e-mailadres is riskant",module,Magento_Cybersource
 "Positive list. The customer is on your positive list. Decision Manager Developer Guide Using the Simple Order AP  January 201 10 Appendix  Information and Reply Code","Positieve lijst. De klant is op uw positieve lijst. Decision Manager Developer Guide Using the Simple Order AP January 201 10 Appendix Information and Reply Code",module,Magento_Cybersource
 "Negative list. The account number, street add ess, email address, or IP address for this order appears on your negative list","Negatieve lijst. Het klantnummer, adres, e-mailadres of IP-adres voor deze bestelling staat op uw negatieve lijst",module,Magento_Cybersource
 "Geolocation inconsistencies. The customer’s email domain, phone number, billing address, shipping address, or IP address is suspicious","Geolocatie inconsistenties. Het domein van de klant's e-mailadres, telefoonnummer, factuuradres, verzendadres of IP-adres van de klant is verdacht",module,Magento_Cybersource
@@ -6616,7 +6616,7 @@ Options,Opties,module,Magento_Multishipping
 "Failed Messages Lifetime","Onbestelbare berichten levensduur",module,Magento_MysqlMq
 "New Messages Lifetime","Levensduur Van Nieuwe Berichten",module,Magento_MysqlMq
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Geen New Relic Applicatie ID is geconfigureerd, kan niet doorgaan met Cron evenement rapportering",module,Magento_NewRelicReporting
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","De New Relic integratie vereist de newrelic-php5-agent, die niet is geïnstalleerd. Meer informatie over het installeren van de agent is <a target=""_blank"" href=""%1"">hier</a> beschikbaar.",module,Magento_NewRelicReporting
 "New Relic Reporting Section","New Relic Rapportage Sectie",module,Magento_NewRelicReporting
 "New Relic Reporting","New Relic Rapportage",module,Magento_NewRelicReporting
@@ -7418,7 +7418,7 @@ Manage,Beheren,module,Magento_Paypal
                         from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                         Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                         The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Waarom reclame maken voor financiering?<br/><strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering 
+                        or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Waarom reclame maken voor financiering?<br/><strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering
                                             van PayPal Credit&#174;. Uw klanten hebben meer tijd om te betalen, terwijl u op voorhand betaald wordt - zonder meerkost.
                                             Gebruik PayPal's gratis banner advertenties waardoor u PayPal Credit&#174; financiering als betalingsoptie aanbiedt aan uw klanten om te betalen met PayPal.
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.",module,Magento_Paypal
@@ -7511,7 +7511,7 @@ User,Gebruiker,module,Magento_Paypal
                                             Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                                             The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
                                             or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Waarom reclame maken voor financiering?<br/>
-                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering 
+                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering
                                             van PayPal Credit&#174;. Uw klanten hebben meer tijd om te betalen, terwijl u op voorhand betaald wordt - zonder meerkost.
                                             Gebruik PayPal's gratis banner advertenties waardoor u PayPal Credit&#174; financiering als betalingsoptie aanbiedt aan uw klanten om te betalen met PayPal.
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.",module,Magento_Paypal
@@ -7537,7 +7537,7 @@ User,Gebruiker,module,Magento_Paypal
                             Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                             The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
                             or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Waarom reclame maken voor financiering?<br/>
-                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering 
+                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering
                                             van PayPal Credit&#174;. Uw klanten hebben meer tijd om te betalen, terwijl u op voorhand betaald wordt - zonder meerkost.
                                             Gebruik PayPal's gratis banner advertenties waardoor u PayPal Credit&#174; financiering als betalingsoptie aanbiedt aan uw klanten om te betalen met PayPal.
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.",module,Magento_Paypal
@@ -7566,7 +7566,7 @@ User,Gebruiker,module,Magento_Paypal
                                 Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                                 The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
                                 or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Waarom reclame maken voor financiering?<br/>
-                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering 
+                                            <strong>Stimuleer uw verkopen wanneer u reclame maakt voor financiering.</strong><br/>Paypal helpt internetgebruikers om te zetten in kopers met fincanciering
                                             van PayPal Credit&#174;. Uw klanten hebben meer tijd om te betalen, terwijl u op voorhand betaald wordt - zonder meerkost.
                                             Gebruik PayPal's gratis banner advertenties waardoor u PayPal Credit&#174; financiering als betalingsoptie aanbiedt aan uw klanten om te betalen met PayPal.
                                             Het PayPal reclameprogramma heeft aangetoond dat u extra aankopen kan genereren, alsook het verhogen van het gemiddelde aankoop bedrag met 15% of meer van de gebruiker. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">Zie details</a>.                <a href=""https://financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">.",module,Magento_Paypal
@@ -8663,7 +8663,7 @@ ID,ID,module,Magento_Rma
 #,#,module,Magento_Rma
 "Order ID","Bestelling ID",module,Magento_Rma
 "Customer Name","Naam klant",module,Magento_Rma
-"Email Address","E-mail adres",module,Magento_Rma
+"Email Address","E-mailadres",module,Magento_Rma
 "RMA History","RMA geschiedenis",module,Magento_Rma
 "Comment Text","Tekst opmerking",module,Magento_Rma
 "Notify Customer by Email","Bericht klant per email",module,Magento_Rma
