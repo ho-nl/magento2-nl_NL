@@ -3543,7 +3543,7 @@ Download,Downloads,module,Magento_Customer
 "Please make sure your passwords match.","Zorg dat de wachtwoorden overeenkomen.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Als u een geregistreerde BTW-klant bent, gelieve <a href=""%1""> hier te klikken </a> om uw verzendadres in te voeren voor een juiste BTW-berekening.",module,Magento_Customer
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Als u een geregistreerde BTW-klant bent, gelieve <a href=""%1""> hier te klikken </a> om uw factuuradres in te voeren voor een juiste BTW-berekening.",module,Magento_Customer
-"Account Information","Account Gegevens",module,Magento_Customer
+"Account Information",Accountgegevens,module,Magento_Customer
 "You saved the account information.","U heeft de accountgegevens opgeslagen.",module,Magento_Customer
 "You did not sign in correctly or your account is temporarily disabled.","Inloggegevens zijn onjuist of uw account is tijdelijk uitgeschakeld.",module,Magento_Customer
 "Password confirmation doesn't match entered password.","Wachtwoord-bevestiging komt niet overeen met ingegeven wachtwoord.",module,Magento_Customer
@@ -4136,7 +4136,7 @@ Country,Land,module,Magento_CustomerCustomAttributes
 "Use as my default shipping address","Gebruik mijn standaard verzendadres",module,Magento_CustomerCustomAttributes
 "Save Address","Adres opslaan",module,Magento_CustomerCustomAttributes
 "Go back","Ga terug",module,Magento_CustomerCustomAttributes
-"Account Information","Account Gegevens",module,Magento_CustomerCustomAttributes
+"Account Information",Accountgegevens,module,Magento_CustomerCustomAttributes
 "Change Email","E-mailadres wijzigen",module,Magento_CustomerCustomAttributes
 "Change Password","Wachtwoord wijzigen",module,Magento_CustomerCustomAttributes
 "Change Email and Password","Wijzig E-Mail en wachtwoord",module,Magento_CustomerCustomAttributes
@@ -8926,7 +8926,7 @@ Cancel,Annuleer,module,Magento_Sales
 Coupons,Kortingsbonnen,module,Magento_Sales
 "Please select a customer","Selecteer een klant",module,Magento_Sales
 "Create New Customer","Nieuwe klant aanmaken",module,Magento_Sales
-"Account Information","Account Gegevens",module,Magento_Sales
+"Account Information",Accountgegevens,module,Magento_Sales
 From,Van,module,Magento_Sales
 To,Aan,module,Magento_Sales
 Message,Bericht,module,Magento_Sales
@@ -11832,7 +11832,7 @@ Users,Gebruikers,module,Magento_User
 "Force Sign-In","Forceer opnieuw inloggen",module,Magento_User
 "Edit User '%1'","Bewerken gebruiker '%1'",module,Magento_User
 "New User","Nieuwe gebruiker",module,Magento_User
-"Account Information","Account Gegevens",module,Magento_User
+"Account Information",Accountgegevens,module,Magento_User
 "User Email","E-mailadres van gebruiker",module,Magento_User
 Password,Wachtwoord,module,Magento_User
 "New Password","Nieuw wachtwoord",module,Magento_User
@@ -12645,7 +12645,7 @@ Debug,Debug,module,Magento_Worldpay
 "Your payment has been successfully processed by our shop system.","Uw betaling is succesvol verwerkt door ons winkel-systeem.",module,Magento_Worldpay
 Summary,Samenvatting,theme,frontend/Magento/blank
 "Account Dashboard",Accountoverzicht,theme,frontend/Magento/blank
-"Account Information","Account Gegevens",theme,frontend/Magento/blank
+"Account Information",Accountgegevens,theme,frontend/Magento/blank
 "Address Book",Adresboek,theme,frontend/Magento/blank
 Menu,Menu,theme,frontend/Magento/blank
 Account,Account,theme,frontend/Magento/blank
