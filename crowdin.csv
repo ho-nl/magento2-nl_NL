@@ -418,7 +418,7 @@ Email,E-mail,module,Magento_Backend
 "User Email","E-mail van gebruiker",module,Magento_Backend
 "New Password","Nieuw wachtwoord",module,Magento_Backend
 "Password Confirmation","Wachtwoord bevestiging",module,Magento_Backend
-"Interface Locale","Lokale interface",module,Magento_Backend
+"Interface Locale",Interfacetaal,module,Magento_Backend
 "Current User Identity Verification","Huidige gebruiker verificatie",module,Magento_Backend
 "Your Password","Uw wachtwoord",module,Magento_Backend
 "Save Cache Settings","Cache-instellingen opslaan",module,Magento_Backend
@@ -500,7 +500,7 @@ Search,Zoek,module,Magento_Backend
 Any,Elke,module,Magento_Backend
 "All Countries","Alle landen",module,Magento_Backend
 From,Van,module,Magento_Backend
-To,Aan,module,Magento_Backend
+To,Tot,module,Magento_Backend
 "Date selector",Datumkiezer,module,Magento_Backend
 "[ deleted ]","[ verwijderd ]",module,Magento_Backend
 "Select All","Alles selecteren",module,Magento_Backend
@@ -591,6 +591,10 @@ YTD,YTD,module,Magento_Backend
 "Admin session lifetime must be greater than or equal to 60 seconds","Admin-sessielevensduur moet groter of gelijk aan 60 seconden zijn",module,Magento_Backend
 Order,Bestelling,module,Magento_Backend
 "Order #%1","Order #%1",module,Magento_Backend
+"Save &amp; Continue","Opslaan &amp; doorgaan",module,Magento_Backend
+"Save &amp; Close","Opslaan &amp; sluiten",module,Magento_Backend
+"Save &amp; New","Opslaan &amp; nieuw",module,Magento_Backend
+Edit,Bewerken,module,Magento_Backend
 "Access denied","Toegang geweigerd",module,Magento_Backend
 "Please try to sign out and sign in again.","Probeer uit te loggen en weer aan te melden.",module,Magento_Backend
 "If you continue to receive this message, please contact the store owner.","Krijgt u herhaaldelijk deze melding, neem dan contact op met de winkeleigenaar.",module,Magento_Backend
@@ -668,6 +672,8 @@ Actions,acties,module,Magento_Backend
 Loading...,"Bezig met laden...",module,Magento_Backend
 "We could not detect a size.","We kunnen geen grootte detecteren.",module,Magento_Backend
 "We don't recognize or support this file extension type.","We herkennen of ondersteunen dit bestandsformaat type niet.",module,Magento_Backend
+"Warning message",Waarschuwingsbericht,module,Magento_Backend
+"This operation can take a long time","Deze bewerking kan lang duren",module,Magento_Backend
 "Allow everything","Alles toestaan",module,Magento_Backend
 "Magento Admin","Magento Site-beheer",module,Magento_Backend
 "Global Search","Globale zoektocht",module,Magento_Backend
@@ -678,6 +684,7 @@ Content,inhoud,module,Magento_Backend
 Elements,Elementen,module,Magento_Backend
 Design,Ontwerp,module,Magento_Backend
 Schedule,Tijdsplanning,module,Magento_Backend
+"Content translation","Content vertaling",module,Magento_Backend
 Settings,Instellingen,module,Magento_Backend
 Attributes,Attributen,module,Magento_Backend
 "Other Settings","Andere instellingen",module,Magento_Backend
@@ -703,6 +710,8 @@ Advanced,Geavanceerd,module,Magento_Backend
 Developer,Ontwikkelaar,module,Magento_Backend
 Debug,Debug,module,Magento_Backend
 "Enabled Template Path Hints for Storefront","Hints ingeschakeld voor sjabloon paden op winkelaanzicht",module,Magento_Backend
+"Enable Hints for Storefront with URL Parameter","Hints voor Storefront met URL-Parameter inschakelen",module,Magento_Backend
+"Parameter Value",Parameterwaarde,module,Magento_Backend
 "Enabled Template Path Hints for Admin","Template pad Hints ingeschakeld voor Admin",module,Magento_Backend
 "Add Block Names to Hints","Bloknamen aan Hints toevoegen",module,Magento_Backend
 "Template Settings","Template instellingen",module,Magento_Backend
@@ -812,7 +821,7 @@ Web,Web,module,Magento_Backend
 "Use SID on Storefront","Gebruik SID op Storefront",module,Magento_Backend
 "Allows customers to stay logged in when switching between different stores.","Stelt bezoekers instaat om ingelogd te blijven, zelfs bij het switchen van winkels.",module,Magento_Backend
 "Cache Type","Cache Soort",module,Magento_Backend
-Description,Beschrijving,module,Magento_Backend
+Description,Omschrijving,module,Magento_Backend
 Tags,tags,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Pagina niet gevonden.</p>",module,Magento_Backend
 "Community Edition","Community Edition",module,Magento_Backend
@@ -831,7 +840,6 @@ Pagination,Paginering,module,Magento_Backend
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternatieve tekst voor volgende link in pagineringsmenu. Wanneer u deze leeg laat, wordt de standaard pijl getoond.",module,Magento_Backend
 "Anchor Text for Next","Tekst voor 'Volgende'",module,Magento_Backend
 "Theme Name",Themanaam,module,Magento_Backend
-Config,Config,module,Magento_Backend
 "System Backup",Systeem-backup,module,Magento_Backup
 "Database and Media Backup","Database- en mediabackup",module,Magento_Backup
 "Database Backup",Databasebackup,module,Magento_Backup
@@ -983,43 +991,6 @@ Header,Header,module,Magento_Banner
 "Specify Banners","specificeer banners",module,Magento_Banner
 "Banner Block Template","banner blok mal",module,Magento_Banner
 "Banner Inline Template","binnenste banner mal",module,Magento_Banner
-cc_type,"Creditcard type",module,Magento_Braintree
-cc_number,"Creditcard nummer",module,Magento_Braintree
-avsPostalCodeResponseCode,"postcode antwoord code",module,Magento_Braintree
-avsStreetAddressResponseCode,"straat antwoord code",module,Magento_Braintree
-cvvResponseCode,"CVV antwoord code",module,Magento_Braintree
-processorAuthorizationCode,"autorisatie code",module,Magento_Braintree
-processorResponseCode,"antwoord code",module,Magento_Braintree
-processorResponseText,"antwoord tekst",module,Magento_Braintree
-braintree,Braintree,module,Magento_Braintree
-liabilityShifted,liabilityShifted,module,Magento_Braintree
-liabilityShiftPossible,liabilityShiftPossible,module,Magento_Braintree
-riskDataId,riskDataId,module,Magento_Braintree
-riskDataDecision,riskDataDecision,module,Magento_Braintree
-paymentId,paymentId,module,Magento_Braintree
-payerEmail,payerEmail,module,Magento_Braintree
-sale,sale,module,Magento_Braintree
-credit,krediet,module,Magento_Braintree
-authorization_expired,"autorisatie verlopen",module,Magento_Braintree
-authorizing,autoriseren,module,Magento_Braintree
-authorized,geauthoriseerd,module,Magento_Braintree
-gateway_rejected,gateway_rejected,module,Magento_Braintree
-failed,mislukt,module,Magento_Braintree
-processor_declined,afgekeurd,module,Magento_Braintree
-settled,afgewikkeld,module,Magento_Braintree
-settling,afwikkelen,module,Magento_Braintree
-submitted_for_settlement,"verstuurd voor overeenkomen",module,Magento_Braintree
-voided,voided,module,Magento_Braintree
-unrecognized,"niet herkend",module,Magento_Braintree
-settlement_declined,settlement_declined,module,Magento_Braintree
-settlement_pending,settlement_pending,module,Magento_Braintree
-settlement_confirmed,settlement_confirmed,module,Magento_Braintree
-paypal_account,"PayPal account",module,Magento_Braintree
-coinbase_account,"Coinbase account",module,Magento_Braintree
-europe_bank_accout,"Europe Bank account",module,Magento_Braintree
-credit_card,Creditcard,module,Magento_Braintree
-apple_pay_card,"Apple Pay kaart",module,Magento_Braintree
-android_pay_card,"Android Pay kaart",module,Magento_Braintree
 Country,Land,module,Magento_Braintree
 "Allowed Credit Card Types","Toegestane creditcard typen",module,Magento_Braintree
 "Add Rule","Regel toevoegen",module,Magento_Braintree
@@ -1033,6 +1004,10 @@ Country,Land,module,Magento_Braintree
 Authorize,Autoriseer,module,Magento_Braintree
 "Authorize and Capture","Authoriseer en Capture",module,Magento_Braintree
 "--Please Select--","-- Selecteer --",module,Magento_Braintree
+"Credit Card",Creditcard,module,Magento_Braintree
+ending,einde,module,Magento_Braintree
+expires,verloopt,module,Magento_Braintree
+PayPal,PayPal,module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Accepteer onze Algemene Voorwaarden voordat u de bestelling plaatst.",module,Magento_Braintree
 "Credit Card Type",Creditcard-maatschappij,module,Magento_Braintree
 "Credit Card Number",Creditcard-nummer,module,Magento_Braintree
@@ -1041,8 +1016,6 @@ Authorize,Autoriseer,module,Magento_Braintree
 "Please, enter valid Expiration Date","Voer een geldige vervaldatum in",module,Magento_Braintree
 "Card Verification Number",Verificatienummer,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Vul een geldige Creditcard Verificatie Nummer in",module,Magento_Braintree
-ending,einde,module,Magento_Braintree
-expires,verloopt,module,Magento_Braintree
 "Are you sure you want to delete this PayPal account","Weet u zeker dat u deze PayPal account wilt verwijderen?",module,Magento_Braintree
 "PayPal Account",PayPal-account,module,Magento_Braintree
 "PayPal Logo","PayPal Logo",module,Magento_Braintree
@@ -1293,7 +1266,7 @@ Canceled,Geannuleerd,module,Magento_Bundle
 "As low as",Vanaf,module,Magento_Bundle
 "Regular Price","Normale prijs",module,Magento_Bundle
 From,Van,module,Magento_Bundle
-To,Aan,module,Magento_Bundle
+To,Tot,module,Magento_Bundle
 "Buy %1 with %2 discount each","%1 kopen met %2 korting elk",module,Magento_Bundle
 "Go back to product details","Ga terug naar Productgegevens",module,Magento_Bundle
 "Customize and Add to Cart","Aanpassen en aan winkelwagen toevoegen",module,Magento_Bundle
@@ -1324,6 +1297,8 @@ Select...,Selecteer...,module,Magento_Bundle
 Status,Status,module,Magento_Bundle
 Thumbnail,Thumbnail,module,Magento_Bundle
 Type,Type,module,Magento_Bundle
+"Special Price","Speciale prijs",module,Magento_Bundle
+"Unique constraint violation found","Unique constraint violation gevonden",module,Magento_BundleStaging
 Cancel,Annuleren,module,Magento_BundleStaging
 "Add Selected Products","Voeg geselecteerde producten toe",module,Magento_BundleStaging
 "Add Products to Option","Voeg producten toe aan Optie",module,Magento_BundleStaging
@@ -1345,7 +1320,7 @@ Always,Altijd,module,Magento_Captcha
 "Please enter the letters from the image","Voer de letters van de afbeelding in",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Let op</strong>: Captcha is hoofdletter gevoelig.",module,Magento_Captcha
 "Reload captcha","CAPTCHA herladen",module,Magento_Captcha
-"Please type the letters below","Type de letter hieronder",module,Magento_Captcha
+"Please type the letters below","Typ de letters hieronder",module,Magento_Captcha
 "Attention: Captcha is case sensitive.","Opgelet: Captcha is hoofdletter gevoelig.",module,Magento_Captcha
 CAPTCHA,CAPTCHA,module,Magento_Captcha
 "Enable CAPTCHA in Admin","CAPTCHA activeren in admin",module,Magento_Captcha
@@ -2047,7 +2022,7 @@ Comma-separated.,"gescheiden door een komma",module,Magento_Catalog
 "Reorganize EAV category structure to flat structure","EAV categoriestructuur naar platte structuur omschrijving",module,Magento_Catalog
 "Category Products","Categorie producten",module,Magento_Catalog
 "Indexed category/products association",Categorieën/product-koppeling,module,Magento_Catalog
-"Product Categories",Productcategorie&euml;n,module,Magento_Catalog
+"Product Categories",Productcategorieën,module,Magento_Catalog
 "Indexed product/categories association","Geïndexeerde product/categorieën koppeling",module,Magento_Catalog
 "Product Price",Productprijs,module,Magento_Catalog
 "Index product prices",Productprijzen,module,Magento_Catalog
@@ -2553,7 +2528,7 @@ Preview,Voorbeeld,module,Magento_CatalogStaging
 "Stores Configuration",Winkelconfiguratie,module,Magento_CatalogStaging
 "Scheduled Changes","Geplande wijzigingen",module,Magento_CatalogStaging
 Name,Naam,module,Magento_CatalogStaging
-Description,Beschrijving,module,Magento_CatalogStaging
+Description,Omschrijving,module,Magento_CatalogStaging
 Action,Actie,module,Magento_CatalogStaging
 "Update Information","Informatie bijwerken",module,Magento_CatalogStaging
 "Schedule Update","Update plannen",module,Magento_CatalogStaging
@@ -2759,7 +2734,7 @@ Cancel,Annuleer,module,Magento_Checkout
 "Estimated Total","Winkelwagen subtotaal",module,Magento_Checkout
 "You can create an account after checkout.","U kunt een account maken na het afrekenen.",module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","U heeft al een account bij ons. Log in of ga door zonder account.",module,Magento_Checkout
-Login,"Log in",module,Magento_Checkout
+Login,Inloggen,module,Magento_Checkout
 "See Details","Bekijk details",module,Magento_Checkout
 "Options Details","Optie Details",module,Magento_Checkout
 Remove,Verwijder,module,Magento_Checkout
@@ -3088,7 +3063,7 @@ Disable,Deactiveer,module,Magento_Config
 Configuration,Configuratie,module,Magento_Config
 "Class for type ""%1"" was not declared","Klasse voor type ""%1"" werd niet gedeclareerd",module,Magento_Config
 "%1 should implement %2","%1 moet %2 implementeren",module,Magento_Config
-"We can't save this option because Magento is not installed. To lock this value, enter the command again using the --%1 option.","We can't save this option because Magento is not installed. To lock this value, enter the command again using the --%1 option.",module,Magento_Config
+"We can't save this option because Magento is not installed. To lock this value, enter the command again using the --%1 option.","Deze optie kan niet worden opgeslagen omdat Magento is niet geïnstalleerd. U kunt deze waarde vergrendelen door de opdracht opnieuw in te voeren met de--%1-optie.",module,Magento_Config
 "The value you set has already been locked. To change the value, use the --%1 option.","De waarde die u instelt is al vergrendeld. Om de waarde te wijzigen, gebruik de--%1-optie.",module,Magento_Config
 %1,%1,module,Magento_Config
 "Configuration for path: ""%1"" doesn't exist","Configuratie voor pad: ""%1"" bestaat niet",module,Magento_Config
@@ -3572,7 +3547,7 @@ Download,Downloads,module,Magento_Customer
 "The customer would belong to Customer Group %s.","De klant zou behoren tot de groep Customer %s.",module,Magento_Customer
 "There was an error detecting Customer Group.","Er is een fout opgetreden bij Klant Groep.",module,Magento_Customer
 "Validate VAT Number","Valideer BTW-nummer",module,Magento_Customer
-"Customer Login",Klant-login,module,Magento_Customer
+"Customer Login","Klant Login",module,Magento_Customer
 "Create New Customer Account","Nieuw account aanmaken",module,Magento_Customer
 "Date of Birth",Geboortedatum,module,Magento_Customer
 "Bad request.","Foute aanvraag",module,Magento_Customer
@@ -4450,7 +4425,7 @@ Debug,Debug,module,Magento_Cybersource
 "Cannot switch into given mode ""%1""","Onmogelijk om naar volgende mode ""%1"" over te schakelen",module,Magento_Deploy
 "Wrong logger interface specified.","Verkeerde logger-interface opgegeven.",module,Magento_Deploy
 "Hash has not been saved.","Hash is niet opgeslagen.",module,Magento_Deploy
-"Parameter ""class"" must be present.","Parameter ""class"" must be present.",module,Magento_Deploy
+"Parameter ""class"" must be present.","Parameter ""klasse"" moet aanwezig zijn.",module,Magento_Deploy
 "The configuration file has changed. Run app:config:import or setup:upgrade command to synchronize configuration.","Het configuratie-bestand is gewijzigd. Draai app:config:import of het setup:upgrade commando om de configuratie te synchroniseren.",module,Magento_Deploy
 "Wrong type specified: '%1'","Verkeerd type gespecificeerd: '%1'",module,Magento_Deploy
 "Wrong queue type specified.","Verkeerd queue-soort gespecificeerd.",module,Magento_Deploy
@@ -7088,12 +7063,7 @@ No,Nee,module,Magento_Payment
                                 from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
                                 Use PayPal’ s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
                                 The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank"">Why Advertise Financing?</a><br/>
-                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
-                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
-                                Use PayPal’ s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
-                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
-                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.",module,Magento_Paypal
+                                or more. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank"">See Details</a>.","<a href=""https:/financing.paypal.com/ppfinportal/content/whyUseFinancing"" target=""_blank""> Waarom adverteren voor financiering? </a> <br/> <strong> Geef uw verkopen een boost wanneer u adverteert voor financiering . </ strong> <br/> PayPal helpt browsers om te zetten in kopers met financiering van PayPal Credit®. Uw klanten hebben meer tijd om te betalen, terwijl u vooraf betaald krijgt - zonder extra kosten voor u. Gebruik de gratis banneradvertenties van PayPal waarmee u kunt adverteren voor PayPal Credit®-financiering als betalingsoptie wanneer uw klanten uitchecken met PayPal. Het PayPal-advertentieprogramma heeft aangetoond extra aankopen te genereren en de gemiddelde aankoopomvang van consumenten met 15% of meer te verhogen. <a href=""https:/financing.paypal.com/ppfinportal/content/forrester"" target=""_blank""> Details bekijken </a>.",module,Magento_Paypal
 payflowpro,payflowpro,module,Magento_Paypal
 "Billing Agreements",Incasso-overeenkomsten,module,Magento_Paypal
 ID,ID,module,Magento_Paypal
@@ -7895,7 +7865,7 @@ error123,error123,module,Magento_Quote
 error345,error345,module,Magento_Quote
 Carts,Winkelwagens,module,Magento_Quote
 "Manage carts","Winkelwagens beheren",module,Magento_Quote
-"Invalid state change requested","Invalid state change requested",module,Magento_Quote
+"Invalid state change requested","Ongeldige statuswijziging gevraagd",module,Magento_Quote
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","Deze regel wordt toegewezen aan %1 geautomatiseerde herinnering regel(s). ' 'Verwijderen van deze regel zal het automatisch intrekken.",module,Magento_Reminder
 "Automated Email Marketing Reminder Rules","Geautomatiseerde e-mail marketing herinner-regels",module,Magento_Reminder
 "Add New Rule","Voeg nieuwe regel toe",module,Magento_Reminder
@@ -8276,7 +8246,7 @@ Action,Actie,module,Magento_Reports
 "Refresh Statistics for the Last Day","Vernieuw Statistieken van vandaag",module,Magento_Reports
 "Are you sure you want to refresh statistics for the last day?","Weet u zeker dat u de statistieken van afgelopen dag wilt vernieuwen?",module,Magento_Reports
 Report,Verslag,module,Magento_Reports
-Description,Beschrijving,module,Magento_Reports
+Description,Omschrijving,module,Magento_Reports
 undefined,"niet van toepassing",module,Magento_Reports
 "Save Review","Review opslaan",module,Magento_Review
 "New Review","Nieuwe review",module,Magento_Review
@@ -9463,10 +9433,10 @@ Closed,gesloten,module,Magento_Sales
 New,Nieuw,module,Magento_Sales
 "test message",testbericht,module,Magento_Sales
 "Email has not been sent","E-mail is niet verzonden",module,Magento_Sales
-"Authorized amount of %1.","Authorized amount of %1.",module,Magento_Sales
+"Authorized amount of %1.","Autorisatiewaarde %1.",module,Magento_Sales
 "We will authorize %1 after the payment is approved at the payment gateway.","We zullen %1 toestaan nadat de betaling is goedgekeurd via de betaalgateway.",module,Magento_Sales
-"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.",module,Magento_Sales
-"Captured amount of %1 online.","Captured amount of %1 online.",module,Magento_Sales
+"Authorized amount of %1. Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Goedgekeurd bedrag van %1. Order is aangehouden omdat het te authoriseren bedrag %1 als frauduleus gemarkeerd is.",module,Magento_Sales
+"Captured amount of %1 online.","Bedrag van %1 via betaalplatform geregistreerd.",module,Magento_Sales
 "Authorized amount of %1","Autorisatiewaarde %1",module,Magento_Sales
 "Transaction ID: ""%1""","Transactie-ID: ""%1""",module,Magento_Sales
 View,Bekijk,module,Magento_Sales
@@ -9997,7 +9967,7 @@ Back,Terug,module,Magento_SalesRule
 "Currently Active","Momenteel actief",module,Magento_SalesRule
 "Rule Information","Regel Informatie",module,Magento_SalesRule
 "Rule Name","Regel Naam",module,Magento_SalesRule
-Description,Beschrijving,module,Magento_SalesRule
+Description,Omschrijving,module,Magento_SalesRule
 Websites,Websites,module,Magento_SalesRule
 "Customer Groups",Klantengroepen,module,Magento_SalesRule
 Coupon,Tegoedbon,module,Magento_SalesRule
@@ -10535,7 +10505,7 @@ N/A,n.v.t.,module,Magento_Shipping
 Location,Plaats,module,Magento_Shipping
 Date,Datum,module,Magento_Shipping
 "Local Time","Lokale tijd",module,Magento_Shipping
-Description,Beschrijving,module,Magento_Shipping
+Description,Omschrijving,module,Magento_Shipping
 "See our Shipping Policy","Bekijk ons verzendbeleid",module,Magento_Shipping
 "Shipping Settings Section","Verzendinstellingen sectie",module,Magento_Shipping
 "Shipping Policy Parameters Section","Parameters verzendmethodes sectie",module,Magento_Shipping
@@ -10557,17 +10527,17 @@ City,Plaats,module,Magento_Shipping
 OPEN,OPEN,module,Magento_Signifyd
 PROCESSING,"In behandeling",module,Magento_Signifyd
 FLAGGED,GEMARKEERD,module,Magento_Signifyd
-DISMISSED,DISMISSED,module,Magento_Signifyd
-HELD,HELD,module,Magento_Signifyd
-GOOD,GOOD,module,Magento_Signifyd
-FRAUDULENT,FRAUDULENT,module,Magento_Signifyd
-UNSET,UNSET,module,Magento_Signifyd
+DISMISSED,AFGEWEZEN,module,Magento_Signifyd
+HELD,AANGEHOUDEN,module,Magento_Signifyd
+GOOD,GOED,module,Magento_Signifyd
+FRAUDULENT,FRAUDULEUS,module,Magento_Signifyd
+UNSET,NIET_INGESTELD,module,Magento_Signifyd
 NULL,NULL,module,Magento_Signifyd
-APPROVED,APPROVED,module,Magento_Signifyd
-DECLINED,DECLINED,module,Magento_Signifyd
-PENDING,PENDING,module,Magento_Signifyd
-CANCELED,CANCELED,module,Magento_Signifyd
-IN_REVIEW,IN_REVIEW,module,Magento_Signifyd
+APPROVED,GOEDGEKEURD,module,Magento_Signifyd
+DECLINED,GEWEIGERD,module,Magento_Signifyd
+PENDING,"IN BEHANDELING",module,Magento_Signifyd
+CANCELED,GEANNULEERD,module,Magento_Signifyd
+IN_REVIEW,BEOORDELING,module,Magento_Signifyd
 Approved,Goedgekeurd,module,Magento_Signifyd
 Declined,Afgewezen,module,Magento_Signifyd
 Pending,"In afwachting",module,Magento_Signifyd
@@ -11083,7 +11053,7 @@ Image,Afbeelding,module,Magento_Swatches
 "Default Store View","Standaard Winkelaanzicht",module,Magento_Swatches
 Admin,Beheerder,module,Magento_Swatches
 "The value of Admin must be unique.","De waarde van Admin moet uniek zijn.",module,Magento_Swatches
-"The value of Admin must be unique. (%1)","The value of Admin must be unique. (%1)",module,Magento_Swatches
+"The value of Admin must be unique. (%1)","De waarde van Admin moet uniek zijn. (%1)",module,Magento_Swatches
 Description,Omschrijving,module,Magento_Swatches
 "Related Products Rule","Verwante producten regel",module,Magento_TargetRule
 "Add Rule","Regel toevoegen",module,Magento_TargetRule
@@ -11938,7 +11908,7 @@ Users,Gebruikers,module,Magento_User
 Password,Wachtwoord,module,Magento_User
 "New Password","Nieuw wachtwoord",module,Magento_User
 "Password Confirmation","Bevestiging wachtwoord",module,Magento_User
-"Interface Locale","Lokale interface",module,Magento_User
+"Interface Locale",Interfacetaal,module,Magento_User
 "This account is","Dit account is",module,Magento_User
 "Account Status",Accountinstellingen,module,Magento_User
 "User Roles Information","Rolgegevens gebruiker",module,Magento_User
@@ -12043,7 +12013,7 @@ Failures,Mislukkingen,module,Magento_User
 Unlocked,Ontgrendeld,module,Magento_User
 "First-Class Mail Large Envelope","First-Class Mail grote envelop",module,Magento_Usps
 "First-Class Mail Letter","First-Class Mail brief",module,Magento_Usps
-"First-Class Package Service - Retail","First-Class Package Service - Retail",module,Magento_Usps
+"First-Class Package Service - Retail","First-Class Mail - Winkel",module,Magento_Usps
 "First-Class Mail Postcards","First-Class Mail Postcards",module,Magento_Usps
 "Priority Mail","Priority Post",module,Magento_Usps
 "Priority Mail Express Hold For Pickup","Vast tarief Priority Mail Express Vasthouden voor afhalen",module,Magento_Usps
