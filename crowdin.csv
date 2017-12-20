@@ -1266,7 +1266,7 @@ Canceled,Geannuleerd,module,Magento_Bundle
 "As low as",Vanaf,module,Magento_Bundle
 "Regular Price","Normale prijs",module,Magento_Bundle
 From,Van,module,Magento_Bundle
-To,Tot,module,Magento_Bundle
+To,Aan,module,Magento_Bundle
 "Buy %1 with %2 discount each","%1 kopen met %2 korting elk",module,Magento_Bundle
 "Go back to product details","Ga terug naar Productgegevens",module,Magento_Bundle
 "Customize and Add to Cart","Aanpassen en aan winkelwagen toevoegen",module,Magento_Bundle
@@ -1772,7 +1772,7 @@ Search,Zoek,module,Magento_Catalog
 "Multiple Select","Meervoudige selectie",module,Magento_Catalog
 Dropdown,Dropdown,module,Magento_Catalog
 "%1 doesn't extend \Magento\Framework\Filter\Template","%1 breidt \Magento\Framework\Filter\Template niet uit",module,Magento_Catalog
-"As low as",Slechts,module,Magento_Catalog
+"As low as",Vanaf,module,Magento_Catalog
 test,test,module,Magento_Catalog
 "Could not get extension attributes","Kan extension attributes niet ophalen",module,Magento_Catalog
 message,bericht,module,Magento_Catalog
@@ -3449,7 +3449,7 @@ Email,Email,module,Magento_CustomAttributeManagement
 "Sign Out",Afmelden,module,Magento_Customer
 "Sign In",Inloggen,module,Magento_Customer
 "You are subscribed to our newsletter.","Je bent geabonneerd op onze nieuwsbrief.",module,Magento_Customer
-"You aren't subscribed to our newsletter.","Je ben niet geabonneerd op onze nieuwsbrief.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Je bent niet geabonneerd op onze nieuwsbrief.",module,Magento_Customer
 "You have not set a default shipping address.","U heeft geen standaard afleveradres ingevoerd.",module,Magento_Customer
 "You have not set a default billing address.","U heeft geen standaard factuuradres ingevoerd.",module,Magento_Customer
 "Address Book",Adresboek,module,Magento_Customer
@@ -9895,7 +9895,7 @@ Numeric,Numeriek,module,Magento_SalesRule
 "Specified rule only allows auto generated coupons","Opgegeven regel staat alleen automatisch gegenereerde coupons toe",module,Magento_SalesRule
 "Specified rule does not allow auto generated coupons","Opgegeven regel staat geen auto gegenereerde coupons toe",module,Magento_SalesRule
 "Error occurred when saving coupon: %1","Er is een fout opgetreden bij het opslaan van de coupon: %1",module,Magento_SalesRule
-"Discount (%1)","Korting (%s)",module,Magento_SalesRule
+"Discount (%1)","Korting (%1)",module,Magento_SalesRule
 Discount,Korting,module,Magento_SalesRule
 "Coupon with the same code","Coupons met de zelfde code",module,Magento_SalesRule
 "No Coupon","Geen kortingscode",module,Magento_SalesRule
