@@ -59,7 +59,7 @@ Close,Sluiten,module,Magento_AdminNotification
 "See All (","Alles bekijken (",module,Magento_AdminNotification
 unread),ongelezen),module,Magento_AdminNotification
 "Show Toolbar","Werkbalk weergeven",module,Magento_AdminNotification
-"Show List","Toon lijst",module,Magento_AdminNotification
+"Show List","Lijst tonen",module,Magento_AdminNotification
 "Use HTTPS to Get Feed","Gebruik HTTPS om de feed op te halen",module,Magento_AdminNotification
 "Update Frequency",Update-frequentie,module,Magento_AdminNotification
 "Last Update","Laatste wijziging",module,Magento_AdminNotification
@@ -242,20 +242,20 @@ Edit,Bewerken,module,Magento_AdvancedSearch
 "Sorry, there has been an error processing your request. Please try again later.","Sorry, er is een fout opgetreden bij het verwerken van uw aanvraag. Probeer het later nog eens.",module,Magento_Analytics
 "Sorry, there was an error processing your registration request to Magento Analytics. Please try again later.","Sorry, is er een fout opgetreden tijdens de verwerking van uw aanvraag voor Magento Analytics. Probeer het later nog eens.",module,Magento_Analytics
 "Error occurred during postponement notification","Er is een fout opgetreden tijdens het uitstel kennisgeving",module,Magento_Analytics
-"Time value has an unsupported format","Time value has an unsupported format",module,Magento_Analytics
-"Cron settings can't be saved","Cron settings can't be saved",module,Magento_Analytics
+"Time value has an unsupported format","Tijd waarde bevat een niet ondersteund formaat",module,Magento_Analytics
+"Cron settings can't be saved","Cron instellingen konden niet worden opgeslagen",module,Magento_Analytics
 "There was an error save new configuration value.","Er was een fout bij het opslaan van de nieuwe configuratiewaarde.",module,Magento_Analytics
 "Please select a vertical.","Selecteer een verticale.",module,Magento_Analytics
 "--Please Select--","--Maak een keuze--",module,Magento_Analytics
 "Command was not found.","Opdracht is niet gevonden.",module,Magento_Analytics
-"Input data must be string or convertible into string.","Input data must be string or convertible into string.",module,Magento_Analytics
-"Input data must be non-empty string.","Input data must be non-empty string.",module,Magento_Analytics
+"Input data must be string or convertible into string.","Invoer data moet een string zijn of naar string geconverteerd kunnen worden.",module,Magento_Analytics
+"Input data must be non-empty string.","Invoer data mag niet leeg zijn.",module,Magento_Analytics
 "Not valid cipher method.","Not valid cipher method.",module,Magento_Analytics
-"Encryption key can't be empty.","Encryption key can't be empty.",module,Magento_Analytics
-"Source ""%1"" is not exist","Source ""%1"" is not exist",module,Magento_Analytics
-"These arguments can't be empty ""%1""","These arguments can't be empty ""%1""",module,Magento_Analytics
+"Encryption key can't be empty.","Encryptiesleutel mag niet leeg zijn.",module,Magento_Analytics
+"Source ""%1"" is not exist","Bron ""%1"" bestaat niet",module,Magento_Analytics
+"These arguments can't be empty ""%1""","Deze argumenten mogen niet leeg zijn ""%1""",module,Magento_Analytics
 "Cannot find predefined integration user!","Vooraf gedefinieerde integratiegebruiker niet gevonden!",module,Magento_Analytics
-"File is not ready yet.","File is not ready yet.",module,Magento_Analytics
+"File is not ready yet.","Bestand is nog niet klaar.",module,Magento_Analytics
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.",module,Magento_Analytics
 "Failed to synchronize data to the Magento Business Intelligence service.","Failed to synchronize data to the Magento Business Intelligence service.",module,Magento_Analytics
 "<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Retry Synchronization</a>",module,Magento_Analytics
@@ -266,8 +266,8 @@ TestMessage,TestBericht,module,Magento_Analytics
 "Art and Design","Kunst en Design",module,Magento_Analytics
 "Advanced Reporting","Advanced Reporting",module,Magento_Analytics
 "Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.",module,Magento_Analytics
-"View details","View details",module,Magento_Analytics
-"Go to Advanced Reporting","Go to Advanced Reporting",module,Magento_Analytics
+"View details","Details weergeven",module,Magento_Analytics
+"Go to Advanced Reporting","Ga naar de geavanceerde rapportage",module,Magento_Analytics
 "An error occurred while subscription process.","Er is een fout opgetreden tijdens het inschrijvingsproces.",module,Magento_Analytics
 Analytics,Analytics,module,Magento_Analytics
 API,API,module,Magento_Analytics
@@ -5460,7 +5460,7 @@ Note,Opmerking,module,Magento_GiftRegistry
 Action,Actie,module,Magento_GiftRegistry
 "Update Quantity","Aantal bijwerken",module,Magento_GiftRegistry
 "Remove Item","Product verwijderen",module,Magento_GiftRegistry
-"Sharing Information","Delen Informatie",module,Magento_GiftRegistry
+"Sharing Information","Informatie delen",module,Magento_GiftRegistry
 Emails,E-mails,module,Magento_GiftRegistry
 "Send From","Verzenden van",module,Magento_GiftRegistry
 Message,Bericht,module,Magento_GiftRegistry
@@ -8325,6 +8325,7 @@ Action,Actie,module,Magento_Reports
 Report,Verslag,module,Magento_Reports
 Description,Omschrijving,module,Magento_Reports
 undefined,"niet van toepassing",module,Magento_Reports
+"Item in Cart","Item in Cart",module,Magento_Reports
 "Save Review","Review opslaan",module,Magento_Review
 "New Review","Nieuwe review",module,Magento_Review
 "Review Details","Review details",module,Magento_Review
@@ -10844,8 +10845,8 @@ Layouts,Layouts,module,Magento_Store
 "API interfaces reflection data","API interfaces reflectie gegevens",module,Magento_Store
 "Database DDL operations","DDL databasebewerkingen",module,Magento_Store
 "Results of DDL queries, such as describing tables or indexes","Resultaten van DDL query's, zoals omschrijvende tabellen of indexen",module,Magento_Store
-"Compiled Config","Compiled Config",module,Magento_Store
-"Compilation configuration","Compilation configuration",module,Magento_Store
+"Compiled Config","Gecompileerde configuratie",module,Magento_Store
+"Compilation configuration","Compilatie configuratie",module,Magento_Store
 Back,Terug,module,Magento_Support
 "Backup Log Details","Back-uplogboek Details",module,Magento_Support
 Create,Creëren,module,Magento_Support
@@ -11777,23 +11778,23 @@ settings/addAfter,settings/addAfter,module,Magento_Ui
 Action,Actie,module,Magento_Ui
 CSV,CSV,module,Magento_Ui
 "Excel XML","Excel XML",module,Magento_Ui
-"Please select one of the options above.","Please select one of the options above.",module,Magento_Ui
+"Please select one of the options above.","Selecteer alstublieft een van de bovenstaande opties.",module,Magento_Ui
 "Please select a file.","Kies een bestand.",module,Magento_Ui
-"Please select one of the options.","Please select one of the options.",module,Magento_Ui
-"Please enter a value less than or equal to %s.","Please enter a value less than or equal to %s.",module,Magento_Ui
-"Please enter a value greater than or equal to %s.","Please enter a value greater than or equal to %s.",module,Magento_Ui
-"Card type does not match credit card number.","Card type does not match credit card number.",module,Magento_Ui
-"Credit card number does not match credit card type.","Credit card number does not match credit card type.",module,Magento_Ui
-"Incorrect credit card expiration date.","Incorrect credit card expiration date.",module,Magento_Ui
-"Please enter less or equal than %1 symbols.","Please enter less or equal than %1 symbols.",module,Magento_Ui
-"Please enter more or equal than %1 symbols.","Please enter more or equal than %1 symbols.",module,Magento_Ui
-"Please enter a valid value from list","Please enter a valid value from list",module,Magento_Ui
-"Please enter valid SKU key.","Please enter valid SKU key.",module,Magento_Ui
-"Please enter a valid number.","Please enter a valid number.",module,Magento_Ui
-"Admin is a required field in the each row.","Admin is a required field in the each row.",module,Magento_Ui
-"Please fix this field.","Please fix this field.",module,Magento_Ui
-"Please enter a valid date (ISO).","Please enter a valid date (ISO).",module,Magento_Ui
-"Please enter only digits.","Please enter only digits.",module,Magento_Ui
+"Please select one of the options.","Selecteer alstublieft een van de opties.",module,Magento_Ui
+"Please enter a value less than or equal to %s.","Voer een waarde in die minder dan of gelijk is aan %s.",module,Magento_Ui
+"Please enter a value greater than or equal to %s.","Voer een waarde in die groter dan of gelijk aan %s is.",module,Magento_Ui
+"Card type does not match credit card number.","Creditcardtype matcht niet met het creditcardnummer.",module,Magento_Ui
+"Credit card number does not match credit card type.","Het creditcardnummer komt niet overeen met het type creditcard.",module,Magento_Ui
+"Incorrect credit card expiration date.","Onjuiste vervaldatum van creditcard.",module,Magento_Ui
+"Please enter less or equal than %1 symbols.","Voor %1 of minder symbolen in.",module,Magento_Ui
+"Please enter more or equal than %1 symbols.","Voer %1 of meerdere symbolen in.",module,Magento_Ui
+"Please enter a valid value from list","Voer een geldige waarde in van de lijst",module,Magento_Ui
+"Please enter valid SKU key.","Voer geldige sleutel van de SKU.",module,Magento_Ui
+"Please enter a valid number.","Vul een geldig getal in.",module,Magento_Ui
+"Admin is a required field in the each row.","Admin is een verplicht veld in elke rij.",module,Magento_Ui
+"Please fix this field.","Corrigeer dit veld.",module,Magento_Ui
+"Please enter a valid date (ISO).","Voer een geldige datum in (ISO).",module,Magento_Ui
+"Please enter only digits.","Voer alleen cijfers in.",module,Magento_Ui
 "Please enter the same value again.","Please enter the same value again.",module,Magento_Ui
 "Please enter no more than {0} characters.","Please enter no more than {0} characters.",module,Magento_Ui
 "Please enter at least {0} characters.","Please enter at least {0} characters.",module,Magento_Ui
@@ -12253,7 +12254,7 @@ Debug,Debug,module,Magento_Usps
 "Sort Order",Sorteervolgorde,module,Magento_Usps
 "Custom Variables","Aangepaste Variabelen",module,Magento_Variable
 "Add New Variable","Voeg nieuwe variabele toe",module,Magento_Variable
-"Save and Continue Edit",Toepassen,module,Magento_Variable
+"Save and Continue Edit","Opslaan en Doorgaan",module,Magento_Variable
 "Custom Variable ""%1""","Aangepaste variabele ""%1""",module,Magento_Variable
 "New Custom Variable","Nieuwe aangepaste variabele",module,Magento_Variable
 Variable,Variabel,module,Magento_Variable
@@ -12727,9 +12728,9 @@ Product,Product,module,Magento_Wishlist
 Back,Terug,module,Magento_Wishlist
 "Wish List is empty now.","Verlanglijst is nu leeg.",module,Magento_Wishlist
 "* Required Fields","* Verplichte velden",module,Magento_Wishlist
-"Sharing Information","Delen Informatie",module,Magento_Wishlist
+"Sharing Information","Informatie delen",module,Magento_Wishlist
 "Email addresses, separated by commas","E-mailadressen, gescheiden door komma’s",module,Magento_Wishlist
-"Check here to link an RSS feed to your Wish List.","Klilk hier als u een RSS feed wil koppelen aan uw Verlanglijst.",module,Magento_Wishlist
+"Check here to link an RSS feed to your Wish List.","Klik hier als u een RSS feed wil koppelen aan uw verlanglijst.",module,Magento_Wishlist
 "Last Added Items","Laatst toegevoegde artikelen",module,Magento_Wishlist
 "Remove This Item","Verwijder dit artikel",module,Magento_Wishlist
 "Go to Wish List","Ga naar verlanglijst",module,Magento_Wishlist
@@ -12761,7 +12762,7 @@ Action,Actie,module,Magento_Wishlist
 Configure,Configureren,module,Magento_Wishlist
 Delete,Verwijder,module,Magento_Wishlist
 "Product Details and Comment","Productdetails en opmerkingen",module,Magento_Wishlist
-"You must login or register to add items to your wishlist.","You must login or register to add items to your wishlist.",module,Magento_Wishlist
+"You must login or register to add items to your wishlist.","U moet inloggen of registreren om items aan uw verlanglijstje toe te voegen.",module,Magento_Wishlist
 "Credit card type","Type creditcard",module,Magento_Worldpay
 "CVV result","CVV resultaat",module,Magento_Worldpay
 "Postcode AVS check","Postcode AVS check",module,Magento_Worldpay
