@@ -266,8 +266,8 @@ TestMessage,TestBericht,module,Magento_Analytics
 "Art and Design","Kunst en Design",module,Magento_Analytics
 "Advanced Reporting","Advanced Reporting",module,Magento_Analytics
 "Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.","Gain new insights and take command of your business' performance, using our dynamic product, order, and customer reports tailored to your customer data.",module,Magento_Analytics
-"View details","View details",module,Magento_Analytics
-"Go to Advanced Reporting","Go to Advanced Reporting",module,Magento_Analytics
+"View details","Details weergeven",module,Magento_Analytics
+"Go to Advanced Reporting","Ga naar de geavanceerde rapportage",module,Magento_Analytics
 "An error occurred while subscription process.","Er is een fout opgetreden tijdens het inschrijvingsproces.",module,Magento_Analytics
 Analytics,Analytics,module,Magento_Analytics
 API,API,module,Magento_Analytics
@@ -8325,6 +8325,7 @@ Action,Actie,module,Magento_Reports
 Report,Verslag,module,Magento_Reports
 Description,Omschrijving,module,Magento_Reports
 undefined,"niet van toepassing",module,Magento_Reports
+"Item in Cart","Item in Cart",module,Magento_Reports
 "Save Review","Review opslaan",module,Magento_Review
 "New Review","Nieuwe review",module,Magento_Review
 "Review Details","Review details",module,Magento_Review
@@ -12253,7 +12254,7 @@ Debug,Debug,module,Magento_Usps
 "Sort Order",Sorteervolgorde,module,Magento_Usps
 "Custom Variables","Aangepaste Variabelen",module,Magento_Variable
 "Add New Variable","Voeg nieuwe variabele toe",module,Magento_Variable
-"Save and Continue Edit",Toepassen,module,Magento_Variable
+"Save and Continue Edit","Opslaan en Doorgaan",module,Magento_Variable
 "Custom Variable ""%1""","Aangepaste variabele ""%1""",module,Magento_Variable
 "New Custom Variable","Nieuwe aangepaste variabele",module,Magento_Variable
 Variable,Variabel,module,Magento_Variable
