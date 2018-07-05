@@ -1,20 +1,20 @@
 All,Alle,module,Magento_AdminGws
 None,Geen,module,Magento_AdminGws
 "Allowed Scopes","Toegestane scopes",module,Magento_AdminGws
-"More permissions are needed to delete the ""%1"" item.","More permissions are needed to delete the ""%1"" item.",module,Magento_AdminGws
+"More permissions are needed to delete the ""%1"" item.","Er zijn meer bevoegdheden nodig om item ""%1"" te verwijderen.",module,Magento_AdminGws
 "You need more permissions to apply some of the rule updates.","U heeft meer bevoegdheden nodig om een aantal van de regel updates uit te voeren.",module,Magento_AdminGws
-"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","This entity needs to be assigned to a store view. Verify the entity assignment and try again.",module,Magento_AdminGws
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdminGws
-"This item needs to be assigned to a store view. Assign item and try again.","This item needs to be assigned to a store view. Assign item and try again.",module,Magento_AdminGws
-"More permissions are needed to save this item.","More permissions are needed to save this item.",module,Magento_AdminGws
-"More permissions are needed to delete this item.","More permissions are needed to delete this item.",module,Magento_AdminGws
-"More permissions are needed to view this item.","More permissions are needed to view this item.",module,Magento_AdminGws
-"At least one website or store group needs to be selected. Select and try again.","At least one website or store group needs to be selected. Select and try again.",module,Magento_AdminGws
-"More permissions are needed to set All Scopes to a Role.","More permissions are needed to set All Scopes to a Role.",module,Magento_AdminGws
-"The ""%1"" website ID is incorrect. Verify the website ID and try again.","The ""%1"" website ID is incorrect. Verify the website ID and try again.",module,Magento_AdminGws
+"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Deze entiteit moet toegewezen zijn aan een winkelzicht. Verifieer de toewijziging en probeer het nogmaals.",module,Magento_AdminGws
+"Orders can only be completed in an active store. Verify the store and try again.","Bestellingen kunnen alleen afgerond worden in een actieve winkel. Verifieer de winkel en probeer het nogmaals.",module,Magento_AdminGws
+"This item needs to be assigned to a store view. Assign item and try again.","Dit item moet toegewezen zijn aan een winkelzicht. Wijs het item toe en probeer het nogmaals.",module,Magento_AdminGws
+"More permissions are needed to save this item.","Meer bevoegdheden zijn nodig om dit item op te slaan.",module,Magento_AdminGws
+"More permissions are needed to delete this item.","Meer bevoegdheden zijn nodig om dit item te verwijderen.",module,Magento_AdminGws
+"More permissions are needed to view this item.","Meer bevoegdheden zijn nodig om dit item op te bekijken.",module,Magento_AdminGws
+"At least one website or store group needs to be selected. Select and try again.","Op zijn minst moet één website of winkel-groep geselecteerd zijn. Selecteer en probeer nogmaals.",module,Magento_AdminGws
+"More permissions are needed to set All Scopes to a Role.","Meer bevoegdheden zijn nodig om 'Alle Scopes' aan een rol te koppelen.",module,Magento_AdminGws
+"The ""%1"" website ID is incorrect. Verify the website ID and try again.","Het ID van website ""%1"" is onjuist. Controleer het website-ID en probeer het nogmaals.",module,Magento_AdminGws
 "You need more permissions to access website ""%1"".","U heeft meer bevoegdheden nodig voor toegang tot website ""%1"".",module,Magento_AdminGws
-"The ""%1"" store ID is incorrect. Verify the store ID and try again.","The ""%1"" store ID is incorrect. Verify the store ID and try again.",module,Magento_AdminGws
-"More permissions are needed to save this setting.","More permissions are needed to save this setting.",module,Magento_AdminGws
+"The ""%1"" store ID is incorrect. Verify the store ID and try again.","Het ID van winkelzicht ""%1"" is onjuist. Controleer het store view-ID en probeer het nogmaals.",module,Magento_AdminGws
+"More permissions are needed to save this setting.","Meer bevoegdheden zijn nodig om deze instelling op te slaan.",module,Magento_AdminGws
 "Role Scopes","Rol scopes",module,Magento_AdminGws
 Custom,Aangepast,module,Magento_AdminGws
 "Read Details","Lees details",module,Magento_AdminNotification
@@ -34,7 +34,7 @@ Notifications,Meldingen,module,Magento_AdminNotification
 "Total of %1 record(s) have been removed.","Er zijn in totaal %1 bericht(en) verwijderd.",module,Magento_AdminNotification
 "We couldn't remove the messages because of an error.","Het bericht kan niet verwijderd worden door een fout.",module,Magento_AdminNotification
 "The message has been removed.","De notificatie is verwijderd",module,Magento_AdminNotification
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.",module,Magento_AdminNotification
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","U heeft alle recente systeem-meldingen bekeken en opgelost. Herlaad de pagina om de melding op te ruimen.",module,Magento_AdminNotification
 "1 Hour","1 uur",module,Magento_AdminNotification
 "2 Hours","2 uur",module,Magento_AdminNotification
 "6 Hours","6 uur",module,Magento_AdminNotification
@@ -104,19 +104,19 @@ Configure,Configureren,module,Magento_AdvancedCheckout
 "You must buy at least %1 of these per purchase.","U moet ten minste %1 van dit product aanschaffen per aankoop.",module,Magento_AdvancedCheckout
 "Specify the product's options.","Geef de productopties aan.",module,Magento_AdvancedCheckout
 "Alert me when this item is available.","Waarschuw me wanneer dit product beschikbaar is.",module,Magento_AdvancedCheckout
-"This customer couldn't be found. Verify the customer and try again.","This customer couldn't be found. Verify the customer and try again.",module,Magento_AdvancedCheckout
+"This customer couldn't be found. Verify the customer and try again.","Deze klant kan niet worden gevonden. Controleer de klant en probeer het nogmaals.",module,Magento_AdvancedCheckout
 "Shopping cart management is disabled for this customer.","Winkelwagenbeheer uitgeschakeld voor deze klant.",module,Magento_AdvancedCheckout
-"This store couldn't be found. Verify the store and try again.","This store couldn't be found. Verify the store and try again.",module,Magento_AdvancedCheckout
+"This store couldn't be found. Verify the store and try again.","Deze winkelzicht kan niet worden gevonden. Controleer de winkelzicht en probeer het nogmaals.",module,Magento_AdvancedCheckout
 Customers,Klanten,module,Magento_AdvancedCheckout
 "Shopping Cart",Winkelwagen,module,Magento_AdvancedCheckout
-"An error occurred. For details, see the error log.","An error occurred. For details, see the error log.",module,Magento_AdvancedCheckout
+"An error occurred. For details, see the error log.","Er is een fout opgetreden. Voor details, raadpleeg het foutenlogboek.",module,Magento_AdvancedCheckout
 "You do not have access to this.","U heeft geen toegang hier toe.",module,Magento_AdvancedCheckout
-"Orders can only be completed in an active store. Verify the store and try again.","Orders can only be completed in an active store. Verify the store and try again.",module,Magento_AdvancedCheckout
-"The ordered item needs to be loaded. Load the item and try again.","The ordered item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
-"The quote item ID needs to be received. Set the ID and try again.","The quote item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
-"The quote item needs to be loaded. Load the item and try again.","The quote item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
-"The wish list item ID needs to be received. Set the ID and try again.","The wish list item ID needs to be received. Set the ID and try again.",module,Magento_AdvancedCheckout
-"The wish list item needs to be loaded. Load the item and try again.","The wish list item needs to be loaded. Load the item and try again.",module,Magento_AdvancedCheckout
+"Orders can only be completed in an active store. Verify the store and try again.","Bestellingen kunnen alleen afgerond worden in een actieve winkel. Verifieer de winkel en probeer het nogmaals.",module,Magento_AdvancedCheckout
+"The ordered item needs to be loaded. Load the item and try again.","Het bestelde artikel moet worden geladen. Laad het item opnieuw en probeer het nogmaals.",module,Magento_AdvancedCheckout
+"The quote item ID needs to be received. Set the ID and try again.","Het quote-item-ID moet worden ontvangen. Zet het ID en probeer het nogmaals.",module,Magento_AdvancedCheckout
+"The quote item needs to be loaded. Load the item and try again.","Het quote-item moet zijn geladen. Lad het item opnieuw en probeer nogmaals.",module,Magento_AdvancedCheckout
+"The wish list item ID needs to be received. Set the ID and try again.","De verlanglijst item ID moet worden ontvangen. Zet het ID en probeer het nogmaals.",module,Magento_AdvancedCheckout
+"The wish list item needs to be loaded. Load the item and try again.","Het verlanglijst item moet worden geladen. Laad het item en probeer het nogmaals.",module,Magento_AdvancedCheckout
 "An error has occurred. See error log for details.","Er is een fout opgetreden. Ga naar het logboek voor details.",module,Magento_AdvancedCheckout
 "You cannot configure a product.","U kan het product niet aanpassen.",module,Magento_AdvancedCheckout
 "You removed the items.","U heeft de producten verwijderd.",module,Magento_AdvancedCheckout
@@ -147,7 +147,7 @@ Customers,Klanten,module,Magento_AdvancedCheckout
 "Yes, for Specified Customer Groups","Ja, voor opgegeven klantengroepen",module,Magento_AdvancedCheckout
 "Yes, for Everyone","Ja, voor iedereen",module,Magento_AdvancedCheckout
 No,Nee,module,Magento_AdvancedCheckout
-"The file is corrupt and can't be used.","The file is corrupt and can't be used.",module,Magento_AdvancedCheckout
+"The file is corrupt and can't be used.","Het bestand is corrupt en kan niet worden gebruikt.",module,Magento_AdvancedCheckout
 "Please upload the file in .csv format.","Upload het bestand in .csv formaat.",module,Magento_AdvancedCheckout
 "%1 item(s) need your attention.","%1 producten(en) vereisen uw aandacht.",module,Magento_AdvancedCheckout
 "Apply Coupon Code","Pas kortingscode toe",module,Magento_AdvancedCheckout
@@ -348,13 +348,13 @@ Error,Fout,module,Magento_AsynchronousOperations
 "Dismiss All Completed Tasks","Alle voltooide taken verwijderen",module,Magento_AsynchronousOperations
 "Action Details - #","Actie Details - #",module,Magento_AsynchronousOperations
 "Number of Records Affected","Aantal rijen aangedaan",module,Magento_AsynchronousOperations
-"The role wasn't found for the user. Verify the role and try again.","The role wasn't found for the user. Verify the role and try again.",module,Magento_Authorization
+"The role wasn't found for the user. Verify the role and try again.","De rol is niet gevonden voor de gebruiker. Controleer de rol en probeer het nogmaals.",module,Magento_Authorization
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Er ging iets mis tijdens het compileren van een lijst van toegestane resources. U vindt meer informatie in de exceptions log.",module,Magento_Authorization
 "You created the order.","Bestelling is aangemaakt.",module,Magento_Authorizenet
 "Order saving error: %1","Fout tijdens opslaan van order: %1",module,Magento_Authorizenet
 "Please choose a payment method.","Kies een betaalwijze.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","We kunnen uw bestelling nu niet verwerken. Probeer het later nog eens.",module,Magento_Authorizenet
-"A server error stopped your order from being placed. Please try to place your order again.","A server error stopped your order from being placed. Please try to place your order again.",module,Magento_Authorizenet
+"A server error stopped your order from being placed. Please try to place your order again.","Een server-fout heeft er voor gezorgd dat de order niet geplaatst kan worden. Probeer uw bestelling nogmaals the plaatsen.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","Creditcard: xxxx-%1",module,Magento_Authorizenet
 "amount %1","bedrag %1",module,Magento_Authorizenet
 failed.,mislukt.,module,Magento_Authorizenet
@@ -382,7 +382,7 @@ void,void,module,Magento_Authorizenet
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transactie %1 is ongeldig/geweigerd. De status van de transactie is ""%2"". Bedrag %3.",module,Magento_Authorizenet
 "Authorize Only","Alleen toestemming verlenen",module,Magento_Authorizenet
 "Authorize and Capture","Authoriseer en Capture",module,Magento_Authorizenet
-"The transaction details are unavailable. Please try again later.","The transaction details are unavailable. Please try again later.",module,Magento_Authorizenet
+"The transaction details are unavailable. Please try again later.","De transactie-details zijn niet beschikbaar. Probeer het later nogmaals.",module,Magento_Authorizenet
 "Electronic payments save the trees.","Electronische betalingen red de bomen.",module,Magento_Authorizenet
 "Credit Card Type",Creditcard-maatschappij,module,Magento_Authorizenet
 "Please Select",Selecteer,module,Magento_Authorizenet
@@ -540,7 +540,7 @@ Reset,Reset,module,Magento_Backend
 "Add New Image","Nieuwe afbeelding toevoegen",module,Magento_Backend
 "Export block for grid %1 is not defined","Export blok voor tabel %1 niet is gedefinieerd",module,Magento_Backend
 "Reset Filter","Reset filter",module,Magento_Backend
-Search,Zoek,module,Magento_Backend
+Search,Zoeken,module,Magento_Backend
 Any,Elke,module,Magento_Backend
 "All Countries","Alle landen",module,Magento_Backend
 From,Van,module,Magento_Backend
@@ -554,13 +554,13 @@ To,Tot,module,Magento_Backend
 "Invalid export type supplied for grid export block","Ongeldig export type opgegeven voor export rasterblok",module,Magento_Backend
 Export,Export,module,Magento_Backend
 "Please correct the column format and try again.","Corrigeer de kolomindeling en probeer het opnieuw.",module,Magento_Backend
-"An item needs to be selected. Select and try again.","An item needs to be selected. Select and try again.",module,Magento_Backend
+"An item needs to be selected. Select and try again.","Een artikel moeten geselecteerd zijn. Selecteer en probeer het nogmaals.",module,Magento_Backend
 Submit,Bevestig,module,Magento_Backend
 "Unknown block type","Onbekend bloktype",module,Magento_Backend
 "Please correct the tab configuration and try again. Tab Id should be not empty","Corrigeer het tabblad configuratie en probeer het opnieuw. Tab ID mag niet leeg zijn",module,Magento_Backend
 "Please correct the tab configuration and try again.","Corrigeer de tab configuratie en probeer het opnieuw.",module,Magento_Backend
 "You have logged out.","U bent afgemeld.",module,Magento_Backend
-"These cache type(s) don't exist: %1","These cache type(s) don't exist: %1",module,Magento_Backend
+"These cache type(s) don't exist: %1","Deze cache-type(n) bestaan niet: %1",module,Magento_Backend
 "The image cache was cleaned.","Het afbeelding-cachegeheugen werd opgeschoond.",module,Magento_Backend
 "An error occurred while clearing the image cache.","Er is een fout opgetreden bij het vernieuwen van de afbeeldingen cache.",module,Magento_Backend
 "The JavaScript/CSS cache has been cleaned.","Het JavaScript/CSS cachegeheugen werd opgeschoond.",module,Magento_Backend
@@ -629,15 +629,15 @@ New,Nieuw,module,Magento_Backend
 YTD,YTD,module,Magento_Backend
 2YTD,2YTD,module,Magento_Backend
 "Authentication storage is incorrect.","Authenticatie opslag niet correct.",module,Magento_Backend
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Backend
-"An authentication error occurred. Verify and try again.","An authentication error occurred. Verify and try again.",module,Magento_Backend
-"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.",module,Magento_Backend
-"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.",module,Magento_Backend
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","De account login was onjuist of het account is tijdelijk uitgeschakeld. Wacht een moment en probeer het later nog eens.",module,Magento_Backend
+"An authentication error occurred. Verify and try again.","Een authenticatie-fout is opgetreden. Controleer en probeer het nogmaals.",module,Magento_Backend
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","De admin-sessie tijdsduur in ongeldig. Stel een tijdduur in van 31536000 seconde (één jaar) of korter en probeer het nogmaals.",module,Magento_Backend
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","De admin-sessie tijdsduur in ongeldig. Stel een tijdduur in van 60 seconde of korter en probeer het nogmaals.",module,Magento_Backend
 Order,Bestelling,module,Magento_Backend
 "Order #%1","Order #%1",module,Magento_Backend
-"Save &amp; Continue","Save &amp; Continue",module,Magento_Backend
-"Save &amp; Close","Save &amp; Close",module,Magento_Backend
-"Save &amp; New","Save &amp; New",module,Magento_Backend
+"Save &amp; Continue","Opslaan &amp; Doorgaan",module,Magento_Backend
+"Save &amp; Close","Opslaan &amp; Sluiten",module,Magento_Backend
+"Save &amp; New","Opslaan &amp; Nieuw",module,Magento_Backend
 Edit,Bewerken,module,Magento_Backend
 "Sorry, you need permissions to view this content.","Helaas, je bent niet gemachtigd om deze inhoud weer te geven.",module,Magento_Backend
 "Next steps","De volgende stappen",module,Magento_Backend
@@ -741,13 +741,13 @@ Attributes,Attributen,module,Magento_Backend
 "Connect Manager","Verbinding van de Manager",module,Magento_Backend
 "Package Extensions","Pakket uitbreiding",module,Magento_Backend
 Tools,Gereedschap,module,Magento_Backend
-"Clean Cache Actions","Clean Cache Actions",module,Magento_Backend
-"Cache Types Management","Cache Types Management",module,Magento_Backend
-"Toggle Cache Type","Toggle Cache Type",module,Magento_Backend
-"Refresh Cache Type","Refresh Cache Type",module,Magento_Backend
-"Catalog Images Cache","Catalog Images Cache",module,Magento_Backend
-"Flush Js/Css","Flush Js/Css",module,Magento_Backend
-"Flush Static Files","Flush Static Files",module,Magento_Backend
+"Clean Cache Actions","Schoon cache acties",module,Magento_Backend
+"Cache Types Management","Cache type beheer",module,Magento_Backend
+"Toggle Cache Type","Schakel cache type",module,Magento_Backend
+"Refresh Cache Type","Ververs cache type",module,Magento_Backend
+"Catalog Images Cache","Catalogus afbeeldingen cache",module,Magento_Backend
+"Flush Js/Css","Leeg Js/Css",module,Magento_Backend
+"Flush Static Files","Leeg statische bestanden",module,Magento_Backend
 "Web Setup Wizard","Web Installatie Assistent",module,Magento_Backend
 Currency,Valuta,module,Magento_Backend
 Communications,Communicatie,module,Magento_Backend
@@ -765,10 +765,10 @@ Advanced,Geavanceerd,module,Magento_Backend
 Developer,Ontwikkelaar,module,Magento_Backend
 Debug,Debug,module,Magento_Backend
 "Enabled Template Path Hints for Storefront","Hints ingeschakeld voor sjabloon paden op winkelaanzicht",module,Magento_Backend
-"Enable Hints for Storefront with URL Parameter","Enable Hints for Storefront with URL Parameter",module,Magento_Backend
-"Parameter Value","Parameter Value",module,Magento_Backend
+"Enable Hints for Storefront with URL Parameter","Schakel hints met URL parameter in",module,Magento_Backend
+"Parameter Value",Parameterwaarde,module,Magento_Backend
 "Enabled Template Path Hints for Admin","Template pad Hints ingeschakeld voor Admin",module,Magento_Backend
-"Add Block Class Type to Hints","Add Block Class Type to Hints",module,Magento_Backend
+"Add Block Class Type to Hints","Voeg block-class type naar hints in",module,Magento_Backend
 "Template Settings","Template instellingen",module,Magento_Backend
 "Allow Symlinks","Symlinks toestaan",module,Magento_Backend
 "Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Waarschuwing! Het activeren van deze functionaliteit wordt niet aanbevolen in productieomgevingen, vormt mogelijk een beveiligsingsrisico.",module,Magento_Backend
@@ -973,20 +973,20 @@ Size(bytes),Size(bytes),module,Magento_Backup
 Type,Type,module,Magento_Backup
 Download,Downloads,module,Magento_Backup
 Action,Actie,module,Magento_Backup
-"Dynamic Blocks","Dynamic Blocks",module,Magento_Banner
-"Add Dynamic Block","Add Dynamic Block",module,Magento_Banner
-"Save Dynamic Block","Save Dynamic Block",module,Magento_Banner
-"Delete Dynamic Block","Delete Dynamic Block",module,Magento_Banner
+"Dynamic Blocks","Dynamische blokken",module,Magento_Banner
+"Add Dynamic Block","Voet dynamisch blok toe",module,Magento_Banner
+"Save Dynamic Block","Dynamisch blok opslaan",module,Magento_Banner
+"Delete Dynamic Block","Dynamisch blok verwijderen",module,Magento_Banner
 "Save and Continue Edit",Toepassen,module,Magento_Banner
-"New Dynamic Block","New Dynamic Block",module,Magento_Banner
+"New Dynamic Block","Nieuw dynamisch blok",module,Magento_Banner
 Delete,Verwijder,module,Magento_Banner
-"Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Banner
-Reset,Reset,module,Magento_Banner
-Save,Save,module,Magento_Banner
+"Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_Banner
+Reset,Resetten,module,Magento_Banner
+Save,Opslaan,module,Magento_Banner
 Content,inhoud,module,Magento_Banner
 "Default Content","standaard inhoud",module,Magento_Banner
 "No Default Content","Geen standaard inhoud",module,Magento_Banner
-"Dynamic Block Default Content for All Store Views","Dynamic Block Default Content for All Store Views",module,Magento_Banner
+"Dynamic Block Default Content for All Store Views","Dynamisch blok standaard content voor alle winkelaanzichten",module,Magento_Banner
 "Store View Specific Content","Winkelaanzicht Specifieke Content",module,Magento_Banner
 "Use Default","Gebruik standaard",module,Magento_Banner
 "Related Promotions","gerelateerde promoties",module,Magento_Banner
@@ -995,33 +995,33 @@ Rule,Regel,module,Magento_Banner
 "Start Date",begindatum,module,Magento_Banner
 "End Date",einddatum,module,Magento_Banner
 Status,Status,module,Magento_Banner
-"Dynamic Block Properties","Dynamic Block Properties",module,Magento_Banner
-"Dynamic Block Name","Dynamic Block Name",module,Magento_Banner
+"Dynamic Block Properties","Eigenschappen van dynamisch blok",module,Magento_Banner
+"Dynamic Block Name","Dynamische bloknaam",module,Magento_Banner
 Active,Actief,module,Magento_Banner
 Inactive,Inactief,module,Magento_Banner
 "Applies To","geldt voor",module,Magento_Banner
-"Any Dynamic Block Type","Any Dynamic Block Type",module,Magento_Banner
-"Specified Dynamic Block Types","Specified Dynamic Block Types",module,Magento_Banner
+"Any Dynamic Block Type","Elk type dynamisch blok",module,Magento_Banner
+"Specified Dynamic Block Types","Specificeer dynamische blok soorten",module,Magento_Banner
 "Specify Types","specificeer types",module,Magento_Banner
-"Dynamic Block Information","Dynamic Block Information",module,Magento_Banner
-"Dynamic Block","Dynamic Block",module,Magento_Banner
-"Dynamic Block Type","Dynamic Block Type",module,Magento_Banner
+"Dynamic Block Information","Dynamische blokinformatie",module,Magento_Banner
+"Dynamic Block","Dynamisch blok",module,Magento_Banner
+"Dynamic Block Type","Dynamische bloksoorten",module,Magento_Banner
 Visibility,Zichtbaarheid,module,Magento_Banner
-"Are you sure you want to delete these dynamic blocks?","Are you sure you want to delete these dynamic blocks?",module,Magento_Banner
-"Related Dynamic Blocks","Related Dynamic Blocks",module,Magento_Banner
+"Are you sure you want to delete these dynamic blocks?","Weet u zeker dat u deze dynamische blokken wilt verwijderen?",module,Magento_Banner
+"Related Dynamic Blocks","Gerelateerde dynamische blokken",module,Magento_Banner
 Position,Positie,module,Magento_Banner
 "This rule no longer exists.","Deze regel bestaat niet langer.",module,Magento_Banner
-"You deleted the dynamic block.","You deleted the dynamic block.",module,Magento_Banner
-"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Something went wrong while deleting dynamic block data. Please review the action log and try again.",module,Magento_Banner
-"We cannot find a dynamic block to delete.","We cannot find a dynamic block to delete.",module,Magento_Banner
-"This dynamic block no longer exists.","This dynamic block no longer exists.",module,Magento_Banner
-"Edit Dynamic Block","Edit Dynamic Block",module,Magento_Banner
-"Please select a dynamic block(s).","Please select a dynamic block(s).",module,Magento_Banner
+"You deleted the dynamic block.","U heeft het dynamische blok verwijderd.",module,Magento_Banner
+"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Er is iets verkeerd gegaan bij het verwijderen van dynamische blokkendata. Controleer aub de actie logboek en probeer het nogmaals.",module,Magento_Banner
+"We cannot find a dynamic block to delete.","We kunnen een dynamisch blok vinden om te verwijderen.",module,Magento_Banner
+"This dynamic block no longer exists.","Dit dynamische blok bestaat niet langer.",module,Magento_Banner
+"Edit Dynamic Block","Wijzig dynamisch blok",module,Magento_Banner
+"Please select a dynamic block(s).","Selecteer één of meerdere dynamische blokken.",module,Magento_Banner
 "You deleted %1 record(s).","U heeft %1 record(s) verwijderd.",module,Magento_Banner
-"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.",module,Magento_Banner
-"This dynamic block does not exist.","This dynamic block does not exist.",module,Magento_Banner
-"You saved the dynamic block.","You saved the dynamic block.",module,Magento_Banner
-"We cannot save the dynamic block.","We cannot save the dynamic block.",module,Magento_Banner
+"Something went wrong while mass-deleting dynamic blocks. Please review the action log and try again.","Er ging iets mis tijdens het massa-verwijderen van dynamische blokken. Controleer het action logboek en probeer opnieuw.",module,Magento_Banner
+"This dynamic block does not exist.","Dit dynamisch blok bestaat niet.",module,Magento_Banner
+"You saved the dynamic block.","U heeft het dynamisch blok opgeslagen.",module,Magento_Banner
+"We cannot save the dynamic block.","We kunnen het dynamische blok niet opslaan.",module,Magento_Banner
 "Please enter a name.","Voer een naam in.",module,Magento_Banner
 "Please specify default content for at least one store view.","Geef standaard content op voor tenminste één winkelaanzicht.",module,Magento_Banner
 "-- None --","-- Niets --",module,Magento_Banner
@@ -1031,11 +1031,11 @@ Footer,Footer,module,Magento_Banner
 Header,Header,module,Magento_Banner
 "Left Column","Linker kolom",module,Magento_Banner
 "Right Column","Rechter kolom",module,Magento_Banner
-"Manage Dynamic Blocks","Manage Dynamic Blocks",module,Magento_Banner
-"Dynamic Blocks Rotator","Dynamic Blocks Rotator",module,Magento_Banner
-"Displays Specified or Promotion Dynamic Blocks","Displays Specified or Promotion Dynamic Blocks",module,Magento_Banner
-"Dynamic Blocks to Display","Dynamic Blocks to Display",module,Magento_Banner
-"Specified Dynamic Blocks","Specified Dynamic Blocks",module,Magento_Banner
+"Manage Dynamic Blocks","Beheer dynamische blokken",module,Magento_Banner
+"Dynamic Blocks Rotator","Beheer dynamische blokrotatie",module,Magento_Banner
+"Displays Specified or Promotion Dynamic Blocks","Laat aangewezen of promotie banners zien",module,Magento_Banner
+"Dynamic Blocks to Display","Dynamische blokken om weer te geven",module,Magento_Banner
+"Specified Dynamic Blocks","Opgegeven dynamische blokken",module,Magento_Banner
 "Shopping Cart Promotions Related","Rerelateerde winkelwagen promoties",module,Magento_Banner
 "Catalog Promotions Related","gerelateerd aan de promoties in de catalogus",module,Magento_Banner
 "Restrict by Dynamic Block Types","Restrict by Dynamic Block Types",module,Magento_Banner
@@ -1047,19 +1047,19 @@ Header,Header,module,Magento_Banner
 "Specify Dynamic Blocks","Specify Dynamic Blocks",module,Magento_Banner
 "Dynamic Block Template","Dynamic Block Template",module,Magento_Banner
 "Dynamic Block Inline Template","Dynamic Block Inline Template",module,Magento_Banner
-Name,Name,module,Magento_Banner
-"Status Label","Status Label",module,Magento_Banner
-"General Information","General Information",module,Magento_Banner
-Back,Back,module,Magento_Banner
-"Enable Dynamic Block","Enable Dynamic Block",module,Magento_Banner
-"Use Default Value","Use Default Value",module,Magento_Banner
-"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Cart price rules allows you to setup promotions for items that are in the shopping cart.",module,Magento_Banner
-"Add Cart Price Rules","Add Cart Price Rules",module,Magento_Banner
-"Related Catalog Price Rule","Related Catalog Price Rule",module,Magento_Banner
-"Catalog price rules allows you to setup promotions for an items in catalog.","Catalog price rules allows you to setup promotions for an items in catalog.",module,Magento_Banner
-Cancel,Cancel,module,Magento_Banner
-"Add Selected","Add Selected",module,Magento_Banner
-Remove,Remove,module,Magento_Banner
+Name,Naam,module,Magento_Banner
+"Status Label",Statuslabel,module,Magento_Banner
+"General Information","Algemene informatie",module,Magento_Banner
+Back,Terug,module,Magento_Banner
+"Enable Dynamic Block","Schakel Dynamisch Blok In",module,Magento_Banner
+"Use Default Value","Standaardwaarde gebruiken",module,Magento_Banner
+"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Winkelwagen prijsregels laat u promoties instellen voor artikelen die zich in het winkelwagentje bevinden.",module,Magento_Banner
+"Add Cart Price Rules","Prijsregels voor winkelwagen toevoegen",module,Magento_Banner
+"Related Catalog Price Rule","Gerelateerde catalogus Prijsregel",module,Magento_Banner
+"Catalog price rules allows you to setup promotions for an items in catalog.","Met catalogusprijsregels kunt u promoties instellen voor items in de catalogus.",module,Magento_Banner
+Cancel,Annuleer,module,Magento_Banner
+"Add Selected","Geselecteerde toevoegen",module,Magento_Banner
+Remove,Verwijder,module,Magento_Banner
 "All Segments","All Segments",module,Magento_BannerCustomerSegment
 "Customer Segment","Customer Segment",module,Magento_BannerCustomerSegment
 Country,Land,module,Magento_Braintree
@@ -1067,7 +1067,7 @@ Country,Land,module,Magento_Braintree
 "Add Rule","Regel toevoegen",module,Magento_Braintree
 "Braintree Settlement Report","Braintree Settlement Report",module,Magento_Braintree
 "Sorry, but something went wrong","Er ging iets mis",module,Magento_Braintree
-"Checkout failed to initialize. Verify and try again.","Checkout failed to initialize. Verify and try again.",module,Magento_Braintree
+"Checkout failed to initialize. Verify and try again.","Checkout kan niet worden geïnitialiseerd. Controleer en probeer het opnieuw.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","Geen autorisatietransactie om inningsverzoek verzoek te plaatsen.",module,Magento_Braintree
 "Braintree error response.","Braintree foutreactie.",module,Magento_Braintree
 "Payment method nonce can't be retrieved.","Betaalmethode encryptie kan niet worden opgehaald.",module,Magento_Braintree
@@ -1079,8 +1079,8 @@ Authorize,Autoriseer,module,Magento_Braintree
 ending,einde,module,Magento_Braintree
 expires,verloopt,module,Magento_Braintree
 PayPal,PayPal,module,Magento_Braintree
-"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Braintree
-"Transaction was failed.","Transaction was failed.",module,Magento_Braintree
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","De bestelling is niet geplaatst. Ga eerst akkoord met de algemene voorwaarden en probeer vervolgens uw bestelling opnieuw te plaatsen.",module,Magento_Braintree
+"Transaction was failed.","Transactie is mislukt.",module,Magento_Braintree
 "Credit Card Type",Creditcard-maatschappij,module,Magento_Braintree
 "Credit Card Number",Creditcard-nummer,module,Magento_Braintree
 "Please, enter valid Credit Card Number","Vul een geldig creditcard-nummer in",module,Magento_Braintree
@@ -1112,10 +1112,10 @@ Payment,Betaling,module,Magento_Braintree
 "Transaction has already been completely refunded.","Transaction has already been completely refunded.",module,Magento_Braintree
 "Payment instrument type is not accepted by this merchant account.","Payment instrument type is not accepted by this merchant account.",module,Magento_Braintree
 "Processor authorization code cannot be set unless for a voice authorization.","Processor authorization code cannot be set unless for a voice authorization.",module,Magento_Braintree
-"Refund amount is too large.","Refund amount is too large.",module,Magento_Braintree
+"Refund amount is too large.","Restitutiebedrag is te groot.",module,Magento_Braintree
 "Settlement amount is too large.","Settlement amount is too large.",module,Magento_Braintree
 "Cannot provide a billing address unless also providing a credit card.","Er kan geen factuuradres worden opgegeven tenzij er ook een creditcard wordt opgegeven.",module,Magento_Braintree
-"Cannot refund a transaction with a suspended merchant account.","Cannot refund a transaction with a suspended merchant account.",module,Magento_Braintree
+"Cannot refund a transaction with a suspended merchant account.","Kan een transactie met een geblokkeerd verkopersaccount niet terugbetalen.",module,Magento_Braintree
 "Merchant account does not support refunds.","Merchant account does not support refunds.",module,Magento_Braintree
 "Cannot refund a transaction transaction in settling status on this merchant account. Try again after the transaction has settled.","Cannot refund a transaction transaction in settling status on this merchant account. Try again after the transaction has settled.",module,Magento_Braintree
 "PayPal is not enabled for your merchant account.","PayPal is not enabled for your merchant account.",module,Magento_Braintree
@@ -1175,9 +1175,9 @@ URL,URL,module,Magento_Braintree
 "Credit card number is invalid.","Het kaartnummer is ongeldig.",module,Magento_Braintree
 "Credit card number must be 12-19 digits.","Credit card number must be 12-19 digits.",module,Magento_Braintree
 "Cardholder name is too long.","Kaarthouder naam is te lang.",module,Magento_Braintree
-"CVV verification failed.","CVV verification failed.",module,Magento_Braintree
-"Postal code verification failed.","Postal code verification failed.",module,Magento_Braintree
-"Credit card number is prohibited.","Credit card number is prohibited.",module,Magento_Braintree
+"CVV verification failed.","CVV-verificatie is mislukt.",module,Magento_Braintree
+"Postal code verification failed.","Postcode-verificatie is mislukt.",module,Magento_Braintree
+"Credit card number is prohibited.","Credit cardnummer is verboden.",module,Magento_Braintree
 "Addresses must have at least one field filled in.","Addresses must have at least one field filled in.",module,Magento_Braintree
 "Company is too long.","Bedrijfsnaam is te lang.",module,Magento_Braintree
 "Extended address is too long.","Uitgebreide adres is te lang.",module,Magento_Braintree
@@ -1452,7 +1452,7 @@ Always,Altijd,module,Magento_Captcha
 "Please enter the letters and numbers from the image","Please enter the letters and numbers from the image",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>Let op</strong>: Captcha is hoofdletter gevoelig.",module,Magento_Captcha
 "Reload captcha","CAPTCHA herladen",module,Magento_Captcha
-"Please type the letters and numbers below","Please type the letters and numbers below",module,Magento_Captcha
+"Please type the letters and numbers below","Typ hieronder de letters en cijfers",module,Magento_Captcha
 "Attention: Captcha is case sensitive.","Opgelet: Captcha is hoofdletter gevoelig.",module,Magento_Captcha
 CAPTCHA,CAPTCHA,module,Magento_Captcha
 "Enable CAPTCHA in Admin","CAPTCHA activeren in admin",module,Magento_Captcha
@@ -1465,7 +1465,7 @@ Forms,Formulieren,module,Magento_Captcha
 "Number of Symbols","Aantal symbolen",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","Geef maximaal 8 symbolen op. Range mogelijk ( bijv 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","Symbolen gebruikt in CAPTCHA",module,Magento_Captcha
-"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.",module,Magento_Captcha
+"Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.","Gebruik alleen letters (a-z of A-Z) of cijfers (0-9) in dit veld. Spaties of andere tekens zijn niet toegestaan.<br />Soortgelijke tekens (bijvoorbeeld ""i"", ""l"", ""1"") verkleinen de kans op correcte herkenning door de klant.",module,Magento_Captcha
 "Case Sensitive","Hoofdletter gevoelig",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","CAPTCHA op Storefront inschakelen",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA voor ""Account aanmaken"" en ""Wachtwoord vergeten"" altijd ingeschakeld indien gekozen.",module,Magento_Captcha
@@ -1802,12 +1802,12 @@ Disabled,Uitgeschakeld,module,Magento_Catalog
 "Attribute Set already exists.","Attribuutset bestaat al.",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","Bestand %1 kon niet gekopieerd worden. Verwijder media met niet-bestaande afbeeldingen en probeer het opnieuw.",module,Magento_Catalog
 "The image content is invalid. Verify the content and try again.","The image content is invalid. Verify the content and try again.",module,Magento_Catalog
-"The product can't be saved.","The product can't be saved.",module,Magento_Catalog
+"The product can't be saved.","Het product kan niet worden opgeslagen.",module,Magento_Catalog
 "The new media gallery entry failed to save.","The new media gallery entry failed to save.",module,Magento_Catalog
 "No image with the provided ID was found. Verify the ID and try again.","No image with the provided ID was found. Verify the ID and try again.",module,Magento_Catalog
 "The product doesn't exist. Verify and try again.","The product doesn't exist. Verify and try again.",module,Magento_Catalog
 "The image doesn't exist. Verify and try again.","The image doesn't exist. Verify and try again.",module,Magento_Catalog
-"The image doesn't exist.","The image doesn't exist.",module,Magento_Catalog
+"The image doesn't exist.","De afbeelding bestaat niet.",module,Magento_Catalog
 "The image type for the file is invalid. Enter the correct image type and try again.","The image type for the file is invalid. Enter the correct image type and try again.",module,Magento_Catalog
 "The ""%1"" file couldn't be moved.","The ""%1"" file couldn't be moved.",module,Magento_Catalog
 "Can't get information about the picture: %1","Can't get information about the picture: %1",module,Magento_Catalog
@@ -1871,7 +1871,7 @@ px.,px.,module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\AbstractType","%1 breidt \Magento\Catalog\Model\Product\Type\AbstractType niet uit",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","%1 breidt \Magento\Catalog\Model\Product\Type\Price niet uit",module,Magento_Catalog
 "Not Visible Individually","Niet individueel zichtbaar",module,Magento_Catalog
-Search,Zoek,module,Magento_Catalog
+Search,Zoeken,module,Magento_Catalog
 "Catalog, Search","Catalogus, zoeken",module,Magento_Catalog
 "Something went wrong while removing products from the websites.","Er ging iets fout tijdens het verwijderen van producten van de websites.",module,Magento_Catalog
 "Something went wrong while adding products to websites.","Er ging iets fout tijdens het toevoegen van producten aan websites.",module,Magento_Catalog
@@ -1914,8 +1914,8 @@ fl,fl,module,Magento_Catalog
 Images,Afbeeldingen,module,Magento_Catalog
 Select...,Selecteer...,module,Magento_Catalog
 "Category with ID: %s doesn't exist","Category with ID: %s doesn't exist",module,Magento_Catalog
-"Product Name or SKU","Product Name or SKU",module,Magento_Catalog
-"Start typing to find products","Start typing to find products",module,Magento_Catalog
+"Product Name or SKU","Productnaam of SKU",module,Magento_Catalog
+"Start typing to find products","Begin met typen om producten te vinden",module,Magento_Catalog
 "Product with ID: %s doesn't exist","Product with ID: %s doesn't exist",module,Magento_Catalog
 "Advanced Pricing","Geavanceerde prijzen",module,Magento_Catalog
 "Customer Group Price","Klantgroep prijs",module,Magento_Catalog
@@ -2358,7 +2358,7 @@ Edit,Bewerken,module,Magento_CatalogEvent
 "currentPage value %1 specified is greater than the number of pages available.","currentPage value %1 specified is greater than the number of pages available.",module,Magento_CatalogGraphQl
 """id for category should be specified","""id for category should be specified",module,Magento_CatalogGraphQl
 "No child sku found for product link.","No child sku found for product link.",module,Magento_CatalogGraphQl
-"'search' or 'filter' input argument is required.","'search' or 'filter' input argument is required.",module,Magento_CatalogGraphQl
+"'search' or 'filter' input argument is required.","'zoeken' of 'filter' invoerargument is vereist.",module,Magento_CatalogGraphQl
 "SimpleProduct type not defined in schema.","SimpleProduct type not defined in schema.",module,Magento_CatalogGraphQl
 "Entity type model '%1' is not found","Type entiteitsmodel '%1' is niet gevonden",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteitstype model moet onderdeel zijn van\Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
@@ -2632,8 +2632,8 @@ List,Lijst,module,Magento_CatalogSearch
 Relevance,Relevantie,module,Magento_CatalogSearch
 "Search results for: '%1'","Zoekresultaten voor: ‘%1’",module,Magento_CatalogSearch
 "Minimum Search query length is %1","Minimale lengte zoekopdracht is %1",module,Magento_CatalogSearch
-"Search term is empty","Search term is empty",module,Magento_CatalogSearch
-"Enter a search term and try again.","Enter a search term and try again.",module,Magento_CatalogSearch
+"Search term is empty","Zoekterm is leeg",module,Magento_CatalogSearch
+"Enter a search term and try again.","Voer een zoekterm in en probeer het opnieuw.",module,Magento_CatalogSearch
 "%1 and greater","%1 en groter",module,Magento_CatalogSearch
 "up to %1","tot %1",module,Magento_CatalogSearch
 ". "" which is inconsistent with state of scope resolver""",". "" welke niet consistent is met de status van de scope resolver""",module,Magento_CatalogSearch
@@ -2644,7 +2644,7 @@ Category,Categorie,module,Magento_CatalogSearch
 "The bucket doesn't exist.","The bucket doesn't exist.",module,Magento_CatalogSearch
 Product,Product,module,Magento_CatalogSearch
 "Search Settings",Zoekinstellingen,module,Magento_CatalogSearch
-Search,Zoek,module,Magento_CatalogSearch
+Search,Zoeken,module,Magento_CatalogSearch
 "Advanced Search","Geavanceerd zoeken",module,Magento_CatalogSearch
 "<strong>%1 item</strong> were found using the following search criteria","<strong>%1 artikel(en)</strong> gevonden met de volgende zoekopdracht",module,Magento_CatalogSearch
 "<strong>%1 items</strong> were found using the following search criteria","<strong>%1 product(en)</strong> gevonden met de volgende zoekopdracht",module,Magento_CatalogSearch
@@ -2658,7 +2658,7 @@ name,naam,module,Magento_CatalogSearch
 "Popular Search Terms","Populaire zoekwoorden",module,Magento_CatalogSearch
 "Minimal Query Length","Minimale lengte zoekopdracht",module,Magento_CatalogSearch
 "Maximum Query Length","Maximale lengte zoekopdracht",module,Magento_CatalogSearch
-"Number of top search results to cache","Number of top search results to cache",module,Magento_CatalogSearch
+"Number of top search results to cache","Aantal top zoekresultaten naar cache",module,Magento_CatalogSearch
 "Autocomplete Limit","Autocomplete Limit",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Product 'fulltext' zoekindex",module,Magento_CatalogSearch
 "The ProductSku is empty. Set the ProductSku and try again.","The ProductSku is empty. Set the ProductSku and try again.",module,Magento_CatalogStaging
@@ -2909,7 +2909,7 @@ Remove,Verwijder,module,Magento_Checkout
 "Ship To:","Verzenden naar:",module,Magento_Checkout
 edit,bewerken,module,Magento_Checkout
 "Order Summary","Overzicht van bestelling",module,Magento_Checkout
-"View and Edit Cart","Bekijk en bewerk winkelwagen",module,Magento_Checkout
+"View and Edit Cart","Bekijk en bewerk Winkelwagen",module,Magento_Checkout
 "View Details","Bekijk details",module,Magento_Checkout
 Field,Veld,module,Magento_Checkout
 "is required.","is verplicht.",module,Magento_Checkout
@@ -3001,9 +3001,9 @@ Close,Sluiten,module,Magento_CheckoutAgreements
 Back,Terug,module,Magento_Cms
 "Delete Block","Blok verwijderen",module,Magento_Cms
 "Are you sure you want to do this?","Weet u zeker dat u dit wilt doen?",module,Magento_Cms
-Save,Save,module,Magento_Cms
-"Save & Duplicate","Save & Duplicate",module,Magento_Cms
-"Save & Close","Save & Close",module,Magento_Cms
+Save,Opslaan,module,Magento_Cms
+"Save & Duplicate","Opslaan & Dupliceren",module,Magento_Cms
+"Save & Close","Opslaan & Sluiten",module,Magento_Cms
 ID,ID,module,Magento_Cms
 Title,Titel,module,Magento_Cms
 Identifier,Identifier,module,Magento_Cms
@@ -3025,7 +3025,7 @@ Cancel,Cancel,module,Magento_Cms
 "Delete Folder","Map verwijderen",module,Magento_Cms
 "Delete Selected","Delete Selected",module,Magento_Cms
 "Create Folder","Create Folder",module,Magento_Cms
-"Add Selected","Add Selected",module,Magento_Cms
+"Add Selected","Geselecteerde toevoegen",module,Magento_Cms
 "New Folder Name:","Nieuwe mapnaam",module,Magento_Cms
 "Are you sure you want to delete this folder?","Weet u zeker dat u deze map wilt verwijderen?",module,Magento_Cms
 "Are you sure you want to delete this file?","Weet u zeker dat u dit bestand wilt verwijderen?",module,Magento_Cms
@@ -3138,7 +3138,7 @@ Block,Blok,module,Magento_Cms
 "Enable Page","Pagina inschakelen",module,Magento_Cms
 Content,inhoud,module,Magento_Cms
 "Content Heading","Content Titel",module,Magento_Cms
-"Search Engine Optimization","Search Engine Optimization",module,Magento_Cms
+"Search Engine Optimization","Zoekmachine-optimalisatie (SEO)",module,Magento_Cms
 "Meta Title","Meta titel",module,Magento_Cms
 "Meta Keywords",Meta-keywords,module,Magento_Cms
 "Meta Description",Meta-omschrijving,module,Magento_Cms
@@ -3444,7 +3444,7 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 "Remove Product","Product verwijderen",module,Magento_ConfigurableProduct
 "Create Product Configurations","Productconfiguraties aanmaken",module,Magento_ConfigurableProduct
 Cancel,Annuleer,module,Magento_ConfigurableProduct
-"As low as","As low as",module,Magento_ConfigurableProduct
+"As low as",Slechts,module,Magento_ConfigurableProduct
 "Regular Price","Normale prijs",module,Magento_ConfigurableProduct
 "New Product Review","Nieuwe Productreview",module,Magento_ConfigurableProduct
 "Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken.",module,Magento_ConfigurableProduct
@@ -5023,7 +5023,7 @@ Dropdown,Dropdown,module,Magento_Eav
 "Invalid entity_type specified: %1","Invalid entity_type specified: %1",module,Magento_EavGraphQl
 "Missing %1 for the input %2.","Missing %1 for the input %2.",module,Magento_EavGraphQl
 "Type %1 has no internal representation declared.","Type %1 has no internal representation declared.",module,Magento_EavGraphQl
-"The search failed because of a search engine misconfiguration.","The search failed because of a search engine misconfiguration.",module,Magento_Elasticsearch
+"The search failed because of a search engine misconfiguration.","De zoekactie is mislukt vanwege een zoek motor onjuiste configuratie.",module,Magento_Elasticsearch
 "There is no such data mapper ""%1"" for interface %2","Er is geen dergelijke gegevens mapper ""%1"" voor interface %2",module,Magento_Elasticsearch
 "Data mapper ""%1"" must implement interface %2","Mapper van de gegevens ""%1"" moet interface %2 implementeren",module,Magento_Elasticsearch
 "Could not ping search engine: %1","Kan niet pingen naar zoekmachine: %1",module,Magento_Elasticsearch
@@ -5483,7 +5483,7 @@ End,Einde,module,Magento_GiftCardAccount
 "No item with the provided ID was found in the Cart. Verify the ID and try again.","No item with the provided ID was found in the Cart. Verify the ID and try again.",module,Magento_GiftMessage
 "No product with the ""%1"" itemId exists in the Cart. Verify your information and try again.","No product with the ""%1"" itemId exists in the Cart. Verify your information and try again.",module,Magento_GiftMessage
 "No item with the provided ID was found in the Order. Verify the ID and try again.","No item with the provided ID was found in the Order. Verify the ID and try again.",module,Magento_GiftMessage
-"No item with the provided ID was found in the Order, or a gift message isn't allowed. Verify and try again.","No item with the provided ID was found in the Order, or a gift message isn't allowed. Verify and try again.",module,Magento_GiftMessage
+"No item with the provided ID was found in the Order, or a gift message isn't allowed. Verify and try again.","Er is geen artikel met de opgegeven ID gevonden in de bestelling of een cadeaubericht is niet toegestaan. Controleer en probeer het opnieuw.",module,Magento_GiftMessage
 "The gift message couldn't be added to the ""%1"" order.","The gift message couldn't be added to the ""%1"" order.",module,Magento_GiftMessage
 "Either no order exists with this ID or gift message isn't allowed.","Either no order exists with this ID or gift message isn't allowed.",module,Magento_GiftMessage
 "No order exists with this ID. Verify your information and try again.","No order exists with this ID. Verify your information and try again.",module,Magento_GiftMessage
@@ -9336,7 +9336,7 @@ No,Nee,module,Magento_Sales
 "New Order RSS","Nieuwe bestellingen RSS",module,Magento_Sales
 Subtotal,Subtotaal,module,Magento_Sales
 "Shipping & Handling","Verzending & verwerking",module,Magento_Sales
-"Discount (%1)","Korting (%s)",module,Magento_Sales
+"Discount (%1)","Korting (%1)",module,Magento_Sales
 Discount,Korting,module,Magento_Sales
 "Grand Total",Eindtotaal,module,Magento_Sales
 Back,Terug,module,Magento_Sales
@@ -12116,7 +12116,7 @@ message,bericht,module,Magento_UrlRewrite
 "Custom storage message","Custom opslag bericht",module,Magento_UrlRewrite
 "Select Category","Selecteer categorie",module,Magento_UrlRewrite
 "The value specified in the URL Key field would generate a URL that already exists.","The value specified in the URL Key field would generate a URL that already exists.",module,Magento_UrlRewrite
-"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:",module,Magento_UrlRewrite
+"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","Om dit op te lossen kunt u of de URL-key aanpassen (in het Zoekmachine optimalisatie gedeelte) naar een unieke waarde, of u kunt de Request-path velden aanpassen in alle onderstaande locaties:",module,Magento_UrlRewrite
 Action,Actie,module,Magento_UrlRewrite
 Edit,Bewerken,module,Magento_UrlRewrite
 Back,Terug,module,Magento_User
