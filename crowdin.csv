@@ -1044,7 +1044,7 @@ Header,Header,module,Magento_Banner
 "One at the time, Random","een tegelijk, lukraak",module,Magento_Banner
 "One at the time, Series","een tegelijk, in een serie",module,Magento_Banner
 "One at the time, Shuffle","een tegelijk, door elkaar",module,Magento_Banner
-"Specify Dynamic Blocks","Specify Dynamic Blocks",module,Magento_Banner
+"Specify Dynamic Blocks","Opgegeven dynamische blokken",module,Magento_Banner
 "Dynamic Block Template","Dynamic Block Template",module,Magento_Banner
 "Dynamic Block Inline Template","Dynamic Block Inline Template",module,Magento_Banner
 Name,Naam,module,Magento_Banner
@@ -2800,15 +2800,15 @@ State/Province,Staat/provincie,module,Magento_Checkout
 "We can't update the item right now.","Het product kon niet worden bijgewerkt.",module,Magento_Checkout
 "We can't update the shopping cart.","We kunnen uw winkelwagen niet bijwerken.",module,Magento_Checkout
 "One-page checkout is turned off.","One-page checkout is uitgeschakeld.",module,Magento_Checkout
-"Guest checkout is disabled.","Gast kassa is uitgeschakeld.",module,Magento_Checkout
+"Guest checkout is disabled.","Gast bestellingen zijn uitgeschakeld.",module,Magento_Checkout
 Checkout,Afrekenen,module,Magento_Checkout
 "Page not found.","Pagina niet gevonden.",module,Magento_Checkout
-"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Checkout
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","De bestelling is niet geplaatst. Ga eerst akkoord met de algemene voorwaarden en probeer vervolgens uw bestelling opnieuw te plaatsen.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","Er ging iets mis tijdens het verwerken van uw bestelling. Probeer het later nog eens.",module,Magento_Checkout
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 breidt \Magento\Checkout\CustomerData\ItemInterface niet uit",module,Magento_Checkout
 "Payment Method",Betaalmethode,module,Magento_Checkout
 "Payment Page",Betaalpagina,module,Magento_Checkout
-"The product wasn't found. Verify the product and try again.","The product wasn't found. Verify the product and try again.",module,Magento_Checkout
+"The product wasn't found. Verify the product and try again.","Het product is niet gevonden. Controleer het product en probeer het opnieuw.",module,Magento_Checkout
 "We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte.",module,Magento_Checkout
 "The product does not exist.","Het artikel bestaat niet.",module,Magento_Checkout
 "We don't have some of the products you want.","We hebben niet alle producten die u wenst.",module,Magento_Checkout
@@ -2820,7 +2820,7 @@ Checkout,Afrekenen,module,Magento_Checkout
 "Display item quantities","Productaantallen tonen",module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.","Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.",module,Magento_Checkout
 "A server error stopped your order from being placed. Please try to place your order again.","A server error stopped your order from being placed. Please try to place your order again.",module,Magento_Checkout
-"The shipping address is missing. Set the address and try again.","The shipping address is missing. Set the address and try again.",module,Magento_Checkout
+"The shipping address is missing. Set the address and try again.","Het verzendadres ontbreekt. Geeft het adres op en probeer het opnieuw.",module,Magento_Checkout
 "The shipping information was unable to be saved. Verify the input data and try again.","The shipping information was unable to be saved. Verify the input data and try again.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Vervoerder met dergelijke methode niet gevonden: %1, %2",module,Magento_Checkout
 "The shipping method can't be set for an empty cart. Add an item to cart and try again.","The shipping method can't be set for an empty cart. Add an item to cart and try again.",module,Magento_Checkout
@@ -2909,7 +2909,7 @@ Remove,Verwijder,module,Magento_Checkout
 "Ship To:","Verzenden naar:",module,Magento_Checkout
 edit,bewerken,module,Magento_Checkout
 "Order Summary","Overzicht van bestelling",module,Magento_Checkout
-"View and Edit Cart","Bekijk en bewerk Winkelwagen",module,Magento_Checkout
+"View and Edit Cart","Bekijk en bewerk winkelwagen",module,Magento_Checkout
 "View Details","Bekijk details",module,Magento_Checkout
 Field,Veld,module,Magento_Checkout
 "is required.","is verplicht.",module,Magento_Checkout
@@ -2922,7 +2922,7 @@ Example:,Voorbeeld:,module,Magento_Checkout
 "Select a new payment method","Selecteer een nieuwe betaalmethode",module,Magento_Checkout
 Shipping,Aflevering,module,Magento_Checkout
 "Save Address","Adres opslaan",module,Magento_Checkout
-"The shipping method is missing. Select the shipping method and try again.","The shipping method is missing. Select the shipping method and try again.",module,Magento_Checkout
+"The shipping method is missing. Select the shipping method and try again.","De verzendmethode ontbreekt. Selecteer een verzendmethode en probeer het opnieuw.",module,Magento_Checkout
 "Checkout Options",Betaalopties,module,Magento_Checkout
 "Enable Onepage Checkout","OnePageCheckout (standaard Checkout) activeren",module,Magento_Checkout
 "Allow Guest Checkout","Afrekenen als gast toestaan",module,Magento_Checkout
@@ -2953,6 +2953,7 @@ Payment,Betaling,module,Magento_Checkout
 "Not yet calculated","Nog niet berekend",module,Magento_Checkout
 "We received your order!","Wij hebben uw bestelling ontvangen!",module,Magento_Checkout
 "Thank you for your purchase!","Bedankt voor uw bestelling!",module,Magento_Checkout
+"Please specify a shipping method.","Geef een verzendmethode op.",module,Magento_Checkout
 "Terms and Conditions","Algemene Voorwaarden",module,Magento_CheckoutAgreements
 "Add New Condition","Nieuwe voorwaarde toevoegen",module,Magento_CheckoutAgreements
 "Save Condition","Algemene Voorwaarden opslaan",module,Magento_CheckoutAgreements
@@ -3444,7 +3445,7 @@ U moet een een simpel product aanmaken voor elke configuratie (Ex: een product v
 "Remove Product","Product verwijderen",module,Magento_ConfigurableProduct
 "Create Product Configurations","Productconfiguraties aanmaken",module,Magento_ConfigurableProduct
 Cancel,Annuleer,module,Magento_ConfigurableProduct
-"As low as",Slechts,module,Magento_ConfigurableProduct
+"As low as",Vanaf,module,Magento_ConfigurableProduct
 "Regular Price","Normale prijs",module,Magento_ConfigurableProduct
 "New Product Review","Nieuwe Productreview",module,Magento_ConfigurableProduct
 "Here are the products you're about to create.","Overzicht van de producten die u gaat aanmaken.",module,Magento_ConfigurableProduct
@@ -8072,6 +8073,7 @@ Tax,BTW,module,Magento_Quote
 error345,error345,module,Magento_Quote
 Carts,Winkelwagens,module,Magento_Quote
 "Manage carts","Winkelwagens beheren",module,Magento_Quote
+"Please specify a shipping method.","Geef een verzendmethode op.",module,Magento_Quote
 "It is impossible to log user action","It is impossible to log user action",module,Magento_ReleaseNotification
 "Error message","Error message",module,Magento_ReleaseNotification
 "An error occurred while logging process.","An error occurred while logging process.",module,Magento_ReleaseNotification
@@ -9976,6 +9978,7 @@ Created,Aangemaakt,module,Magento_Sales
 "PDF Shipments",PDF-zendingen,module,Magento_Sales
 "PDF Creditmemos",PDF-Creditfacturen,module,Magento_Sales
 Refunds,Terugbetalingen,module,Magento_Sales
+"Please specify a shipping method.","Selecteer een aflevermethode.",module,Magento_Sales
 "Move to Archive","Verplaats naar Archief",module,Magento_SalesArchive
 "Move to Order Management","Verplaats naar Order Beheer",module,Magento_SalesArchive
 "We have archived the order.","We hebben de bestelling gearchiveerd.",module,Magento_SalesArchive
