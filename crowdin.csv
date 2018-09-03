@@ -312,11 +312,11 @@ Retry,"Opnieuw proberen",module,Magento_AsynchronousOperations
 "'Action Details - #' .","'Actie Details - #'.",module,Magento_AsynchronousOperations
 "%1 item(s) have been scheduled for update.""","%1 object(en) zijn gepland voor update.""",module,Magento_AsynchronousOperations
 "Bulk Actions Log","Bulk acties Log",module,Magento_AsynchronousOperations
-"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid not exist",module,Magento_AsynchronousOperations
-"Topic %1","Topic %1",module,Magento_AsynchronousOperations
-"Something went wrong while processing the request.","Something went wrong while processing the request.",module,Magento_AsynchronousOperations
-"Error processing %key element of input data","Error processing %key element of input data",module,Magento_AsynchronousOperations
-"Sorry, something went wrong during product prices update. Please see log for details.","Sorry, something went wrong during product prices update. Please see log for details.",module,Magento_AsynchronousOperations
+"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid bestaat niet",module,Magento_AsynchronousOperations
+"Topic %1","Onderwerp %1",module,Magento_AsynchronousOperations
+"Something went wrong while processing the request.","Er ging iets verkeerd tijdens het verwerken van het verzoek.",module,Magento_AsynchronousOperations
+"Error processing %key element of input data","Fout bij verwerking data van element %key",module,Magento_AsynchronousOperations
+"Sorry, something went wrong during product prices update. Please see log for details.","Excuus, er ging iets verkeerd tijdens het bijwerken van productprijzen. Bekijk de logboeken voor meer details.",module,Magento_AsynchronousOperations
 "%1 item(s) are currently being updated.","%1 item(s) worden momenteel bijgewerkt.",module,Magento_AsynchronousOperations
 "Task ""%1"":","Taak ""%1"":",module,Magento_AsynchronousOperations
 "%1 item(s) have been scheduled for update.","%1 object(en) zijn gepland voor update.",module,Magento_AsynchronousOperations
@@ -331,9 +331,9 @@ Dismiss,Afwijzen,module,Magento_AsynchronousOperations
 ", %1 failed to update",", %1 bijwerken mislukt",module,Magento_AsynchronousOperations
 "Something went wrong.","Er ging iets mis.",module,Magento_AsynchronousOperations
 "Action Log","Actie logboek",module,Magento_AsynchronousOperations
-Report,Report,module,Magento_AsynchronousOperations
+Report,Verslag,module,Magento_AsynchronousOperations
 "Bulk Actions",Bulk-acties,module,Magento_AsynchronousOperations
-"Action Logs","Action Logs",module,Magento_AsynchronousOperations
+"Action Logs","Actie logboek",module,Magento_AsynchronousOperations
 "Days Saved in Log","Dagen opgeslagen in logboek",module,Magento_AsynchronousOperations
 "Description of Operation","Beschrijving van werking",module,Magento_AsynchronousOperations
 Summary,Samenvatting,module,Magento_AsynchronousOperations
@@ -419,6 +419,15 @@ Debug,Debug,module,Magento_Authorizenet
 "Minimum Order Total","Minimale bestelwaarde",module,Magento_Authorizenet
 "Maximum Order Total","Maximale bestelwaarde",module,Magento_Authorizenet
 "Sort Order",Sorteervolgorde,module,Magento_Authorizenet
+Close,Sluiten,module,Magento_B2b
+options,opties,module,Magento_B2b
+"Select all","Alles selecteren",module,Magento_B2b
+"Deselect all","Alles deselecteren",module,Magento_B2b
+Cancel,Annuleer,module,Magento_B2b
+Done,Klaar,module,Magento_B2b
+"Please Select","Selecteer a.u.b.",module,Magento_B2b
+"%s of %s selected","%s van %s geselecteerd",module,Magento_B2b
+"B2B Features","B2B functies",module,Magento_B2b
 "Invalid Form Key. Please refresh the page.","Ongeldige formuliersleutel. Gelieve de pagina te vernieuwen.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Er is een incorrecte Secret Key ingevoerd. Ververs de pagina.",module,Magento_Backend
 "Cache Storage Management","Beheer cachegeheugen",module,Magento_Backend
@@ -842,7 +851,7 @@ Security,Beveiliging,module,Magento_Backend
 Web,Web,module,Magento_Backend
 "Url Options",URL-opties,module,Magento_Backend
 "Add Store Code to Urls","Winkelcode aan URL's toevoegen",module,Magento_Backend
-"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).","<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).",module,Magento_Backend
+"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).",module,Magento_Backend
 "Auto-redirect to Base URL","Auto-doorverwijzing naar de Basis URL",module,Magento_Backend
 "Search Engine Optimization","Zoekmachine-optimalisatie (SEO)",module,Magento_Backend
 "Use Web Server Rewrites","Gebruik webserver-rewrites",module,Magento_Backend
@@ -881,7 +890,7 @@ Tags,tags,module,Magento_Backend
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 Error</h1><p>Pagina niet gevonden.</p>",module,Magento_Backend
 "Community Edition","Community Edition",module,Magento_Backend
 "Default Theme","Standaard thema",module,Magento_Backend
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Als geen waarde is opgegeven, wordt de systeemstandaard is gebruikt. De systeemstandaard kan worden gewijzigd door extensies van derden.",module,Magento_Backend
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","If no value is specified, the system default is used. The system default may be modified by third-party extensions.",module,Magento_Backend
 "Applied Theme","Toegepast thema",module,Magento_Backend
 "Design Rule","Ontwerp regel",module,Magento_Backend
 "User Agent Rules","Gebruikersagent regels",module,Magento_Backend
@@ -1045,8 +1054,8 @@ Header,Header,module,Magento_Banner
 "One at the time, Series","een tegelijk, in een serie",module,Magento_Banner
 "One at the time, Shuffle","een tegelijk, door elkaar",module,Magento_Banner
 "Specify Dynamic Blocks","Opgegeven dynamische blokken",module,Magento_Banner
-"Dynamic Block Template","Dynamic Block Template",module,Magento_Banner
-"Dynamic Block Inline Template","Dynamic Block Inline Template",module,Magento_Banner
+"Dynamic Block Template","Template dynamisch blok",module,Magento_Banner
+"Dynamic Block Inline Template","Inline template dynamisch blok",module,Magento_Banner
 Name,Naam,module,Magento_Banner
 "Status Label",Statuslabel,module,Magento_Banner
 "General Information","Algemene informatie",module,Magento_Banner
@@ -1060,8 +1069,8 @@ Back,Terug,module,Magento_Banner
 Cancel,Annuleer,module,Magento_Banner
 "Add Selected","Geselecteerde toevoegen",module,Magento_Banner
 Remove,Verwijder,module,Magento_Banner
-"All Segments","All Segments",module,Magento_BannerCustomerSegment
-"Customer Segment","Customer Segment",module,Magento_BannerCustomerSegment
+"All Segments","Alle segmenten",module,Magento_BannerCustomerSegment
+"Customer Segment",Klantsegmenten,module,Magento_BannerCustomerSegment
 Country,Land,module,Magento_Braintree
 "Allowed Credit Card Types","Toegestane creditcard typen",module,Magento_Braintree
 "Add Rule","Regel toevoegen",module,Magento_Braintree
@@ -1069,6 +1078,7 @@ Country,Land,module,Magento_Braintree
 "Sorry, but something went wrong","Er ging iets mis",module,Magento_Braintree
 "Checkout failed to initialize. Verify and try again.","Checkout kan niet worden geïnitialiseerd. Controleer en probeer het opnieuw.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","Geen autorisatietransactie om inningsverzoek verzoek te plaatsen.",module,Magento_Braintree
+"Transaction is cancelled offline.","Transactie is offline geannuleerd.",module,Magento_Braintree
 "Braintree error response.","Braintree foutreactie.",module,Magento_Braintree
 "Payment method nonce can't be retrieved.","Betaalmethode encryptie kan niet worden opgehaald.",module,Magento_Braintree
 "Wrong transaction status","Verkeerde transactiestatus",module,Magento_Braintree
@@ -1104,26 +1114,26 @@ YY,JJ,module,Magento_Braintree
 "Sorry, but something went wrong.","Er ging iets verkeerd.",module,Magento_Braintree
 Payment,Betaling,module,Magento_Braintree
 "Credit card type is not accepted by this merchant account.","Type creditcard wordt niet geaccepteerd door deze verkopersrekening.",module,Magento_Braintree
-"Transaction can only be voided if status is authorized, submitted_for_settlement, or - for PayPal - settlement_pending.","Transaction can only be voided if status is authorized, submitted_for_settlement, or - for PayPal - settlement_pending.",module,Magento_Braintree
-"Credit transactions cannot be refunded.","Credit transactions cannot be refunded.",module,Magento_Braintree
+"Transaction can only be voided if status is authorized, submitted_for_settlement, or - for PayPal - settlement_pending.","Transactie kan alleen worden geannuleerd als de status authorized, submitted_for_settlement of- voor PayPal - settlement_pending is.",module,Magento_Braintree
+"Credit transactions cannot be refunded.","Credit transacties kunnen niet worden terugbetaald.",module,Magento_Braintree
 "Cannot refund a transaction unless it is settled.","Cannot refund a transaction unless it is settled.",module,Magento_Braintree
 "Cannot submit for settlement unless status is authorized.","Cannot submit for settlement unless status is authorized.",module,Magento_Braintree
 "Customer does not have any credit cards.","Klant heeft geen creditcards.",module,Magento_Braintree
-"Transaction has already been completely refunded.","Transaction has already been completely refunded.",module,Magento_Braintree
-"Payment instrument type is not accepted by this merchant account.","Payment instrument type is not accepted by this merchant account.",module,Magento_Braintree
+"Transaction has already been completely refunded.","Transactie is al volledig terug betaald.",module,Magento_Braintree
+"Payment instrument type is not accepted by this merchant account.","Betaling instrument type wordt niet geaccepteerd door dit merchant account.",module,Magento_Braintree
 "Processor authorization code cannot be set unless for a voice authorization.","Processor authorization code cannot be set unless for a voice authorization.",module,Magento_Braintree
 "Refund amount is too large.","Restitutiebedrag is te groot.",module,Magento_Braintree
-"Settlement amount is too large.","Settlement amount is too large.",module,Magento_Braintree
+"Settlement amount is too large.","Het vereffeningsbedrag is te groot.",module,Magento_Braintree
 "Cannot provide a billing address unless also providing a credit card.","Er kan geen factuuradres worden opgegeven tenzij er ook een creditcard wordt opgegeven.",module,Magento_Braintree
 "Cannot refund a transaction with a suspended merchant account.","Kan een transactie met een geblokkeerd verkopersaccount niet terugbetalen.",module,Magento_Braintree
-"Merchant account does not support refunds.","Merchant account does not support refunds.",module,Magento_Braintree
+"Merchant account does not support refunds.","Merchant account ondersteund geen refunds.",module,Magento_Braintree
 "Cannot refund a transaction transaction in settling status on this merchant account. Try again after the transaction has settled.","Cannot refund a transaction transaction in settling status on this merchant account. Try again after the transaction has settled.",module,Magento_Braintree
 "PayPal is not enabled for your merchant account.","PayPal is not enabled for your merchant account.",module,Magento_Braintree
 "Partial settlements are not supported by this processor.","Partial settlements are not supported by this processor.",module,Magento_Braintree
-"Cannot submit for partial settlement.","Cannot submit for partial settlement.",module,Magento_Braintree
-"Transaction can not be voided if status of a PayPal partial settlement child transaction is settlement_pending.","Transaction can not be voided if status of a PayPal partial settlement child transaction is settlement_pending.",module,Magento_Braintree
-"Too many concurrent attempts to refund this transaction. Try again later.","Too many concurrent attempts to refund this transaction. Try again later.",module,Magento_Braintree
-"Too many concurrent attempts to void this transaction. Try again later.","Too many concurrent attempts to void this transaction. Try again later.",module,Magento_Braintree
+"Cannot submit for partial settlement.","Kan gedeeltelijke schikking niet indienen.",module,Magento_Braintree
+"Transaction can not be voided if status of a PayPal partial settlement child transaction is settlement_pending.","Transactie kan niet ongeldig worden verklaard als de status van een onderliggende transactie van een gedeeltelijke PayPal schikking op settlement_pending staat.",module,Magento_Braintree
+"Too many concurrent attempts to refund this transaction. Try again later.","Te veel gelijktijdige pogingen tot terugbetaling van deze transactie. Probeer het later opnieuw.",module,Magento_Braintree
+"Too many concurrent attempts to void this transaction. Try again later.","Te veel gelijktijdige pogingen tot annuleringen van deze transactie. Probeer het later opnieuw.",module,Magento_Braintree
 Braintree,Braintree,module,Magento_Braintree
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Accepteren van krediet-/ debetkaarten en PayPal in uw winkel Magento. <br/> Geen setup of maandelijkse kosten en uw klanten verlaten nooit uw winkel om de aankoop te voltooien.",module,Magento_Braintree
 "Enable this Solution","Inschakelen van deze oplossing",module,Magento_Braintree
@@ -1165,10 +1175,10 @@ Name,Naam,module,Magento_Braintree
 Phone,Telefoonnummer,module,Magento_Braintree
 URL,URL,module,Magento_Braintree
 "CVV is required.","CVV is vereist.",module,Magento_Braintree
-"CVV must be 4 digits for American Express and 3 digits for other card types.","CVV must be 4 digits for American Express and 3 digits for other card types.",module,Magento_Braintree
+"CVV must be 4 digits for American Express and 3 digits for other card types.","CVV moet 4 cijfers zijn voor American Express en 3 cijfers voor andere kaarttypen.",module,Magento_Braintree
 "Expiration date is required.","Vervaldatum is vereist.",module,Magento_Braintree
 "Expiration date is invalid.","Jaar van de vervaldatum is ongeldig.",module,Magento_Braintree
-"Expiration year is invalid. It must be between 1975 and 2201.","Expiration year is invalid. It must be between 1975 and 2201.",module,Magento_Braintree
+"Expiration year is invalid. It must be between 1975 and 2201.","Verloopjaar is ongeldig. Het moet tussen 1975 en 2201 zijn.",module,Magento_Braintree
 "Expiration month is invalid.","Maand van de vervaldatum is ongeldig.",module,Magento_Braintree
 "Expiration year is invalid.","Jaar van de vervaldatum is ongeldig.",module,Magento_Braintree
 "Credit card number is required.","Creditcardnummer is vereist.",module,Magento_Braintree
@@ -1178,7 +1188,7 @@ URL,URL,module,Magento_Braintree
 "CVV verification failed.","CVV-verificatie is mislukt.",module,Magento_Braintree
 "Postal code verification failed.","Postcode-verificatie is mislukt.",module,Magento_Braintree
 "Credit card number is prohibited.","Credit cardnummer is verboden.",module,Magento_Braintree
-"Addresses must have at least one field filled in.","Addresses must have at least one field filled in.",module,Magento_Braintree
+"Addresses must have at least one field filled in.","Er moet ten minste één veld ingevuld zijn.",module,Magento_Braintree
 "Company is too long.","Bedrijfsnaam is te lang.",module,Magento_Braintree
 "Extended address is too long.","Uitgebreide adres is te lang.",module,Magento_Braintree
 "First name is too long.","Voornaam is te lang.",module,Magento_Braintree
@@ -1190,9 +1200,9 @@ URL,URL,module,Magento_Braintree
 "Street address is required.","Street address is required.",module,Magento_Braintree
 "Street address is too long.","Street address is too long.",module,Magento_Braintree
 "Postal code can only contain letters, numbers, spaces, and hyphens.","Postcode kan alleen letters, cijfers, spaties en koppeltekens bevatten.",module,Magento_Braintree
-"US state codes must be two characters to meet PayPal Seller Protection requirements.","US state codes must be two characters to meet PayPal Seller Protection requirements.",module,Magento_Braintree
-"Incomplete PayPal account information.","Incomplete PayPal account information.",module,Magento_Braintree
-"Invalid PayPal account information.","Invalid PayPal account information.",module,Magento_Braintree
+"US state codes must be two characters to meet PayPal Seller Protection requirements.","US staat codes moeten twee karakters zijn moet in aanmerking to komen voor de PayPal verkopersbescherming.",module,Magento_Braintree
+"Incomplete PayPal account information.","Incomplete PayPal accountinformatie.",module,Magento_Braintree
+"Invalid PayPal account information.","Ongeldige PayPal accountinformatie.",module,Magento_Braintree
 "PayPal Accounts are not accepted by this merchant account.","PayPal Accounts are not accepted by this merchant account.",module,Magento_Braintree
 "Billing address format is invalid.","Billing address format is invalid.",module,Magento_Braintree
 "Country name is not an accepted country.","Country name is not an accepted country.",module,Magento_Braintree
@@ -1200,8 +1210,8 @@ URL,URL,module,Magento_Braintree
 "Provided country information is inconsistent.","Provided country information is inconsistent.",module,Magento_Braintree
 "Customer has already reached the maximum of 50 addresses.","Customer has already reached the maximum of 50 addresses.",module,Magento_Braintree
 "Address is invalid. Please contact the store administrator.","Address is invalid. Please contact the store administrator.",module,Magento_Braintree
-"Error communicating with PayPal.","Error communicating with PayPal.",module,Magento_Braintree
-"PayPal authentication expired.","PayPal authentication expired.",module,Magento_Braintree
+"Error communicating with PayPal.","Fout bij communicatie met PayPal.",module,Magento_Braintree
+"PayPal authentication expired.","PayPal-verificatie verlopen.",module,Magento_Braintree
 "Error executing PayPal order.","Error executing PayPal order.",module,Magento_Braintree
 "Error executing PayPal billing agreement.","Error executing PayPal billing agreement.",module,Magento_Braintree
 "Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Pas filters toe om resultaten te krijgen. Alleen de eerste 100 records worden weergegeven in de tabel. U kunt de volledige versie van het rapport als .csv bestand downloaden.",module,Magento_Braintree
@@ -1340,19 +1350,19 @@ Price,Prijs,module,Magento_Bundle
 Delete,Verwijder,module,Magento_Bundle
 "Use Default Value","Standaardwaarde gebruiken",module,Magento_Bundle
 "There is no defined renderer for ""%1"" option type.","Er is geen weergave gedefinieerd voor optietype ""%1"".",module,Magento_Bundle
-"This is implemented for bundle products only.","This is implemented for bundle products only.",module,Magento_Bundle
-"The product with the ""%1"" SKU isn't a bundle product.","The product with the ""%1"" SKU isn't a bundle product.",module,Magento_Bundle
-"The bundle product can't contain another composite product.","The bundle product can't contain another composite product.",module,Magento_Bundle
-"The product link needs an ID field entered. Enter and try again.","The product link needs an ID field entered. Enter and try again.",module,Magento_Bundle
-"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.",module,Magento_Bundle
+"This is implemented for bundle products only.","Dit is alleen geïmplementeerd voor bundelproducten.",module,Magento_Bundle
+"The product with the ""%1"" SKU isn't a bundle product.","Het product met de sku ""%1"" is geen bundelproduct.",module,Magento_Bundle
+"The bundle product can't contain another composite product.","Het bundelproduct kan geen ander samengesteld product bevatten.",module,Magento_Bundle
+"The product link needs an ID field entered. Enter and try again.","De productlink met een gevuld ID-veld hebben. Voer in en probeer het opnieuw.",module,Magento_Bundle
+"The product link with the ""%1"" ID field wasn't found. Verify the ID and try again.","Een product-link met het ID ""%1"" is niet gevonden. Controleer het ID en probeer het nogmaals.",module,Magento_Bundle
 "Could not save child: ""%1""","Kan kind niet opslaan: ""%1""",module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","Product met opgegeven art.nr: '%1' bevat geen optie: '%2'",module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Kind met opgegeven art.nr: '%1' is al toegewezen aan product: '%2'",module,Magento_Bundle
-"The bundle product doesn't exist. Review your request and try again.","The bundle product doesn't exist. Review your request and try again.",module,Magento_Bundle
-"The option that was requested doesn't exist. Verify the entity and try again.","The option that was requested doesn't exist. Verify the entity and try again.",module,Magento_Bundle
-"The option couldn't be saved.","The option couldn't be saved.",module,Magento_Bundle
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Bundle
-"The option with ""%1"" ID can't be deleted.","The option with ""%1"" ID can't be deleted.",module,Magento_Bundle
+"The bundle product doesn't exist. Review your request and try again.","Het bundelproduct bestaat niet. Controleer het verzoek en probeer het opnieuw.",module,Magento_Bundle
+"The option that was requested doesn't exist. Verify the entity and try again.","De optie welke was verocht bestaat niet. Controleer de eniteit en probeer het nogmaals.",module,Magento_Bundle
+"The option couldn't be saved.","De optie kan niet worden opgeslagen.",module,Magento_Bundle
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" is verplicht. Voer in en probeer het nogmaals.",module,Magento_Bundle
+"The option with ""%1"" ID can't be deleted.","De optie met het ID ""%1"" kan niet worden verwijderd.",module,Magento_Bundle
 "Price Range",Prijsrange,module,Magento_Bundle
 "As Low as",Vanaf,module,Magento_Bundle
 Together,Samen,module,Magento_Bundle
@@ -1763,6 +1773,7 @@ Bottom/Right,Onder/rechts,module,Magento_Catalog
 Center,Centreer,module,Magento_Catalog
 "%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 breidt \Magento\Framework\Model\AbstractModel niet uit",module,Magento_Catalog
 "Something went wrong while saving the file(s).","Er ging iets mis bij het opslaan van de bestanden.",module,Magento_Catalog
+"File validation failed.","File validation failed.",module,Magento_Catalog
 "File can not be saved to the destination folder.","Bestand kan niet worden opgeslagen in de doelmap.",module,Magento_Catalog
 "Unknown EAV indexer type ""%1"".","Onbekende EAV index type ""%1"".",module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","We kunnen geen index herbouwen voor een ongedefinieerd product.",module,Magento_Catalog
@@ -2089,6 +2100,7 @@ Show,Toon,module,Magento_Catalog
 "View as","Tonen als",module,Magento_Catalog
 "More Information","Meer informatie",module,Magento_Catalog
 Loading...,"Bezig met laden...",module,Magento_Catalog
+"Maximum %1 characters","Maximum %1 characters",module,Magento_Catalog
 "* Required Fields","* Verplichte velden",module,Magento_Catalog
 Availability,Beschikbaarheid,module,Magento_Catalog
 "Warning message",Waarschuwingsbericht,module,Magento_Catalog
@@ -2100,9 +2112,12 @@ OK,OK,module,Magento_Catalog
 "Please add rows to option.","Voeg rijen toe aan optie.",module,Magento_Catalog
 "An item needs to be selected. Select and try again.","An item needs to be selected. Select and try again.",module,Magento_Catalog
 "Choose existing category.","Kies bestaande categorie.",module,Magento_Catalog
+"Sending attribute values as package.","Sending attribute values as package.",module,Magento_Catalog
 "Image Detail","Afbeelding details",module,Magento_Catalog
 Adding...,Toevoegen...,module,Magento_Catalog
 Added,Toegevoegd,module,Magento_Catalog
+remaining,remaining,module,Magento_Catalog
+"too many","too many",module,Magento_Catalog
 "does not implement Storage Interface","implementeert de Storage Interface niet",module,Magento_Catalog
 "unselect all","alles deselecteren",module,Magento_Catalog
 Inventory,Voorraad,module,Magento_Catalog
@@ -2353,13 +2368,14 @@ End,Einde,module,Magento_CatalogEvent
 "Countdown Ticker","Countdown Ticker",module,Magento_CatalogEvent
 Action,Actie,module,Magento_CatalogEvent
 Edit,Bewerken,module,Magento_CatalogEvent
-"Concrete type for %1 not implemented","Concrete type for %1 not implemented",module,Magento_CatalogGraphQl
-"Missing key %1 in product data","Missing key %1 in product data",module,Magento_CatalogGraphQl
-"currentPage value %1 specified is greater than the number of pages available.","currentPage value %1 specified is greater than the number of pages available.",module,Magento_CatalogGraphQl
-"""id for category should be specified","""id for category should be specified",module,Magento_CatalogGraphQl
-"No child sku found for product link.","No child sku found for product link.",module,Magento_CatalogGraphQl
+"Concrete type for %1 not implemented","Concreet type voor %1 is niet geïmplementeerd",module,Magento_CatalogGraphQl
+"Missing key %1 in product data","Missende key %1 in product data",module,Magento_CatalogGraphQl
+"currentPage value %1 specified is greater than the number of pages available.","currentPage waarde %1 opgegeven is groter dan het aantal beschikbare pagina's.",module,Magento_CatalogGraphQl
+"""id for category should be specified","id voor categorie moet worden opgegeven",module,Magento_CatalogGraphQl
+"No child sku found for product link.","Geen child-sku gevonden voor product link.",module,Magento_CatalogGraphQl
 "'search' or 'filter' input argument is required.","'zoeken' of 'filter' invoerargument is vereist.",module,Magento_CatalogGraphQl
 "SimpleProduct type not defined in schema.","SimpleProduct type not defined in schema.",module,Magento_CatalogGraphQl
+"'category_id' only supports 'eq' condition type.","'category_id' only supports 'eq' condition type.",module,Magento_CatalogGraphQl
 "Entity type model '%1' is not found","Type entiteitsmodel '%1' is niet gevonden",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteitstype model moet onderdeel zijn van\Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","Er zijn geen product-typen beschikbaar om te exporteren.",module,Magento_CatalogImportExport
@@ -2661,12 +2677,12 @@ name,naam,module,Magento_CatalogSearch
 "Number of top search results to cache","Aantal top zoekresultaten naar cache",module,Magento_CatalogSearch
 "Autocomplete Limit","Autocomplete Limit",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","Product 'fulltext' zoekindex",module,Magento_CatalogSearch
-"The ProductSku is empty. Set the ProductSku and try again.","The ProductSku is empty. Set the ProductSku and try again.",module,Magento_CatalogStaging
-"The ""%1"" attribute is required. Enter and try again.","The ""%1"" attribute is required. Enter and try again.",module,Magento_CatalogStaging
+"The ProductSku is empty. Set the ProductSku and try again.","De ProductSku is leeg. Stel de ProductSku in en probeer het nogmaals.",module,Magento_CatalogStaging
+"The ""%1"" attribute is required. Enter and try again.","Het attribuut ""%1"" attribuut is verplicht. Vul in en probeer het nogmaals.",module,Magento_CatalogStaging
 Enabled,Ingeschakeld,module,Magento_CatalogStaging
 Disabled,Uitgeschakeld,module,Magento_CatalogStaging
-"Future Update already exists in this time range. Set a different range and try again.","Future Update already exists in this time range. Set a different range and try again.",module,Magento_CatalogStaging
-"The product was unable to be saved. Please try again.","The product was unable to be saved. Please try again.",module,Magento_CatalogStaging
+"Future Update already exists in this time range. Set a different range and try again.","Een toekomstige update bestaat al in dit tijdsbereik. Vul een ander bereik in en probeer het nogmaals.",module,Magento_CatalogStaging
+"The product was unable to be saved. Please try again.","Het product kon niet worden opgeslagen. Probeer het nogmaals.",module,Magento_CatalogStaging
 "The image cannot be removed as it has been assigned to the other image role","De afbeelding kan niet verwijderd worden, omdat het aan een andere afbeeldingsrol toegewezen is",module,Magento_CatalogStaging
 "Could not save Prices.","Prijzen kunnen niet worden opgeslagen.",module,Magento_CatalogStaging
 "Invalid attribute %fieldName = %fieldValue.","Ongeldig attribuut %fieldName = %fieldValue.",module,Magento_CatalogStaging
@@ -2789,7 +2805,7 @@ State/Province,Staat/provincie,module,Magento_Checkout
 "You added %1 to your shopping cart.","U heeft %1 aan de winkelwagen toegevoegd.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","We kunnen dit product nu niet aan uw winkelwagen toevoegen.",module,Magento_Checkout
 "Out of stock","Niet op voorraad",module,Magento_Checkout
-"The quote item isn't found. Verify the item and try again.","The quote item isn't found. Verify the item and try again.",module,Magento_Checkout
+"The quote item isn't found. Verify the item and try again.","Het quote-item is niet gevonden. Controleer het item en probeer het nogmaals.",module,Magento_Checkout
 "We cannot configure the product.","We kunnen het product niet configureren.",module,Magento_Checkout
 "You used coupon code ""%1"".","U heeft kortingscode ""%1"" gebruikt.",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","Kortingscode ""%1"" is niet geldig.",module,Magento_Checkout
@@ -2809,21 +2825,21 @@ Checkout,Afrekenen,module,Magento_Checkout
 "Payment Method",Betaalmethode,module,Magento_Checkout
 "Payment Page",Betaalpagina,module,Magento_Checkout
 "The product wasn't found. Verify the product and try again.","Het product is niet gevonden. Controleer het product en probeer het opnieuw.",module,Magento_Checkout
-"We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de offerte.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de quote.",module,Magento_Checkout
 "The product does not exist.","Het artikel bestaat niet.",module,Magento_Checkout
 "We don't have some of the products you want.","We hebben niet alle producten die u wenst.",module,Magento_Checkout
 "We don't have as many of some products as you want.","We hebben het gevraagde aantal producten niet op voorraad.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","Aantal is opnieuw berekend van %1 tot %2",module,Magento_Checkout
 "We adjusted product quantities to fit the required increments.","We hebben de producthoeveelheden aangepast om aan de vereiste hoeveelheden te voldoen.",module,Magento_Checkout
-"This quote item does not exist.","Dit offerteproduct bestaat niet.",module,Magento_Checkout
+"This quote item does not exist.","Dit quote item bestaat niet.",module,Magento_Checkout
 "Display number of items in cart","Aantal producten in winkelwagen tonen",module,Magento_Checkout
 "Display item quantities","Productaantallen tonen",module,Magento_Checkout
 "An error occurred on the server. Please try to place the order again.","Er is een fout opgetreden op de server. Probeer de bestelling opnieuw te plaatsen.",module,Magento_Checkout
-"A server error stopped your order from being placed. Please try to place your order again.","A server error stopped your order from being placed. Please try to place your order again.",module,Magento_Checkout
+"A server error stopped your order from being placed. Please try to place your order again.","Een server-fout heeft er voor gezorgd dat de order niet geplaatst kan worden. Probeer uw bestelling nogmaals the plaatsen.",module,Magento_Checkout
 "The shipping address is missing. Set the address and try again.","Het verzendadres ontbreekt. Geeft het adres op en probeer het opnieuw.",module,Magento_Checkout
-"The shipping information was unable to be saved. Verify the input data and try again.","The shipping information was unable to be saved. Verify the input data and try again.",module,Magento_Checkout
+"The shipping information was unable to be saved. Verify the input data and try again.","De verzendinformatie kon niet worden opgeslagen. Controleer de ingevoerde gegevens en probeer het nogmaals.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","Vervoerder met dergelijke methode niet gevonden: %1, %2",module,Magento_Checkout
-"The shipping method can't be set for an empty cart. Add an item to cart and try again.","The shipping method can't be set for an empty cart. Add an item to cart and try again.",module,Magento_Checkout
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.","De verzendmethode kan niet worden ingesteld voor een lege winkelwagen. Voeg een item toe aan uw winkelwagen en probeer het nogmaals.",module,Magento_Checkout
 item,product,module,Magento_Checkout
 items,producten,module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","Totalenberekening geldt niet voor lege winkelwagen",module,Magento_Checkout
@@ -2833,7 +2849,7 @@ items,producten,module,Magento_Checkout
 "There are more than one shipping addresses.","Er zijn meerdere verzendadressen.",module,Magento_Checkout
 "Sorry, guest checkout is not available.","Afrekenen zonder account is niet mogelijk.",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","U moet uw account bevestigen. Controleer uw email voor de bevestigingslink of <a href=""%1""> Klik hier</a> voor een nieuwe link.",module,Magento_Checkout
-"Load customer quote error","Fout bij laden van klant-offerte",module,Magento_Checkout
+"Load customer quote error","Fout bij laden van klant-quote",module,Magento_Checkout
 "Error message!",Foutmelding!,module,Magento_Checkout
 Error!,Fout!,module,Magento_Checkout
 "DB exception","DB uitzondering",module,Magento_Checkout
@@ -2931,6 +2947,7 @@ Shipping,Aflevering,module,Magento_Checkout
 "Quote Lifetime (days)","Geldigheid winkelwagen (dagen)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","Winkelmandje tonen na toevoegen van een product",module,Magento_Checkout
 "Number of Items to Display Pager","Aantal items om paginering weer te geven",module,Magento_Checkout
+"Show Cross-sell Items in the Shopping Cart","Toon cross-sell items in de winkelwagen",module,Magento_Checkout
 "My Cart Link",Winkelwagenlink,module,Magento_Checkout
 "Display Cart Summary","Winkelwagen-samenvatting weergave",module,Magento_Checkout
 "Shopping Cart Sidebar","Zijbalk winkelwagen",module,Magento_Checkout
@@ -3079,6 +3096,7 @@ Pages,Pagina's,module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","We vonden een map met dezelfde naam. Probeer een andere map naam.",module,Magento_Cms
 "We cannot create a new directory.","We kunnen geen nieuwe map aanmaken.",module,Magento_Cms
 "We cannot delete directory %1.","We kunnen map %1 niet verwijderen.",module,Magento_Cms
+"File validation failed.","File validation failed.",module,Magento_Cms
 "We can't upload the file right now.","Wij kunnen het bestand nu niet uploaden.",module,Magento_Cms
 "We can't delete root directory %1 right now.","Wij kunnen de hoofddirectory %1 nu niet verwijderen.",module,Magento_Cms
 "Privacy and Cookie Policy","Privacy en Cookie Policy",module,Magento_Cms
@@ -3208,6 +3226,524 @@ Layout,Lay-out,module,Magento_CmsStaging
 ID,ID,module,Magento_CmsStaging
 Title,Titel,module,Magento_CmsStaging
 Status,Status,module,Magento_CmsStaging
+"Delete Customer","Delete Customer",module,Magento_Company
+Back,Back,module,Magento_Company
+"Delete Company","Delete Company",module,Magento_Company
+Reset,Reset,module,Magento_Company
+Save,Save,module,Magento_Company
+"Save & Close","Save & Close",module,Magento_Company
+Companies,Companies,module,Magento_Company
+"Add New Company","Add New Company",module,Magento_Company
+(me),(me),module,Magento_Company
+"Company Name:","Company Name:",module,Magento_Company
+"Company Legal Name:","Company Legal Name:",module,Magento_Company
+"Company Email:","Company Email:",module,Magento_Company
+"VAT/TAX ID:","VAT/TAX ID:",module,Magento_Company
+"Re-seller ID:","Re-seller ID:",module,Magento_Company
+"Street Address:","Street Address:",module,Magento_Company
+City:,City:,module,Magento_Company
+Country:,Country:,module,Magento_Company
+State/Province:,State/Province:,module,Magento_Company
+"ZIP/Postal Code:","ZIP/Postal Code:",module,Magento_Company
+"Phone Number:","Phone Number:",module,Magento_Company
+"Job Title:","Job Title:",module,Magento_Company
+"Email Address:","Email Address:",module,Magento_Company
+Prefix:,Prefix:,module,Magento_Company
+"First Name:","First Name:",module,Magento_Company
+"Middle Name/Initial:","Middle Name/Initial:",module,Magento_Company
+"Last Name:","Last Name:",module,Magento_Company
+Suffix:,Suffix:,module,Magento_Company
+Gender:,Gender:,module,Magento_Company
+Duplicated,Duplicated,module,Magento_Company
+"Company Structure","Company Structure",module,Magento_Company
+"Page not found.","Page not found.",module,Magento_Company
+"Something went wrong.","Something went wrong.",module,Magento_Company
+"New Company","New Company",module,Magento_Company
+"Thank you! We're reviewing your request and will contact you soon","Thank you! We're reviewing your request and will contact you soon",module,Magento_Company
+"An error occurred on the server. Your changes have not been saved.","An error occurred on the server. Your changes have not been saved.",module,Magento_Company
+"Incorrect CAPTCHA","Incorrect CAPTCHA",module,Magento_Company
+"Create New Company","Create New Company",module,Magento_Company
+"A total of %1 record(s) were updated.","A total of %1 record(s) were updated.",module,Magento_Company
+"Something went wrong. Please try again later.","Something went wrong. Please try again later.",module,Magento_Company
+"Invalid value of ""%value"" provided for the email field.","Invalid value of ""%value"" provided for the email field.",module,Magento_Company
+"Invalid value ""%value"" given for the website ID field.","Invalid value ""%value"" given for the website ID field.",module,Magento_Company
+"You have deleted company %companyName.","You have deleted company %companyName.",module,Magento_Company
+"The company no longer exists.","The company no longer exists.",module,Magento_Company
+"The requested company is not found","The requested company is not found",module,Magento_Company
+"Please correct the data sent.","Please correct the data sent.",module,Magento_Company
+"can not be saved","can not be saved",module,Magento_Company
+"A total of %1 record(s) were deleted.","A total of %1 record(s) were deleted.",module,Magento_Company
+"Could not save company","Could not save company",module,Magento_Company
+"You have saved company %companyName.","You have saved company %companyName.",module,Magento_Company
+"You have created company %companyName.","You have created company %companyName.",module,Magento_Company
+"A user with this email address already exists in the system. If you proceed, the user will be linked to your company.","A user with this email address already exists in the system. If you proceed, the user will be linked to your company.",module,Magento_Company
+"A user with this email address is already a member of your company.","A user with this email address is already a member of your company.",module,Magento_Company
+"A user with this email address already exists in the system. Enter a different email address to create this user.","A user with this email address already exists in the system. Enter a different email address to create this user.",module,Magento_Company
+"You are not allowed to do this.","You are not allowed to do this.",module,Magento_Company
+"Cannot create the customer.","Cannot create the customer.",module,Magento_Company
+"The customer was successfully created.","The customer was successfully created.",module,Magento_Company
+"You cannot delete yourself.","You cannot delete yourself.",module,Magento_Company
+"Cannot delete this user.","Cannot delete this user.",module,Magento_Company
+"The customer was successfully deleted.","The customer was successfully deleted.",module,Magento_Company
+"The customer was successfully updated.","The customer was successfully updated.",module,Magento_Company
+"Company Profile","Company Profile",module,Magento_Company
+"The changes you made on the company profile have been successfully saved.","The changes you made on the company profile have been successfully saved.",module,Magento_Company
+"You must fill in all required fields before you can continue.","You must fill in all required fields before you can continue.",module,Magento_Company
+"Bad Request","Bad Request",module,Magento_Company
+"You have deleted role %companyRoleName.","You have deleted role %companyRoleName.",module,Magento_Company
+"Add New Role","Add New Role",module,Magento_Company
+"Edit Role","Edit Role",module,Magento_Company
+"Roles and Permissions","Roles and Permissions",module,Magento_Company
+"The tree retrieved successfully.","The tree retrieved successfully.",module,Magento_Company
+"The item was successfully moved.","The item was successfully moved.",module,Magento_Company
+"The team was successfully deleted.","The team was successfully deleted.",module,Magento_Company
+"The team was successfully updated.","The team was successfully updated.",module,Magento_Company
+"The team was successfully created.","The team was successfully created.",module,Magento_Company
+"Company Users","Company Users",module,Magento_Company
+"A customer with the same email already assigned to company.","A customer with the same email already assigned to company.",module,Magento_Company
+Active,Active,module,Magento_Company
+"Pending Approval","Pending Approval",module,Magento_Company
+Rejected,Rejected,module,Magento_Company
+Blocked,Blocked,module,Magento_Company
+"The company admin cannot be moved to a different location in the company structure.","The company admin cannot be moved to a different location in the company structure.",module,Magento_Company
+"A user or a team cannot be moved under itself.","A user or a team cannot be moved under itself.",module,Magento_Company
+"A user or a team cannot be moved under its child user or team.","A user or a team cannot be moved under its child user or team.",module,Magento_Company
+"The specified parent ID belongs to a different company. The specified entity (team or user) and its new parent must belong to the same company.","The specified parent ID belongs to a different company. The specified entity (team or user) and its new parent must belong to the same company.",module,Magento_Company
+"Unable to move customer structure.","Unable to move customer structure.",module,Magento_Company
+"Cannot delete company with id %1","Cannot delete company with id %1",module,Magento_Company
+"No company admin email is specified in request.","No company admin email is specified in request.",module,Magento_Company
+"No company admin website ID is specified in request.","No company admin website ID is specified in request.",module,Magento_Company
+"No such entity with id = %idValue","No such entity with id = %idValue",module,Magento_Company
+"The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.","The user %1 is the company admin and cannot be set to inactive. You must set another user as the company admin first.",module,Magento_Company
+"You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.","You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.",module,Magento_Company
+"Invalid attribute value. Cannot change company for a company admin.","Invalid attribute value. Cannot change company for a company admin.",module,Magento_Company
+"Company admin","Company admin",module,Magento_Company
+"Company user","Company user",module,Magento_Company
+"Individual user","Individual user",module,Magento_Company
+Inactive,Inactive,module,Magento_Company
+"Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".","Unable to set ""allow"" for the resource because its parent resource(s) is set to ""deny"".",module,Magento_Company
+"Invalid login or password.","Invalid login or password.",module,Magento_Company
+"This account is locked.","This account is locked.",module,Magento_Company
+"Your account is not yet approved. If you have questions, please contact the seller.","Your account is not yet approved. If you have questions, please contact the seller.",module,Magento_Company
+"There was an error saving custom attributes.","There was an error saving custom attributes.",module,Magento_Company
+"Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_Company
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Company
+"No such entity with %fieldName = %fieldValue","No such entity with %fieldName = %fieldValue",module,Magento_Company
+"This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.","This role cannot be deleted because users are assigned to it. Reassign the users to another role to continue.",module,Magento_Company
+"You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.","You cannot delete a role when it is the only role in the company. You must create another role before deleting this role.",module,Magento_Company
+"User role with this name already exists. Enter a different name to save this role.","User role with this name already exists. Enter a different name to save this role.",module,Magento_Company
+"Cannot delete role with id %1","Cannot delete role with id %1",module,Magento_Company
+"Type %1 is not an instance of %2","Type %1 is not an instance of %2",module,Magento_Company
+"The selected user is inactive. To continue, select another user or activate the current user.","The selected user is inactive. To continue, select another user or activate the current user.",module,Magento_Company
+"This customer is a user of a different company. Enter a different email address to continue.","This customer is a user of a different company. Enter a different email address to continue.",module,Magento_Company
+"Company with this email address already exists in the system. Enter a different email address to continue.","Company with this email address already exists in the system. Enter a different email address to continue.",module,Magento_Company
+"Invalid attribute value. Rejected date&time and Rejected Reason can be changed only when a company status is changed to Rejected.","Invalid attribute value. Rejected date&time and Rejected Reason can be changed only when a company status is changed to Rejected.",module,Magento_Company
+"Could not save company: %1","Could not save company: %1",module,Magento_Company
+"Cannot delete structure with id %1","Cannot delete structure with id %1",module,Magento_Company
+"Could not create team","Could not create team",module,Magento_Company
+"This team has child users or teams aligned to it and cannot be deleted. Please re-align the child users or teams first.","This team has child users or teams aligned to it and cannot be deleted. Please re-align the child users or teams first.",module,Magento_Company
+"Could not update team","Could not update team",module,Magento_Company
+"Cannot delete team with id %1","Cannot delete team with id %1",module,Magento_Company
+"You cannot assign a different role to a company admin.","You cannot assign a different role to a company admin.",module,Magento_Company
+"You cannot assign multiple roles to a user.","You cannot assign multiple roles to a user.",module,Magento_Company
+"Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.","Cannot delete the company admin. Delete operation has been stopped. Please repeat the action for the other customers.",module,Magento_Company
+"Something went wrong","Something went wrong",module,Magento_Company
+"This customer company account is blocked and customer cannot place orders.","This customer company account is blocked and customer cannot place orders.",module,Magento_Company
+"The consumer isn't authorized to access resource.","The consumer isn't authorized to access resource.",module,Magento_Company
+"- Duplicated","- Duplicated",module,Magento_Company
+message,message,module,Magento_Company
+"Exception message","Exception message",module,Magento_Company
+test,test,module,Magento_Company
+phrase,phrase,module,Magento_Company
+exception,exception,module,Magento_Company
+"Localized Exception.","Localized Exception.",module,Magento_Company
+"Error message","Error message",module,Magento_Company
+"No such entity.","No such entity.",module,Magento_Company
+"error message","error message",module,Magento_Company
+"Could not save role","Could not save role",module,Magento_Company
+"""%fieldName"" is required. Enter and try again.""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.""%fieldName"" is required. Enter and try again.",module,Magento_Company
+"Cannot delete team","Cannot delete team",module,Magento_Company
+"Role Name","Role Name",module,Magento_Company
+"Role Name 15","Role Name 15",module,Magento_Company
+Edit,Edit,module,Magento_Company
+Delete,Delete,module,Magento_Company
+Duplicate,Duplicate,module,Magento_Company
+"Company Name","Company Name",module,Magento_Company
+"Customer Type:","Customer Type:",module,Magento_Company
+Company:,Company:,module,Magento_Company
+"Company Information","Company Information",module,Magento_Company
+"Company Legal Name","Company Legal Name",module,Magento_Company
+"Company Email","Company Email",module,Magento_Company
+"VAT/TAX ID","VAT/TAX ID",module,Magento_Company
+"Re-seller ID","Re-seller ID",module,Magento_Company
+"Legal Address","Legal Address",module,Magento_Company
+"Street Address","Street Address",module,Magento_Company
+City,City,module,Magento_Company
+Country,Country,module,Magento_Company
+State/Province,State/Province,module,Magento_Company
+"Please select a region, state or province.","Please select a region, state or province.",module,Magento_Company
+"ZIP/Postal Code","ZIP/Postal Code",module,Magento_Company
+"Phone Number","Phone Number",module,Magento_Company
+"Company Administrator","Company Administrator",module,Magento_Company
+"Job Title","Job Title",module,Magento_Company
+Email,Email,module,Magento_Company
+Submit,Submit,module,Magento_Company
+"New Company Account","New Company Account",module,Magento_Company
+"If you represent a company, you will want to use our company account area. Creating a company account provides all company members with access to B2B features like quoting, company users management, quick order, and more.","If you represent a company, you will want to use our company account area. Creating a company account provides all company members with access to B2B features like quoting, company users management, quick order, and more.",module,Magento_Company
+"Create a Company Account","Create a Company Account",module,Magento_Company
+"Business Structure","Business Structure",module,Magento_Company
+"Expand All","Expand All",module,Magento_Company
+"Collapse All","Collapse All",module,Magento_Company
+"Add User","Add User",module,Magento_Company
+"Add Team","Add Team",module,Magento_Company
+"Edit Selected","Edit Selected",module,Magento_Company
+"Delete Selected","Delete Selected",module,Magento_Company
+Error,Error,module,Magento_Company
+"User Role","User Role",module,Magento_Company
+"First Name","First Name",module,Magento_Company
+"Last Name","Last Name",module,Magento_Company
+Status,Status,module,Magento_Company
+"Team Title","Team Title",module,Magento_Company
+Description,Description,module,Magento_Company
+"You don't have a company account yet.","You don't have a company account yet.",module,Magento_Company
+"Account Information","Account Information",module,Magento_Company
+"VAT/TAX ID:","VAT/TAX ID:",module,Magento_Company
+"Re-seller ID:","Re-seller ID:",module,Magento_Company
+"You have no other address entries in your address book.","You have no other address entries in your address book.",module,Magento_Company
+"T: %1","T: %1",module,Magento_Company
+Contacts,Contacts,module,Magento_Company
+"Sales Representative","Sales Representative",module,Magento_Company
+"Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.","Your company account is blocked and you cannot place orders. If you have questions, please contact your company administrator.",module,Magento_Company
+"Role Information","Role Information",module,Magento_Company
+"Role Permissions","Role Permissions",module,Magento_Company
+"Save Role","Save Role",module,Magento_Company
+"Add New User","Add New User",module,Magento_Company
+Company,Company,module,Magento_Company
+"Create an Account","Create an Account",module,Magento_Company
+Change,Change,module,Magento_Company
+"This action will replace your Company Admin.","This action will replace your Company Admin.",module,Magento_Company
+"* Your latest changes on the company profile have not been saved yet.","* Your latest changes on the company profile have not been saved yet.",module,Magento_Company
+"Dear %name,","Dear %name,",module,Magento_Company
+"You have been assigned to <a href=""%customer_url"">%company_name</a> as the Company Admin.","You have been assigned to <a href=""%customer_url"">%company_name</a> as the Company Admin.",module,Magento_Company
+"When you sign in to your account, you can:","When you sign in to your account, you can:",module,Magento_Company
+"* Create and manage company users and teams","* Create and manage company users and teams",module,Magento_Company
+"* Manage user permissions for the store","* Manage user permissions for the store",module,Magento_Company
+"* Create and manage company shipping and billing addresses","* Create and manage company shipping and billing addresses",module,Magento_Company
+"You've been added to the <a href=%customer_url>%company_name</a> as the company member.
+    Once you enter your account,
+    the company's shared resources will be available for you.","You've been added to the <a href=%customer_url>%company_name</a> as the company member.
+    Once you enter your account,
+    the company's shared resources will be available for you.",module,Magento_Company
+"If this is a mistake,
+    please contact the company Admin at %company_admin_email.","If this is a mistake,
+    please contact the company Admin at %company_admin_email.",module,Magento_Company
+"Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.","Your account is now active. You can use it to login to the <a href=""%customer_url"">website</a>.",module,Magento_Company
+"Your account is no longer active. You will not be able to use it for login.","Your account is no longer active. You will not be able to use it for login.",module,Magento_Company
+"If this is a mistake, please contact the seller.","If this is a mistake, please contact the seller.",module,Magento_Company
+"Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.","Your account has been set to inactive and you cannot now access the company account. If you think this is a mistake, please contact your manager for details.",module,Magento_Company
+"A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.","A company registration request has been submitted by customer %customer. The account is temporarily locked until you approve or reject this company.",module,Magento_Company
+"Company: %company","Company: %company",module,Magento_Company
+"Your company registration request (for the <strong>%company_name</strong>)
+    has been approved and you have been set as the Company Admin.
+    You can now create and manage your company structure.
+    Your company members are able to request quotes, create requisition lists,
+    and use other B2B features.","Your company registration request (for the <strong>%company_name</strong>)
+    has been approved and you have been set as the Company Admin.
+    You can now create and manage your company structure.
+    Your company members are able to request quotes, create requisition lists,
+    and use other B2B features.",module,Magento_Company
+"The status of your company <strong>%company_name</strong>
+    is now <strong>Active</strong>.
+    Once you login, you will be able to place orders on behalf of your company
+    and use other B2B features.","The status of your company <strong>%company_name</strong>
+    is now <strong>Active</strong>.
+    Once you login, you will be able to place orders on behalf of your company
+    and use other B2B features.",module,Magento_Company
+"Your account type has been changed from Company Admin to a regular user account. If you think this is a mistake, please contact your manager for details.","Your account type has been changed from Company Admin to a regular user account. If you think this is a mistake, please contact your manager for details.",module,Magento_Company
+"%name,","%name,",module,Magento_Company
+"You have been assigned to %company_name as the Sales Representative.","You have been assigned to %company_name as the Sales Representative.",module,Magento_Company
+"When you sign in to your account, you will be able to:","When you sign in to your account, you will be able to:",module,Magento_Company
+"* View and manage company quotes in Admin Panel","* View and manage company quotes in Admin Panel",module,Magento_Company
+"* View and edit company profile in Admin Panel","* View and edit company profile in Admin Panel",module,Magento_Company
+"Your company account <strong>%company_name</strong> has been blocked.
+    Your company members can continue using the website,
+    but they will not be able to place orders.","Your company account <strong>%company_name</strong> has been blocked.
+    Your company members can continue using the website,
+    but they will not be able to place orders.",module,Magento_Company
+"If you have any questions, please contact the seller.","If you have any questions, please contact the seller.",module,Magento_Company
+"Your company account <strong>%company_name</strong> has been suspended, pending approval from the seller.","Your company account <strong>%company_name</strong> has been suspended, pending approval from the seller.",module,Magento_Company
+"Your company registration request (for the <strong>%company_name</strong>) has been rejected
+    for the following reason:","Your company registration request (for the <strong>%company_name</strong>) has been rejected
+    for the following reason:",module,Magento_Company
+"This action cannot be undone. Are you sure you want to delete this company? After the company is deleted, all the company members will be set to Inactive.","This action cannot be undone. Are you sure you want to delete this company? After the company is deleted, all the company members will be set to Inactive.",module,Magento_Company
+"Delete a Company?","Delete a Company?",module,Magento_Company
+Cancel,Cancel,module,Magento_Company
+"Are you sure you want to do this?","Are you sure you want to do this?",module,Magento_Company
+"Sorry! You cannot delete this user: The user is the company admin.","Sorry! You cannot delete this user: The user is the company admin.",module,Magento_Company
+"Cannot Delete the Company Admin","Cannot Delete the Company Admin",module,Magento_Company
+Done,Done,module,Magento_Company
+"No results","No results",module,Magento_Company
+options,options,module,Magento_Company
+Proceed,Proceed,module,Magento_Company
+"Change Company Status?","Change Company Status?",module,Magento_Company
+"Change status","Change status",module,Magento_Company
+"Popup title","Popup title",module,Magento_Company
+"Cannot delete the user","Cannot delete the user",module,Magento_Company
+"This user cannot be deleted because he/she is a company admin.","This user cannot be deleted because he/she is a company admin.",module,Magento_Company
+"Edit User","Edit User",module,Magento_Company
+"Cannot Delete User","Cannot Delete User",module,Magento_Company
+"Delete this user?","Delete this user?",module,Magento_Company
+"This action cannot be undone. Are you sure you want to delete this user?","This action cannot be undone. Are you sure you want to delete this user?",module,Magento_Company
+"Edit Team","Edit Team",module,Magento_Company
+"Cannot Delete This Team","Cannot Delete This Team",module,Magento_Company
+"Delete this team?","Delete this team?",module,Magento_Company
+"This action cannot be undone. Are you sure you want to delete this team?","This action cannot be undone. Are you sure you want to delete this team?",module,Magento_Company
+"Delete This Role?","Delete This Role?",module,Magento_Company
+"This action cannot be undone. Are you sure you want to delete this role?","This action cannot be undone. Are you sure you want to delete this role?",module,Magento_Company
+"Cannot Delete Role","Cannot Delete Role",module,Magento_Company
+"Cannot Delete Customer","Cannot Delete Customer",module,Magento_Company
+"Set Inactive","Set Inactive",module,Magento_Company
+"Select Delete to permanently delete the user account and content. User's orders and quotes are still visible for the merchant. Select Set Inactive to temporarily lock the user. The user’s content is still available to parent users.","Select Delete to permanently delete the user account and content. User's orders and quotes are still visible for the merchant. Select Set Inactive to temporarily lock the user. The user’s content is still available to parent users.",module,Magento_Company
+"User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.","User with this email already exists in the system. Enter a different email address to continue. If you want to use your current account as an administrator account, please contact the seller.",module,Magento_Company
+"Enable Company","Enable Company",module,Magento_Company
+"Company Configuration","Company Configuration",module,Magento_Company
+General,General,module,Magento_Company
+"Allow Company Registration from the Storefront","Allow Company Registration from the Storefront",module,Magento_Company
+"Email Options - Company Registration","Email Options - Company Registration",module,Magento_Company
+"Company Registration Email Recipient","Company Registration Email Recipient",module,Magento_Company
+"Send Company Registration Email Copy To","Send Company Registration Email Copy To",module,Magento_Company
+Comma-separated,Comma-separated,module,Magento_Company
+"Send Email Copy Method","Send Email Copy Method",module,Magento_Company
+"Default Company Registration Email","Default Company Registration Email",module,Magento_Company
+"Customer-Related Emails","Customer-Related Emails",module,Magento_Company
+"Default 'Sales Rep Assigned' Email","Default 'Sales Rep Assigned' Email",module,Magento_Company
+"This email is sent to the company's Sales Rep and the Company Admin.","This email is sent to the company's Sales Rep and the Company Admin.",module,Magento_Company
+"Default 'Assign Company to Customer' Email","Default 'Assign Company to Customer' Email",module,Magento_Company
+"This email is sent to the customer only.","This email is sent to the customer only.",module,Magento_Company
+"Default 'Assign Company Admin' Email","Default 'Assign Company Admin' Email",module,Magento_Company
+"Default 'Company Admin Inactive' Email","Default 'Company Admin Inactive' Email",module,Magento_Company
+"Default 'Company Admin Changed To Member' Email","Default 'Company Admin Changed To Member' Email",module,Magento_Company
+"Default 'Customer Status Active' Email","Default 'Customer Status Active' Email",module,Magento_Company
+"Default 'Customer Status Inactive' Email","Default 'Customer Status Inactive' Email",module,Magento_Company
+"Company Status Change","Company Status Change",module,Magento_Company
+"Send Company Status Change Email Copy To","Send Company Status Change Email Copy To",module,Magento_Company
+"Comma-separated. The recipient(s) will get a copy of an email which is by default sent to the Company Admin only.","Comma-separated. The recipient(s) will get a copy of an email which is by default sent to the Company Admin only.",module,Magento_Company
+"Default 'Company Status Change To Active 1"" Email","Default 'Company Status Change To Active 1"" Email",module,Magento_Company
+"This email is sent when company status changes from Pending Approval to Active.","This email is sent when company status changes from Pending Approval to Active.",module,Magento_Company
+"Default 'Company Status Change To Active 2"" Email","Default 'Company Status Change To Active 2"" Email",module,Magento_Company
+"This email is sent when company status changes from Rejected or Blocked to Active.","This email is sent when company status changes from Rejected or Blocked to Active.",module,Magento_Company
+"Default 'Company Status Change To Rejected"" Email","Default 'Company Status Change To Rejected"" Email",module,Magento_Company
+"This email is sent when company status changes to Rejected.","This email is sent when company status changes to Rejected.",module,Magento_Company
+"Default 'Company Status Change To Blocked"" Email","Default 'Company Status Change To Blocked"" Email",module,Magento_Company
+"This email is sent when company status changes Blocked.","This email is sent when company status changes Blocked.",module,Magento_Company
+"Default 'Company Status Change To Pending Approval"" Email","Default 'Company Status Change To Pending Approval"" Email",module,Magento_Company
+"This email is sent when company status changes to Pending Approval.","This email is sent when company status changes to Pending Approval.",module,Magento_Company
+All,All,module,Magento_Company
+"Account Information (View)","Account Information (View)",module,Magento_Company
+"Legal Address (View)","Legal Address (View)",module,Magento_Company
+"Contacts (View)","Contacts (View)",module,Magento_Company
+"Company User Management","Company User Management",module,Magento_Company
+"View roles and permissions","View roles and permissions",module,Magento_Company
+"Manage roles and permissions","Manage roles and permissions",module,Magento_Company
+"View users and teams","View users and teams",module,Magento_Company
+"Manage users and teams","Manage users and teams",module,Magento_Company
+Sales,Sales,module,Magento_Company
+"Checkout (place order)","Checkout (place order)",module,Magento_Company
+"Use Pay On Account method","Use Pay On Account method",module,Magento_Company
+"View orders","View orders",module,Magento_Company
+"View orders of subordinate users","View orders of subordinate users",module,Magento_Company
+"Are you sure you want to set the selected companies as active?","Are you sure you want to set the selected companies as active?",module,Magento_Company
+"Set a Company as Active","Set a Company as Active",module,Magento_Company
+"Set Active","Set Active",module,Magento_Company
+"Are you sure you want to block the selected companies?","Are you sure you want to block the selected companies?",module,Magento_Company
+"Block a Company","Block a Company",module,Magento_Company
+Block,Block,module,Magento_Company
+"This action cannot be undone. Are you sure you want to delete the selected companies? After the company is deleted, all the company members will be set to Inactive.","This action cannot be undone. Are you sure you want to delete the selected companies? After the company is deleted, all the company members will be set to Inactive.",module,Magento_Company
+ID,ID,module,Magento_Company
+"Reseller ID","Reseller ID",module,Magento_Company
+Comment,Comment,module,Magento_Company
+ZIP,ZIP,module,Magento_Company
+"Customer Group","Customer Group",module,Magento_Company
+"Company Admin","Company Admin",module,Magento_Company
+Gender,Gender,module,Magento_Company
+"Customer Type","Customer Type",module,Magento_Company
+"Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.",module,Magento_Company
+"Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>",module,Magento_Company
+"Are you sure you want to reject this company? If you confirm, login for all company members will be blocked.","Are you sure you want to reject this company? If you confirm, login for all company members will be blocked.",module,Magento_Company
+"Please specify the reason","Please specify the reason",module,Magento_Company
+"The reason will appear in the 'Rejected' email sent to the Company Admin. It will also be saved and displayed in Admin Panel (in the company profile).","The reason will appear in the 'Rejected' email sent to the Company Admin. It will also be saved and displayed in Admin Panel (in the company profile).",module,Magento_Company
+"Are you sure you want to block this company? If you proceed, the company members will not be able to place orders.","Are you sure you want to block this company? If you proceed, the company members will not be able to place orders.",module,Magento_Company
+"Reason for Rejection","Reason for Rejection",module,Magento_Company
+"VAT / TAX ID","VAT / TAX ID",module,Magento_Company
+Website,Website,module,Magento_Company
+Prefix,Prefix,module,Magento_Company
+"Middle Name/Initial","Middle Name/Initial",module,Magento_Company
+Suffix,Suffix,module,Magento_Company
+"Advanced Settings","Advanced Settings",module,Magento_Company
+"Change Customer Group?","Change Customer Group?",module,Magento_Company
+"This action will change the customer group for all members of this company. Would you like to proceed?","This action will change the customer group for all members of this company. Would you like to proceed?",module,Magento_Company
+"The user <%- username %> is the company admin and cannot be set to inactive. You must set another user as the company admin first.","The user <%- username %> is the company admin and cannot be set to inactive. You must set another user as the company admin first.",module,Magento_Company
+"Customer Active","Customer Active",module,Magento_Company
+"This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.",module,Magento_Company
+"Change Company?","Change Company?",module,Magento_Company
+"Associate to Company","Associate to Company",module,Magento_Company
+"My Orders","My Orders",module,Magento_Company
+"Create New Customer","Create New Customer",module,Magento_Company
+"Create New Company Account","Create New Company Account",module,Magento_Company
+Name,Name,module,Magento_Company
+Role,Role,module,Magento_Company
+Team,Team,module,Magento_Company
+Users,Users,module,Magento_Company
+"Reimburse Balance","Reimburse Balance",module,Magento_CompanyCredit
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.","Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.",module,Magento_CompanyCredit
+"Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company associated with this customer does not exist.","Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company associated with this customer does not exist.",module,Magento_CompanyCredit
+"Page not found.","Page not found.",module,Magento_CompanyCredit
+"Something went wrong. Please try again later.","Something went wrong. Please try again later.",module,Magento_CompanyCredit
+"History record no longer exists.","History record no longer exists.",module,Magento_CompanyCredit
+"Unable to retrieve currency rates at this moment. Please try again later or contact store administrator.","Unable to retrieve currency rates at this moment. Please try again later or contact store administrator.",module,Magento_CompanyCredit
+"A total of %1 record(s) were updated.","A total of %1 record(s) were updated.",module,Magento_CompanyCredit
+"Unable to convert company credit. Please try again later or contact store administrator.","Unable to convert company credit. Please try again later or contact store administrator.",module,Magento_CompanyCredit
+"Company Credit","Company Credit",module,Magento_CompanyCredit
+"Order Payment should be provided","Order Payment should be provided",module,Magento_CompanyCredit
+"Order is canceled. We reverted %1 to the company credit.","Order is canceled. We reverted %1 to the company credit.",module,Magento_CompanyCredit
+"Order is canceled. The order amount is not reverted to the company credit.","Order is canceled. The order amount is not reverted to the company credit.",module,Magento_CompanyCredit
+"Order is cancelled. The order amount is not reverted to the company credit because the company to which this customer belongs does not exist.","Order is cancelled. The order amount is not reverted to the company credit because the company to which this customer belongs does not exist.",module,Magento_CompanyCredit
+unavailable.,unavailable.,module,Magento_CompanyCredit
+"We can't save the credit memo because the company associated with this customer does not exist.","We can't save the credit memo because the company associated with this customer does not exist.",module,Magento_CompanyCredit
+"We can't save the credit memo because the company associated with customer is not active.","We can't save the credit memo because the company associated with customer is not active.",module,Magento_CompanyCredit
+Yes,Yes,module,Magento_CompanyCredit
+No,No,module,Magento_CompanyCredit
+"The requested Payment Method is not available.","The requested Payment Method is not available.",module,Magento_CompanyCredit
+"Payment On Account cannot be used for this order because your order amount exceeds your credit amount.","Payment On Account cannot be used for this order because your order amount exceeds your credit amount.",module,Magento_CompanyCredit
+"Cannot process the request. Please check the operation type and try again.","Cannot process the request. Please check the operation type and try again.",module,Magento_CompanyCredit
+"Invalid attribute value. Row ID: %fieldName = %fieldValue.","Invalid attribute value. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_CompanyCredit
+"The selected currency is not available. Please select a different currency.","The selected currency is not available. Please select a different currency.",module,Magento_CompanyCredit
+"Could not update history","Could not update history",module,Magento_CompanyCredit
+"Requested company is not found. Row ID: %fieldName = %fieldValue.","Requested company is not found. Row ID: %fieldName = %fieldValue.",module,Magento_CompanyCredit
+"Cannot delete credit limit with id %1","Cannot delete credit limit with id %1",module,Magento_CompanyCredit
+Allocated,Allocated,module,Magento_CompanyCredit
+Updated,Updated,module,Magento_CompanyCredit
+Purchased,Purchased,module,Magento_CompanyCredit
+Reimbursed,Reimbursed,module,Magento_CompanyCredit
+Refunded,Refunded,module,Magento_CompanyCredit
+Reverted,Reverted,module,Magento_CompanyCredit
+"Could not save history","Could not save history",module,Magento_CompanyCredit
+"Cannot delete history with id %1","Cannot delete history with id %1",module,Magento_CompanyCredit
+"No such entity with %fieldName = %fieldValue","No such entity with %fieldName = %fieldValue",module,Magento_CompanyCredit
+"Could not save company credit limit","Could not save company credit limit",module,Magento_CompanyCredit
+"Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_CompanyCredit
+"Please enter a valid %1/%2 currency rate.","Please enter a valid %1/%2 currency rate.",module,Magento_CompanyCredit
+"Invoice created for %1","Invoice created for %1",module,Magento_CompanyCredit
+"The selected credit currency is not valid. 
+                        Customers will not be able to place orders until you update the credit currency.","The selected credit currency is not valid. 
+                        Customers will not be able to place orders until you update the credit currency.",module,Magento_CompanyCredit
+"Store Credit","Store Credit",module,Magento_CompanyCredit
+"Refund to Company Credit","Refund to Company Credit",module,Magento_CompanyCredit
+"An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.","An invoice for partial quantities cannot be issued for this order. To continue, change the specified quantity to the full quantity.",module,Magento_CompanyCredit
+"We refunded %1 online.","We refunded %1 online.",module,Magento_CompanyCredit
+"We refunded %1 offline.","We refunded %1 offline.",module,Magento_CompanyCredit
+"We refunded %1 to the company credit.","We refunded %1 to the company credit.",module,Magento_CompanyCredit
+"Exception message.","Exception message.",module,Magento_CompanyCredit
+"Exception Message","Exception Message",module,Magento_CompanyCredit
+"No such entity","No such entity",module,Magento_CompanyCredit
+Edit,Edit,module,Magento_CompanyCredit
+"%1 made an update. %2 can exceed the Credit Limit.","%1 made an update. %2 can exceed the Credit Limit.",module,Magento_CompanyCredit
+"%1 made an update. %2 cannot exceed the Credit Limit.","%1 made an update. %2 cannot exceed the Credit Limit.",module,Magento_CompanyCredit
+"Order # %1","Order # %1",module,Magento_CompanyCredit
+"%1 changed the credit currency from %2 to %3 at the conversion rate of %2/%3 %4.","%1 changed the credit currency from %2 to %3 at the conversion rate of %2/%3 %4.",module,Magento_CompanyCredit
+"Outstanding Balance:","Outstanding Balance:",module,Magento_CompanyCredit
+"Available Credit:","Available Credit:",module,Magento_CompanyCredit
+"Credit Limit:","Credit Limit:",module,Magento_CompanyCredit
+"Purchase Order Number","Purchase Order Number",module,Magento_CompanyCredit
+"Charged off the company credit: %1","Charged off the company credit: %1",module,Magento_CompanyCredit
+"Purchase Order Number: %1","Purchase Order Number: %1",module,Magento_CompanyCredit
+"The base currency for %1 has been updated. The currency %2 is still defined as the credit currency for one or more companies. Use the following <a href=""%3"" id=""update-credit-link"">link</a> to perform a bulk operation that updates the credit currency for those companies.","The base currency for %1 has been updated. The currency %2 is still defined as the credit currency for one or more companies. Use the following <a href=""%3"" id=""update-credit-link"">link</a> to perform a bulk operation that updates the credit currency for those companies.",module,Magento_CompanyCredit
+"%1 has exceeded its credit limit (%2) by %3. Its outstanding balance, including this order, currently totals %4.","%1 has exceeded its credit limit (%2) by %3. Its outstanding balance, including this order, currently totals %4.",module,Magento_CompanyCredit
+"The credit limit for %1 is %2. Its outstanding balance, including this order, currently totals %3","The credit limit for %1 is %2. Its outstanding balance, including this order, currently totals %3",module,Magento_CompanyCredit
+"Outstanding Balance","Outstanding Balance",module,Magento_CompanyCredit
+"Available Credit","Available Credit",module,Magento_CompanyCredit
+"Credit Limit","Credit Limit",module,Magento_CompanyCredit
+"Charged off the company credit","Charged off the company credit",module,Magento_CompanyCredit
+"The Company credit on all selected companies will be converted using the rate below. This operation cannot be undone.","The Company credit on all selected companies will be converted using the rate below. This operation cannot be undone.",module,Magento_CompanyCredit
+"Credit allocated to %company_name","Credit allocated to %company_name",module,Magento_CompanyCredit
+"Dear %name,","Dear %name,",module,Magento_CompanyCredit
+"Your company has been allocated a credit of %available_credit.
+    You can now use the Payment On Account method to place you orders.","Your company has been allocated a credit of %available_credit.
+    You can now use the Payment On Account method to place you orders.",module,Magento_CompanyCredit
+"The history of your credit operations is available on the Company Credit page.","The history of your credit operations is available on the Company Credit page.",module,Magento_CompanyCredit
+"%company_name account reimbursed","%company_name account reimbursed",module,Magento_CompanyCredit
+"Your company credit account has been reimbursed by %reimbursed_amount.","Your company credit account has been reimbursed by %reimbursed_amount.",module,Magento_CompanyCredit
+"If you have any questions, please contact the seller.","If you have any questions, please contact the seller.",module,Magento_CompanyCredit
+"%company_name credit limit updated","%company_name credit limit updated",module,Magento_CompanyCredit
+"Your credit limit has been updated and is now %available_credit.
+    Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.","Your credit limit has been updated and is now %available_credit.
+    Your outstanding balance currently totals %outstanding_balance. You are %exceed_limit to exceed the credit limit.",module,Magento_CompanyCredit
+"Order %order_id refunded","Order %order_id refunded",module,Magento_CompanyCredit
+"A refund of %refunded_amount has been issued on order #%order_id. This amount has been applied to the company credit.","A refund of %refunded_amount has been issued on order #%order_id. This amount has been applied to the company credit.",module,Magento_CompanyCredit
+"Order %order_id reverted","Order %order_id reverted",module,Magento_CompanyCredit
+"Your order #%order_id has been cancelled. The order amount reverted to the company credit.","Your order #%order_id has been cancelled. The order amount reverted to the company credit.",module,Magento_CompanyCredit
+"Available Credit","Available Credit",module,Magento_CompanyCredit
+"The Payment on Account method is not available in the selected currency. Please contact the seller.","The Payment on Account method is not available in the selected currency. Please contact the seller.",module,Magento_CompanyCredit
+"Company credit account will be charged:","Company credit account will be charged:",module,Magento_CompanyCredit
+"Place Order","Place Order",module,Magento_CompanyCredit
+"Cancel the Order","Cancel the Order",module,Magento_CompanyCredit
+"This is a required field.","This is a required field.",module,Magento_CompanyCredit
+"Please enter a valid number in this field.","Please enter a valid number in this field.",module,Magento_CompanyCredit
+"{oldCur}/{newCur} Rate","{oldCur}/{newCur} Rate",module,Magento_CompanyCredit
+Reimburse,Reimburse,module,Magento_CompanyCredit
+Save,Save,module,Magento_CompanyCredit
+"Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.","Please use only letters (a-z or A-Z), numbers (0-9), dash (-) or slash (/) in this field.",module,Magento_CompanyCredit
+"The credit limit for %s is %s. It will be exceeded by %s with this order.","The credit limit for %s is %s. It will be exceeded by %s with this order.",module,Magento_CompanyCredit
+"Payment on Account","Payment on Account",module,Magento_CompanyCredit
+Enabled,Enabled,module,Magento_CompanyCredit
+"New Order Status","New Order Status",module,Magento_CompanyCredit
+"Sort Order","Sort Order",module,Magento_CompanyCredit
+Title,Title,module,Magento_CompanyCredit
+"Payment from Applicable Countries","Payment from Applicable Countries",module,Magento_CompanyCredit
+"Payment from Specific Countries","Payment from Specific Countries",module,Magento_CompanyCredit
+"Minimum Order Total","Minimum Order Total",module,Magento_CompanyCredit
+"Maximum Order Total","Maximum Order Total",module,Magento_CompanyCredit
+"Company Credit Change Email Sender","Company Credit Change Email Sender",module,Magento_CompanyCredit
+"Send Company Credit Change Email Copy To","Send Company Credit Change Email Copy To",module,Magento_CompanyCredit
+Comma-separated,Comma-separated,module,Magento_CompanyCredit
+"Send Email Copy Method","Send Email Copy Method",module,Magento_CompanyCredit
+"Allocated Email Template","Allocated Email Template",module,Magento_CompanyCredit
+"This email is sent to the Company Admin.","This email is sent to the Company Admin.",module,Magento_CompanyCredit
+"Updated Email Template","Updated Email Template",module,Magento_CompanyCredit
+"Reimbursed Email Template","Reimbursed Email Template",module,Magento_CompanyCredit
+"Refunded Email Template","Refunded Email Template",module,Magento_CompanyCredit
+"Reverted Email Template","Reverted Email Template",module,Magento_CompanyCredit
+View,View,module,Magento_CompanyCredit
+"Credit Currency","Credit Currency",module,Magento_CompanyCredit
+"Allow To Exceed Credit Limit","Allow To Exceed Credit Limit",module,Magento_CompanyCredit
+"Reason For Change","Reason For Change",module,Magento_CompanyCredit
+Amount,Amount,module,Magento_CompanyCredit
+"Limit one PO number per reimburse transaction","Limit one PO number per reimburse transaction",module,Magento_CompanyCredit
+"Maximum 255 characters are allowed.","Maximum 255 characters are allowed.",module,Magento_CompanyCredit
+Comment,Comment,module,Magento_CompanyCredit
+Rate,Rate,module,Magento_CompanyCredit
+"Convert Credit","Convert Credit",module,Magento_CompanyCredit
+Date,Date,module,Magento_CompanyCredit
+Operation,Operation,module,Magento_CompanyCredit
+"Updated By","Updated By",module,Magento_CompanyCredit
+"Purchase Order","Purchase Order",module,Magento_CompanyCredit
+"You will be charged for","You will be charged for",module,Magento_CompanyCredit
+"Order Total","Order Total",module,Magento_CompanyCredit
+"All Payment Methods","All Payment Methods",module,Magento_CompanyPayment
+"Specific Payment Methods","Specific Payment Methods",module,Magento_CompanyPayment
+"B2B Payment Methods","B2B Payment Methods",module,Magento_CompanyPayment
+"All Enabled Payment Methods","All Enabled Payment Methods",module,Magento_CompanyPayment
+(disabled),(disabled),module,Magento_CompanyPayment
+"Payment Information","Payment Information",module,Magento_CompanyPayment
+"Available Payment Methods","Available Payment Methods",module,Magento_CompanyPayment
+"This company has no payment methods. Please contact store administrator.","This company has no payment methods. Please contact store administrator.",module,Magento_CompanyPayment
+"Default B2B Payment Methods","Default B2B Payment Methods",module,Magento_CompanyPayment
+"Applicable Payment Methods","Applicable Payment Methods",module,Magento_CompanyPayment
+"Payment Methods","Payment Methods",module,Magento_CompanyPayment
+"By default, the selected payment methods are available for all new companies. If your Magento site has multiple websites, on a specific website the buyer will be able to pay with the methods available for that website only.","By default, the selected payment methods are available for all new companies. If your Magento site has multiple websites, on a specific website the buyer will be able to pay with the methods available for that website only.",module,Magento_CompanyPayment
+"Payment Information (View)","Payment Information (View)",module,Magento_CompanyPayment
+"Use config settings","Use config settings",module,Magento_CompanyPayment
 "Default Config","Standaard configuratie",module,Magento_Config
 "Save Config","Configuratie opslaan",module,Magento_Config
 [GLOBAL],[GLOBAAL],module,Magento_Config
@@ -3740,7 +4276,7 @@ Download,Downloads,module,Magento_Customer
 "The email address is incorrect. Verify the email address and try again.","The email address is incorrect. Verify the email address and try again.",module,Magento_Customer
 "We're unable to send the password reset email.","We kunnen de wachtwoordherstel e-mail niet verzenden.",module,Magento_Customer
 "Please enter your email.","Voer uw e-mailadres in.",module,Magento_Customer
-"If there is an account associated with %1 you will receive an email with a link to reset your password.","Als er een account is gekoppeld aan %1, ontvangt u een e-mail met een link om uw wachtwoord opnieuw instellen.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","Als er een account is gekoppeld aan %1, ontvangt u een e-mail met een link om uw wachtwoord opnieuw in te stellen.",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Deze account is niet bevestigd. <a href=""%1"">Klik hier</a> om de bevestigingsmail opnieuw te verzenden.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","Een niet nader gekende fout deed zich voor. Neem contact met ons op voor hulp.",module,Magento_Customer
 "A login and a password are required.","Gebruikersnaam en wachtwoord zijn verplicht.",module,Magento_Customer
@@ -3892,6 +4428,8 @@ frontend_label,frontend_label,module,Magento_Customer
 Label,label,module,Magento_Customer
 Select...,Selecteer...,module,Magento_Customer
 Edit,Bewerken,module,Magento_Customer
+"Delete %1","Delete %1",module,Magento_Customer
+"Are you sure you want to delete a %1 record?","Are you sure you want to delete a %1 record?",module,Magento_Customer
 Visitor,Bezoeker,module,Magento_Customer
 Customer,Klant,module,Magento_Customer
 "No item specified.","Geen artikel gespecificeerd.",module,Magento_Customer
@@ -4136,10 +4674,8 @@ Type,Type,module,Magento_Customer
 "Send Welcome Email From","Verzend welkom e-mail vanuit",module,Magento_Customer
 "Are you sure you want to delete this item?","Weet u zeker dat u dit artikel wil verwijderen?",module,Magento_Customer
 Addresses,Adressen,module,Magento_Customer
-"Account Dashboard",Accountoverzicht,module,Magento_Customer
 "Edit Account Information","Bewerk accountgegevens",module,Magento_Customer
 "Password forgotten","Wachtwoord vergeten",module,Magento_Customer
-"My Dashboard",Overzicht,module,Magento_Customer
 "You are signed out","U bent afgemeld",module,Magento_Customer
 "Store Credit",Winkeltegoed,module,Magento_CustomerBalance
 "Delete Orphan Balances","Verwijder verweesde saldo's",module,Magento_CustomerBalance
@@ -4169,7 +4705,7 @@ Comment,Opmerking,module,Magento_CustomerBalance
 "Please specify a valid customer.","Geef een geldige klant op.",module,Magento_CustomerBalance
 Created,Aangemaakt,module,Magento_CustomerBalance
 Updated,Bijgewerkt,module,Magento_CustomerBalance
-Used,Gerbuikt,module,Magento_CustomerBalance
+Used,Gebruikt,module,Magento_CustomerBalance
 Refunded,Teruggestort,module,Magento_CustomerBalance
 Reverted,Terugstellen,module,Magento_CustomerBalance
 "A balance is needed to save a balance history.","A balance is needed to save a balance history.",module,Magento_CustomerBalance
@@ -4179,7 +4715,7 @@ Reverted,Terugstellen,module,Magento_CustomerBalance
 "The balance history action code is unknown. Verify the code and try again.","The balance history action code is unknown. Verify the code and try again.",module,Magento_CustomerBalance
 "There is no order set to balance model.","Er is geen volorde gezet voor het Saldo-model.",module,Magento_CustomerBalance
 "You do not have enough store credit to complete this order.","U heeft niet genoeg winkel krediet om deze bestelling af te ronden.",module,Magento_CustomerBalance
-"The store credit used can't be more than the order amount. Reduce the store credit and try again.","The store credit used can't be more than the order amount. Reduce the store credit and try again.",module,Magento_CustomerBalance
+"You can't use more store credit than the order amount.","U kan niet meer winkelkrediet gebruiken dan het bedrag van de bestelling.",module,Magento_CustomerBalance
 "Store Credit Balance","Winkeltegoed Saldo",module,Magento_CustomerBalance
 "Balance History","Saldo geschiedenis",module,Magento_CustomerBalance
 "Refund Store Credit to Store Credit","Stort Winkeltegoed terug naar Winkelgoed",module,Magento_CustomerBalance
@@ -4614,6 +5150,8 @@ Exception,Uitzondering,module,Magento_Deploy
 "Leave empty for access from any location.","Indien het veld leeg is, zal deze functionaliteit voor iedereen toegankelijk zijn.",module,Magento_Developer
 "Log to File","Log naar bestand",module,Magento_Developer
 "Not available in production mode.","Niet beschikbaar in productie mode.",module,Magento_Developer
+Syslog,Syslog,module,Magento_Developer
+"Log to Syslog","Log to Syslog",module,Magento_Developer
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Selecteer dit om DHL te laten instaan voor een geoptimaliseerde splitsing van de bestelling indien het %1 %2 overschrijdt.",module,Magento_Dhl
 "Wrong Content Type","Verkeerd Inhoudstype",module,Magento_Dhl
 Pounds,"500 gram",module,Magento_Dhl
@@ -5397,7 +5935,7 @@ History,Geschiedenis,module,Magento_GiftCardAccount
 "Gift card account %1 has a zero balance.","Rekening cadeaubon %1 heeft een nulsaldo.",module,Magento_GiftCardAccount
 "Gift card account %1 balance is lower than the charged amount.","Balans van de rekening cadeaubon %1 is lager dan het kostbedrag.",module,Magento_GiftCardAccount
 Available,Beschikbaar,module,Magento_GiftCardAccount
-Used,Gerbuikt,module,Magento_GiftCardAccount
+Used,Gebruikt,module,Magento_GiftCardAccount
 Redeemed,Ingewisseld,module,Magento_GiftCardAccount
 Expired,Verlopen,module,Magento_GiftCardAccount
 "Please enter a valid customer ID.","Voer een geldig klant-id in.",module,Magento_GiftCardAccount
@@ -6016,6 +6554,7 @@ Import,Import,module,Magento_ImportExport
 "Please specify number of errors to halt import process","Geef het aantal errors wanneer het import proces wordt gestopt op",module,Magento_ImportExport
 "Field separator",Veldscheidingsteken,module,Magento_ImportExport
 "Multiple value separator","Meerdere waarde scheidingsteken",module,Magento_ImportExport
+"Empty attribute value constant","Lege attribuut waarde constante",module,Magento_ImportExport
 "Fields enclosure","Fields enclosure",module,Magento_ImportExport
 "File to Import","Te importeren bestand",module,Magento_ImportExport
 "Select File to Import","Selecteer bestanden om te importeren",module,Magento_ImportExport
@@ -6028,7 +6567,7 @@ Import/Export,Importeren/Exporteren,module,Magento_ImportExport
 History,Geschiedenis,module,Magento_ImportExport
 "Import History","Import historie",module,Magento_ImportExport
 "Import history","Import historie",module,Magento_ImportExport
-"Incorrect entity name.","Incorrect entity name.",module,Magento_ImportExport
+"Incorrect entity name.","Onjuiste entiteitnaam.",module,Magento_ImportExport
 "There is no sample file for this entity.","Er is geen voorbeeldbestand voor deze entiteit.",module,Magento_ImportExport
 Status,Status,module,Magento_ImportExport
 "Maximum error count has been reached or system error is occurred!","Maximum aantal fouten is bereikt of er is een systeemfout opgetreden!",module,Magento_ImportExport
@@ -6088,10 +6627,10 @@ Status,Status,module,Magento_ImportExport
 "Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","Adapter moet een exemplaar van \Magento\ImportExport\Model\Import\AbstractSource zijn",module,Magento_ImportExport
 "Please specify a source.","Geef een bron op.",module,Magento_ImportExport
 "ImportExport: Import Data validation - Validation strategy not found","ImportExport: Gegevens importeren validatie - validatie strategie niet gevonden",module,Magento_ImportExport
-"There is no file: %file","There is no file: %file",module,Magento_ImportExport
+"There is no file: %file","Het bestand ""%file"" bestaat niet",module,Magento_ImportExport
 "Cannot get autoincrement value","Kan geen autoincrement waarde ophalen",module,Magento_ImportExport
 "Error in data structure: %1 values are mixed","Fout in datastructuur: %1 waarden zijn gemengd",module,Magento_ImportExport
-"'Error in CSV: ' .","'Error in CSV: ' .",module,Magento_ImportExport
+"'Error in CSV: ' .","'Fout in CSV: ' .",module,Magento_ImportExport
 "-- Please Select --","-- Selecteer --",module,Magento_ImportExport
 label,label,module,Magento_ImportExport
 Add/Update,Toevoegen/bijwerken,module,Magento_ImportExport
@@ -6197,27 +6736,27 @@ Reauthorize,"Opnieuw autoriseren",module,Magento_Integration
 "View ""%1"" Integration","Weergave ""%1"" integratie",module,Magento_Integration
 "Edit ""%1"" Integration","""%1"" integratie bewerken",module,Magento_Integration
 "Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","Waarschuwing! Integraties zonder HTTPS zijn onveilig en kunnen privé of persoonlijk informatie blootstellen",module,Magento_Integration
-"The integrations created in the config file can't be edited.","The integrations created in the config file can't be edited.",module,Magento_Integration
+"The integrations created in the config file can't be edited.","De integraties aangemaakt via de config file kunnen niet worden gewijzigd.",module,Magento_Integration
 "The integration '%1' has been saved.","De integratie '%1' is opgeslagen",module,Magento_Integration
 "The integration was not saved.","De integratie is niet opgeslagen.",module,Magento_Integration
 "The integration '%1' has been re-authorized.","De integratie '%1' is opnieuw geautoriseerd.",module,Magento_Integration
 "The integration '%1' has been activated.","Integratie '%1' werd geactiveerd.",module,Magento_Integration
 "Integration '%1' has been sent for re-authorization.","Integratie '%1' is opnieuw verzonden voor autorisatie.",module,Magento_Integration
 "Integration '%1' has been sent for activation.","Integratie '%1' is verstuurd voor activatie.",module,Magento_Integration
-"A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.","A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.",module,Magento_Integration
+"A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.","Een gebruiker met het ID ""%1"" bestaat niet. Controleer het ID en probeer het nogmaals.",module,Magento_Integration
 title,title,module,Magento_Integration
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Integration
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","De account login was onjuist of uw account is tijdelijk uitgeschakeld. Probeer het later nog eens.",module,Magento_Integration
 "This user has no tokens.","Deze gebruiker heeft geen sleutels.",module,Magento_Integration
-"The tokens couldn't be revoked.","The tokens couldn't be revoked.",module,Magento_Integration
-"An error occurred during the attempt to grant permissions. For details, see the exceptions log.","An error occurred during the attempt to grant permissions. For details, see the exceptions log.",module,Magento_Integration
+"The tokens couldn't be revoked.","De tokens konden niet worden ingetrokken.",module,Magento_Integration
+"An error occurred during the attempt to grant permissions. For details, see the exceptions log.","Er is een fout opgetreden om bevoegdheden te geven. Voor meer details zie het exceptions logboek.",module,Magento_Integration
 "Something went wrong while deleting roles and permissions. You can find out more in the exceptions log.","Er ging iets mis tijdens het verwijderen van rollen en bevoegdheden. Meer informatie in het exceptions logboek.",module,Magento_Integration
-"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_Integration
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" is verplicht. Voer in en probeer het nogmaals.",module,Magento_Integration
 "This customer has no tokens.","De klant heeft geen sleutels.",module,Magento_Integration
 Inactive,Inactief,module,Magento_Integration
 Active,Actief,module,Magento_Integration
 Reset,Reset,module,Magento_Integration
-"The integration with name ""%1"" exists.","The integration with name ""%1"" exists.",module,Magento_Integration
-"The integration with ID ""%1"" doesn't exist.","The integration with ID ""%1"" doesn't exist.",module,Magento_Integration
+"The integration with name ""%1"" exists.","De integratie met naam ""%1"" bestaat.",module,Magento_Integration
+"The integration with ID ""%1"" doesn't exist.","De integratie met ID-""%1"" bestaat niet.",module,Magento_Integration
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Een of meer <a href=""%1""> integraties</a> zijn vanwege een wijziging in de XML-configs gereset.",module,Magento_Integration
 "Invalid Callback URL","Ongeldige Callback-URL",module,Magento_Integration
 "Invalid Rejected Callback URL","Ongeldige afgewezen-Callback-URL",module,Magento_Integration
@@ -6239,16 +6778,16 @@ Reset,Reset,module,Magento_Integration
 "Verifier is not the correct length","Verificatie is niet de juiste lengte",module,Magento_Integration
 "Token verifier and verifier token do not match","Sleutel verificateur en verificatiesleutel komen niet overeen",module,Magento_Integration
 "A consumer with the ID %1 does not exist","Een gebruiker met het ID %1 bestaat niet",module,Magento_Integration
-"The token length is invalid. Check the length and try again.","The token length is invalid. Check the length and try again.",module,Magento_Integration
+"The token length is invalid. Check the length and try again.","De token lengte is ongeldig. Controleer de lengte en probeer het nogmaals.",module,Magento_Integration
 "Specified token does not exist","Opgegeven token bestaat niet",module,Magento_Integration
 "A token with consumer ID %1 does not exist","Een token met gebruikers ID %1 bestaat niet",module,Magento_Integration
-"The oAuth consumer account couldn't be created due to an unexpected error. Please try again later.","The oAuth consumer account couldn't be created due to an unexpected error. Please try again later.",module,Magento_Integration
-"The oAuth consumer account couldn't be loaded due to an unexpected error. Please try again later.","The oAuth consumer account couldn't be loaded due to an unexpected error. Please try again later.",module,Magento_Integration
-"The attempt to post data to consumer failed due to an unexpected error. Please try again later.","The attempt to post data to consumer failed due to an unexpected error. Please try again later.",module,Magento_Integration
-"A consumer with ID ""%1"" doesn't exist. Verify the ID and try again.","A consumer with ID ""%1"" doesn't exist. Verify the ID and try again.",module,Magento_Integration
+"The oAuth consumer account couldn't be created due to an unexpected error. Please try again later.","De oAuth-gebruikeraccount kon niet worden aangemaakt wegens een onverwachte fout. Probeer het later nogmaals.",module,Magento_Integration
+"The oAuth consumer account couldn't be loaded due to an unexpected error. Please try again later.","De oAuth-gebruikeraccount kon niet worden geladen wegens een onverwachte fout. Probeer het later nogmaals.",module,Magento_Integration
+"The attempt to post data to consumer failed due to an unexpected error. Please try again later.","De pogin om de data op te slaan bij de gebruiker is mislukt wegens een onverwachte fout. Probeer het later nogmaals.",module,Magento_Integration
+"A consumer with ID ""%1"" doesn't exist. Verify the ID and try again.","Een gebruiker met het ID ""%1"" bestaat niet. Controleer het ID en probeer het nogmaals.",module,Magento_Integration
 "Invalid token to except","Ongeldig uit te sluiten teken",module,Magento_Integration
-"Your account is temporarily disabled. Please try again later.","Your account is temporarily disabled. Please try again later.",module,Magento_Integration
-"The password entered for the current user is invalid. Verify the password and try again.","The password entered for the current user is invalid. Verify the password and try again.",module,Magento_Integration
+"Your account is temporarily disabled. Please try again later.","Uw account is tijdelijk uitgeschakeld. Probeer het later opnieuw.",module,Magento_Integration
+"The password entered for the current user is invalid. Verify the password and try again.","Het wachtwoord ingevuld voor de huidige gebruiker is ongeldig. Controleer het wachtwoord en probeer het nogmaals.",module,Magento_Integration
 "A token with consumer ID 0 does not exist","Een sleutel met gebruikersID 0 bestaat niet",module,Magento_Integration
 "The integration you selected asks you to approve access to the following:","De geselecteerde integratie heeft volgende goedkeuring nodig:",module,Magento_Integration
 "No permissions requested","Geen bevoegdheden opgevraagd",module,Magento_Integration
@@ -6706,6 +7245,7 @@ Customers,Klanten,module,Magento_MultipleWishlist
 "The default wish list can't be deleted.","The default wish list can't be deleted.",module,Magento_MultipleWishlist
 "Wish List ""%1"" has been deleted.","Verlanglijst ""%1"" werd verwijderd.",module,Magento_MultipleWishlist
 "We can't delete the wish list right now.","We kunnen de verlanglijst momenteel niet verwijderen.",module,Magento_MultipleWishlist
+"Could not create a wish list.","Could not create a wish list.",module,Magento_MultipleWishlist
 """%1"" was moved to %2.","""%1"" werd verplaatst naar %2.",module,Magento_MultipleWishlist
 "We can't find an item with this ID.","Wij kunnen geen item vinden met dit ID.",module,Magento_MultipleWishlist
 "We cannot move ""%1"".","We kunnen ""%1"" niet verplaatsen.",module,Magento_MultipleWishlist
@@ -6927,6 +7467,433 @@ Options,Opties,module,Magento_Multishipping
 "Successful Messages Lifetime","Levensduur Van Succesvolle Berichten",module,Magento_MysqlMq
 "Failed Messages Lifetime","Onbestelbare berichten levensduur",module,Magento_MysqlMq
 "New Messages Lifetime","Levensduur Van Nieuwe Berichten",module,Magento_MysqlMq
+"Catalog Total Price (Excl. Tax)","Catalog Total Price (Excl. Tax)",module,Magento_NegotiableQuote
+"Catalog Total Price (Incl. Tax)","Catalog Total Price (Incl. Tax)",module,Magento_NegotiableQuote
+"Catalog Total Price","Catalog Total Price",module,Magento_NegotiableQuote
+"Negotiated Discount","Negotiated Discount",module,Magento_NegotiableQuote
+Back,Back,module,Magento_NegotiableQuote
+Print,Print,module,Magento_NegotiableQuote
+"Save as Draft","Save as Draft",module,Magento_NegotiableQuote
+Decline,Decline,module,Magento_NegotiableQuote
+Send,Send,module,Magento_NegotiableQuote
+"This action cannot be performed because you have products requiring attention. You must resolve these issues before you can continue.","This action cannot be performed because you have products requiring attention. You must resolve these issues before you can continue.",module,Magento_NegotiableQuote
+"Cannot Perform the Requested Action","Cannot Perform the Requested Action",module,Magento_NegotiableQuote
+"%creator (for %customer)","%creator (for %customer)",module,Magento_NegotiableQuote
+"Items Quoted","Items Quoted",module,Magento_NegotiableQuote
+"Subtotal (Incl. Tax)","Subtotal (Incl. Tax)",module,Magento_NegotiableQuote
+"Subtotal (Excl. Tax)","Subtotal (Excl. Tax)",module,Magento_NegotiableQuote
+"Add to Quote by SKU","Add to Quote by SKU",module,Magento_NegotiableQuote
+"Add to Quote","Add to Quote",module,Magento_NegotiableQuote
+Cancel,Cancel,module,Magento_NegotiableQuote
+"Total Cost","Total Cost",module,Magento_NegotiableQuote
+"Negotiated Price","Negotiated Price",module,Magento_NegotiableQuote
+"Shipping & Handling","Shipping & Handling",module,Magento_NegotiableQuote
+"Quote Subtotal (Incl. Tax)","Quote Subtotal (Incl. Tax)",module,Magento_NegotiableQuote
+"Percentage Discount","Percentage Discount",module,Magento_NegotiableQuote
+"Amount Discount","Amount Discount",module,Magento_NegotiableQuote
+"Proposed Price","Proposed Price",module,Magento_NegotiableQuote
+"Quote Subtotal","Quote Subtotal",module,Magento_NegotiableQuote
+"My Orders","My Orders",module,Magento_NegotiableQuote
+"My Quotes","My Quotes",module,Magento_NegotiableQuote
+"created quote","created quote",module,Magento_NegotiableQuote
+"closed quote","closed quote",module,Magento_NegotiableQuote
+"updated quote","updated quote",module,Magento_NegotiableQuote
+"Percentage Discount - %1%","Percentage Discount - %1%",module,Magento_NegotiableQuote
+"Amount Discount - %1","Amount Discount - %1",module,Magento_NegotiableQuote
+"Proposed Price - %1","Proposed Price - %1",module,Magento_NegotiableQuote
+None,None,module,Magento_NegotiableQuote
+Qty:,Qty:,module,Magento_NegotiableQuote
+Qty:,Qty:,module,Magento_NegotiableQuote
+"- deleted from catalog","- deleted from catalog",module,Magento_NegotiableQuote
+(Removed),(Removed),module,Magento_NegotiableQuote
+deleted,deleted,module,Magento_NegotiableQuote
+"Renderer list for block ""%1"" is not defined","Renderer list for block ""%1"" is not defined",module,Magento_NegotiableQuote
+"This quote is currently locked for editing. It will become available once released by the Merchant.","This quote is currently locked for editing. It will become available once released by the Merchant.",module,Magento_NegotiableQuote
+"Your quote has expired and the product prices have been updated as per the latest prices in your catalog. You can either re-submit the quote to seller for further negotiation or go to checkout.","Your quote has expired and the product prices have been updated as per the latest prices in your catalog. You can either re-submit the quote to seller for further negotiation or go to checkout.",module,Magento_NegotiableQuote
+"You are not an owner of this quote. You cannot edit it or take any actions on it.","You are not an owner of this quote. You cannot edit it or take any actions on it.",module,Magento_NegotiableQuote
+Discount,Discount,module,Magento_NegotiableQuote
+"Estimated Tax","Estimated Tax",module,Magento_NegotiableQuote
+"Quote Subtotal (Excl. Tax)","Quote Subtotal (Excl. Tax)",module,Magento_NegotiableQuote
+"Quote Grand Total (Incl. Tax)","Quote Grand Total (Incl. Tax)",module,Magento_NegotiableQuote
+"Grand Total to Be Charged","Grand Total to Be Charged",module,Magento_NegotiableQuote
+"Requested quote was not found","Requested quote was not found",module,Magento_NegotiableQuote
+Sales,Sales,module,Magento_NegotiableQuote
+Quotes,Quotes,module,Magento_NegotiableQuote
+"Something went wrong. Please try again later.","Something went wrong. Please try again later.",module,Magento_NegotiableQuote
+"Something went wrong","Something went wrong",module,Magento_NegotiableQuote
+"Something went wrong during quote declining","Something went wrong during quote declining",module,Magento_NegotiableQuote
+"Attachment not found.","Attachment not found.",module,Magento_NegotiableQuote
+"Quote #%1","Quote #%1",module,Magento_NegotiableQuote
+"Exception occurred during quote print: %1","Exception occurred during quote print: %1",module,Magento_NegotiableQuote
+"Exception occurred during update quote","Exception occurred during update quote",module,Magento_NegotiableQuote
+"Exception occurred during quote saving","Exception occurred during quote saving",module,Magento_NegotiableQuote
+"The changes have been saved.","The changes have been saved.",module,Magento_NegotiableQuote
+"The quote has been sent to the buyer.","The quote has been sent to the buyer.",module,Magento_NegotiableQuote
+"Exception occurred during quote sending","Exception occurred during quote sending",module,Magento_NegotiableQuote
+"Exception occurred during quote view %1","Exception occurred during quote view %1",module,Magento_NegotiableQuote
+"Requested quote was not found.","Requested quote was not found.",module,Magento_NegotiableQuote
+"An error occurred on the server. %1","An error occurred on the server. %1",module,Magento_NegotiableQuote
+"This quote is currently locked for editing. It will become available once released by the buyer.","This quote is currently locked for editing. It will become available once released by the buyer.",module,Magento_NegotiableQuote
+"Page not found.","Page not found.",module,Magento_NegotiableQuote
+"An error occurred while quote creation.","An error occurred while quote creation.",module,Magento_NegotiableQuote
+"%1 products require your attention. Please contact the Seller if you have any questions.","%1 products require your attention. Please contact the Seller if you have any questions.",module,Magento_NegotiableQuote
+"You closed the quote.","You closed the quote.",module,Magento_NegotiableQuote
+"We can't close the quote right now because of an error: %1.","We can't close the quote right now because of an error: %1.",module,Magento_NegotiableQuote
+"We can't close the quote right now.","We can't close the quote right now.",module,Magento_NegotiableQuote
+"An error occurred while creating quote.","An error occurred while creating quote.",module,Magento_NegotiableQuote
+"Quote with ID %1 was successfully created.","Quote with ID %1 was successfully created.",module,Magento_NegotiableQuote
+"The quote could not be created. Please try again later.","The quote could not be created. Please try again later.",module,Magento_NegotiableQuote
+"You have deleted the quote.","You have deleted the quote.",module,Magento_NegotiableQuote
+"We can't delete the quote right now.","We can't delete the quote right now.",module,Magento_NegotiableQuote
+"You've removed the item from quote.","You've removed the item from quote.",module,Magento_NegotiableQuote
+"We can't delete the quote item right now.","We can't delete the quote item right now.",module,Magento_NegotiableQuote
+"You have updated the items in the quote.","You have updated the items in the quote.",module,Magento_NegotiableQuote
+"We can't update the items right now.","We can't update the items right now.",module,Magento_NegotiableQuote
+"We can't order the quote right now because of an error: %1.","We can't order the quote right now because of an error: %1.",module,Magento_NegotiableQuote
+"We can't order the quote right now.","We can't order the quote right now.",module,Magento_NegotiableQuote
+Quote,Quote,module,Magento_NegotiableQuote
+"This quote will be charged in %1. The prices are given in %2 as reference only.","This quote will be charged in %1. The prices are given in %2 as reference only.",module,Magento_NegotiableQuote
+"We can't send the quote right now because of an error: %1.","We can't send the quote right now because of an error: %1.",module,Magento_NegotiableQuote
+"We can't send the quote right now.","We can't send the quote right now.",module,Magento_NegotiableQuote
+"Cannot obtain the requested data. You must fix the errors listed below first.","Cannot obtain the requested data. You must fix the errors listed below first.",module,Magento_NegotiableQuote
+"Requested attachment is not found. Row ID: %fieldName = %fieldValue","Requested attachment is not found. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"Requested quote is not found. Row ID: %fieldName = %fieldValue","Requested quote is not found. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"There was an error saving comment.","There was an error saving comment.",module,Magento_NegotiableQuote
+"Cannot delete comment with id %1","Cannot delete comment with id %1",module,Magento_NegotiableQuote
+"There was an error saving company quote config.","There was an error saving company quote config.",module,Magento_NegotiableQuote
+Yes,Yes,module,Magento_NegotiableQuote
+No,No,module,Magento_NegotiableQuote
+System,System,module,Magento_NegotiableQuote
+"- deleted","- deleted",module,Magento_NegotiableQuote
+"Product with ID #%1 is deleted","Product with ID #%1 is deleted",module,Magento_NegotiableQuote
+"There was an error saving history log.","There was an error saving history log.",module,Magento_NegotiableQuote
+"There was an error during updating history log.","There was an error during updating history log.",module,Magento_NegotiableQuote
+"Could not save history log","Could not save history log",module,Magento_NegotiableQuote
+"Cannot delete history log with id %1","Cannot delete history log with id %1",module,Magento_NegotiableQuote
+"There was an error saving negotiable quote item.","There was an error saving negotiable quote item.",module,Magento_NegotiableQuote
+"Cannot send a B2B quote.","Cannot send a B2B quote.",module,Magento_NegotiableQuote
+"Cannot create a B2B quote.","Cannot create a B2B quote.",module,Magento_NegotiableQuote
+"Changes to the negotiated quote were not saved. Please try again.","Changes to the negotiated quote were not saved. Please try again.",module,Magento_NegotiableQuote
+"Cannot delete negotiable quote","Cannot delete negotiable quote",module,Magento_NegotiableQuote
+"Shipping method cannot be set for a virtual quote.","Shipping method cannot be set for a virtual quote.",module,Magento_NegotiableQuote
+"Cannot add the shipping method. You must add a shipping address into the quote first.","Cannot add the shipping method. You must add a shipping address into the quote first.",module,Magento_NegotiableQuote
+"Requested shipping method is not found. Row ID: ShippingMethodID = %ShippingMethodID.","Requested shipping method is not found. Row ID: ShippingMethodID = %ShippingMethodID.",module,Magento_NegotiableQuote
+"Product with SKU %1 not found","Product with SKU %1 not found",module,Magento_NegotiableQuote
+"Negotiated quote not found.","Negotiated quote not found.",module,Magento_NegotiableQuote
+"Catalog Price:","Catalog Price:",module,Magento_NegotiableQuote
+"Quote Discount","Quote Discount",module,Magento_NegotiableQuote
+"Discount amount:","Discount amount:",module,Magento_NegotiableQuote
+"Cart Price:","Cart Price:",module,Magento_NegotiableQuote
+"Unable to update shipping address","Unable to update shipping address",module,Magento_NegotiableQuote
+"Cannot save removed quote item notification","Cannot save removed quote item notification",module,Magento_NegotiableQuote
+"Only for use within frontend area","Only for use within frontend area",module,Magento_NegotiableQuote
+"There is an error while saving comment.","There is an error while saving comment.",module,Magento_NegotiableQuote
+"Cannot save comment:\n%1","Cannot save comment:\n%1",module,Magento_NegotiableQuote
+discount,discount,module,Magento_NegotiableQuote
+%1%,%1%,module,Magento_NegotiableQuote
+"%1 - deleted","%1 - deleted",module,Magento_NegotiableQuote
+"Cart rule deleted.","Cart rule deleted.",module,Magento_NegotiableQuote
+"Products %1","Products %1",module,Magento_NegotiableQuote
+"Product %1","Product %1",module,Magento_NegotiableQuote
+New,New,module,Magento_NegotiableQuote
+"Client reviewed","Client reviewed",module,Magento_NegotiableQuote
+Open,Open,module,Magento_NegotiableQuote
+Updated,Updated,module,Magento_NegotiableQuote
+Submitted,Submitted,module,Magento_NegotiableQuote
+Ordered,Ordered,module,Magento_NegotiableQuote
+Expired,Expired,module,Magento_NegotiableQuote
+Declined,Declined,module,Magento_NegotiableQuote
+Closed,Closed,module,Magento_NegotiableQuote
+"Catalog prices have changed, and you may want to review the offer. Details about the changes are available in the History Log.","Catalog prices have changed, and you may want to review the offer. Details about the changes are available in the History Log.",module,Magento_NegotiableQuote
+"The discount has changed for this quote. Check the History Log for details.","The discount has changed for this quote. Check the History Log for details.",module,Magento_NegotiableQuote
+"The discount for this quote has been removed because the buyer has reached the maximum number of attempts to request a discount. You may want to review the offer amount.","The discount for this quote has been removed because the buyer has reached the maximum number of attempts to request a discount. You may want to review the offer amount.",module,Magento_NegotiableQuote
+"The discount for this quote has been removed because the cart rule has been deleted. You may want to review the offer amount.","The discount for this quote has been removed because the cart rule has been deleted. You may want to review the offer amount.",module,Magento_NegotiableQuote
+"Quote taxes have been recalculated because the buyer added or changed the shipping address. You may want to review the offer amount.","Quote taxes have been recalculated because the buyer added or changed the shipping address. You may want to review the offer amount.",module,Magento_NegotiableQuote
+"Buyer added or changed the shipping address. You may want to offer the shipping price or / and review the offer amount.","Buyer added or changed the shipping address. You may want to offer the shipping price or / and review the offer amount.",module,Magento_NegotiableQuote
+"has been deleted from the catalog, so the items quoted list has been updated.","has been deleted from the catalog, so the items quoted list has been updated.",module,Magento_NegotiableQuote
+"have been deleted from the catalog, so the items quoted list has been updated.","have been deleted from the catalog, so the items quoted list has been updated.",module,Magento_NegotiableQuote
+"has been deleted from the quote. You may want to review the offer amount.","has been deleted from the quote. You may want to review the offer amount.",module,Magento_NegotiableQuote
+"has been deleted from the catalog. The items quoted list has been updated.","has been deleted from the catalog. The items quoted list has been updated.",module,Magento_NegotiableQuote
+"have been deleted from the quote. You may want to review the offer amount.","have been deleted from the quote. You may want to review the offer amount.",module,Magento_NegotiableQuote
+"have been deleted from the catalog. The items quoted list has been updated.","have been deleted from the catalog. The items quoted list has been updated.",module,Magento_NegotiableQuote
+Pending,Pending,module,Magento_NegotiableQuote
+"Catalog prices have changed. You may want to re-submit this quote. Details about the changes are available in the History Log.","Catalog prices have changed. You may want to re-submit this quote. Details about the changes are available in the History Log.",module,Magento_NegotiableQuote
+"The discount for this quote has been removed because you have already used your discount on previous orders. Please re-submit the quote to the Seller for further negotiation.","The discount for this quote has been removed because you have already used your discount on previous orders. Please re-submit the quote to the Seller for further negotiation.",module,Magento_NegotiableQuote
+"The discount is no longer valid for this quote, and the prices have been updated. Please re-submit the quote to the Seller for further negotiation.","The discount is no longer valid for this quote, and the prices have been updated. Please re-submit the quote to the Seller for further negotiation.",module,Magento_NegotiableQuote
+"Quote taxes have been recalculated because you have added or changed the shipping address. The negotiated price is no longer valid. Please re-submit the quote to Seller.","Quote taxes have been recalculated because you have added or changed the shipping address. The negotiated price is no longer valid. Please re-submit the quote to Seller.",module,Magento_NegotiableQuote
+"You have added or changed the shipping address on this quote. Please re-submit the quote to Seller.","You have added or changed the shipping address on this quote. Please re-submit the quote to Seller.",module,Magento_NegotiableQuote
+"is no longer available in catalog. It was removed from your quote.","is no longer available in catalog. It was removed from your quote.",module,Magento_NegotiableQuote
+"are no longer available in catalog. They were removed from your quote.","are no longer available in catalog. They were removed from your quote.",module,Magento_NegotiableQuote
+"is no longer available. It was removed from your quote.","is no longer available. It was removed from your quote.",module,Magento_NegotiableQuote
+"are no longer available. They were removed from your quote.","are no longer available. They were removed from your quote.",module,Magento_NegotiableQuote
+"The quote %quoteId is currently locked, and you cannot place an order from it at the moment.","The quote %quoteId is currently locked, and you cannot place an order from it at the moment.",module,Magento_NegotiableQuote
+"The quote %quoteId is currently locked and cannot be closed.","The quote %quoteId is currently locked and cannot be closed.",module,Magento_NegotiableQuote
+"You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.","You cannot update the requested attribute. Row ID: %fieldName = %fieldValue.",module,Magento_NegotiableQuote
+"Invalid attribute %fieldName: Cannot create a B2B Quote for an individual user. The user must be a company member. Row ID: %fieldName = %fieldValue","Invalid attribute %fieldName: Cannot create a B2B Quote for an individual user. The user must be a company member. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"Invalid attribute %fieldName: Quoting is not allowed for this company. Row ID: %fieldName = %fieldValue","Invalid attribute %fieldName: Quoting is not allowed for this company. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"The quote %quoteId is currently locked and cannot be declined.","The quote %quoteId is currently locked and cannot be declined.",module,Magento_NegotiableQuote
+"The quote %quoteId is currently locked and cannot be updated. Please check the quote status.","The quote %quoteId is currently locked and cannot be updated. Please check the quote status.",module,Magento_NegotiableQuote
+"The expiration date is in the wrong format. The correct format is %dateformat.","The expiration date is in the wrong format. The correct format is %dateformat.",module,Magento_NegotiableQuote
+"Cannot update the expiration date. You must specify today's date or a future date.","Cannot update the expiration date. You must specify today's date or a future date.",module,Magento_NegotiableQuote
+"Cannot create the B2B quote. You cannot attach more than ten files per one request.","Cannot create the B2B quote. You cannot attach more than ten files per one request.",module,Magento_NegotiableQuote
+"%fileType is not an allowed file type. Please select a different file.","%fileType is not an allowed file type. Please select a different file.",module,Magento_NegotiableQuote
+"The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue","The maximum file name length is 20 characters. The only special symbols that are allowed in the file name are: dash and underscore. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"Cannot attach the file %filename. The maximum allowed file size is %size Mb.","Cannot attach the file %filename. The maximum allowed file size is %size Mb.",module,Magento_NegotiableQuote
+"""%fieldName"" is required. Enter and try again.","""%fieldName"" is required. Enter and try again.",module,Magento_NegotiableQuote
+"Invalid attribute value. Row ID: %fieldName = %fieldValue","Invalid attribute value. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue","Invalid attribute value. The price must be NULL, 0 or a positive number. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"You cannot update the quote status.","You cannot update the quote status.",module,Magento_NegotiableQuote
+"Invalid attribute %fieldName: A B2B quote for this quoteID already exists. Row ID: %fieldName = %fieldValue","Invalid attribute %fieldName: A B2B quote for this quoteID already exists. Row ID: %fieldName = %fieldValue",module,Magento_NegotiableQuote
+"Cannot create a B2B quote. You must provide one or more quote items.","Cannot create a B2B quote. You must provide one or more quote items.",module,Magento_NegotiableQuote
+"'Cannot create the B2B quote.' .","'Cannot create the B2B quote.' .",module,Magento_NegotiableQuote
+"Cannot create the B2B quote. The minimum order for a quote request is %currency%amount","Cannot create the B2B quote. The minimum order for a quote request is %currency%amount",module,Magento_NegotiableQuote
+"The quote %quoteId is currently locked and cannot be submitted to the customer. Please check the quote status.","The quote %quoteId is currently locked and cannot be submitted to the customer. Please check the quote status.",module,Magento_NegotiableQuote
+"You are not allowed to do this.","You are not allowed to do this.",module,Magento_NegotiableQuote
+"Cannot delete all items from a B2B quote. The quote must contain at least one item.","Cannot delete all items from a B2B quote. The quote must contain at least one item.",module,Magento_NegotiableQuote
+"Cannot set the shipping price. You must select a shipping method first.","Cannot set the shipping price. You must select a shipping method first.",module,Magento_NegotiableQuote
+"Product with SKU %1 not found in catalog","Product with SKU %1 not found in catalog",module,Magento_NegotiableQuote
+message,message,module,Magento_NegotiableQuote
+"Street: street1, Postcode: 12345","Street: street1, Postcode: 12345",module,Magento_NegotiableQuote
+"Something went wrong.","Something went wrong.",module,Magento_NegotiableQuote
+test,test,module,Magento_NegotiableQuote
+"No such entity.","No such entity.",module,Magento_NegotiableQuote
+"Validation error message","Validation error message",module,Magento_NegotiableQuote
+"Exception message","Exception message",module,Magento_NegotiableQuote
+"Message 1","Message 1",module,Magento_NegotiableQuote
+"Message 2","Message 2",module,Magento_NegotiableQuote
+"exception message","exception message",module,Magento_NegotiableQuote
+View,View,module,Magento_NegotiableQuote
+"Associated Products","Associated Products",module,Magento_NegotiableQuote
+"Choose an Option...","Choose an Option...",module,Magento_NegotiableQuote
+Availability:,Availability:,module,Magento_NegotiableQuote
+"Out of stock","Out of stock",module,Magento_NegotiableQuote
+Amount,Amount,module,Magento_NegotiableQuote
+"Choose an Amount...","Choose an Amount...",module,Magento_NegotiableQuote
+"Other Amount...","Other Amount...",module,Magento_NegotiableQuote
+"Amount in %1","Amount in %1",module,Magento_NegotiableQuote
+Minimum,Minimum,module,Magento_NegotiableQuote
+Maximum,Maximum,module,Magento_NegotiableQuote
+"Sender Name","Sender Name",module,Magento_NegotiableQuote
+"Sender Email","Sender Email",module,Magento_NegotiableQuote
+"Recipient Name","Recipient Name",module,Magento_NegotiableQuote
+"Recipient Email","Recipient Email",module,Magento_NegotiableQuote
+Message,Message,module,Magento_NegotiableQuote
+"Bundle Items","Bundle Items",module,Magento_NegotiableQuote
+"Order Placed From Quote","Order Placed From Quote",module,Magento_NegotiableQuote
+Comments,Comments,module,Magento_NegotiableQuote
+"Request Declined. Reason:","Request Declined. Reason:",module,Magento_NegotiableQuote
+"Customer Group","Customer Group",module,Magento_NegotiableQuote
+Status,Status,module,Magento_NegotiableQuote
+"Created By","Created By",module,Magento_NegotiableQuote
+Created,Created,module,Magento_NegotiableQuote
+rate,rate,module,Magento_NegotiableQuote
+Expires,Expires,module,Magento_NegotiableQuote
+Company,Company,module,Magento_NegotiableQuote
+"Company Admin Email","Company Admin Email",module,Magento_NegotiableQuote
+Seller,Seller,module,Magento_NegotiableQuote
+Store,Store,module,Magento_NegotiableQuote
+"Catalog Price","Catalog Price",module,Magento_NegotiableQuote
+"The information in this tab has been changed.","The information in this tab has been changed.",module,Magento_NegotiableQuote
+"This tab contains invalid data. Please resolve this before saving.","This tab contains invalid data. Please resolve this before saving.",module,Magento_NegotiableQuote
+Loading...,Loading...,module,Magento_NegotiableQuote
+"History Log","History Log",module,Magento_NegotiableQuote
+"Add your comment","Add your comment",module,Magento_NegotiableQuote
+"Attach file","Attach file",module,Magento_NegotiableQuote
+"Quote & Account Information","Quote & Account Information",module,Magento_NegotiableQuote
+"Quote # %1","Quote # %1",module,Magento_NegotiableQuote
+Name,Name,module,Magento_NegotiableQuote
+"Expiration Date","Expiration Date",module,Magento_NegotiableQuote
+"Account Information","Account Information",module,Magento_NegotiableQuote
+"Edit Company","Edit Company",module,Magento_NegotiableQuote
+"Sales Rep","Sales Rep",module,Magento_NegotiableQuote
+"Add Product By SKU","Add Product By SKU",module,Magento_NegotiableQuote
+"Name & SKU","Name & SKU",module,Magento_NegotiableQuote
+Stock,Stock,module,Magento_NegotiableQuote
+Cost,Cost,module,Magento_NegotiableQuote
+"Cart Price","Cart Price",module,Magento_NegotiableQuote
+Qty,Qty,module,Magento_NegotiableQuote
+Subtotal,Subtotal,module,Magento_NegotiableQuote
+"Recalculate Quote","Recalculate Quote",module,Magento_NegotiableQuote
+"Update Prices","Update Prices",module,Magento_NegotiableQuote
+SKU,SKU,module,Magento_NegotiableQuote
+Configure,Configure,module,Magento_NegotiableQuote
+"Delete Action","Delete Action",module,Magento_NegotiableQuote
+"The quote list has changed. Please update the negotiated price.","The quote list has changed. Please update the negotiated price.",module,Magento_NegotiableQuote
+Negotiation,Negotiation,module,Magento_NegotiableQuote
+"Quote Totals","Quote Totals",module,Magento_NegotiableQuote
+"Shipping Information","Shipping Information",module,Magento_NegotiableQuote
+"Shipping Methods & Price","Shipping Methods & Price",module,Magento_NegotiableQuote
+"Sorry, rates are not available for this quote.","Sorry, rates are not available for this quote.",module,Magento_NegotiableQuote
+"Shipping Address","Shipping Address",module,Magento_NegotiableQuote
+"You have no shipping address for this quote.","You have no shipping address for this quote.",module,Magento_NegotiableQuote
+"Incl. Tax","Incl. Tax",module,Magento_NegotiableQuote
+"Proposed Shipping Price","Proposed Shipping Price",module,Magento_NegotiableQuote
+"Click to change shipping method","Click to change shipping method",module,Magento_NegotiableQuote
+"Sorry, rates are not available for this quote..","Sorry, rates are not available for this quote..",module,Magento_NegotiableQuote
+"Get shipping methods and rates","Get shipping methods and rates",module,Magento_NegotiableQuote
+"Enter SKU","Enter SKU",module,Magento_NegotiableQuote
+Remove,Remove,module,Magento_NegotiableQuote
+"The negotiated price cannot be higher than the catalog total price.","The negotiated price cannot be higher than the catalog total price.",module,Magento_NegotiableQuote
+"Negotiated Price cannot be less than 0","Negotiated Price cannot be less than 0",module,Magento_NegotiableQuote
+"Products Not Added to the Quote","Products Not Added to the Quote",module,Magento_NegotiableQuote
+"Add Products to Quote","Add Products to Quote",module,Magento_NegotiableQuote
+"Remove All","Remove All",module,Magento_NegotiableQuote
+Never,Never,module,Magento_NegotiableQuote
+(Updated),(Updated),module,Magento_NegotiableQuote
+(Added),(Added),module,Magento_NegotiableQuote
+"Shipping address","Shipping address",module,Magento_NegotiableQuote
+"Proposed shipping price","Proposed shipping price",module,Magento_NegotiableQuote
+"Shipping method","Shipping method",module,Magento_NegotiableQuote
+removed,removed,module,Magento_NegotiableQuote
+Comment,Comment,module,Magento_NegotiableQuote
+"- removed","- removed",module,Magento_NegotiableQuote
+"Request a Quote","Request a Quote",module,Magento_NegotiableQuote
+"Quote name","Quote name",module,Magento_NegotiableQuote
+"Send Request","Send Request",module,Magento_NegotiableQuote
+"Order Placed From Quote:","Order Placed From Quote:",module,Magento_NegotiableQuote
+"Cannot Open the Quote","Cannot Open the Quote",module,Magento_NegotiableQuote
+"This quote cannot be viewed at the current website. Would you like to navigate to the website where you created this quote?","This quote cannot be viewed at the current website. Would you like to navigate to the website where you created this quote?",module,Magento_NegotiableQuote
+"Show My Orders","Show My Orders",module,Magento_NegotiableQuote
+"Show All Orders","Show All Orders",module,Magento_NegotiableQuote
+Merge,Merge,module,Magento_NegotiableQuote
+Replace,Replace,module,Magento_NegotiableQuote
+"Quote Comments","Quote Comments",module,Magento_NegotiableQuote
+Created:,Created:,module,Magento_NegotiableQuote
+Expires:,Expires:,module,Magento_NegotiableQuote
+"Sales Rep.:","Sales Rep.:",module,Magento_NegotiableQuote
+"Select Existing Address","Select Existing Address",module,Magento_NegotiableQuote
+"Add New Address","Add New Address",module,Magento_NegotiableQuote
+"Shipping Method","Shipping Method",module,Magento_NegotiableQuote
+"No shipping information available","No shipping information available",module,Magento_NegotiableQuote
+"Select a shipping address from your address book.","Select a shipping address from your address book.",module,Magento_NegotiableQuote
+"Send for Review","Send for Review",module,Magento_NegotiableQuote
+"Proceed to Checkout","Proceed to Checkout",module,Magento_NegotiableQuote
+"Close quote","Close quote",module,Magento_NegotiableQuote
+Delete,Delete,module,Magento_NegotiableQuote
+"Remove item","Remove item",module,Magento_NegotiableQuote
+"Product Name","Product Name",module,Magento_NegotiableQuote
+Price,Price,module,Magento_NegotiableQuote
+"Quote Items","Quote Items",module,Magento_NegotiableQuote
+Update,Update,module,Magento_NegotiableQuote
+"No shipping information available.","No shipping information available.",module,Magento_NegotiableQuote
+"Contact Us","Contact Us",module,Magento_NegotiableQuote
+"Your quote number is: %1.","Your quote number is: %1.",module,Magento_NegotiableQuote
+"The quote has been sent to the merchant.","The quote has been sent to the merchant.",module,Magento_NegotiableQuote
+"Continue Shopping","Continue Shopping",module,Magento_NegotiableQuote
+"Please specify the reason","Please specify the reason",module,Magento_NegotiableQuote
+"Dear %merchant_name,","Dear %merchant_name,",module,Magento_NegotiableQuote
+"New quote","New quote",module,Magento_NegotiableQuote
+"submitted by buyer","submitted by buyer",module,Magento_NegotiableQuote
+"Thank you,","Thank you,",module,Magento_NegotiableQuote
+%store_name,%store_name,module,Magento_NegotiableQuote
+"Dear %customer_name,","Dear %customer_name,",module,Magento_NegotiableQuote
+"Your quote","Your quote",module,Magento_NegotiableQuote
+"has been declined by the seller.","has been declined by the seller.",module,Magento_NegotiableQuote
+"Reason: %reason.","Reason: %reason.",module,Magento_NegotiableQuote
+"expires on","expires on",module,Magento_NegotiableQuote
+"after which time you can’t order the items in the quote. After the expiration,
+    you’ll have to negotiate the price with the seller again.","after which time you can’t order the items in the quote. After the expiration,
+    you’ll have to negotiate the price with the seller again.",module,Magento_NegotiableQuote
+"%merchant_name,","%merchant_name,",module,Magento_NegotiableQuote
+%quote_id,%quote_id,module,Magento_NegotiableQuote
+"Dear %merchantName,","Dear %merchantName,",module,Magento_NegotiableQuote
+"The quote","The quote",module,Magento_NegotiableQuote
+"after which time it will be reset to its default expiration period. To extend the
+    lifetime of the quote, update its expiration date.","after which time it will be reset to its default expiration period. To extend the
+    lifetime of the quote, update its expiration date.",module,Magento_NegotiableQuote
+"Expiration date for the Quote %quoteName has been reset so you can keep working on the quote.
+    You can set a new expiration date if you wish.","Expiration date for the Quote %quoteName has been reset so you can keep working on the quote.
+    You can set a new expiration date if you wish.",module,Magento_NegotiableQuote
+Quote,Quote,module,Magento_NegotiableQuote
+"updated by buyer","updated by buyer",module,Magento_NegotiableQuote
+"The seller responded to your quote","The seller responded to your quote",module,Magento_NegotiableQuote
+"The Quote expires after","The Quote expires after",module,Magento_NegotiableQuote
+"Item in Quote","Item in Quote",module,Magento_NegotiableQuote
+"Items in Quote","Items in Quote",module,Magento_NegotiableQuote
+"Apply Discount Code","Apply Discount Code",module,Magento_NegotiableQuote
+"Enter discount code","Enter discount code",module,Magento_NegotiableQuote
+"Apply Discount","Apply Discount",module,Magento_NegotiableQuote
+"Cancel coupon","Cancel coupon",module,Magento_NegotiableQuote
+"Apply Gift Card","Apply Gift Card",module,Magento_NegotiableQuote
+"Enter the gift card code","Enter the gift card code",module,Magento_NegotiableQuote
+"Gift Card:","Gift Card:",module,Magento_NegotiableQuote
+"Current Balance:","Current Balance:",module,Magento_NegotiableQuote
+Apply,Apply,module,Magento_NegotiableQuote
+"See Balance","See Balance",module,Magento_NegotiableQuote
+Edit,Edit,module,Magento_NegotiableQuote
+"Ship Here","Ship Here",module,Magento_NegotiableQuote
+"Update Catalog Prices","Update Catalog Prices",module,Magento_NegotiableQuote
+"If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.","If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.",module,Magento_NegotiableQuote
+"No ordered items","No ordered items",module,Magento_NegotiableQuote
+"Please enter a number greater than 0 in this field","Please enter a number greater than 0 in this field",module,Magento_NegotiableQuote
+"This is a required field.","This is a required field.",module,Magento_NegotiableQuote
+"Please enter a non-decimal number please","Please enter a non-decimal number please",module,Magento_NegotiableQuote
+"This is a required option.","This is a required option.",module,Magento_NegotiableQuote
+"The field isn't complete.","The field isn't complete.",module,Magento_NegotiableQuote
+"Maximum length of the message is","Maximum length of the message is",module,Magento_NegotiableQuote
+"Decline Quote?","Decline Quote?",module,Magento_NegotiableQuote
+"If you click [Confirm], all custom pricing from the selected quotes will be removed. The buyers will be able to place orders using their standard catalog prices.","If you click [Confirm], all custom pricing from the selected quotes will be removed. The buyers will be able to place orders using their standard catalog prices.",module,Magento_NegotiableQuote
+"Decline Quotes?","Decline Quotes?",module,Magento_NegotiableQuote
+"Cannot Decline the Selected Quotes","Cannot Decline the Selected Quotes",module,Magento_NegotiableQuote
+"Only the quotes that are currently in status 'Open' can be declined","Only the quotes that are currently in status 'Open' can be declined",module,Magento_NegotiableQuote
+Confirm,Confirm,module,Magento_NegotiableQuote
+OK,OK,module,Magento_NegotiableQuote
+"If you decline this quote, all custom pricing from this quote will be removed. The buyer will be able to place an order using their standard catalog prices and discounts.","If you decline this quote, all custom pricing from this quote will be removed. The buyer will be able to place an order using their standard catalog prices and discounts.",module,Magento_NegotiableQuote
+Proceed,Proceed,module,Magento_NegotiableQuote
+"Your file could not be uploaded. Please try again.","Your file could not be uploaded. Please try again.",module,Magento_NegotiableQuote
+"You cannot attach more than ten files per comment.","You cannot attach more than ten files per comment.",module,Magento_NegotiableQuote
+"Cannot Upload File","Cannot Upload File",module,Magento_NegotiableQuote
+"Quote request rules","Quote request rules",module,Magento_NegotiableQuote
+"Coupon codes and gift cards are not allowed on quotes. Choose whether you'd like to keep the coupon code/gift card without requesting a quote, or request a quote without the coupon code/gift card.","Coupon codes and gift cards are not allowed on quotes. Choose whether you'd like to keep the coupon code/gift card without requesting a quote, or request a quote without the coupon code/gift card.",module,Magento_NegotiableQuote
+"Go to Checkout","Go to Checkout",module,Magento_NegotiableQuote
+Save,Save,module,Magento_NegotiableQuote
+"The shopping cart isn't empty","The shopping cart isn't empty",module,Magento_NegotiableQuote
+"You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?","You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?",module,Magento_NegotiableQuote
+"Select Cancel to stay on the current page.","Select Cancel to stay on the current page.",module,Magento_NegotiableQuote
+"Are you sure you want to delete this quote?","Are you sure you want to delete this quote?",module,Magento_NegotiableQuote
+"Go to Checkout?","Go to Checkout?",module,Magento_NegotiableQuote
+"Enable B2B Quote","Enable B2B Quote",module,Magento_NegotiableQuote
+General,General,module,Magento_NegotiableQuote
+"Minimum Amount","Minimum Amount",module,Magento_NegotiableQuote
+"Minimum order total for quote request.","Minimum order total for quote request.",module,Magento_NegotiableQuote
+"Minimum Amount Message","Minimum Amount Message",module,Magento_NegotiableQuote
+"This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.","This message will be shown in the shopping cart when the subtotal (after discount) is lower than the minimum allowed amount.",module,Magento_NegotiableQuote
+"Default Expiration Period","Default Expiration Period",module,Magento_NegotiableQuote
+"This period will be used as the default expiration time period for quotes. It can be changed for any quote.","This period will be used as the default expiration time period for quotes. It can be changed for any quote.",module,Magento_NegotiableQuote
+"Attached files","Attached files",module,Magento_NegotiableQuote
+"File formats for upload","File formats for upload",module,Magento_NegotiableQuote
+"Separate each file extension with a comma. Special symboles like dots, converted commas, asterisk, etc. are not allowed.","Separate each file extension with a comma. Special symboles like dots, converted commas, asterisk, etc. are not allowed.",module,Magento_NegotiableQuote
+"Maximum file size","Maximum file size",module,Magento_NegotiableQuote
+"File size in MB. Note that this setting can be overridden by the server settings.","File size in MB. Note that this setting can be overridden by the server settings.",module,Magento_NegotiableQuote
+Enabled,Enabled,module,Magento_NegotiableQuote
+"Updated Quote Template (to Buyer)","Updated Quote Template (to Buyer)",module,Magento_NegotiableQuote
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Email template chosen based on theme fallback when ""Default"" option is selected.",module,Magento_NegotiableQuote
+"Declined Quote Template (to Buyer)","Declined Quote Template (to Buyer)",module,Magento_NegotiableQuote
+"New Quote Template (to Seller)","New Quote Template (to Seller)",module,Magento_NegotiableQuote
+"Updated Quote Template (to Seller)","Updated Quote Template (to Seller)",module,Magento_NegotiableQuote
+"Quote Expiration (in 48 hrs)","Quote Expiration (in 48 hrs)",module,Magento_NegotiableQuote
+"Quote Expiration (in 24 hrs)","Quote Expiration (in 24 hrs)",module,Magento_NegotiableQuote
+"Expiration Date Reset","Expiration Date Reset",module,Magento_NegotiableQuote
+"Send Quote Email Copy To","Send Quote Email Copy To",module,Magento_NegotiableQuote
+Comma-separated,Comma-separated,module,Magento_NegotiableQuote
+"Send Quote Email Copy Method","Send Quote Email Copy Method",module,Magento_NegotiableQuote
+"Request, Edit, Delete","Request, Edit, Delete",module,Magento_NegotiableQuote
+"Checkout with quote","Checkout with quote",module,Magento_NegotiableQuote
+"View quotes of subordinate users","View quotes of subordinate users",module,Magento_NegotiableQuote
+Product,Product,module,Magento_NegotiableQuote
+Quantity,Quantity,module,Magento_NegotiableQuote
+"Allow Quotes","Allow Quotes",module,Magento_NegotiableQuote
+ID,ID,module,Magento_NegotiableQuote
+"Created Date","Created Date",module,Magento_NegotiableQuote
+"Submitted By","Submitted By",module,Magento_NegotiableQuote
+"Last Updated","Last Updated",module,Magento_NegotiableQuote
+"Quote Total (Base)","Quote Total (Base)",module,Magento_NegotiableQuote
+"Quote Total (Negotiated)","Quote Total (Negotiated)",module,Magento_NegotiableQuote
+"Quote Name","Quote Name",module,Magento_NegotiableQuote
+"Quote Total","Quote Total",module,Magento_NegotiableQuote
+"No such public catalog entity","No such public catalog entity",module,Magento_NegotiableQuoteSharedCatalog
+"The product that was requested doesn't exist. Verify the product and try again.","The product that was requested doesn't exist. Verify the product and try again.",module,Magento_NegotiableQuoteSharedCatalog
+"Shared Catalog (or Customer Group)","Shared Catalog (or Customer Group)",module,Magento_NegotiableQuoteSharedCatalog
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Geen New Relic Applicatie ID is geconfigureerd, kan niet doorgaan met Cron evenement rapportering",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","De New Relic integratie vereist de newrelic-php5-agent, die niet is geïnstalleerd. Meer informatie over het installeren van de agent is <a target=""_blank"" href=""%1"">hier</a> beschikbaar.",module,Magento_NewRelicReporting
@@ -7138,8 +8105,8 @@ Region/State,Provincie,module,Magento_OfflineShipping
 "Weight (and above)","Gewicht (en daarboven)",module,Magento_OfflineShipping
 "Order Subtotal (and above)","Subtotaal bestelling (en hierboven)",module,Magento_OfflineShipping
 "# of Items (and above)","# artikelen (en hierboven)",module,Magento_OfflineShipping
-"The ""%1"" code type for Table Rate is incorrect. Verify the type and try again.","The ""%1"" code type for Table Rate is incorrect. Verify the type and try again.",module,Magento_OfflineShipping
-"The ""%1: %2"" code type for Table Rate is incorrect. Verify the type and try again.","The ""%1: %2"" code type for Table Rate is incorrect. Verify the type and try again.",module,Magento_OfflineShipping
+"The ""%1"" code type for Table Rate is incorrect. Verify the type and try again.","De ""%1"" code type voor de tarieventabel is onjuist. Controleer het type en probeer het nogmaals.",module,Magento_OfflineShipping
+"The ""%1: %2"" code type for Table Rate is incorrect. Verify the type and try again.","De ""%1: %2"" code type voor de tarieventabel is onjuist. Controleer het type en probeer het nogmaals.",module,Magento_OfflineShipping
 None,Geen,module,Magento_OfflineShipping
 "Per Order","Per bestelling",module,Magento_OfflineShipping
 "Per Item","Per artikel",module,Magento_OfflineShipping
@@ -7148,13 +8115,13 @@ None,Geen,module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","We konden dit bestand niet importeren vanwege de volgende fouten: %1",module,Magento_OfflineShipping
 "Requested column ""%1"" cannot be resolved","Gevraagde kolom ""%1"" kan niet worden opgehaald",module,Magento_OfflineShipping
 "Column ""%1"" not found","Kolom ""%1"" niet gevonden",module,Magento_OfflineShipping
-"The Table Rates File Format is incorrect in row number ""%1"". Verify the format and try again.","The Table Rates File Format is incorrect in row number ""%1"". Verify the format and try again.",module,Magento_OfflineShipping
-"The ""%1"" country in row number ""%2"" is incorrect. Verify the country and try again.","The ""%1"" country in row number ""%2"" is incorrect. Verify the country and try again.",module,Magento_OfflineShipping
-"The ""%1"" region or state in row number ""%2"" is incorrect. Verify the region or state and try again.","The ""%1"" region or state in row number ""%2"" is incorrect. Verify the region or state and try again.",module,Magento_OfflineShipping
+"The Table Rates File Format is incorrect in row number ""%1"". Verify the format and try again.","Het formaat voor de tarieventabel is onjuist voor rij nummer ""%1"". Controleer de indeling en probeer het opnieuw.",module,Magento_OfflineShipping
+"The ""%1"" country in row number ""%2"" is incorrect. Verify the country and try again.","Het land ""%1"" in rij nummer ""%2"" is onjuist. Controleer het land en probeer het nogmaals.",module,Magento_OfflineShipping
+"The ""%1"" region or state in row number ""%2"" is incorrect. Verify the region or state and try again.","De staat/regio ""%1"" in rij nummer ""%2"" is onjuist. Controleer het de staat/regio en probeer het nogmaals.",module,Magento_OfflineShipping
 "Please correct %1 ""%2"" in the Row #%3.","Corrigeer %1 '%2' in de rij #%3.",module,Magento_OfflineShipping
-"The ""%1"" shipping price in row number ""%2"" is incorrect. Verify the shipping price and try again.","The ""%1"" shipping price in row number ""%2"" is incorrect. Verify the shipping price and try again.",module,Magento_OfflineShipping
+"The ""%1"" shipping price in row number ""%2"" is incorrect. Verify the shipping price and try again.","De ""%1"" verzendprijs in rij nummer ""%2"" is onjuist. Controleer de verzendprijs en probeer het nogmaals.",module,Magento_OfflineShipping
 "Duplicate Row #%1 (duplicates row #%2)","Dubbele rij #%1 (duplicaat van rij #%2)",module,Magento_OfflineShipping
-"The Table Rates File Format is incorrect. Verify the format and try again.","The Table Rates File Format is incorrect. Verify the format and try again.",module,Magento_OfflineShipping
+"The Table Rates File Format is incorrect. Verify the format and try again.","Het formaat van de tarieventabel is onjuist. Controleer de indeling en probeer het opnieuw.",module,Magento_OfflineShipping
 No,Nee,module,Magento_OfflineShipping
 "For matching items only","Alleen voor betreffende artikelen",module,Magento_OfflineShipping
 "For shipment with matching items","Voor een zending met betreffende artikelen",module,Magento_OfflineShipping
@@ -8013,8 +8980,32 @@ Delete,Verwijder,module,Magento_ProductVideo
 "Edit Catalog Price Rules","Prijsregels catalogus bewerken",module,Magento_PromotionPermissions
 "Edit Cart Price Rules","Prijsregels winkelwagen bewerken",module,Magento_PromotionPermissions
 "Edit Automated Email Reminder Rules","Automatische emailherinneringsregels bewerken",module,Magento_PromotionPermissions
+"Quick Order","Quick Order",module,Magento_QuickOrder
+"Page not found.","Page not found.",module,Magento_QuickOrder
+"The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.","The uploaded CSV file does not contain a column labelled SKU. Make sure the first column is labelled SKU and that each line in the file contains a SKU value. Then upload the file again.",module,Magento_QuickOrder
+"You should correct the quantity for the product.","You should correct the quantity for the product.",module,Magento_QuickOrder
+"The SKU is out of stock.","The SKU is out of stock.",module,Magento_QuickOrder
+"We don't have the quantity you requested.","We don't have the quantity you requested.",module,Magento_QuickOrder
+"An error occurred. For details, see the error log.","An error occurred. For details, see the error log.",module,Magento_QuickOrder
+"Exception message","Exception message",module,Magento_QuickOrder
+"The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.","The file could not be uploaded because it is in the wrong format. Please select a CSV file to upload.",module,Magento_QuickOrder
+"Add from File","Add from File",module,Magento_QuickOrder
+"File must be in .csv format and include ""SKU"" and ""QTY"" columns","File must be in .csv format and include ""SKU"" and ""QTY"" columns",module,Magento_QuickOrder
+"Choose File","Choose File",module,Magento_QuickOrder
+"Enter Multiple SKUs","Enter Multiple SKUs",module,Magento_QuickOrder
+"Use commas or paragraph to separate SKUs.","Use commas or paragraph to separate SKUs.",module,Magento_QuickOrder
+"Add to List","Add to List",module,Magento_QuickOrder
+"Order by SKU","Order by SKU",module,Magento_QuickOrder
+"Enter SKU or Product Name","Enter SKU or Product Name",module,Magento_QuickOrder
+Qty,Qty,module,Magento_QuickOrder
+"Add to Cart","Add to Cart",module,Magento_QuickOrder
+"Remove Row","Remove Row",module,Magento_QuickOrder
+"product(s) require(s) your attention.","product(s) require(s) your attention.",module,Magento_QuickOrder
+"Enable Quick Order","Enable Quick Order",module,Magento_QuickOrder
+"Download Sample","Download Sample",module,Magento_QuickOrder
 "The address failed to save. Verify the address and try again.","The address failed to save. Verify the address and try again.",module,Magento_Quote
 "The ""%1"" Cart doesn't contain products.","The ""%1"" Cart doesn't contain products.",module,Magento_Quote
+"Cart isn't assigned to correct store","Cart isn't assigned to correct store",module,Magento_Quote
 "The coupon code couldn't be applied. Verify the coupon code and try again.","The coupon code couldn't be applied. Verify the coupon code and try again.",module,Magento_Quote
 "The coupon code isn't valid. Verify the code and try again.","The coupon code isn't valid. Verify the code and try again.",module,Magento_Quote
 "The coupon code couldn't be deleted. Verify the coupon code and try again.","The coupon code couldn't be deleted. Verify the coupon code and try again.",module,Magento_Quote
@@ -8023,7 +9014,7 @@ Delete,Verwijder,module,Magento_ProductVideo
 "The requested Payment Method is not available.","De gevraagde betaalmethode is niet beschikbaar",module,Magento_Quote
 "We found an invalid request for adding product to quote.","We vonden een ongeldige aanvraag om het product toe te voegen aan de Quote.",module,Magento_Quote
 "Product that you are trying to add is not available.","Product dat u probeert toe te voegen is niet beschikbaar.",module,Magento_Quote
-"This is the wrong quote item id to update configuration.","Dit is het verkeerde quote item id om de configuratie bij te werken.",module,Magento_Quote
+"This is the wrong quote item id to update configuration.","Dit is het verkeerd quote item id om de configuratie bij te werken.",module,Magento_Quote
 "This shipping method is not available. To use this shipping method, please contact us.","Deze verzendmethode is niet beschikbaar. Als u wilt deze verzendmethode gebruiken, neem contact met ons op.",module,Magento_Quote
 "The address model is not defined.","De adres-model is niet gedefinieerd.",module,Magento_Quote
 "The address total model should be extended from
@@ -8073,7 +9064,6 @@ Tax,BTW,module,Magento_Quote
 error345,error345,module,Magento_Quote
 Carts,Winkelwagens,module,Magento_Quote
 "Manage carts","Winkelwagens beheren",module,Magento_Quote
-"Please specify a shipping method.","Geef een verzendmethode op.",module,Magento_Quote
 "It is impossible to log user action","It is impossible to log user action",module,Magento_ReleaseNotification
 "Error message","Error message",module,Magento_ReleaseNotification
 "An error occurred while logging process.","An error occurred while logging process.",module,Magento_ReleaseNotification
@@ -8454,6 +9444,96 @@ Action,Actie,module,Magento_Reports
 Report,Verslag,module,Magento_Reports
 Description,Omschrijving,module,Magento_Reports
 undefined,"niet van toepassing",module,Magento_Reports
+"My Requisition Lists","My Requisition Lists",module,Magento_RequisitionList
+"The SKU was not found in the catalog.","The SKU was not found in the catalog.",module,Magento_RequisitionList
+"We can't update your requisition list right now.","We can't update your requisition list right now.",module,Magento_RequisitionList
+"We can't add the item to the Requisition List right now: %1.","We can't add the item to the Requisition List right now: %1.",module,Magento_RequisitionList
+"We can't specify a requisition list.","We can't specify a requisition list.",module,Magento_RequisitionList
+"You must choose options for your item.","You must choose options for your item.",module,Magento_RequisitionList
+"We can't specify a product.","We can't specify a product.",module,Magento_RequisitionList
+"You added %1 item(s) to your shopping cart.","You added %1 item(s) to your shopping cart.",module,Magento_RequisitionList
+"Something went wrong.","Something went wrong.",module,Magento_RequisitionList
+"We can't configure the product right now.","We can't configure the product right now.",module,Magento_RequisitionList
+"%1 item(s) were copied to %2","%1 item(s) were copied to %2",module,Magento_RequisitionList
+"%1 item(s) were added to the ""%2""","%1 item(s) were added to the ""%2""",module,Magento_RequisitionList
+"%1 item(s) were moved to %2","%1 item(s) were moved to %2",module,Magento_RequisitionList
+"Requisition Lists","Requisition Lists",module,Magento_RequisitionList
+"Requisition List","Requisition List",module,Magento_RequisitionList
+"Invalid item option format.","Invalid item option format.",module,Magento_RequisitionList
+"An item option with code %1 already exists.","An item option with code %1 already exists.",module,Magento_RequisitionList
+"Could not save Requisition List","Could not save Requisition List",module,Magento_RequisitionList
+"Cannot delete Requisition List with id %1","Cannot delete Requisition List with id %1",module,Magento_RequisitionList
+"Requested product doesn't exist","Requested product doesn't exist",module,Magento_RequisitionList
+"Cannot specify product.","Cannot specify product.",module,Magento_RequisitionList
+"%1 has been updated in your requisition list.","%1 has been updated in your requisition list.",module,Magento_RequisitionList
+"Product %1 has been added to the requisition list %2.","Product %1 has been added to the requisition list %2.",module,Magento_RequisitionList
+"Options were updated. Please review available configurations.","Options were updated. Please review available configurations.",module,Magento_RequisitionList
+"The SKU is out of stock.","The SKU is out of stock.",module,Magento_RequisitionList
+"We don't have as many ""%1"" as you requested.","We don't have as many ""%1"" as you requested.",module,Magento_RequisitionList
+"Could not save Requisition List. Maximum number of requisition lists was exceeded.","Could not save Requisition List. Maximum number of requisition lists was exceeded.",module,Magento_RequisitionList
+Exception,Exception,module,Magento_RequisitionList
+exception,exception,module,Magento_RequisitionList
+"No such entity","No such entity",module,Magento_RequisitionList
+"Could not save","Could not save",module,Magento_RequisitionList
+"Exception Message","Exception Message",module,Magento_RequisitionList
+View,View,module,Magento_RequisitionList
+"Add to Requisition List","Add to Requisition List",module,Magento_RequisitionList
+"Update Requisition List","Update Requisition List",module,Magento_RequisitionList
+"Create Requisition List","Create Requisition List",module,Magento_RequisitionList
+"Create New Requisition List","Create New Requisition List",module,Magento_RequisitionList
+Print,Print,module,Magento_RequisitionList
+Rename,Rename,module,Magento_RequisitionList
+"Rename Requisition List","Rename Requisition List",module,Magento_RequisitionList
+items,items,module,Magento_RequisitionList
+item,item,module,Magento_RequisitionList
+"in requisition list","in requisition list",module,Magento_RequisitionList
+"Contact Us","Contact Us",module,Magento_RequisitionList
+"Add to Cart","Add to Cart",module,Magento_RequisitionList
+"Update List","Update List",module,Magento_RequisitionList
+"Delete Requisition List","Delete Requisition List",module,Magento_RequisitionList
+"You have no items in this requisition list.","You have no items in this requisition list.",module,Magento_RequisitionList
+"Product Name","Product Name",module,Magento_RequisitionList
+Item,Item,module,Magento_RequisitionList
+Price,Price,module,Magento_RequisitionList
+Qty,Qty,module,Magento_RequisitionList
+Subtotal,Subtotal,module,Magento_RequisitionList
+Product,Product,module,Magento_RequisitionList
+SKU,SKU,module,Magento_RequisitionList
+"Excl. Tax","Excl. Tax",module,Magento_RequisitionList
+"Edit item","Edit item",module,Magento_RequisitionList
+"Remove item","Remove item",module,Magento_RequisitionList
+"Select all","Select all",module,Magento_RequisitionList
+"With Selected","With Selected",module,Magento_RequisitionList
+"Copy Selected","Copy Selected",module,Magento_RequisitionList
+Copy,Copy,module,Magento_RequisitionList
+"Move Selected","Move Selected",module,Magento_RequisitionList
+Move,Move,module,Magento_RequisitionList
+"Remove Selected","Remove Selected",module,Magento_RequisitionList
+Remove,Remove,module,Magento_RequisitionList
+Delete,Delete,module,Magento_RequisitionList
+"product(s) require your attention","product(s) require your attention",module,Magento_RequisitionList
+"Requisition List Name","Requisition List Name",module,Magento_RequisitionList
+Description,Description,module,Magento_RequisitionList
+"The shopping cart isn't empty","The shopping cart isn't empty",module,Magento_RequisitionList
+"You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?","You have items in your shopping cart. Would you like to merge items in this order with items of this shopping cart or replace them?",module,Magento_RequisitionList
+"Select Cancel to stay on the current page.","Select Cancel to stay on the current page.",module,Magento_RequisitionList
+Merge,Merge,module,Magento_RequisitionList
+Replace,Replace,module,Magento_RequisitionList
+Cancel,Cancel,module,Magento_RequisitionList
+Ok,Ok,module,Magento_RequisitionList
+"Cannot Perform the Requested Action","Cannot Perform the Requested Action",module,Magento_RequisitionList
+"This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.","This action cannot be performed because the selected product(s) require attention. You must resolve these issues before you can continue.",module,Magento_RequisitionList
+"Please Select Product","Please Select Product",module,Magento_RequisitionList
+"Please select at least one product to proceed.","Please select at least one product to proceed.",module,Magento_RequisitionList
+Save,Save,module,Magento_RequisitionList
+"B2B Requisition List","B2B Requisition List",module,Magento_RequisitionList
+"Enable Requisition List","Enable Requisition List",module,Magento_RequisitionList
+General,General,module,Magento_RequisitionList
+"Number of Requisition Lists","Number of Requisition Lists",module,Magento_RequisitionList
+"The number of requisition lists should be equal or more than 2.","The number of requisition lists should be equal or more than 2.",module,Magento_RequisitionList
+"Name & Description","Name & Description",module,Magento_RequisitionList
+Items,Items,module,Magento_RequisitionList
+"Latest Activity","Latest Activity",module,Magento_RequisitionList
 "Save Review","Review opslaan",module,Magento_Review
 "New Review","Nieuwe review",module,Magento_Review
 "Review Details","Review details",module,Magento_Review
@@ -8663,6 +9743,7 @@ Customers,Klanten,module,Magento_Reward
 "Earned promotion extra points from order #%1","Verdiende extra aanbiedingspunten voor bestelling #%1",module,Magento_Reward
 "%1 store reward points available (%2)","%1 winkel spaartpunten beschikbaar (%2)",module,Magento_Reward
 "%1 store reward points available","%1 winkel spaarpunten beschikbaar",module,Magento_Reward
+"Sign in now and earn %1 for this order.","Sign in now and earn %1 for this order.",module,Magento_Reward
 "%1 was deducted because of refund.","%1 werd in mindering gebracht vanwege terugbetaling.",module,Magento_Reward
 "The action ID you enter must be a number.","Het actie ID moet een getal zijn.",module,Magento_Reward
 "You don't have enough reward points to pay for this purchase.","U heeft niet genoeg spaarpunten om deze aankoop te betalen.",module,Magento_Reward
@@ -9978,7 +11059,6 @@ Created,Aangemaakt,module,Magento_Sales
 "PDF Shipments",PDF-zendingen,module,Magento_Sales
 "PDF Creditmemos",PDF-Creditfacturen,module,Magento_Sales
 Refunds,Terugbetalingen,module,Magento_Sales
-"Please specify a shipping method.","Selecteer een aflevermethode.",module,Magento_Sales
 "Move to Archive","Verplaats naar Archief",module,Magento_SalesArchive
 "Move to Order Management","Verplaats naar Order Beheer",module,Magento_SalesArchive
 "We have archived the order.","We hebben de bestelling gearchiveerd.",module,Magento_SalesArchive
@@ -10568,6 +11648,186 @@ Enabled,Ingeschakeld,module,Magento_SendFriend
 "Max Recipients","Max. geadresseerden",module,Magento_SendFriend
 "Max Products Sent in 1 Hour","Max. producten verzonden in 1 uur",module,Magento_SendFriend
 "Limit Sending By","Beperk verzending door",module,Magento_SendFriend
+"Save and Continue Edit","Save and Continue Edit",module,Magento_SharedCatalog
+"Catalog Structure","Catalog Structure",module,Magento_SharedCatalog
+"Catalog Id","Catalog Id",module,Magento_SharedCatalog
+"Store Id","Store Id",module,Magento_SharedCatalog
+Cancel,Cancel,module,Magento_SharedCatalog
+Done,Done,module,Magento_SharedCatalog
+Back,Back,module,Magento_SharedCatalog
+Delete,Delete,module,Magento_SharedCatalog
+"This action cannot be undone. Are you sure you want to delete this catalog?","This action cannot be undone. Are you sure you want to delete this catalog?",module,Magento_SharedCatalog
+Duplicate,Duplicate,module,Magento_SharedCatalog
+"Linked Products","Linked Products",module,Magento_SharedCatalog
+Reset,Reset,module,Magento_SharedCatalog
+Save,Save,module,Magento_SharedCatalog
+Pricing,Pricing,module,Magento_SharedCatalog
+Products,Products,module,Magento_SharedCatalog
+"All Stores","All Stores",module,Magento_SharedCatalog
+"Shared Catalogs","Shared Catalogs",module,Magento_SharedCatalog
+"The companies have been reassigned.","The companies have been reassigned.",module,Magento_SharedCatalog
+"Error while reassigning the company.","Error while reassigning the company.",module,Magento_SharedCatalog
+"Discount value cannot be outside the range 0-100","Discount value cannot be outside the range 0-100",module,Magento_SharedCatalog
+"We found a duplicate website, tier price or quantity.","We found a duplicate website, tier price or quantity.",module,Magento_SharedCatalog
+"The selected items are being processed. You can continue to work in the meantime.","The selected items are being processed. You can continue to work in the meantime.",module,Magento_SharedCatalog
+"The selected changes have been applied to the shared catalog.","The selected changes have been applied to the shared catalog.",module,Magento_SharedCatalog
+"New Shared Catalog","New Shared Catalog",module,Magento_SharedCatalog
+"The shared catalog was deleted successfully.","The shared catalog was deleted successfully.",module,Magento_SharedCatalog
+"Duplicate of %1","Duplicate of %1",module,Magento_SharedCatalog
+"You saved the shared catalog.","You saved the shared catalog.",module,Magento_SharedCatalog
+"Something went wrong while saving the shared catalog.","Something went wrong while saving the shared catalog.",module,Magento_SharedCatalog
+"A total of %1 record(s) were deleted.","A total of %1 record(s) were deleted.",module,Magento_SharedCatalog
+"No shared catalog name is specified in request.","No shared catalog name is specified in request.",module,Magento_SharedCatalog
+"Requested categories don't exist: %categoriesIds.","Requested categories don't exist: %categoriesIds.",module,Magento_SharedCatalog
+"You cannot unassign a company from the public shared catalog.","You cannot unassign a company from the public shared catalog.",module,Magento_SharedCatalog
+"Customer Groups","Customer Groups",module,Magento_SharedCatalog
+"Could not set default customer group","Could not set default customer group",module,Magento_SharedCatalog
+"A customer group with this name already exists. Enter a different name to create a shared catalog.","A customer group with this name already exists. Enter a different name to create a shared catalog.",module,Magento_SharedCatalog
+"Could not save customer group.","Could not save customer group.",module,Magento_SharedCatalog
+"Could not update shared catalog customer group","Could not update shared catalog customer group",module,Magento_SharedCatalog
+"No such public catalog entity","No such public catalog entity",module,Magento_SharedCatalog
+"Cannot load product items for shared catalog","Cannot load product items for shared catalog",module,Magento_SharedCatalog
+"Could not save ProductItem","Could not save ProductItem",module,Magento_SharedCatalog
+"Cannot delete product with id %1","Cannot delete product with id %1",module,Magento_SharedCatalog
+"Invalid value of ""%value"" provided for the %fieldName field.","Invalid value of ""%value"" provided for the %fieldName field.",module,Magento_SharedCatalog
+"Cannot delete shared catalog with id %1","Cannot delete shared catalog with id %1",module,Magento_SharedCatalog
+"Permission with the same scope","Permission with the same scope",module,Magento_SharedCatalog
+"Assign Categories to Shared Catalog","Assign Categories to Shared Catalog",module,Magento_SharedCatalog
+"Something went wrong while scheduling operations.","Something went wrong while scheduling operations.",module,Magento_SharedCatalog
+"Sorry, something went wrong during product prices update. Please see log for details.","Sorry, something went wrong during product prices update. Please see log for details.",module,Magento_SharedCatalog
+"Assign custom prices to selected products","Assign custom prices to selected products",module,Magento_SharedCatalog
+"Something went wrong while processing the request.","Something went wrong while processing the request.",module,Magento_SharedCatalog
+"Could not save shared catalog.","Could not save shared catalog.",module,Magento_SharedCatalog
+Custom,Custom,module,Magento_SharedCatalog
+Public,Public,module,Magento_SharedCatalog
+"You must enable category permissions for the following products: %skus.","You must enable category permissions for the following products: %skus.",module,Magento_SharedCatalog
+"Requested product doesn't exist: %sku.","Requested product doesn't exist: %sku.",module,Magento_SharedCatalog
+"No such shared catalog entity","No such shared catalog entity",module,Magento_SharedCatalog
+"You cannot convert a public catalog to a custom catalog. If you need to replace this public catalog, create a custom catalog, then change its type to public.","You cannot convert a public catalog to a custom catalog. If you need to replace this public catalog, create a custom catalog, then change its type to public.",module,Magento_SharedCatalog
+"Requested Shared Catalog is not found","Requested Shared Catalog is not found",module,Magento_SharedCatalog
+"Catalog (id:%1) cannot be deleted because it is a public catalog. You must create a new public catalog before you can delete this catalog.","Catalog (id:%1) cannot be deleted because it is a public catalog. You must create a new public catalog before you can delete this catalog.",module,Magento_SharedCatalog
+"Cannot create a shared catalog because some information is missing. Please make sure you provided Store Group ID, Name and Tax Class.","Cannot create a shared catalog because some information is missing. Please make sure you provided Store Group ID, Name and Tax Class.",module,Magento_SharedCatalog
+"The maximum allowed catalog name length is %1 characters.","The maximum allowed catalog name length is %1 characters.",module,Magento_SharedCatalog
+"A catalog named %catalogName already exists. Please select a different name.","A catalog named %catalogName already exists. Please select a different name.",module,Magento_SharedCatalog
+"You cannot change the customer group for a shared catalog.","You cannot change the customer group for a shared catalog.",module,Magento_SharedCatalog
+Yes,Yes,module,Magento_SharedCatalog
+No,No,module,Magento_SharedCatalog
+Configure,Configure,module,Magento_SharedCatalog
+"Please <a href=""%1"">create</a> at least a public shared catalog to proceed.","Please <a href=""%1"">create</a> at least a public shared catalog to proceed.",module,Magento_SharedCatalog
+"A shared catalog is linked to this customer group. You must delete the shared catalog before you can delete this customer group.","A shared catalog is linked to this customer group. You must delete the shared catalog before you can delete this customer group.",module,Magento_SharedCatalog
+"Requested product doesn't exist: %1.","Requested product doesn't exist: %1.",module,Magento_SharedCatalog
+error,error,module,Magento_SharedCatalog
+Exception,Exception,module,Magento_SharedCatalog
+"Exception message","Exception message",module,Magento_SharedCatalog
+test,test,module,Magento_SharedCatalog
+"exception message","exception message",module,Magento_SharedCatalog
+"Some internal exception message.","Some internal exception message.",module,Magento_SharedCatalog
+exception,exception,module,Magento_SharedCatalog
+"Exception Message","Exception Message",module,Magento_SharedCatalog
+"All Websites","All Websites",module,Magento_SharedCatalog
+"Website 3","Website 3",module,Magento_SharedCatalog
+"Website 1","Website 1",module,Magento_SharedCatalog
+"Set Pricing and Structure","Set Pricing and Structure",module,Magento_SharedCatalog
+"Assign Companies","Assign Companies",module,Magento_SharedCatalog
+"General Settings","General Settings",module,Magento_SharedCatalog
+"Delete ""${ $.$data.name }""","Delete ""${ $.$data.name }""",module,Magento_SharedCatalog
+"Catalog and Tier Price","Catalog and Tier Price",module,Magento_SharedCatalog
+"Group or Catalog","Group or Catalog",module,Magento_SharedCatalog
+"You must enable the <a href=""%1"" data-role=""notification-dialog"">shared catalog</a> feature in 
+        Stores -> Configuration -> B2B Features to use the shared catalogs in the storefront.
+        Otherwise, the categories and products you're configuring in shared catalogs will 
+        not be restricted to customers.","You must enable the <a href=""%1"" data-role=""notification-dialog"">shared catalog</a> feature in 
+        Stores -> Configuration -> B2B Features to use the shared catalogs in the storefront.
+        Otherwise, the categories and products you're configuring in shared catalogs will 
+        not be restricted to customers.",module,Magento_SharedCatalog
+"You must enable the shared catalog feature in Stores -> Configuration -> B2B Features 
+    to use the shared catalogs in the storefront. Otherwise, the categories and products you're 
+    configuring in shared catalogs will not be restricted to customers.","You must enable the shared catalog feature in Stores -> Configuration -> B2B Features 
+    to use the shared catalogs in the storefront. Otherwise, the categories and products you're 
+    configuring in shared catalogs will not be restricted to customers.",module,Magento_SharedCatalog
+Next,Next,module,Magento_SharedCatalog
+"Edit Configurations","Edit Configurations",module,Magento_SharedCatalog
+"Products in Catalog","Products in Catalog",module,Magento_SharedCatalog
+"Continue to configure the shared catalog structure and pricing.","Continue to configure the shared catalog structure and pricing.",module,Magento_SharedCatalog
+Store:,Store:,module,Magento_SharedCatalog
+"Step 2: Set Custom Prices","Step 2: Set Custom Prices",module,Magento_SharedCatalog
+"Step 1: Select Products for Catalog","Step 1: Select Products for Catalog",module,Magento_SharedCatalog
+Website:,Website:,module,Magento_SharedCatalog
+Proceed,Proceed,module,Magento_SharedCatalog
+"Select All","Select All",module,Magento_SharedCatalog
+"Deselect All","Deselect All",module,Magento_SharedCatalog
+Assign,Assign,module,Magento_SharedCatalog
+Unassign,Unassign,module,Magento_SharedCatalog
+Fixed,Fixed,module,Magento_SharedCatalog
+Discount,Discount,module,Magento_SharedCatalog
+Apply,Apply,module,Magento_SharedCatalog
+"Proceed to Store Configuration?","Proceed to Store Configuration?",module,Magento_SharedCatalog
+"You've made changes into the shared catalog. If you leave this page now, the changes will be lost.","You've made changes into the shared catalog. If you leave this page now, the changes will be lost.",module,Magento_SharedCatalog
+"The maximum allowed catalog name length is {0} characters.","The maximum allowed catalog name length is {0} characters.",module,Magento_SharedCatalog
+"Conflicting row.","Conflicting row.",module,Magento_SharedCatalog
+"Generate Catalog","Generate Catalog",module,Magento_SharedCatalog
+products,products,module,Magento_SharedCatalog
+"Expand All","Expand All",module,Magento_SharedCatalog
+"Collapse All","Collapse All",module,Magento_SharedCatalog
+of,of,module,Magento_SharedCatalog
+included,included,module,Magento_SharedCatalog
+"Shared Catalog","Shared Catalog",module,Magento_SharedCatalog
+"Manage Shared Catalog","Manage Shared Catalog",module,Magento_SharedCatalog
+"Enable Shared Catalog","Enable Shared Catalog",module,Magento_SharedCatalog
+"To select No, please <a href=""%s"">create</a> the Public Catalog first.","To select No, please <a href=""%s"">create</a> the Public Catalog first.",module,Magento_SharedCatalog
+"Use this field to change company's shared catalog","Use this field to change company's shared catalog",module,Magento_SharedCatalog
+"Group/Shared Catalog","Group/Shared Catalog",module,Magento_SharedCatalog
+"Product In Shared Catalogs","Product In Shared Catalogs",module,Magento_SharedCatalog
+"Change Catalog?","Change Catalog?",module,Magento_SharedCatalog
+"The selected companies are already using a different shared catalog. This action will change a shared catalog for selected companies. Would you like to continue?","The selected companies are already using a different shared catalog. This action will change a shared catalog for selected companies. Would you like to continue?",module,Magento_SharedCatalog
+"The selected companies will be unlinked from the current shared catalog and linked to the default public catalog. Would you like to continue?","The selected companies will be unlinked from the current shared catalog and linked to the default public catalog. Would you like to continue?",module,Magento_SharedCatalog
+"Assign Catalog","Assign Catalog",module,Magento_SharedCatalog
+"Unassign Catalog","Unassign Catalog",module,Magento_SharedCatalog
+ID,ID,module,Magento_SharedCatalog
+Company,Company,module,Magento_SharedCatalog
+Country,Country,module,Magento_SharedCatalog
+State/Province,State/Province,module,Magento_SharedCatalog
+Assigned,Assigned,module,Magento_SharedCatalog
+Catalog,Catalog,module,Magento_SharedCatalog
+Action,Action,module,Magento_SharedCatalog
+"Shared Catalog Information","Shared Catalog Information",module,Magento_SharedCatalog
+"Catalog Details","Catalog Details",module,Magento_SharedCatalog
+"Public Catalog Already Exists","Public Catalog Already Exists",module,Magento_SharedCatalog
+"A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be assigned to the new public shared catalog.","A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be assigned to the new public shared catalog.",module,Magento_SharedCatalog
+"Change Catalog Type?","Change Catalog Type?",module,Magento_SharedCatalog
+"A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be re-assigned to the new public shared catalog.","A public shared catalog already exists. If you proceed, the existing public shared catalog will be converted to a custom catalog. All the companies defined in the existing public shared catalog will be re-assigned to the new public shared catalog.",module,Magento_SharedCatalog
+"Add Shared Catalog","Add Shared Catalog",module,Magento_SharedCatalog
+"This action cannot be undone. Are you sure you want to delete this catalog(s)?","This action cannot be undone. Are you sure you want to delete this catalog(s)?",module,Magento_SharedCatalog
+"Delete items","Delete items",module,Magento_SharedCatalog
+Name,Name,module,Magento_SharedCatalog
+Type,Type,module,Magento_SharedCatalog
+"Created At","Created At",module,Magento_SharedCatalog
+"Created By","Created By",module,Magento_SharedCatalog
+Select,Select,module,Magento_SharedCatalog
+discount-prompt,discount-prompt,module,Magento_SharedCatalog
+"This discount will be applied to all selected products. The custom price type will be set to 'Discount'.","This discount will be applied to all selected products. The custom price type will be set to 'Discount'.",module,Magento_SharedCatalog
+"Set Discount","Set Discount",module,Magento_SharedCatalog
+adjust-prices-prompt,adjust-prices-prompt,module,Magento_SharedCatalog
+"This discount will be applied to all selected products. The custom price type will be set to 'Fixed'.","This discount will be applied to all selected products. The custom price type will be set to 'Fixed'.",module,Magento_SharedCatalog
+"Adjust Fixed Price","Adjust Fixed Price",module,Magento_SharedCatalog
+SKU,SKU,module,Magento_SharedCatalog
+Websites,Websites,module,Magento_SharedCatalog
+Cost,Cost,module,Magento_SharedCatalog
+MSRP,MSRP,module,Magento_SharedCatalog
+Price,Price,module,Magento_SharedCatalog
+"Custom Price","Custom Price",module,Magento_SharedCatalog
+"New Price","New Price",module,Magento_SharedCatalog
+"Tax Class","Tax Class",module,Magento_SharedCatalog
+"All Store Views","All Store Views",module,Magento_SharedCatalog
+"Store View","Store View",module,Magento_SharedCatalog
+Thumbnail,Thumbnail,module,Magento_SharedCatalog
+"Attribute Set","Attribute Set",module,Magento_SharedCatalog
+Visibility,Visibility,module,Magento_SharedCatalog
+Status,Status,module,Magento_SharedCatalog
+tier_price_form,tier_price_form,module,Magento_SharedCatalog
+"Add Price","Add Price",module,Magento_SharedCatalog
+Website,Website,module,Magento_SharedCatalog
+Quantity,Quantity,module,Magento_SharedCatalog
 "New Shipment for Order #%1","Nieuwe verzending voor bestelling #%1",module,Magento_Shipping
 "Submit Shipment","Verzending inboeken",module,Magento_Shipping
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","U probeert enkele producten toe te voegen met een hoeveelheid die niet overeenkomt met de hoeveelheid die werd verzonden.",module,Magento_Shipping
@@ -11265,6 +12525,8 @@ Options,Opties,module,Magento_Swatches
 "Save Option","Optie opslaan",module,Magento_Swatches
 "Remove Option","Optie Verwijderen",module,Magento_Swatches
 "Create New Value","Maak een nieuwe waarde",module,Magento_Swatches
+"Sending swatch values as package.","Sending swatch values as package.",module,Magento_Swatches
+More,More,module,Magento_Swatches
 Swatches,Swatches,module,Magento_Swatches
 "Swatches per Product","Stalen per Product",module,Magento_Swatches
 "Show Swatches in Product List","Toon stalen in de product-lijst",module,Magento_Swatches
@@ -11623,6 +12885,7 @@ Theme,Thema,module,Magento_Theme
 welcome,welkom,module,Magento_Theme
 Global,Globaal,module,Magento_Theme
 "Design Configuration",Ontwerpconfiguratie,module,Magento_Theme
+"Page not found.","Page not found.",module,Magento_Theme
 "You saved the configuration.","U heeft de configuratie opgeslagen.",module,Magento_Theme
 "Something went wrong while saving this configuration:","Er ging iets mis bij het opslaan van deze configuratie:",module,Magento_Theme
 "You deleted the theme.","U heeft het thema verwijderd.",module,Magento_Theme
@@ -11667,6 +12930,7 @@ Message,Bericht,module,Magento_Theme
 Phrase,Zin,module,Magento_Theme
 testMessage,testMessage,module,Magento_Theme
 Edit,Bewerken,module,Magento_Theme
+View,View,module,Magento_Theme
 "We found no files.","We vonden geen bestanden.",module,Magento_Theme
 "Browse Files","Door bestanden bladeren",module,Magento_Theme
 Scope:,Scope:,module,Magento_Theme
@@ -11751,6 +13015,7 @@ Copyright,Auteursrecht,module,Magento_Theme
 Website,Website,module,Magento_Theme
 Store,Winkel,module,Magento_Theme
 "Store View",Winkelaanzicht,module,Magento_Theme
+ID,ID,module,Magento_Theme
 "Skip to Content","Ga naar de inhoud",module,Magento_Theme
 Menu,Menu,module,Magento_Theme
 Account,Account,module,Magento_Theme
@@ -11878,6 +13143,7 @@ Keyword,Trefwoord,module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","Gebruik uitsluitend letters  (a-z en A-Z) in dit veld.",module,Magento_Ui
 "Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Gebruik uitsluitend letters (a-z en A-Z), cijfers (0-9) of underscores (_) in dit veld, het eerste teken moet een een letter zijn.",module,Magento_Ui
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Gebruik uitsluitend letters (a-z en A-Z) of nummers (0-9) in dit veld. Gebruik geen spaties of andere tekens.",module,Magento_Ui
+"First character must be letter.","First character must be letter.",module,Magento_Ui
 "Please enter a valid date.","Voer een geldige datum in.",module,Magento_Ui
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Voer een geldige URL-sleutel in (Ex: ""voorbeeld-pagina"", ""voorbeeld-pagina.html"" of ""anderniveau/voorbeeld-pagina"").",module,Magento_Ui
 "Please enter a valid zip code.","Voer een geldige postcode in.",module,Magento_Ui
@@ -12985,7 +14251,6 @@ Debug,Debug,module,Magento_Worldpay
 "Payment was canceled.","Betaling is geannuleerd.",module,Magento_Worldpay
 "Your payment has been successfully processed by our shop system.","Uw betaling is succesvol verwerkt door ons winkel-systeem.",module,Magento_Worldpay
 Summary,Samenvatting,theme,frontend/Magento/blank
-"Account Dashboard",Accountoverzicht,theme,frontend/Magento/blank
 "Account Information",Accountgegevens,theme,frontend/Magento/blank
 "Address Book",Adresboek,theme,frontend/Magento/blank
 Menu,Menu,theme,frontend/Magento/blank
@@ -13045,6 +14310,6 @@ Footer,Footer,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","U vind uw verzendbevestiging hieronder.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","Uw verzending #%shipment_id voor bestelling #%order_id",theme,frontend/Magento/luma
 "Update to your %store_name shipment","Update van uw %store_name verzending",theme,frontend/Magento/luma
-"Account Dashboard",Accountoverzicht,theme,frontend/Magento/luma
+"My Account","My Account",theme,frontend/Magento/luma
 "Address Book",Adresboek,theme,frontend/Magento/luma
 "Account Information","Account Gegevens",theme,frontend/Magento/luma
