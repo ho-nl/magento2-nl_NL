@@ -1,11 +1,11 @@
 {
-    "name": "honl/magento2-nl-nl",
-    "description": "H&O Magento 2 Dutch Translations / Nederlandse Vertalingen",
-    "homepage": "https://github.com/ho-nl/magento2-Ho_nl_NL",
+    "name": "reach-digital/magento2-nl-nl",
+    "description": "Reach Digital Magento 2 Dutch Translations / Nederlandse Vertalingen",
+    "homepage": "https://github.com/ho-nl/magento2-nl_NL",
     "authors": [
         {
-            "name": "Paul Hachmang - H&O",
-            "email": "paul@h-o.nl"
+            "name": "Paul Hachmang - Reach Digital",
+            "email": "paul@reachdigital.nl"
         }
     ],
     "require": {

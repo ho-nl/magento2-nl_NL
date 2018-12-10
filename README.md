@@ -1,6 +1,6 @@
 # Reach Digital (H&O) Magento 2 Nederlandse vertalingen / Dutch Translations with e-mailtranslations
 <p align="center">
-  <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/H-O-NL-Magento-2.jpg" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/><br />
+  <img src="https://github.com/ho-nl/magento2-nl_NL/blob/master/docs/reach-dutch-translations.png" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/><br />
   <a href="https://marketplace.magento.com/honl-magento2-nl-nl.html">Find it on the Magento Marketplace</a><br />
   <a href="https://www.reachdigital.nl/blog/correcte-nederlandse-vertalingen-voor-magento-2-magento-2-nl-inclusief-e-mailvertalingen">Find it on our website</a><br /></p>
 
@@ -17,7 +17,6 @@
 ## Installation through Marketplace
 As Reach Digital extensions are offered in the official Magento® Marketplace you can directly install them via the Magento® 2 backend. Magento® did a great job simplifying this process, they also provided a really good documentation. Please read the official documentation for installing extensions over the marketplace. 
 
-https://marketplace.magento.com/honl-magento2-nl-nl.html <br />
 http://devdocs.magento.com/guides/v2.0/comp-mgr/module-man/compman-start.html
 
 ## Installation through composer
