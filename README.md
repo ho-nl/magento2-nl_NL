@@ -1,4 +1,4 @@
-# Reach Digital (H&O) Magento 2 Nederlandse vertalingen / Dutch Translations with e-mailtranslations
+# Reach Digital Magento 2 Nederlandse vertalingen / Dutch Translations with e-mailtranslations
 <p align="center">
   <img src="https://github.com/ho-nl/magento2-nl_NL/blob/57d36db4477c37e1d6c19087f847558cd6be412a/docs/reach-dutch-translations.png" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/><br />
   <a href="https://www.reachdigital.nl/blog/correcte-nederlandse-vertalingen-voor-magento-2-magento-2-nl-inclusief-e-mailvertalingen">Find it on our website</a><br /></p>
