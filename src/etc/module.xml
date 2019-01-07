@@ -4,7 +4,7 @@
   ~ See LICENSE.txt for license details.
   -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Ho_nl_NL" setup_version="1.1.10">
+    <module name="Ho_nl_NL" setup_version="1.1.14">
         <sequence>
             <module name="Magento_Customer"/>
         </sequence>
