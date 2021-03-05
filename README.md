@@ -1,3 +1,6 @@
+# Abandoned / End-of-life
+We're sorry, but this extension is no longer actively maintained. Please use https://github.com/magento-l10n/language-nl_NL instead.
+
 # Reach Digital Magento 2 Nederlandse vertalingen / Dutch Translations with e-mailtranslations
 <p align="center">
   <img src="https://github.com/ho-nl/magento2-nl_NL/blob/57d36db4477c37e1d6c19087f847558cd6be412a/docs/reach-dutch-translations.png" alt="Magento-2-nederlandse-vertalingen" height="300" width="300"/><br />
